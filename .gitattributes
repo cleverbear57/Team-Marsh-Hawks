@@ -1,0 +1,3 @@
+# Preserve source bytes and manifest checksums.
+california_rotation_data/** -text
+california_rotation_data.zip -text
