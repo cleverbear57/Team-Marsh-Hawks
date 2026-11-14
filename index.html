@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rotation Compass — California</title>
+<link rel="stylesheet" href="style.css?v=7">
+</head>
+<body>
+<header class="top"><div class="wrap topin">
+  <div class="brand"><span class="logo">🛰️</span><div><b>Rotation Compass</b><small>California crop-rotation decision support · built on NASA Earth observations</small></div></div>
+  <nav id="nav"></nav>
+</div></header>
+
+<main class="wrap">
+
+<!-- PHASE 1 -->
+<section id="p1" class="phase on">
+  <div class="hero card">
+    <h1>Welcome, California grower 👋</h1>
+    <p>Rotation Compass helps you <b>explore</b> whether a different crop rotation could build healthier soil, use less irrigation water and ride out dry years — using NASA satellite records for your area, your soil, and <i>your</i> priorities. It is a thinking tool: it supports your judgement and your local farm advisor, and does not replace either.</p>
+    <p class="mute">About two minutes: pick your region, crop and top priority, set a timeline, then launch the simulation.</p>
+    <button class="btn ghost" id="demoBtn">⚡ Load a demo scenario</button>
+  </div>
+  <div class="layout">
+    <div>
+      <div class="card"><h2><span class="num">1</span>Where is your field?</h2>
+        <p class="mute small">Pick a California growing region, or enter your own coordinates (we match the nearest regional profile and you can pull live NASA POWER climate for the exact point later).</p>
+        <div id="regionCards" class="cards"></div>
+        <div id="customBox" class="custom" hidden>
+          <div class="row"><div><label class="f">Latitude (32.5 – 42.0)</label><input type="number" id="lat" step="0.01" placeholder="e.g. 36.74"></div>
+          <div><label class="f">Longitude (−124.5 – −114.1)</label><input type="number" id="lon" step="0.01" placeholder="e.g. -119.79"></div></div>
+          <div id="customMsg" class="small mute" style="margin-top:6px"></div>
+        </div>
+      </div>
+      <div class="card"><h2><span class="num">2</span>What do you grow now?</h2>
+        <p class="mute small">Your current (baseline) crop becomes <b>Strategy A</b> — the benchmark everything is compared against.</p>
+        <div id="cropCards" class="cards"></div></div>
+      <div class="card"><h2><span class="num">3</span>What matters most to you?</h2>
+        <p class="mute small">Your top goal gets the most weight when we rank the strategies. The other goals still count.</p>
+        <div id="prioCards" class="cards"></div></div>
+      <div class="card"><h2><span class="num">4</span>How far ahead do you want to look?</h2>
+        <div class="sl"><div class="t"><span>Simulation timeline</span><span id="yrsOut"></span></div>
+        <input type="range" id="years" min="5" max="20" step="1"><div class="h">Soil changes slowly — 10 to 20 years shows the real payoff. Maximum 20 years.</div></div></div>
+      <details class="card"><summary>5 · Optional: tell us about your soil, water and constraints (recommended)</summary>
+        <p class="mute small">These adjust the model. Leave on “auto” and we use regional defaults (typical of USDA NRCS soil survey values — replace with your own soil test / Web Soil Survey map unit).</p>
+        <div class="row">
+          <div><label class="f">Soil texture <span class="tiny">(NRCS soil survey / your lab report)</span></label><select id="soil"></select></div>
+          <div><label class="f">Soil organic matter, top 12 in (%)</label><input type="number" id="som" min="0.3" max="5" step="0.1" placeholder="auto"></div>
+        </div>
+        <div class="row">
+          <div><label class="f">Irrigation water available vs. full crop need: <b id="wOut"></b></label><input type="range" id="water" min="40" max="100" step="5"></div>
+          <div><label class="f">Irrigation method</label><select id="irrig"><option value="drip">Drip / micro</option><option value="sprinkler">Sprinkler</option><option value="furrow">Furrow / flood</option></select></div>
+        </div>
+        <div class="row">
+          <div><label class="f">Equipment for seeding cover crops</label><select id="equip"><option value="own">I own a drill / no-till seeder</option><option value="custom">I would hire custom seeding</option></select></div>
+          <div><label class="f">Market access for new crops</label><select id="market"><option value="strong">Strong (buyers / contracts nearby)</option><option value="moderate">Moderate</option><option value="limited">Limited</option></select></div>
+        </div>
+      </details>
+    </div>
+    <aside class="card sticky">
+      <h2>Your setup</h2>
+      <dl class="sum" id="sumBox"></dl>
+      <ul class="chk" id="chkBox"></ul>
+      <button class="btn big" id="launchBtn" disabled>🚀 Lock in &amp; launch simulation</button>
+      <p class="tiny mute" style="margin-top:8px">Nothing leaves your browser. Estimates are explorations, not predictions.</p>
+    </aside>
+  </div>
+</section>
+
+<section id="p2" class="phase"></section>
+<section id="p3" class="phase"></section>
+<section id="p4" class="phase"></section>
+<section id="p5" class="phase"></section>
+<section id="p6" class="phase"></section>
+
+</main>
+<footer>Rotation Compass — a 2026 NASA Space Apps Challenge prototype. Regional climatologies and model coefficients are representative demo values, not field measurements; always confirm with your UC Cooperative Extension farm advisor and local NRCS office before changing management.</footer>
+<div id="toast"></div>
+<script src="data.js?v=7"></script>
+<script src="engine.js?v=7"></script>
+<script src="app.js?v=7"></script>
+</body>
+</html>
