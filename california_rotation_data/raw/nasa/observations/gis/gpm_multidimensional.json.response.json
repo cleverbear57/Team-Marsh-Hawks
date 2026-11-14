@@ -1,0 +1,14 @@
+{
+  "path": "gis/gpm_multidimensional.json",
+  "source_url": "https://gis.earthdata.nasa.gov/portal/rest/services/GESDISC/GPM_3IMERGHH/ImageServer/multidimensionalInfo?f=pjson",
+  "fetched_at_utc": "2026-11-14T19:23:09.642021+00:00",
+  "http_status": 200,
+  "final_url": "https://gis.earthdata.nasa.gov/portal/rest/services/GESDISC/GPM_3IMERGHH/ImageServer/multidimensionalInfo?f=pjson",
+  "content_type": "text/plain;charset=UTF-8",
+  "kind": "metadata",
+  "bytes": 9178978,
+  "sha256": "ac45bab59645973465f1afb477b4410e36b7838572c0e67e1576109a168a366e",
+  "curl_exit_code": 0,
+  "curl_error": "",
+  "note": null
+}

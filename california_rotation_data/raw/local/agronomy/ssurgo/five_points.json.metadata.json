@@ -1,0 +1,33 @@
+{
+  "source_url": "https://sdmdataaccess.nrcs.usda.gov/Tabular/post.rest",
+  "retrieved_at_utc": "2026-11-14T19:21:56.082899+00:00",
+  "file": "raw/local/agronomy/ssurgo/five_points.json",
+  "method": "POST",
+  "request_file": "raw/local/agronomy/ssurgo/five_points.request.json",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://sdmdataaccess.nrcs.usda.gov/Tabular/post.rest",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 19:21:57 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "3910",
+    "Connection": "close",
+    "Set-Cookie": "AWSALB=9ZE1fC8TlzRKqH9UHcm70G4atQB+KRyqZER9WllV29fEiyjemKe1Y0Oq0Y6z7nIHwdb7GgRocZygIjfaHxvQA5+ik0S4bGhFA1vsQIb5Z1By/DGen3MqYbqz2g6E; Expires=Sat, 21 Nov 2026 19:21:57 GMT; Path=/",
+    "Cache-Control": "private",
+    "Server": "Microsoft-IIS/10.0",
+    "X-AspNet-Version": "4.0.30319",
+    "X-Powered-By": "ASP.NET",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type"
+  },
+  "bytes": 3910,
+  "sha256": "85449aea2d78fdb56629bbb35fbf56399761745b8467c83ffe17287d9081ad8a",
+  "region_id": "five_points",
+  "region_label": "San Joaquin Valley / Five Points",
+  "latitude": 36.36,
+  "longitude": -120.1,
+  "coordinate_crs": "EPSG:4326",
+  "selection": "all intersecting mapunits; all components; all horizons",
+  "horizon_rows": 8
+}

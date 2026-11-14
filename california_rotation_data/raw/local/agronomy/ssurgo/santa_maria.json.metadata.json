@@ -1,0 +1,33 @@
+{
+  "source_url": "https://sdmdataaccess.nrcs.usda.gov/Tabular/post.rest",
+  "retrieved_at_utc": "2026-11-14T19:21:57.386819+00:00",
+  "file": "raw/local/agronomy/ssurgo/santa_maria.json",
+  "method": "POST",
+  "request_file": "raw/local/agronomy/ssurgo/santa_maria.request.json",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://sdmdataaccess.nrcs.usda.gov/Tabular/post.rest",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 19:21:58 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "2698",
+    "Connection": "close",
+    "Set-Cookie": "AWSALB=t+hnjntM0L9XZUlZbenbeGRwB6Supkd/4jEuRK5oKYnWQ8jLwLbR4kljgXclupefs65UL2iPXT1Es9kLcfabn84kjMutrSBkE2sgYdZ936Li3JBxNX5FCj3L8q0u; Expires=Sat, 21 Nov 2026 19:21:58 GMT; Path=/",
+    "Cache-Control": "private",
+    "Server": "Microsoft-IIS/10.0",
+    "X-AspNet-Version": "4.0.30319",
+    "X-Powered-By": "ASP.NET",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type"
+  },
+  "bytes": 2698,
+  "sha256": "2cd4088d4ccced46e837d0f614f376de8d4ebf6ce2ff1a16b172f5684241d0fc",
+  "region_id": "santa_maria",
+  "region_label": "South Central Coast / Santa Maria",
+  "latitude": 34.95,
+  "longitude": -120.45,
+  "coordinate_crs": "EPSG:4326",
+  "selection": "all intersecting mapunits; all components; all horizons",
+  "horizon_rows": 5
+}

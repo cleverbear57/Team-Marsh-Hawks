@@ -1,0 +1,30 @@
+{
+  "source_url": "https://ucanr.edu/sites/default/files/2024-09/402185.pdf",
+  "retrieved_at_utc": "2026-11-14T19:23:23.222637+00:00",
+  "file": "raw/local/agronomy/sources/cover_crop_selection_21.pdf",
+  "method": "GET",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ucanr.edu/sites/default/files/2024-09/402185.pdf",
+  "response_headers": {
+    "Connection": "close",
+    "Content-Length": "556640",
+    "Content-Type": "application/pdf",
+    "Etag": "\"67b32b5c-87e60\"",
+    "Last-Modified": "Mon, 17 Feb 2025 12:28:12 GMT",
+    "Server": "nginx",
+    "Strict-Transport-Security": "max-age=31622400; includeSubDomains; preload",
+    "X-Pantheon-Styx-Hostname": "styx-us-a-5f569df488-t7429",
+    "X-Styx-Req-Id": "bde2f706-e060-11f1-852d-eace7da0d3d3",
+    "Age": "0",
+    "Accept-Ranges": "bytes",
+    "Via": "1.1 varnish, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+    "Date": "Sat, 14 Nov 2026 19:23:23 GMT",
+    "X-Served-By": "cache-chi-klot8100140-CHI, cache-sjc10083-SJC, cache-sjc10048-SJC, cache-sjc10048-SJC",
+    "X-Cache": "HIT, MISS, MISS, MISS",
+    "X-Cache-Hits": "1, 0, 0, 0",
+    "X-Timer": "S1794684203.486034,VS0,VE87"
+  },
+  "bytes": 556640,
+  "sha256": "2c5f5911fd592bf07f2176079505c6b9c2deb9c38af1b3b57f3402b6a4f93755"
+}

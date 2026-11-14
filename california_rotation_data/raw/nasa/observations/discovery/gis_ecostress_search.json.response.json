@@ -1,0 +1,14 @@
+{
+  "path": "discovery/gis_ecostress_search.json",
+  "source_url": "https://gis.earthdata.nasa.gov/portal/sharing/rest/search?q=ECOSTRESS&f=pjson&num=100",
+  "fetched_at_utc": "2026-11-14T19:23:11.595767+00:00",
+  "http_status": 200,
+  "final_url": "https://gis.earthdata.nasa.gov/portal/sharing/rest/search?q=ECOSTRESS&f=pjson&num=100",
+  "content_type": "text/plain;charset=utf-8",
+  "kind": "metadata",
+  "bytes": 17334,
+  "sha256": "efb2e61d22b22b5a47550168e869f4c74a4800c27bcb1268beb133226296b29e",
+  "curl_exit_code": 0,
+  "curl_error": "",
+  "note": null
+}

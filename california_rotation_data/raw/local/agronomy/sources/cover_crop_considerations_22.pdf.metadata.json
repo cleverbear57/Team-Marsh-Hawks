@@ -1,0 +1,30 @@
+{
+  "source_url": "https://ucanr.edu/sites/default/files/2024-09/402186.pdf",
+  "retrieved_at_utc": "2026-11-14T19:23:23.231694+00:00",
+  "file": "raw/local/agronomy/sources/cover_crop_considerations_22.pdf",
+  "method": "GET",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ucanr.edu/sites/default/files/2024-09/402186.pdf",
+  "response_headers": {
+    "Connection": "close",
+    "Content-Length": "466900",
+    "Content-Type": "application/pdf",
+    "Etag": "\"67b32b5d-71fd4\"",
+    "Last-Modified": "Mon, 17 Feb 2025 12:28:13 GMT",
+    "Server": "nginx",
+    "Strict-Transport-Security": "max-age=31622400; includeSubDomains; preload",
+    "X-Pantheon-Styx-Hostname": "styx-us-a-5f569df488-2qxnq",
+    "X-Styx-Req-Id": "bde3a76b-e060-11f1-aa91-628942ad5ad1",
+    "Age": "0",
+    "Accept-Ranges": "bytes",
+    "Via": "1.1 varnish, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+    "Date": "Sat, 14 Nov 2026 19:23:23 GMT",
+    "X-Served-By": "cache-chi-klot8100066-CHI, cache-sjc10038-SJC, cache-sjc1000093-SJC, cache-sjc1000093-SJC",
+    "X-Cache": "HIT, MISS, MISS, MISS",
+    "X-Cache-Hits": "1, 0, 0, 0",
+    "X-Timer": "S1794684203.486319,VS0,VE73"
+  },
+  "bytes": 466900,
+  "sha256": "879bf391295a69cea909a7b0754aadbb1feb97aca851d352382fbfe2d5e0a2f1"
+}

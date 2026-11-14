@@ -1,0 +1,1514 @@
+=== PDF PAGE 1 ===
+ 
+University of California Agriculture and Natural Resources 
+Cooperative Extension 
+UC Davis Department of Agricultural and Resource Economics 
+ 
+ 
+SAMPLE COSTS TO PRODUCE PROCESSING TOMATOES 
+ 
+ 
+SUB-SURFACE, DRIP IRRIGATED (SDI) 
+IN THE SACRAMENTO VALLEY & NORTHERN DELTA 
+2023 
+Amended- August 21th, 2023 
+Prepared by: 
+Brenna Aegerter UCCE Farm Advisor, San Joaquin County  
+Patricia Lazicki UCCE Farm Advisor, Yolo, Solano & Sacramento counties 
+Gene Miyao UCCE Farm Advisor, Emeritus 
+Donald Stewart Staff Research Associate, Department of Agricultural & Resource Economics,  
+ UC Davis 
+Jeremy Murdock Staff Research Associate, Department of Agricultural & Resource Economics,  
+ UC Davis 
+Brittney Goodrich UCCE Specialist, Department of Agricultural & Resource Economics, UC Davis 
+Funding Source:  This material is based on work supported by the U.S. Department of Agriculture, under 
+Cooperative Agreement Number NR223A750001C010. Any opinions, findings, conclusions, or  
+recommendations expressed in this publication are those of the authors and do not necessarily reflect the U.S. 
+Department of Agriculture. 
+
+
+=== PDF PAGE 2 ===
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          2 
+  
+University of California Agriculture and Natural Resources Cooperative Extension 
+UC Davis Department of Agricultural and Resource Economics 
+SAMPLE COSTS TO PRODUCE PROCESSING TOMATOES 
+Sub-Surface, Drip Irrigated (SDI) 
+In the Sacramento Valley & northern Delta – 2023 
+ 
+STUDY CONTENTS 
+INTRODUCTION            2 
+ASSUMPTIONS            3 
+ Cultural Practices and Material Inputs         3 
+ Harvest, Yield, Revenue and Assessments         5 
+ Labor, Equipment and Operating Interest         6 
+ Cash Overhead             7 
+ Non-Cash Overhead            8 
+REFERENCES            11 
+Table 1. CULTURAL COSTS PER ACRE TO PRODUCE PROCESSING TOMATOES   12 
+Table 2. COSTS AND RETURNS PER ACRE TO PRODUCE PROCESSING TOMATOES  14 
+Table 3. MONTHLY CASH COSTS PER ACRE TO PRODUCE PROCESSING TOMATOES  16 
+Table 4. RANGING ANALYSIS          18 
+Table 5. WHOLE FARM EQUIPMENT, INVESTMENT AND BUSINESS OVERHEAD COSTS 19 
+Table 6. HOURLY EQUIPMENT COSTS         21 
+Table 7. OPERATIONS WITH EQUIPMENT AND MATERIALS     22 
+ 
+INTRODUCTION 
+ 
+Sample costs to produce transplanted processing tomatoes in the Sacramento Valley and northern Delta are 
+presented in this study. It is intended as a guide only, and can be used to make production decisions, estimate 
+potential returns, prepare budgets and evaluate production loans. Practices described are based on production 
+practices considered typical for the crop and area, but these same practices will not apply to every farming 
+operation. The sample costs for labor, materials, equipment and custom servi ces are based on June, 2023 
+figures. A blank column titled “Your Cost”, is provided in Tables 1 & 2 for your convenience. 
+ 
+For an explanation of calculations used, refer to the section titled Assumptions. For more information contact 
+Brittney Goodrich , Department of Agricultural and Resource Economics, at bkgoodrich@ucdavis.edu.  To 
+discuss this study with a local Cooperative Extension farm advisor, contact  bjaegerter@ucanr.edu or 
+palazicki@ucanr.edu. Sample Costs of Production Studies for many commodities are available at 
+https://coststudies.ucdavis.edu/en/current/. Archived studies are also available on the website. 
+ 
+Costs and Returns Study Program/Acknowledgements. A cost and returns study is a compilation of specific 
+agricultural crop data collected from the region the study is based. The authors thank the farmer cooperators, 
+UC Cooperative Extension, and the industry representatives who provided information, assistance, and expert 
+advice. Th e use of trade names and cultural practices in this report does not constitute an endorsement or 
+recommendation by the University of California nor is any criticism implied by omission of other similar 
+products or cultural practices. The University is an affirmative action/equal opportunity employer. 
+ 
+ 
+ 
+ 
+  
+ 
+   
+
+=== PDF PAGE 3 ===
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          3 
+  
+ASSUMPTIONS 
+ 
+Assumptions in Tables 1 to 7 pertain to sample costs to produce transplanted processing tomatoes under sub- 
+surface drip irrigation (SDI), in the Sacramento Valley and northern Delta. Input prices and interest rates are 
+based on June, 2023 values. Processing tomato cultural practices and material input costs will vary by grower  
+and region, and can be significant. The practices and inputs used in the cost study serve as a guide only. The 
+costs are shown on an annual, per acre basis.  
+ 
+Farm. The hypothetical field and row -crop farm consists of 3,500 non- contiguous acres of rented land. 
+Tomatoes are transplanted on 1,000 acres, all sub -surface drip irrigated as three quarters  of the local tomato 
+acreage is estimated to be sub -surface d rip irrigated. The rental rate for tomatoes is 12% of gross tomato 
+revenue for this budget. Twenty-five hundred acres are planted to other rotational crops including alfalfa hay, 
+field corn, safflower, sunflower, vine seed and/or wheat. The grower also owns various farm investments 
+including a shop and an equipment yard. In this report, practices completed on less than 100% of the acres are 
+denoted as a percentage of the total tomato crop acreage.  
+ 
+Cultural Practices and Material Inputs 
+ 
+Land Preparation. In the fall, bed tillage equipment is used to maintain semi-permanent beds on 80% of the 
+acreage (800 acres) with the drip tape in place. Furrows are chiseled to 15 -inches and rolled. Subsequently, a 
+3-row Performer® shallowly chisels, tills and reshapes the beds while avoiding disturbance of the drip tape. 
+ 
+On 20% of the acres  (200 acres), drip tape is removed after a five -year life expectancy and is included as a 
+post-harvest cost. On these acres, in the fall (August through November) preceding tomato cropping, primary 
+tillage operations are: stubble disc with heavy roller in the same pass; sub-soil to a 30-inch depth in two passes 
+and roll in the same pass; medium-duty disc and ring roll in the same pass; smooth in two passes with a triplane; 
+and finally, shape beds on five -foot centers with a six -bed lister. To maintain surface grade on some of the 
+acres where the drip tape is replaced, one fifth of 20% (40 acres) is custom laser leveled each year ahead of the 
+bulk of fall tillage. The drip tape is installed at 10 – 12” depth below the soil surface (1 tape/ 5’-centered bed, 
+5 beds/pass), with beds re-shaped in the same operation. Drip tape is reconnected after hand- digging to water 
+supply hoses connected to underground PVC main lines. Drip lines at the term inal ends are trimmed and 
+plugged with in-line valves. 
+ 
+Transplanting. Planting is spread over a 10- week period to meet contracted weekly delivery schedules at 
+harvest. Seedlings are transplanted in double-lines per bed at 8,000 plants per acre. All of the  1,000 acres are 
+custom planted with greenhouse-grown transplants. The grower supplies the seed to the greenhouse operation 
+to grow the transplants. Additional seed (15% above the quantity for the desired number of transplants) is 
+needed to compensate for imperfect germination and for non-useable, damaged seedlings. 
+ 
+Fertilization. In the fall, ahead of listing beds, soil amendment gypsum at 3 tons per acre is custom broadcast 
+on 20% of the acres. After beds are listed, muriate of potash (0-0- 62) is side dressed at 250 lbs. per acre on 
+40% of the acreage.  
+ 
+Prior to transplanting, liquid starter fertilizer at 8 lbs. of N per acre of 8 -24-5 plus 6.5% zinc is banded with a 
+tractor and implement. Nitrogen fertilizer, UAN -32 at 200 lbs. of N per acre, is injected at multiple intervals 
+through the drip system over the growing season.  
+ 
+The assistant manager calibrates and injects the pesticides and fertilizers. G rowers may apply additional 
+micronutrients, biologicals and manures or plant cover crops on part of their acreage, but these practices are 
+not used over all operations and the specifics of these vary dramatically. Therefore, the associated costs are 
+not included. 
+
+=== PDF PAGE 4 ===
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          4 
+  
+Irrigation. Water costs are $120 per acre-foot (or $10 per acre-inch). The grower uses a combination of district 
+canal water ($65 per acre foot) and groundwater ($150 per acre foot) pumped  (1:2 canal to well) from a depth 
+of less than 120 feet. The irrigation costs itemized and shown in Tables 1 and 3 are for pumping and water. 
+Two half -ton pickup trucks used for irrigation are itemized separately. Two ATV ’s are also used in the 
+irrigation operation. An annual laboratory analysis to determine nitrate availability and to maintain regulatory 
+records is included in the costs. 
+ 
+Total applied water was calculated at 27.5 acre- inches (2.29 acre-feet). Sprinkler irrigation was used on 50% 
+of the acres at 2 acre-inches (1” for the farm) as a single application to establish the stand after planting while 
+26 acre-inches are applied through the drip system to match crop evapotranspiration and to account for 85% 
+irrigation system efficiency.  
+ 
+The drip system requires chemical flushing to retard calcium buildup and emitter clogging. For this study the 
+operation is performed after harvest with N-pHURIC acid applied through the drip system with 0.5 acre -inch 
+of water. One of the assistant managers performs this operation. 
+ 
+Sustainable Groundwater Management Act, (SGMA). This requires groundwater-dependent regions to halt 
+overdraft and bring basins into balanced levels of pumping and recharge. Basin 5.021 of the Sacramento Valley 
+is classified by SGMA as being located in a medium priority basin. For detailed information visit the following 
+website. https://water.ca.gov/programs/groundwater-management/sgma-groundwater-management 
+ 
+Pest Management. The pesticides and rates mentioned in this cost study are listed in UC Integrated Pest 
+Management Guidelines, Tomatoes. For information on other pesticides available, pest identification, 
+monitoring, and management visit the UC IPM website at https://ipm.ucanr.edu/  Although growers 
+commonly use the pesticides mentioned, many other pest icides are available. Check with your PCA 
+and/or the UC IPM website for current recommendations. To purchase pesticides for commercial use, a 
+grower must be a Certified Private Applicator to obtain a Pesticide Identification number. For information and 
+pesticide use permits, contact your local county agricultural commissioner's office.  
+ 
+Pest Control Adviser/Certified Crop Advisor (PCA/CCA). Written recommendations are required for many 
+pesticides and are available from a licensed pest control adviser. In addition, the PCA/CCA or an independent 
+consultant will monitor the field for agronomic pest problems including irrigation and nutrition which would 
+include a nitrogen management plan. Growers may hire a private PCA/CCA or receive the service as part of a 
+service agreement with an agricultural chemical and fertilizer company. 
+ 
+Weeds. Beginning in January, glyphosate (Roundup PowerMax) in combination with oxyfluorfen (Goal 2XL) 
+is sprayed on the fallow beds to control emerged weeds and repeated later with glyphosate only. The 
+applications are made with an ATV pulled sprayer with a 25-foot boom. 
+ 
+Before planting, the beds are cultivated to control weeds and to prepare a seedbed. As a preplant in the spring, 
+trifluralin (Triflurex HFP) is tank-mixed with metolachlor (Dual II Magnum) as a broadcast and incorporated 
+with a power mulcher on all acreage. Post-transplant, a band of rimsulfuron (Matrix SG) is sprayed to control 
+weeds. Post-transplanting, a power incorporator is used to re-shape beds but without additional herbicides. 
+ 
+A combination of hand weeding and mechanical cultivation is also used for weed control. The crop is 
+mechanically cultivated with a sled -mounted cultivator twice  during the season , early and later . A contract 
+labor crew hand removes weeds during the season. 
+ 
+Broomrape. Parasitic weed s, branched and Egyptian broomrape, are listed in the 150 non-photosynthetic 
+plants of the genus Orobanche. CDFA classifies broomrape as a class A prohibited noxious weed.  
+ 
+
+=== PDF PAGE 5 ===
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          5 
+  
+Reported infested areas in a tomato crop become non- harvest areas within a field.  While these regulations 
+create complete losses in the infested area and the concern is high over further spread, this cost study does not 
+account for broomrape expenses.    
+ 
+We are not including any costs associated with equipment sanitation within this current study, but we recognize 
+that future UC cost studies should include costs associated with removing soil, debris and potential weed seeds 
+and pathogen from equipment, including from personnel working in those fields. Precautionary sanitation steps 
+are being taken in a number of fields beyond the known infestations to proactively prevent further spread.     
+ 
+Insects. The primary insect pests of seedlings are flea beetle, darkling ground beetle, and cutworm. Sevin bait 
+is applied post transplanting at 15 pounds per acre for control of beetles and worms.  Foliage and fruit feeders 
+include tomato fruit worms, various armyworm species, russet mite, stink bug, and potato aphid. Warrior is  
+applied to 20% acreage for aphid control. Confirm for worm control is applied to 100% of the acres. 
+ 
+Diseases. Diseases that are treated are primarily powdery mildew, bacterial speck, occasionally late blight, and 
+black mold fruit rot. Kocide for bacterial speck is applied to 30% of the acres. Sulfur dust for russet mite and 
+powdery mildew control is custom applied to 40% of the acres and an additional later application of sulfur dust 
+for mildew on 40%. Bravo-Weatherstik is applied in June to 5% of the acres for late blight control and in 
+September on 15% of the acres as a fruit protectant fungicide. Quadris Top is applied to 30% of the acres  in 
+late August for mildew. The application rates shown in Table 2 are adjusted to reflect the percentage of acreage 
+treated.  
+ 
+Vertebrate Pests. Vertebrate pests include squirrels, rabbits and gophers.  For gopher control, zinc phosphide 
+is injected into gopher tunnels with a hand-held probe. Traps are also set up inside the gopher tunnels. 
+ 
+Endangered Species. It is important to know if your farm is located in an area where endangered or threatened 
+species reside.  PRESCRIBE is an online database application to allow pesticide applicators to learn if 
+endangered species are in the vicinity of an applicat ion site, and the use limitations applicable to the pesticide 
+product(s) they intend to use. The database is implemented  by the California Department of Pesticide 
+Regulation. https://www.cdpr.ca.gov/docs/endspec/prescint.htm 
+ 
+Harvest, Yield, Revenue and Assessments 
+ 
+Harvest. The fruit is mechanically harvested by grower -owned-and-operated harvesters on 10 0% of the 
+acreage. The grower uses a single machine for  the 1,000 acres. Typically, growers of this scale also own an 
+older, back-up harvester when harvesting all 1,000 acres. Harvest support equipment includes tractors, trailer 
+dollies, vine diverter, generator -light machine, and fuel trailers. A crew of four manual sorters, a harvester 
+driver, and two bulk-trailer tractor drivers are used per harvester. A seasonal average of two loads per hour at 
+25 tons per load are harvested with two (one day and one night) shifts of 10 hours each. Harvest efficiency 
+includes maintenance and cleaning, scheduled daily breaks, and transportation between fields. The processor 
+pays the transportation cost of the tomatoes from the field to the processing plant. 
+ 
+Fruit Ripener. Ethephon, as Ethrel, a fruit ripening agent, is applied with a ground sprayer three weeks before 
+harvest to 5% of the acreage. 
+ 
+Costs for harvest operations are shown in Tables 1, 2, 3 and 4. Equipment is listed in Tables 5, 6 and 7. Growers 
+may choose to own harvesting equipment, purchase either new or used or hire a custom harvester. Many factors 
+are important in deciding which harvesting option a grower uses. 
+ 
+Yield. An average of annual county tomato yields combined across the Sacramento Valley including 
+neighboring San Joaquin County over the past five years ranged from 35 to 65 tons per acre. The reporting 
+
+=== PDF PAGE 6 ===
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          6 
+  
+counties were Colusa, Sacramento, Solano, Sutter, Yolo and San Joaquin. Butte , Glenn and Tehama are the 
+only Sacramento Valley counties that do not report their processing tomato production average. A yield of 46 
+tons per acre is used. 
+ 
+Revenue. Customarily, growers produce tomatoes under annual contracts with various tomato processors. A  
+price of $138 per ton is used, which reflects the statewide crop price for 2023. 
+ 
+Ranging Analysis. Table 4 has a range of return prices used for calculating net returns per acre with different 
+yields. Processing tomatoes are contracted as a statewide core price with late-season premiums and some fruit 
+quality incentives. For this analysis, selected yields ranged from 31 to 61 tons per acre and crop prices ranged 
+from $123 to $153 per ton. 
+ 
+Assessments. Under a state marketing order, a mandatory assessment fee is collected and administered by the 
+Processing Tomato Advisory Board (PTAB) to inspect and grade fruit. Fees vary between inspection stations. 
+In this region, inspection fees in 2023 range from $13.84 to $14.78 per load with an average of $14.35. Growers 
+and processors share equally in the fee; growers pay $7.17 per load.  
+ 
+Tomato growers are also assessed a fee for the Beet Curly Top Virus Control Program (BCTVCP) administered 
+by the California Department of Food and Agriculture (CDFA). Growers in Yolo County  (District III) are 
+charged $0.035 per ton. Additionally, several voluntary organizations assess member growers. California 
+Tomato Growers Association (CTGA) represents growers’ interest in negotiating contract prices with 
+processors and for grower advocacy. CTGA membership charges are $0. 25 per ton. The California Tomato 
+Research Institute (CTRI) funds projects for crop improvement. CTRI membership charges are $0.12 per ton. 
+ 
+Environmental Assessments. Certain areas have local assessments to fund state regulatory programs: Irrigated 
+Lands Regulatory Program (ILRP) and the Erosion and Sediment Control Plan (ESCP) of the State Water 
+Resources Control Board. The landowner is responsible for maintaining these records and paying the annual 
+fees. 
+ 
+Risk. The risks associated with crop production should not be underestimated. While this study makes an effort 
+to model a production system based on typical, real world practices, it cannot fully represent financial, agronomic 
+and market risks, which affect profitability and economic viability of agricultural production. Moreover, Table 
+4 reflects a ranging analysis of returns based on various assumptions which is therefore, hypothetical in nature. 
+It is important to realize that actual results may differ from the returns contained in this study . Any returns 
+above total costs are considered returns on risk and investment to management (or owners). 
+ 
+Labor, Equipment and Operating Interest 
+ 
+Labor. Basic wages are $20.00 and $18.00 per hour for machine operators and non -machine workers,  
+respectively. Irrigation labor is paid $18.00 per hour. Adding 47.29% for the employer’s share of federal and  
+state payroll taxes, insurance and other benefits raises the total labor costs to $29.46 per hour for machine 
+operators, $26.51 per hour for non-machine laborers and $26.51 per hour for irrigators. The overhead includes 
+the employer’s share of federal and California state payroll taxes, workers' compensation insurance for field 
+crops and a percentage for other additional benefits. Workers’ compensation insurance costs vary among 
+growers. The cost is based on the average industry rate as of June , 2023. The labor for operations involving 
+machinery is 20% higher than the field operation time to account for equipment set up, road travel, 
+maintenance, and repair and downtime. Overtime hours are charged at 1.5 times the regular hourly wage. 
+ 
+Field Supervisors Salary. Supervisors’ salaries include insurance, payroll taxes and benefits. Two- thirds of 
+the supervisor’s time is allocated to tomatoes at $87.50 per acre. 
+ 
+
+=== PDF PAGE 7 ===
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          7 
+  
+Assistant Managers Salary. The assistant manager’s salary includes insurance, payroll taxes and benefits . 
+Two-thirds of the assistant’s time is allocated to tomatoes at $32 per acre. There are two assistant managers. 
+ 
+Irrigation labor. Labor is  involved in drip system operation and maintenance. Charges include the manual 
+labor required during the underground installation and the removal of the drip tape. Labor is also needed for 
+sprinkler setup, operation and removal. The assistant manager is responsible for the chemical injections. This 
+labor is charged under cash overhead. 
+ 
+Drip tape system maintenance costs are lowest in the first year and continually increase over the five-year life 
+expectancy of the drip tape. The costs are for repairs, addi tional labor and time for flushing the system and 
+adding chemicals to reduce drip emitter clogging. 
+ 
+Equipment Operating Costs . Repair costs are based on purchase price, annual hours of use, total hours of 
+life, and repair coefficients formulated by American Society of Agricultural and Biological Engineers 
+(ASABE). Fuel and lubrication costs are also determined by ASABE equations  based on maximum power 
+takeoff (PTO) horsepower, and fuel type. Average prices for on-farm delivery of diesel and gasoline based on 
+June, 2023 data from the Energy Information Administration are $4.77 and $4.76 per gallon, respectively. The 
+cost includes a 9.0% sales tax on diesel and 2.25% sales tax on gasoline. Federal and state excise taxes on 
+diesel ($0.243/gal) and gasoline ($0.183/gal) are refunded for on -farm use when filing the farm income tax 
+return. 
+ 
+Fuel, Lube & Repair . The fuel, lube, and repair cost per acre for each operation in Table 1 is determined by 
+multiplying the total hourly operating cost in Table 6 for each piece of equipment used for the selected 
+operation by the hours per acre. Tractor time is 10% higher than implement time for a given operation to 
+account for setup, travel and down time. 
+ 
+Interest on Operating Capital. Interest on operating capital is based on cash operating costs and is calculated 
+monthly until harvest at a nominal rate of 8.5 % per year. A nominal interest rate is the typical market cost of 
+borrowed funds. The rate will vary depending upon various factors, but this rate is considered a typical lending 
+rate by a farm lending agency as of June, 2023. 
+ 
+Cash Overhead 
+ 
+Cash overhead consists of various cash expenses paid out during the year that are assigned to the whole farm 
+and not to a particular operation. These costs include personal property taxes, liability, property insurance, 
+office expense, supervisors’ salaries, field sanitation, and investment repairs. Employee benefits, insurance, 
+and payroll taxes are included in labor costs and not in overhead. Cash overhead costs are shown in Tables 1, 
+2, 3, 4 and 6. 
+ 
+Property Taxes. Counties charge a base property tax rate of 1 percent on the assessed val ue of the property. 
+In some counties special assessment districts exist and charge additional taxes on property including 
+equipment, buildings, and improvements. Property taxes are calculated as 1 percent of the average value of the 
+property and not influenced by the Williamson Act or additional county taxes. Average value equals new cost, 
+plus salvage value divided by 2 on a per acre basis. 
+ 
+The Williamson Act. California Land Conservation Act has helped preserve agricultural and open space lands 
+since 1965. Local governments and landowners enter into voluntary contracts to restrict enrolled lands to 
+agricultural and open space uses in exchange for property tax reductions. The impact of the Williamson Act 
+on property taxes will vary from year to year and property to property.  
+https://www.conservation.ca.gov/dlrp/wa   
+ 
+
+=== PDF PAGE 8 ===
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          8 
+  
+Insurance. Insurance for farm investments varies depending on the assets included and the amount of 
+coverage. 
+ 
+Property Insurance. This provides coverage for property loss and is charged at 0.710% of the average value of 
+the assets over their useful life. 
+ 
+Liability Insurance. A standard farm liability insurance policy fee of $1,841 is included as a cost for the entire 
+farm. This is the cost of the application fee and paperwork. Actual coverage will incur addition costs. A 
+standard farm liability insurance policy will help cover the expenses for which the owner becomes legally 
+obligated to pay for bodily injury claims on owned property and damages to another person’s property as a result 
+of a covered accident. 
+ 
+Crop Insurance. For this study, crop insurance is reported at 75% coverage and the charges are listed under 
+cash overhead. Actual insurance coverage is by unit, not by acre.  A significant number of owners purchase crop 
+insurance in this region. This is available to process ing tomato growers for unavoidable loss of production, 
+damage or poor quality resulting from adverse weather conditions such as cool wet weather, freeze, frost, hail, 
+excessive heat, rain, wind and damage from birds, drought, earthquakes and fire. Coverage levels are from 50 
+to 85 percent of the approved average yield as established by verifiable production records from the farm. 
+https://www.rma.usda.gov/Information-Tools/Summary-of-Business 
+ 
+Office Expense. Office and business expenses are estimated to be $210,000 for the entire farm or $60 per acre. 
+These expenses include office supplies, telephone/internet, bookkeeping, accounting, road maintenance, office 
+and shop utilities, and miscellaneous administrative expenses. 
+ 
+Land/Share Rent. Rental arrangements will vary. For this study, 100% of the land is rented at 12% of gross 
+revenue for the tomatoes. Land rent includes use of developed wells and access to surface-delivered water. 
+ 
+Field Sanitation. Sanitation services provide portable toilet and washing facilities for the farm during the crop 
+season. The cost includes delivery and weekly service for six months. Costs will vary depending upon the crops 
+and number of portable units required. 
+ 
+Miscellaneous Costs. Included expenses are employee safety training as well as pesticide use and regulatory 
+continuing education training, additional materials and applications for unique fields or special conditions. 
+ 
+Investment Repairs . Annual repairs on investment or capital recovery items that require maintenance are 
+calculated as 2% of the purchase price. 
+ 
+Non-Cash Overhead 
+ 
+Non-cash overhead is calculated as the capital recovery cost for equipment and other farm investments. 
+Although farm equipment used for processing tomatoes may be purchased new or used, this study shows the 
+current purchase price for new equipment. The new purchase price is adjusted to 60% to reflect a mix of new 
+and used equipment. Annual ownership costs (equipment and investments) are shown in Tables 1, 2, and 5. 
+They represent the capital recovery cost for investments on an annual per acre basis. 
+ 
+Capital Recovery Costs . Capital recovery cost is the annual depreciation and interest costs for a capital 
+investment. It is the amount of money required each year to recover the difference between the purchase prices 
+and salvage values (unrecovered capital). It is equivalent to the annual payment on a loan for the investment 
+with the down payment equal to the discounted salvage value. This is a more complex method of calculating 
+ownership costs than straight-line depreciation and opportunity costs, but more accurately represents the 
+annual costs of ownership because it takes the time value of money into account (Boehlje and Eidman). The 
+
+=== PDF PAGE 9 ===
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          9 
+  
+formula for the calculation of the annual capital recovery costs is: [{Purchase Price - Salvage Value} x Capital 
+Recovery Factor] + [Salvage Value x Interest Rate] 
+ 
+Salvage Value. Salvage value is an estimate of the remaining value of an investment at the end of its useful 
+life. For farm machinery the remaining value is a percentage of the new cost of the investmen t (Boehlje and 
+Eidman). The percent remaining value is calculated from equations developed by the American Society of 
+Agricultural & Biological Engineers (ASABE) based on equipment type and years of life. The life in years is 
+estimated by dividing the wear out life, as given by ASABE by the annual hours of use in this operation. For 
+other investments including irrigation systems, buildings, and miscellaneous equipment, the value at the end 
+of its useful life is zero for this study. The salvage value for land is equal to the purchase price because land 
+does not depreciate. Salvage value of sprinklers and aluminum irrigation pipe are an exception and calculated 
+at 50% due to current market value. The purchase price and salvage value for certain equipment and 
+investments are shown in Table 5. 
+ 
+Capital Recovery Factor (CRF). The CRF can be interpreted as the amount of equal (or uniform) payments to 
+be received for (n) years such that the total present value of all these equal payments is equivalent to a payment 
+of 1 dollar at present, if interest rate is (i) (Boehlje and Eidman). 
+ 
+CRF is the amortization factor for an asset and is calculated as; [i * (1 +i)n]/[(1 +i)n- 1] where *(i) is the interest 
+rate and (n) the number of years the asset is held. 
+ 
+Interest Rate. The interest rate of 7.0% is used to calculate capital recovery. The rate will vary depending 
+upon size of loan and other lending agency conditions, but is a suggested rate by a farm lending agency in June, 
+2023. 
+ 
+Irrigation Systems. The land owner is responsible for the maintenance costs of the well. This study does not 
+show these costs, as they should be captured by the share rent described above. Irrigation equipment owned by 
+the grower consists of booster pumps, pipe main lines, hand- move sprinklers and various hand tools. Drip 
+system equipment owned by the grower consists of filters, booster and injector pumps and drip tape installation 
+and extraction implements. Grower costs include connections to the pump, drip tape installation, sub- main 
+water supply lines and installation, pressure regulators and air vents. Multi-year rental agreements are needed 
+to spread expenses over years.  
+ 
+An annual pump test is performed in January to monitor pumping level and efficiency (gallons/minute) at a 
+cost of $250 for each pump. The cost of the tests is  spread across the entire acreage of the pumps’ capacity. 
+The annual water analysis is performed at the same time and the charges are combined. 
+ 
+Drip Tape. The drip tape is considered an investment and is amortized over the five-year life expectancy of the 
+tape. There are no recycling revenue or disposal fees for the drip tape. 
+ 
+Equipment. Farm equipment is purchased new or used, but the study shows the current purchase price for new 
+equipment. The new purchase price is adjusted to 60% to indicate a mix of new and used equipment. Annual 
+ownership costs for equipment and other investments are shown in the Whole Farm Annual Equipment, 
+Investment, and Business Overhead Costs, Table 5. Equipment costs are composed of three  parts: non-cash 
+overhead, cash overhead, and operating costs. Both of the overhead factors have been discussed in previous 
+sections. The operating costs consist of repairs, fuel, and lubrication and are discussed under operating costs. 
+ 
+ Pickups/ATVs. The study assumes approximately 8,500 business-use miles per year for each of four pickups 
+and is shown as a separate line item. The two ATVs are used for irrigation, transportation, weed control and 
+monitoring the crop. 
+ 
+
+=== PDF PAGE 10 ===
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          10 
+  
+Backhoe/Road Grade r/Service Truck/ Water Truck.  Each piece of equipment is listed separately under 
+operations. This equipment is used for various tasks. 
+ 
+Irrigation Booster Pumps/Pipe Trailers . This equipment is owned by the grower and used for sprinkler 
+irrigating the plants soon after transplanting or as a pre-plant irrigation. 
+ 
+Flatbed Truck/Implement Carrier.  This miscellaneous equipment is listed under investments and is used 
+throughout the year to move equipment and supplies. 
+ 
+Buildings-Shop/Storage. The shop and storage buildings are used to perform maintenance on equipment and 
+storage for equipment and supplies for the entire farm. 
+ 
+Global Positioning Systems, (GPS). The receiving units are mounted so that they are removable and 
+interchangeable between tractors. 
+ 
+Generators/Lights/Shop Tools. This includes shop tools and equipment, hand tools, and miscellaneous field 
+tools. Generators and lights are for the staging/loading areas when harvesting at night. 
+ 
+Fuel Tanks. The farm has two fuel storage tanks. One 5,000 -gallon diesel tank and one 500 -gallon gasoline 
+tank use gravity-feed. The tanks are setup horizontally on metal stands in a cement containment pad that meets 
+federal, state, and county regulations. Additionally, three portable, 500-gallon diesel fuel trailers are used. 
+ 
+Table Values. Due to rounding, the totals may be slightly different from the sum of the components.
+
+=== PDF PAGE 11 ===
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          11 
+  
+REFERENCES 
+ 
+American Society of Agricultural and Biological Engineers, (ASABE). Amended-2015. American Society of 
+Agricultural & Biological Engineers Standards Yearbook. St. Joseph, Missouri. https://asabe.org/ 
+ 
+Department of Agricultural and Resource Economics. Davis, CA. https://are.ucdavis.edu/ 
+ 
+Boehlje, Michael D., and V.R. Eidman. 1984. Farm Management. John Wiley and Sons. New York, New York 
+ 
+Miyao, Gene, B. Aegerter, D.A. Sumner, and D. Stewart. 2017. “Sample Costs to Produce Processing 
+Tomatoes, Sub-surface Drip Irrigated (SDI). In the Sacramento Valley & northern Delta- 2017”. University of 
+California, Cooperative Extension. Department of Agricultural and Resource Economics. Davis, CA. 
+https://coststudies.ucdavis.edu/current/ 
+ 
+Trends in Agricultural Land and Lease Values, 2022. California Chapter of the American Society of Farm 
+Managers and Rural Appraisers, Inc. Woodbridge, CA.. https://calasfmra.com/ 
+ 
+United States Department of Agriculture  (USDA) Economic Research Service (ERS). 
+https://www.ers.usda.gov/ 
+  
+United States Department of Agriculture (USDA) Risk Management Agency (RMA). 
+https://www.rma.usda.gov/  
+ 
+United States Department of Agriculture  (USDA) Agricultural Research Service (ARS); Animal &  Plant 
+Health Inspection Service (APHIS); Agricultural Marketing Service; as well as the Weed  Science Society of 
+America. Orobanche spp. were added to the Federal Seed list (7 CFR 361.6) effective August 11, 1995. 
+https://www.aphis.usda.gov/plant_health/plant_pest_info/weeds/downloads/orobanche-aegyptiaca-
+factsheet.pdf.  
+https://www.aphis.usda.gov/aphis/ourfocus/planthealth/plant-pest-and-disease-programs/pests-and-
+diseases/SA_Weeds/SA_Noxious_Weeds_Program/CT_Noxious_Weeds_Program_Home 
+ 
+University of California Statewide Integrated Pest Management Program. UC Pest Management Guidelines, 
+Tomatoes, 2022. https://ipm.ucanr.edu/ 
+ 
+"U.S. Gasoline and Diesel Retail Prices." U.S. Energy Information Administration 
+https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_nus_w.htm 
+ 
+"Workers' Compensation Rate Comparison." California Department of Insurance.  
+https://www.insurance.ca.gov/01-consumers/105-type/85-wc/index.cfm 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 12 ===
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          12 
+  
+UC COOPERATIVE EXTENSION  
+UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+TABLE 1. CULTURAL COSTS PER ACRE TO PRODUCE PROCESSING TOMATOES (SDI) 
+Sacramento Valley & northern Delta-2023 
+ 
+Equipment Cash and Labor Costs per Acre 
+ Time 
+(Hrs./Ac) 
+Labor 
+Cost 
+Fuel Lube 
+& Repairs 
+Material 
+Cost 
+Custom/ 
+Rent 
+Total 
+Cost 
+Your 
+Cost Operation  
+Pre-Plant:         
+Custom: Laser level 4% Ac 0.00 0.00 0 0 0 8 8  
+Chisel Furrows 80% Ac 0.18 6.49 15 5 0 0 27  
+Condition Beds 80% Ac 0.10 3.66 9 3 0 0 15  
+Stubble Disc & Roll 20% Ac 0.04 1.27 4 2 0 0 7  
+Sub-Soil & Roll 20% Ac 2x 0.12 4.28 13 5 0 0 22  
+Medium-Duty Disc & Roll 20% Ac 0.02 0.70 2 1 0 0 3  
+Land Plane 20% Ac 2x 0.06 2.14 5 2 0 0 9  
+Custom: Gypsum 20% Ac 0.00 0.00 0 0 0 46 46  
+List Beds 6-Row 20% Ac 0.02 0.76 2 1 0 0 4  
+Fertilize: (MOP) 40% Ac 0.13 4.47 6 2 116 0 129  
+Insert Drip Tape/Shape Beds 5-Row 20% Ac 0.07 2.47 7 2 0 0 12  
+Insert Drip Tape Labor 0.00 23.06 0 0 0 0 23  
+Weeds: Pre-Plant Herbicides 2x 0.20 7.18 1 1 39 0 48  
+TOTAL PRE-PLANT COSTS 0.95 56.49 64 24 155 54 353  
+Cultural:         
+Custom: Well Test/Water Analysis 0.00 0.00 0 0 0 4 4  
+Open Beds: 5-Row Alloway 0.10 3.54 5 2 0 0 10  
+Mulch Beds: Incorporate Herbicides 0.33 11.78 16 7 33 0 67  
+Fertilize: Starter 8-24-5, 6.5% Zn 0.22 7.88 10 5 33 0 56  
+Custom: Transplant Tomatoes 0.00 0.00 0 0 630 360 990  
+Weeds: Post Transplant Herbicide Spray-Band 0.18 6.48 7 2 29 0 45  
+Irrigate: Sprinklers 50% Ac 1.17 110.03 12 2 10 0 135  
+Insects: Beetles/Worms 0.10 3.36 0 0 31 0 35  
+Irrigate: Drip-Water & Labor Costs 0.00 238.27 0 0 260 0 498  
+Weeds: Close Cultivate Sled 0.23 8.11 8 3 0 0 18  
+Fertigation: UAN-32 0.00 0.00 0 0 200 0 200  
+Weeds: Hand Weeding 0.00 0.00 0 0 0 230 230  
+Bed Shape at Layby 0.23 8.01 11 5 0 0 23  
+Weeds: Cultivation Late 0.21 7.59 7 2 0 0 17  
+Disease: Bacterial Speck 30% Ac 0.06 2.24 3 1 5 0 11  
+Insects: Aphids 20% Ac 0.02 0.71 1 0 0 0 2  
+Disease: Late Blight 5% Ac 0.01 0.24 0 0 1 0 1  
+Train/Trim Vines 0.22 7.78 7 2 0 0 17  
+Custom: Disease/Insects: Mildew/Mites 40% Ac 2x 0.00 0.00 0 0 10 14 24  
+Disease: Mildew 30% Ac 0.07 2.36 3 1 4 0 10  
+Disease: Fruit Rot 15% Ac 0.01 0.35 0 0 2 0 2  
+Insects: Worms 0.06 2.12 2 1 15 0 20  
+Ripener: Ethephon 0.01 0.23 0 0 1 0 1  
+1/2 Ton Pickup Truck (2) 1.00 35.35 6 4 0 0 46  
+3/4 Ton Pickup Truck (2) 1.00 35.35 7 6 0 0 49  
+ATV (2) 0.67 23.57 3 2 0 0 29  
+Service Truck 0.50 17.68 17 4 0 0 39  
+Water Truck 0.33 11.78 4 4 0 0 20  
+Back Hoe 0.20 7.07 5 1 0 0 13  
+Road Grader 0.17 5.89 5 1 0 0 12  
+Vertebrate: Bait/Trapping 0.20 7.07 1 1 5 0 13  
+TOTAL CULTURAL COSTS 7.29 564.84 141 58 1,267 608 2,639  
+Harvest:         
+Open Harvest Lanes 8% Ac 0.17 5.89 7 2 0 0 15  
+Harvest: Self 100% Ac 0.92 198.88 121 104 0 0 423  
+In Field Hauling (2) 1.84 65.05 87 26 0 0 177  
+Share Rent 12.0% 0.00 0.00 0 0 762 0 762  
+TOTAL HARVEST COSTS 2.93 269.82 214 132 762 0 1,378  
+
+=== PDF PAGE 13 ===
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          13 
+  
+UC COOPERATIVE EXTENSION  
+UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+TABLE 1. CONTINUED 
+Sacramento Valley & northern Delta-2023 
+ 
+Equipment   Cash & Labor Costs Per Acre   
+ Time Labor Fuel Lube Material    Custom/ Total Your 
+   Operation (Hrs./Ac) Costs & Repairs costs    Rent Costs Cost 
+Post-Harvest:         
+Irrigation-Drip Acid Flush 0.00 0.00 0 0 7 0 7  
+Drip Tape Extraction 20% Ac 0.08 29.50 9 3 0 0 41  
+TOTAL POST-HARVEST COSTS 0.08 29.50 9 3 7 0 48  
+Assessment:         
+PTAB CTGA CTRI CDFA-CTVP 0.00 0.00 0 0 32 0 32  
+Interest on Operating Capital at 8.50%                    133  
+TOTAL OPERATING COSTS/ACRE 11.25             921 428 217 2,222 661 4,583  
+CASH OVERHEAD:      
+Liability Insurance    1  
+Office Expense    60  
+Field Sanitation    3  
+Field Supervisor    88  
+Assistant Managers (2)    64  
+Miscellaneous Costs     50  
+GPS Annual Activation Fee    1  
+Crop Insurance 75% Coverage     48  
+Property Taxes    8  
+Property Insurance    1  
+Investment Repairs    20  
+TOTAL CASH OVERHEAD PER ACRE    343  
+TOTAL CASH COSTS/ACRE    4,925  
+NON-CASH OVERHEAD:  Per Producing  Annual Cost    
+ Acre  Capital Recovery  
+Shop Building 43  4 4 
+Storage Building 16  1 1 
+Fuel Tanks & Pumps 14  1 1 
+Fuel Service Trailers: 500-Gallon (3) 15  2 2 
+Shop Tools 7  1 1 
+Generators & Light (2) 6  1 1 
+Closed Mix System 2  0 0 
+Sprinkler Pipe (250Ac) 113  9 9 
+Main Pipe Line 10" 1/2 Mile 40  4 4 
+Drip Irrigation System 320  27 27 
+Drip Tape 355  86 86 
+Implement Carrier 6  1 1 
+Truck: Bobtail 5th-Wheel 27  3 3 
+125 HP Booster Pump (2) 26  2 2 
+Equipment 1,493  181 181 
+TOTAL NON-CASH OVERHEAD COSTS 2,481  323 323 
+TOTAL COSTS/ACRE    5,248 
+ 
+ 
+ 
+
+=== PDF PAGE 14 ===
+ 
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          14  
+UC COOPERATIVE EXTENSION  
+UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+TABLE 2. COSTS & RETURNS PER ACRE TO PRODUCE PROCESSING TOMATOES (SDI) 
+Sacramento Valley & northern Delta-2023 
+ Quantity/ 
+Acre 
+ 
+Unit 
+Price or 
+Cost/Unit 
+Value or 
+Cost/Acre 
+Your 
+Cost 
+GROSS REVENUE 
+Tomatoes (SDI) 
+ 
+46 
+ 
+Ton 
+ 
+138.00 
+ 
+6,348 
+ 
+OPERATING COSTS      
+Fertilizer:    349  
+0-0-62 (MOP) Fines 100.00 Lb. 1.16 116  
+8-24-5, 6.5% Zn 8.82 Lb. N 3.77 33  
+UAN32 200.00 Lb. N 1.00 200  
+Custom:    431  
+Laser Level 0.04 Acre 200.00 8  
+Gypsum-Hauled Spread 0.60 Ton 76.00 46  
+Annual Well Test/Water Analysis 1.00 Acre 4.00 4  
+Transplanting in Field 1.00 Acre 360.00 360  
+Custom Ground Application 0.80 Acre 16.95 14  
+Insecticide:    56  
+   Sevin 5 Bait                  15.00         Lb.              2.04 31  
+Warrior II 0.38 FlOz 0.75 0  
+Dusting Sulfur 98% 20.00 Lb. 0.50 10  
+Confirm 6.40 FlOz 2.33 15  
+Fungicide:    11  
+Kocide DF 0.53 Lb. 8.90 5  
+Bravo Weatherstik 0.40 Pint 5.25 2  
+Quadris Top 2.64 FlOz 1.60 4  
+Herbicide:    100  
+Roundup PowerMax 3.00 Pint 8.50 26  
+Goal 2XL  1.50 Pint 8.75 13  
+Triflurex HFP 2.00 Pint 5.25 11  
+Dual II Magnum 1.60 Pint 13.75 22  
+Matrix SG 0.25 Oz 11.00 22  
+Charge SOC Surfactant 2.00 Pint 3.50 7  
+Vertebrate Pest Control:    5  
+Zinc Phosphide 0.50 Lb. 1.95 1  
+Gopher Trap 0.25 Each 15.00 4  
+Growth Regulator:    1  
+Ethephon 0.20 Pint 3.75 1  
+Contract:    230  
+Hand Weeding 1.00 Acre 230.00 230  
+Seed:    299  
+Tomato Seed/Thousand Seeds 9.20 Thou 32.50 299  
+Transplant:    331  
+Greenhouse Transplants/Thousand 9.20 Thou 36.00 331  
+Irrigation:    277  
+Water SacVal 27.50 AcIn 10.00 275  
+N-pHURIC Acid 1.51 Lb. 1.20 2  
+Assessment:    32  
+PTAB 46.00 Ton 0.29 13  
+CTGA 46.00 Ton 0.25 12  
+CTRI 46.00 Ton 0.12 6  
+CDFA-BCTV 46.00 Ton 0.04 2  
+Land Rent:    762  
+Share Rent 12.0% 46.00 Ton 16.56 762  
+  Labor:    921  
+Equipment Operator  13.50 Hrs. 29.46 398  
+Non-Machine  1.87 Hrs. 26.51 50  
+Irrigation  6.98 Hrs. 26.51 185  
+Overtime; Irrigation  3.44 Hrs. 35.51 122  
+     Harvest                      4.40 Hrs.             26.51 117  
+Overtime; Harvest  1.10 Hrs. 35.51 40  
+Overtime; Harvest Equipment Operator 0.27 Hrs. 39.46 11  
+Machinery:    645  
+Fuel-Gas                      3.82 Gal                4.76 18  
+   Fuel-Diesel                   85.93 Gal                4.77 410  
+   Lube    64  
+   Machinery Repair    152  
+   Interest on Operating Capital @ 8.50%    135  
+TOTAL OPERATING COSTS/ACRE    4,583  
+TOTAL OPERATING COSTS/TON    100  
+NET RETURNS ABOVE OPERATING COSTS    1,765  
+
+=== PDF PAGE 15 ===
+ 
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          15  
+UC COOPERATIVE EXTENSION  
+UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+TABLE 2. CONTINUED 
+Sacramento Valley & northern Delta-2023 
+ 
+   
+Cost/Acre 
+Your 
+Cost 
+CASH OVERHEAD COSTS     
+Liability Insurance   1  
+Office Expense   60  
+Field Sanitation   3  
+Field Supervisor   88  
+Assistant Managers (2)   64  
+Miscellaneous Costs    50  
+GPS Annual Activation Fee   1  
+Crop Insurance 75% Coverage   48  
+Property Taxes   8  
+Property Insurance   1  
+Investment Repairs   20  
+TOTAL CASH OVERHEAD COSTS/ACRE   343  
+TOTAL CASH OVERHEAD COSTS/TON   7  
+TOTAL CASH COSTS/ACRE   4,925  
+TOTAL CASH COSTS/TON   107  
+NET RETURNS ABOVE CASH COSTS   1,423  
+NON-CASH OVERHEAD COSTS (Capital Recovery)      
+Shop Building    4  
+Storage Building    1  
+Fuel Storage Tanks & Pumps (2)    1  
+Fuel Service Trailers: 500-Gallon (3)    2  
+Shop Tools    1  
+Generators & Light (2)    1  
+Closed Mix System    0  
+Sprinkler Pipe     9  
+Pipe Main Line 10" 1/2 Mile    4  
+Drip Irrigation System    27  
+Drip Tape    86  
+Implement Carrier    1  
+Truck: Bobtail 5th-Wheel    3  
+125 HP Booster Pumps (2)    2  
+Equipment    181  
+TOTAL NON-CASH OVERHEAD COSTS/ACRE    323  
+TOTAL NON-CASH OVERHEAD COSTS/TON    7  
+TOTAL COST/ACRE    5,248  
+TOTAL COST/TON    114  
+NET RETURNS ABOVE TOTAL COST    1,100  
+ 
+ 
+
+=== PDF PAGE 16 ===
+ 
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          16  
+UC COOPERATIVE EXTENSION  
+UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+TABLE 3. MONTHLY CASH COSTS PER ACRE TO PRODUCE PROCESSING TOMATOES (SDI) 
+Sacramento Valley & northern Delta-2023 
+ 
+ OCT NOV DEC JAN FEB MAR APR MAY JUN JUL AUG SEP Total 
+             
+Pre-Plant: 
+Laser level 4 % Ac 
+ 
+8 
+            
+8 
+Chisel Furrows 80% Ac 27            27 
+Condition Beds 80% Ac 16            16 
+Stubble Disc & Roll 20% Ac 7            7 
+Sub-Soil & Roll 20% Ac 2x 22            22 
+Medium-Duty Disc & Roll 20% Ac 3            3 
+Land Plane 20% Ac 2x 9            9 
+Gypsum 20% Ac 46            46 
+List Beds: 6-Row 20% Ac  4           4 
+Fertilize: (MOP) 40% Ac  129           129 
+Insert Drip Tape/Shape Beds 20% Ac  12           12 
+Insert Drip Tape: Labor  23           23 
+Weeds: Pre-Plant 2x    30  17       48 
+TOTAL PRE-PLANT COSTS 138 168  30  17       353 
+Cultural: 
+Well Test/Water Analysis 
+    
+4 
+         
+4 
+Open Beds: 5-Row Alloway      10       10 
+Mulch Beds: Apply Herbicides      33  33     67 
+Fertilize: Starter 8-24-5, 6.5% Zn      29  27     56 
+Transplant Tomatoes       495 495     990 
+Weeds: Post Transplant Herbicide Spray-Band       22 22     45 
+Irrigate: Sprinklers 50% Ac       67 67     135 
+Insects: Beetles/Worms       35      35 
+Irrigate: Drip       85 107 93 124 88  498 
+Weeds: Close Cultivate       9 9     18 
+Fertigation: UAN32       50 50 50 50   200 
+Weeds: Hand Weeding        115 115    230 
+Bed Shape at Layby        12 12    23 
+Weeds: Cultivation Late        8 9    17 
+Disease: Bacterial Speck 30% Ac         11    11 
+Insects: Aphids 20% Ac         2    2 
+Disease: Late Blight 5% Ac         1    1 
+Train/Trim Vines          9 9  17 
+Disease/Insects: Mildew/Mites 40% Ac 2x          12 12  24 
+Disease: Mildew 30% Ac           10  10 
+Disease: Fruit Rot 15% Ac            2 2 
+Insects: Worms            20 20 
+Ripener: Ethephon            1 1 
+1/2 Ton Pickup Truck (2) 4 4 4 4 4 4 4 4 4 4 4 4 46 
+3/4 Ton Pickup Truck (2) 4 4 4 4 4 4 4 4 4 4 4 4 49 
+ATV (2) 2 2 2 2 2 2 2 2 2 2 2 2 29 
+Service Truck 3 3 3 3 3 3 3 3 3 3 3 3 39 
+Water Truck 2 2 2 2 2 2 2 2 2 2 2 2 20 
+Back Hoe 1 1 1 1 1 1 1 1 1 1 1 1 13 
+Road Grader 1 1 1 1 1 1 1 1 1 1 1 1 12 
+Vertebrate: Bait/Trapping 1 1 1 1 1 1 1 1 1 1 1 1 13 
+TOTAL CULTURAL COSTS 18 18 18 22 18 89 784 966 312 213 137 42 2,639 
+ 
+
+=== PDF PAGE 17 ===
+ 
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          17  
+UC COOPERATIVE EXTENSION  
+UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+TABLE 3. CONTINUED 
+Sacramento Valley & northern Delta-2023 
+ 
+ OCT NOV DEC JAN FEB MAR APR MAY JUN JUL AUG SEP Total 
+              
+Harvest:              
+Open Harvest Lanes 8% Ac            15 15 
+Grower: Machine & Labor 100% Ac            423 423 
+In Field Hauling (2)            178 178 
+Share Rent 12.0%            762 762 
+TOTAL HARVEST COSTS 0 0 0 0 0 0 0 0 0 0 0 1,378 1,378 
+Post-Harvest: 
+Irrigation: Drip Acid Flush 
+            
+7 
+ 
+7 
+Drip Tape Extraction 20% Ac            41 41 
+TOTAL POST-HARVEST COSTS 0 0 0 0 0 0 0 0 0 0 0 48 48 
+Assessment: 
+PTAB CTGA CTRI CDFA-CTVP 
+ 
+3 
+ 
+3 
+ 
+3 
+ 
+3 
+ 
+3 
+ 
+3 
+ 
+3 
+ 
+3 
+ 
+3 
+ 
+3 
+ 
+3 
+ 
+3 
+ 
+32 
+TOTAL ASSESSMENT COSTS 3 3 3 3 3 3 3 3 3 3 3 3 32 
+Interest on Operating Capital @ 8.50% 1 2 3 3 3 4 9 16 19 20 21 32 133 
+TOTAL OPERATING COSTS/ACRE 160 191 24 58 24 113 796 986 333 236 161 1,502 4,583 
+CASH OVERHEAD 
+Liability Insurance             1  1 
+Office Expense 5 5 5 5 5 5 5 5 5 5 5 5 60 
+Field Sanitation 0 0 0 0 0 0 0 0 0 0 0 0 3 
+Field Supervisor 7 7 7 7 7 7 7 7 7 7 7 7 88 
+Assistant Managers (2) 5 5 5 5 5 5 5 5 5 5 5 5 64 
+Miscellaneous Costs            50 50 
+GPS Annual Activation Fee            1 1 
+Crop Insurance 75% Coverage            48 48 
+Property Taxes    4      4   8 
+Property Insurance    0      0   1 
+Investment Repairs 2 2 2 2 2 2 2 2 2 2 2 2 20 
+TOTAL CASH OVERHEAD COSTS 20 20 20 24 20 20 20 20 20 24 20 120 343 
+TOTAL CASH COSTS/ACRE 179 211 43 82 44 132 815 1,006 352 256 180 1,622 4,925 
+
+=== PDF PAGE 18 ===
+ 
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          18  
+UC COOPERATIVE EXTENSION  
+UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+TABLE 4. RANGING ANALYSIS 
+Sacramento Valley & northern Delta-2023 
+ 
+COSTS PER ACRE AND PER TON AT VARYING YIELDS TO PRODUCE PROCESSING TOMATOES (SDI) 
+ 
+                                                                                         YIELD  (tons/acre) 
+ 31.00 36.00 41.00 46.00 51.00 56.00 61.00 
+OPERATING COSTS/ACRE:        
+Preplant 353 353 353 353 353 353 353 
+Cultural 2,639 2,639 2,639 2,639 2,639 2,639 2,639 
+Harvest 1,075 1,176 1,277 1,378 1,479 1,580 1,680 
+Post-Harvest 48 48 48 48 48 48 48 
+Assessment 22 25 28 32 35 39 42 
+Interest on Operating Capital @ 8.50% 131 132 133 133 134 135 136 
+TOTAL OPERATING COSTS/ACRE 4,267 4,372 4,477 4,583 4,688 4,793 4,898 
+TOTAL OPERATING COSTS/TON 137.64 121.44 109.20 99.62 91.92 85.59 80.30 
+CASH OVERHEAD COSTS/ACRE 343 343 343 343 343 343 343 
+TOTAL CASH COSTS/ACRE 4,610 4,715 4,820 4,925 5,031 5,136 5,241 
+TOTAL CASH COSTS/TON 148.70 130.96 117.56 107.07 98.64 91.71 85.92 
+NON-CASH OVERHEAD COSTS/ACRE 323 323 323 323 323 323 323 
+TOTAL COSTS/ACRE 4,932 5,037 5,143 5,248 5,353 5,459 5,564 
+TOTAL COSTS/TON 159.00 140.00 125.00 114.00 105.00 97.00 91.00 
+Net Return per Acre above Operating Costs for Processing Tomatoes (SDI)   
+PRICE ($/ton) YIELD (tons /acre) 
+Tomatoes (SDI)  31.00 36.00 41.00 46.00 51.00 56.00 61.00 
+ 
+123.00 
+  
+-454 
+ 
+56 
+ 
+566 
+ 
+1,075 
+ 
+1,585 
+ 
+2,095 
+ 
+2,605 
+128.00  -299 236 771 1,305 1,840 2,375 2,910 
+133.00  -144 416 976 1,535 2,095 2,655 3,215 
+138.00  11 596 1,181 1,765 2,350 2,935 3,520 
+143.00  166 776 1,386 1,995 2,605 3,215 3,825 
+148.00  321 956 1,591 2,225 2,860 3,495 4,130 
+153.00  476 1,136 1,796 2,455 3,115 3,775 4,435 
+Net Return per Acre above Cash Costs for Processing Tomatoes (SDI)  
+PRICE ($/ton) YIELD (tons /acre) 
+        Tomatoes (SDI)  31.00 36.00 41.00 46.00 51.00 56.00 61.00 
+ 
+123.00 
+  
+-797 
+ 
+-287 
+ 
+223 
+ 
+733 
+ 
+1,242 
+ 
+1,752 
+ 
+2,262 
+128.00  -642 -107 428 963 1,497 2,032 2,567 
+133.00  -487 73 633 1,193 1,752 2,312 2,872 
+138.00  -332 253 838 1,423 2,007 2,592 3,177 
+143.00  -177 433 1,043 1,653 2,262 2,872 3,482 
+148.00  -22 613 1,248 1,883 2,517 3,152 3,787 
+153.00  133 793 1,453 2,113 2,772 3,432 4,092 
+Net Return per Acre above Total Costs for Processing Tomatoes (SDI)  
+PRICE ($/ton) YIELD (tons /acre) 
+       Tomatoes (SDI)  31.00 36.00 41.00 46.00 51.00 56.00 61.00 
+ 
+123.00 
+  
+-1,119 
+ 
+-609 
+ 
+-100 
+ 
+410 
+ 
+920 
+ 
+1,429 
+ 
+1,939 
+128.00  -964 -429 105 640 1,175 1,709 2,244 
+133.00  -809 -249 310 870 1,430 1,989 2,549 
+138.00  -654 -69 515 1,100 1,685 2,269 2,854 
+143.00  -499 111 720 1,330 1,940 2,549 3,159 
+148.00  -344 291 925 1,560 2,195 2,829 3,464 
+153.00  -189 471 1,130 1,790 2,450 3,109 3,769 
+
+=== PDF PAGE 19 ===
+ 
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          19  
+UC COOPERATIVE EXTENSION 
+UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+TABLE 5. WHOLE FARM ANNUAL EQUIPMENT, INVESTMENT, AND BUSINESS OVERHEAD COSTS 
+Sacramento Valley & northern Delta-2023 
+ 
+ANNUAL EQUIPMENT COSTS 
+ 
+                                                                                         Cash Overhead 
+ 
+      Description 
+ 
+   Price 
+Years 
+Life 
+Salvage 
+Value 
+Capital 
+Recovery 
+        
+Insurance 
+ 
+Taxes 
+ 
+                       Total 
+#1 Harvester-Tomato 622,000 12 86,151 73,495 251 3,541 77,287 
+#1 440 HP Rubber Track 559,000 14 118,291 58,673 240 3,386 62,300 
+#1 275 HP Rubber Track 407,000 15 79,236 41,533 173 2,431 44,137 
+#1 155 HP 4WD Tractor 257,000 15 50,033 26,226 109 1,535 27,870 
+#2 155 HP 4WD Tractor 257,000 15 50,033 26,226 109 1,535 27,870 
+#3 155 HP 4WD Tractor 257,000 15 50,033 26,226 109 1,535 27,870 
+#1 130 HP 4WD HC Tractor 152,470 15 29,683 15,559 65 911 16,535 
+#1 110 HP 4WD HC Tractor 129,100 15 25,133 13,174 55 771 14,000 
+#1 75 HP 4WD Tractor 97,500 15 18,982 9,950 41 582 10,573 
+Service Truck 95,000 15 18,495 9,694 40 567 10,302 
+Road Grader 85,000 25 2,405 7,256 31 437 7,724 
+#1 ¾-Ton Pickup 70,000 4 34,100 12,986 37 521 13,543 
+#2 ¾-Ton Pickup 70,000 4 34,100 12,986 37 521 13,543 
+#1 Stubble Disc 18' 66,000 5 21,499 12,358 31 437 12,827 
+#1 Medium-Duty Disc 26' 58,440 5 19,036 10,943 28 387 11,358 
+Water Truck 57,600 15 11,214 5,878 24 344 6,246 
+#1 Incorporator-Tunnels 15' 54,000 4 19,876 11,466 26 369 11,861 
+#1 Subsoiler 16' 9-Shank 51,000 5 16,613 9,550 24 338 9,912 
+Drip Tape Extractor 48,000 10 9,054 6,179 20 285 6,484 
+#1 Triplane- 6' 45,600 5 14,854 8,539 21 302 8,862 
+#1 Irrigation-Booster Pump 45,000 10 7,958 5,831 19 265 6,115 
+#2 Irrigation Booster Pump 45,000 10 7,958 5,831 19 265 6,115 
+#1 ½-Ton Pickup 45,000 4 21,922 8,348 24 335 8,706 
+#2 ½-Ton Pickup 45,000 4 21,922 8,348 24 335 8,706 
+#1 6-Row Lister 30' 40,320 5 13,134 7,550 19 267 7,836 
+#1 Cultivator-Performer 3-Row 39,960 10 7,067 5,178 17 235 5,430 
+#1 Incorporator 15' 39,960 5 13,016 7,482 19 265 7,766 
+#2 Incorporator 15' 39,960 5 13,016 7,482 19 265 7,766 
+#1 Ring Roller 26' 36,360 10 6,430 4,711 15 214 4,941 
+Cultivator Alloway 5-Row  26,400 10 4,669 3,421 11 155 3,587 
+Furrow Chisel-3 Row 25,050 5 8,160 4,691 12 166 4,868 
+Ring Roller-Heavy 18' 22,320 10 3,947 2,892 9 131 3,033 
+Back Hoe 20,400 10 3,608 2,643 9 120 2,772 
+Shaper-Drip Tape Inserter 5-Row 19,320 10 3,644 2,487 8 115 2,610 
+#1 Vine Diverter   17,650 5 5,749 3,305 8 117 3,430 
+Cultivator 3-Row 15,660 5 5,101 2,932 7 104 3,043 
+#1 Fertilizer Bar 15" 15,600 5 5,082 2,921 7 103 3,032 
+#2 Cultivator Sled 3-Row 13,440 5 4,378 2,517 6 89 2,612 
+#1 Cultivator Sled 3-Row 13,440 5 4,378 2,517 6 89 2,612 
+Rollup Sled-Drip Tape 15' 11,550 15 1,183 1,221 5 64 1,289 
+#1 ATV 10,500 5 4,706 1,743 5 76 1,824 
+#2 ATV 10,500 5 4,706 1,743 5 76 1,824 
+Dry Fertilizer Spreader 15' 10,200 6 2,940 1,729 5 66 1,799 
+#1 ATV Spray System 25' 7,275 5 2,370 1,362 3 48 1,414 
+#1 Spray Boom 25' 7,260 5 2,365 1,359 3 48 1,411 
+#2 Spray Boom 25' 7,260 5 2,365 1,359 3 48 1,411 
+#1 Vine Trainer/Trimmer  6,330 5 2,199 1,161 3 43 1,207 
+#1 Trailer Dolly 5,990 20 333 557 2 32 591 
+#2 Trailer Dolly 5,990 20 333 557 2 32 591 
+#2 Spray Boom 15' 4,350 5 1,417 815 2 29 845 
+#1 Spray Boom 15' 4,350 5 1,417 815 2 29 845 
+#1 Irrigation Pipe Trailer 4,200 15 430 444 2 23 469 
+#2 Irrigation Pipe Trailer 4,200 15 430 444 2 23 469 
+#3 Irrigation Pipe Trailer 4,200 15 430 444 2 23 469 
+#4 Irrigation Pipe Trailer 4,200 15 430 444 2 23 469 
+#1 300 Gallon Saddle Tanks 3,500 5 1,140 655 2 23 680 
+Bait Applicator 3,200 15 307 339 1 18 358 
+#1 200 Gallon Saddle Tank 3,200 5 1,042 599 2 21 622 
+#2 200 Gallon Saddle Tank 3,200 5 1,042 599 2 21 622 
+#3 200 Gallon Saddle Tank 3,200 5 1,042 599 2 21 622 
+TOTAL 4,129,205 - 902,586 508,973 1,786 25,159 535,918 
+60% of New Cost* 2,477,523 - 541,552 305,384 1,072 15,095 321,551 
+ *Used to reflect a mix of new and used equipment 
+  
+ 
+
+=== PDF PAGE 20 ===
+ 
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          20  
+UC COOPERATIVE EXTENSION  
+UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+TABLE 5. CONTINUED 
+Sacramento Valley & northern Delta-2023 
+ 
+ANNUAL INVESTMENT COSTS 
+ 
+         Cash Overhead  
+ 
+Description 
+ 
+Price 
+      Years      
+Life 
+Salvage 
+Value 
+Capital 
+Recovery Insurance 
+ 
+Taxes 
+ 
+Repairs 
+ 
+Total 
+Drip Tape 354,600 5 0 86,484 126 1,773 7,092 95,475 
+Drip Irrigation System 320,000 25 22,400 27,105 122 1,712 6,400 35,339 
+Shop Building 150,000 25 0 12,872 53 750 3,000 16,675 
+Sprinkler Pipe (250Ac) 113,235 25 56,618 8,822 60 849 2,264 11,995 
+Truck Bobtail 5th-Wheel 95,000 15 6,650 10,166 36 508 1,900 12,610 
+125 HP Booster Pumps (2) 90,000 15 34,300 8,517 44 622 1,800 10,982 
+Storage Building 57,000 25 0 4,891 20 285 1,140 6,336 
+Fuel/Service Trailers 500-Gallon (3) 54,000 15 3,780 5,778 21 289 1,080 7,168 
+Fuel Tanks & Pumps 47,478 20 3,323 4,401 18 254 950 5,623 
+Pipe Main Line 10" ½-Mile 40,061 20 2,804 3,713 15 214 801 4,744 
+Shop Tools 24,000 20 1,680 2,224 9 128 480 2,842 
+Generators & Light (2) 21,031 10 1,472 2,888 8 113 421 3,429 
+Implement Carrier 20,040 15 1,403 2,144 8 107 401 2,660 
+Closed Mix System 6,089 10 426 836 2 33 122 993 
+TOTAL INVESTMENT 1,392,534 - 134,856 180,841 542 7,637 27,851 216,871 
+ 
+      
+ 
+ 
+ 
+ 
+ANNUAL BUSINESS OVERHEAD COSTS (1,000 acres) 
+ 
+                                                                                                                                   Units/                              Price/                 Total                                                                    
+                                                        Description                                            Farm      Unit          Unit                    Cost  
+Field Supervisor 1,000 Acre 87.50 87,500 
+Assistant Managers (2) 1,000 Acre 64.00 64,000 
+Office Expense 1,000 Acre 60.00 60,000 
+Miscellaneous Costs  1,000 Acre 50.00 50,000 
+Crop Insurance 75% 1,000 Acre 48.10 48,100 
+Field Sanitation 1,000 Acre 2.85 2,850 
+GPS Annual Activation Fee 1,000 Acre 1.42 1,420 
+Liability Insurance 1,000 Acre 0.53 526 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 21 ===
+ 
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          21  
+UC COOPERATIVE EXTENSION 
+UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+TABLE 6. HOURLY EQUIPMENT COSTS 
+Sacramento Valley & northern Delta-2023 
+ 
+                                                                                  Process Tomatoes (SDI)        Cash Overhead   Operating  
+ 
+     Description 
+Hours 
+Used 
+Capital 
+Recovery      Insurance 
+ 
+  Taxes 
+Lube & 
+Repairs 
+ 
+      Fuel 
+Total   
+Oper. 
+Total 
+Costs/Hr. 
+#2 155HP 4WD Tractor 1057 14.76 0.06 0.86 12.61 42.91 55.52 71.20 
+#1 Harvester-Tomato 1012 35.28 0.12 1.70 102.62 119.25 221.87 258.97 
+#3 155 HP 4WD Tractor 936 14.76 0.06 0.86 12.61 42.91 55.52 71.20 
+#1 155 HP 4WD Tractor 932 14.76 0.06 0.86 12.61 42.91 55.52 71.20 
+#1 Trailer Dolly 847 0.39 0.00 0.02 0.20 0.00 0.20 0.62 
+#2 Trailer Dolly 847 0.39 0.00 0.02 0.20 0.00 0.20 0.62 
+#1 130 HP 4WD HC Tractor 803 8.76 0.04 0.51 9.06 35.99 45.05 54.35 
+#1 110 HP 4WD HC Tractor 738 7.42 0.03 0.43 7.67 30.45 38.12 46.00 
+#1 Irrigation-Booster Pump 642 3.50 0.01 0.16 1.56 9.54 11.10 14.77 
+#2 Irrigation Booster Pump 642 3.50 0.01 0.16 1.56 9.54 11.10 14.77 
+#1 Irrigation Pipe Trailer 583 0.40 0.00 0.02 0.12 0.00 0.12 0.54 
+#2 Irrigation Pipe Trailer 583 0.40 0.00 0.02 0.12 0.00 0.12 0.54 
+#3 Irrigation Pipe Trailer 583 0.40 0.00 0.02 0.12 0.00 0.12 0.54 
+#4 Irrigation Pipe Trailer 583 0.40 0.00 0.02 0.12 0.00 0.12 0.54 
+#1 ATV 536 0.52 0.00 0.02 2.67 4.76 7.43 7.98 
+#2 ATV 533 0.52 0.00 0.02 2.67 4.76 7.43 7.98 
+Service Truck 500 7.27 0.03 0.43 8.96 33.39 42.35 50.08 
+#1 ½-Ton Pickup 500 10.02 0.03 0.40 4.24 5.95 10.19 20.64 
+#1 ¾-Ton Pickup 500 15.58 0.04 0.62 6.28 7.14 13.42 29.67 
+#2 ½-Ton Pickup 500 10.02 0.03 0.40 4.24 5.95 10.19 20.64 
+#2 ¾-Ton Pickup 500 15.58 0.04 0.62 6.28 7.14 13.42 29.67 
+#1 275 HP Rubber Track 404 23.51 0.10 1.38 21.14 76.13 97.27 122.25 
+#1 440 HP Rubber Track 367 30.83 0.13 1.78 27.91 95.40 123.31 156.04 
+Water Truck 333 4.41 0.02 0.26 12.64 11.93 24.56 29.25 
+#1 200-Gallon Saddle Tank 278 1.20 0.00 0.04 0.87 0.00 0.87 2.11 
+#1 Vine Diverter 275 4.96 0.01 0.18 3.09 0.00 3.09 8.24 
+#2 200-Gallon Saddle Tank 258 1.20 0.00 0.04 0.87 0.00 0.87 2.11 
+#2 Spray Boom 15' 258 1.63 0.00 0.06 1.18 0.00 1.18 2.87 
+#1 Spray Boom 15' 258 1.63 0.00 0.06 1.18 0.00 1.18 2.87 
+#2 Cultivator Sled 3-Row 229 3.77 0.01 0.13 2.96 0.00 2.96 6.88 
+#1 Incorporator-Tunnels 15' 227 13.76 0.03 0.44 6.28 0.00 6.28 20.51 
+Cultivator 3-Row 223 4.40 0.01 0.16 3.45 0.00 3.45 8.01 
+#1 Fertilizer Bar 15"  223 7.30 0.02 0.26 6.10 0.00 6.10 13.68 
+#1 300-Gallon Saddle Tanks 223 1.31 0.00 0.05 0.95 0.00 0.95 2.31 
+#1 Vine Trainer/Trimmer 220 1.16 0.00 0.04 1.41 0.00 1.41 2.62 
+#1 Cultivator Sled 3-Row 215 3.77 0.01 0.13 2.96 0.00 2.96 6.88 
+#3 200-Gallon Saddle Tank 213 1.20 0.00 0.04 0.87 0.00 0.87 2.11 
+#1 ATV Spray System 25' 203 2.72 0.01 0.10 1.98 0.00 1.98 4.81 
+Back Hoe 200 5.29 0.02 0.24 6.67 23.85 30.52 36.06 
+Furrow Chisel 3-Row 183 7.04 0.02 0.25 5.51 0.00 5.51 12.82 
+Road Grader 183 10.88 0.05 0.66 5.61 28.62 34.23 45.82 
+#1 Incorporator 15' 167 11.22 0.03 0.40 4.62 0.00 4.62 16.27 
+#2 Incorporator 15' 167 11.22 0.03 0.40 4.62 0.00 4.62 16.27 
+#1 Spray Boom 25' 166 2.72 0.01 0.10 1.97 0.00 1.97 4.80 
+Ring Roller Heavy 18' 157 8.68 0.03 0.39 2.52 0.00 2.52 11.62 
+Dry Fertilizer Spreader 15' 126 5.19 0.01 0.20 3.97 0.00 3.97 9.36 
+#1 Subsoiler 16' 9-Shank 121 14.32 0.04 0.51 11.79 0.00 11.79 26.65 
+#1 75 HP 4WD Tractor 105 5.63 0.02 0.33 3.04 4.77 7.81 13.80 
+#1 Cultivator Performer 3-Row 104 15.53 0.05 0.71 8.06 0.00 8.06 24.35 
+Cultivator Alloway 5-Row 100 10.26 0.03 0.47 5.33 0.00 5.33 16.09 
+Bait Applicator 95 1.53 0.01 0.08 0.65 0.00 0.65 2.26 
+Drip Tape Extractor 85 7.41 0.02 0.34 1.03 0.00 1.03 8.82 
+Rollup Sled-Drip Tape 15' 85 1.47 0.01 0.08 0.28 0.00 0.28 1.83 
+Shaper-Drip Tape Inserter 5-Row 70 2.98 0.01 0.14 0.42 0.00 0.42 3.55 
+#2 Spray Boom 25' 67 2.72 0.01 0.10 1.97 0.00 1.97 4.80 
+#1 Triplane 16' 61 8.54 0.02 0.30 7.08 0.00 7.08 15.94 
+#1 Stubble Disc 18' 36 18.54 0.05 0.66 11.09 0.00 11.09 30.33 
+#1 6-Row Lister 30' 22 11.32 0.03 0.40 8.39 0.00 8.39 20.14 
+#1 Ring Roller 26' 20 14.13 0.05 0.64 4.11 0.00 4.11 18.93 
+#1 Medium-Duty Disc 26' 20 16.41 0.04 0.58 9.82 0.00 9.82 26.86 
+         
+ 
+ 
+ 
+ 
+ 
+
+=== PDF PAGE 22 ===
+ 
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          22  
+UC COOPERATIVE EXTENSION  
+UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+TABLE 7. OPERATIONS WITH EQUIPMENT & MATERIALS 
+Sacramento Valley & northern Delta-2023 
+ Operation    Labor Type/ Rate/  
+Operation Month Tractor Implement  Material Acre Unit 
+Laser level 4 % Ac Oct Custom  Laser Level 0.04 Acre 
+Chisel Furrows 80% Ac Oct #1 275 HP Rub-Track Furrow Chisel 3-Row Equipment Operator Labor 0.22 Hour 
+Condition Beds 80% Ac Oct #1 275 HP Rub-Track Cultivator/Performer 3-Row Equipment Operator Labor 0.12 Hour 
+Stubble Disc & Roll 20% Oct #1 440 HP Rub-Track #1 Stubble Disc 18' Equipment Operator Labor 0.04 Hour 
+   Ring Roller Heavy 18'    
+Sub-Soil & Roll 20% Oct #1 440 HP Rub-Track #1 Subsoiler 16' 9-Shank Equipment Operator Labor 0.15 Hour 
+   Ring Roller Heavy 18'    
+Medium Duty Disc  Oct #1 275 HP Rub-Track #1 Medium-Duty Disc 26' Equipment Operator Labor 0.02 Hour 
+   #1 Ring Roller 26'    
+Land Plane 20% Ac 2x Oct #1 275 HP Rub-Track #1 Triplane-16' Equipment Operator Labor 0.07 Hour 
+Gypsum 20% Ac Oct Custom  Gypsum-Hauled Spread 0.60 Ton 
+List Beds 6-Row 20% Nov #1 440 HP Rub-Track #1 6-Row Lister 30' Equipment Operator Labor 0.03 Hour 
+Fertilize-(MOP) 40% Nov #3 155 HP4WD Tractor Dry Fertilizer Spreader 15' Equipment Operator Labor 0.15 Hour 
+    0-0-62 (MOP) Fines 100.00 Lb. 
+Insert Drip Tape Nov #1 440 HP Rub-Track 5-Row Shaper/Drip Tape Inserter Equipment Operator Labor 0.08 Hour 
+Insert Drip Tape-Labor Nov   Non-Machine Labor 0.87 Hour 
+Weeds: Pre-Plant 2x Jan  #1 ATV Equipment Operator Labor 0.12 Hour 
+   #1 ATV Spray System 25' Roundup PowerMax 1.50 Pint 
+    Goal 2XL 1.50 Pint 
+ Mar  #1 ATV Equipment Operator Labor 0.12 Hour 
+   #1 ATV Spray System 25' Roundup PowerMax 1.50 Pint 
+Well Test/Water Analysis Jan   Annual Well Test/Water Analysis 1.00 Acre 
+Open Beds Mar #3 155HP 4WD Tractor Cultivator 5-Row Alloway Equipment Operator Labor 0.12 Hour 
+Mulch Beds Mar #3 155HP 4WD Tractor #2 200 Gal Saddle Tank Equipment Operator Labor 0.20 Hour 
+   #1 Incorporator 15' Triflurex HFP 1.00 Pint 
+   #1 Spray Boom-15' Dual II Magnum 0.80 Pint 
+ May #3 155HP 4WD Tractor #1 200 Gal Saddle Tank Equipment Operator Labor 0.20 Hour 
+   #2 Incorporator 15' Dual II Magnum 0.80 Pint 
+   #2 Spray Boom-15' Triflurex HFP 1.00 Pint 
+Fertilize: Starter  Mar #3 155HP 4WD Tractor #1 300 Gallon Saddle Tanks Equipment Operator Labor 0.14 Hour 
+   Cultivator 3-Row  8-24-5, 6.5% Zn 4.41 Gal 
+   Fertilizer Bar 15"    
+ May #1 130 HP 4WD HC  300 Gallon Saddle Tanks Equipment Operator Labor 0.14 Hour 
+   Cultivator 3-Row   8-24-5, 6.5% Zn 4.41 Gal 
+   Fertilizer Bar 15"    
+Transplant Tomatoes Apr Custom  Transplanting in Field 0.50 Acre 
+    Tomato Seed/Thousand Seeds 4.60 Thou 
+    Greenhouse Transplants/Thousand 4.60 Thou 
+ May Custom  Transplanting in Field  0.50 Acre 
+    Tomato Seed/Thousand Seeds  4.60 Thou 
+    Greenhouse Transplants/Thousand 4.60 Thou 
+Weeds: Spray Apr #1 130 HP 4WD HC #1 200 Gal Saddle Tank Equipment Operator Labor  0.11 Hour 
+   #1 Spray Boom-15' Matrix SG  1.00 Oz 
+                                 Charge SOC                                    1.00  Pint  
+ May #1 130 HP 4WD HC #2 200 Gal Saddle Tank Equipment Operator Labor  0.11 Hour 
+   #2 Spray Boom-15' Matrix DF  1.00 Oz 
+    Charge SOC  1.00 Pint 
+Irrigate: Sprinklers Apr  #1 Irrigation-Booster Pump Equipment Operator Labor  0.70 Hour 
+   #1 Irrigation Pipe Trailer Water SacVal  0.50 AcIn 
+   #3 Irrigation Pipe Trailer Irrigation Labor      0.78 Hour 
+    Overtime-Irrigation Labor     0.39 Hour 
+ May  #2 Irrigation Booster Pump Equipment Operator Labor  0.70 Hour 
+   #2 Irrigation Pipe Trailer Water SacVal  0.50 AcIn 
+   #4 Irrigation Pipe Trailer Irrigation Labor      0.78 Hour 
+    Overtime-Irrigation Labor     0.39 Hour 
+ 
+ 
+
+=== PDF PAGE 23 ===
+ 
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          23  
+UC COOPERATIVE EXTENSION  
+UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+TABLE 7. CONTINUED 
+Sacramento Valley & northern Delta-2023 
+ Operation    Labor Type/ Rate/  
+Operation Month Tractor Implement  Material Acre Unit 
+Insects: Beetles/Worms Apr #1 75HP 4WD Tractor Bait Applicator Equipment Operator Labor   0.11 Hour 
+    Sevin 5 Bait 15.00 Lbs. 
+Irrigate: Drip Apr   Irrigation Labor    0.78 Hour 
+    Water SacVal    1.50 AcIn 
+    Overtime-Irrigation Labor    0.20 Hour 
+ Apr   Irrigation Labor    0.78 Hour 
+    Water SacVal    1.50 AcIn 
+    Overtime-Irrigation Labor    0.20 Hour 
+ May   Irrigation Labor 0.78 Hour 
+    Water SacVal 1.50 AcIn 
+    Overtime-Irrigation Labor 0.20 Hour 
+ May   Irrigation Labor 0.78 Hour 
+    Water SacVal 3.00 AcIn 
+    Overtime-Irrigation Labor 0.40 Hour 
+ June   Irrigation Labor 0.78 Hour 
+    Water SacVal 5.50 AcIn 
+    Overtime-Irrigation Labor 0.50 Hour 
+ July   Irrigation Labor 0.78 Hour 
+    Water SacVal 8.00 AcIn 
+    Overtime-Irrigation Labor 0.66 Hour 
+ Aug   Irrigation Labor 0.78 Hour 
+    Water SacVal 5.00 AcIn 
+    Overtime-Irrigation Labor 0.50 Hour 
+Weeds: Cultivate Apr #1 110HP 4WD HC Tractor Cultivator- #1 Sled 3 Row Equipment Operator Labor 0.14 Hour 
+ May #1 110 HP 4WD HC Tractor Cultivator- #2 Sled 3 Row Equipment Operator Labor 0.14 Hour 
+Fertigation: UAN32 Apr   UAN32 50.00 Lb. N 
+ May   UAN32 50.00 Lb. N 
+ June   UAN32 50.00 Lb. N 
+ July   UAN32 50.00 Lb. N 
+Weeds: Hand Weeding May   Hand Weeding 0.50 Acre 
+ June   Hand Weeding 0.50 Acre 
+Bed Shape at Layby May #2 155HP 4WD Tractor #1 Incorporator-Tunnels 15' Equipment Operator Labor 0.14 Hour 
+ June #3 155HP 4WD Tractor #1 Incorporator-Tunnels 15' Equipment Operator Labor 0.14 Hour 
+Weeds: Cultivation Late May #1 110HP 4WD HC Trac Cultivator- #1 Sled 3 Row Equipment Operator Labor 0.12 hour 
+ June #1 110HP 4WD HC Trac Cultivator- #2 Sled 3 Row Equipment Operator Labor 0.14 hour 
+Disease: Bacteria June #3 155HP 4WD Tractor #3 200 Gal Saddle Tank Equipment Operator Labor 0.08 Hour 
+   #1 Spray Boom 25' Kocide DF 0.53 Lb. 
+Insects: Aphids June #1 130HP 4WD HC Tractor #1 200 Gal Saddle Tank Equipment Operator Labor 0.02 Hour 
+   #1 Spray Boom 25' Warrior II 0.38 FlOz 
+Disease: Late Blight June #1 130HP 4WD HC Tractor #3 200 Gal Saddle Tank Equipment Operator Labor 0.01 Hour 
+   #1 Spray Boom 25' Bravo Weatherstik 0.10 Pint 
+Train/Trim Vines July #1 110HP 4WD HC Tractor #1 Vine Trimmer Equipment Operator Labor 0.13 Hour 
+ Aug #1 110HP 4WD HC Tractor #1 Vine Trimmer Equipment Operator Labor 0.13 Hour 
+Mildew/Mites 40% Ac July   Dusting Sulfur 98% 10.00 Lb. 
+    Custom Ground Application 0.40 Acre 
+ Aug   Dusting Sulfur 98% 10.00 Lb. 
+    Custom Ground Application 0.40 Acre 
+Disease: Mildew 30% Ac Aug #1 130HP 4WD HC Tractor #3 200 Gal Saddle Tank Equipment Operator Labor 0-08 Hour 
+    Quadris Top 2.64 FlOz 
+Disease: Fruit Rot 15% Ac Sept #1 130HP 4WD HC Tractor #3 200 Gal Saddle Tank Equipment Operator Labor 0.01 Hour 
+   #1 Spray Boom 25' Bravo Weatherstik 0.30 Pint 
+Insects: Worms Sept #1 130HP 4WD HC Tractor #3 200 Gal Saddle Tank Equipment Operator Labor 0.07 Hour 
+   #1 Spray Boom 25' Confirm 6.40 FlOz 
+       
+ 
+ 
+ 
+
+=== PDF PAGE 24 ===
+ 
+2023 Costs and Returns Study      Processing Tomatoes SDI      Sacramento Valley and northern Delta      UCCE, UC Davis ARE          24  
+UC COOPERATIVE EXTENSION  
+UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+TABLE 7. CONTINUED 
+Sacramento Valley & northern Delta-2023 
+ Operation    Labor Type/ Rate/  
+Operation Month Tractor Implement  Material Acre Unit 
+Ripener: Ethephon  Sept #1 110HP 4WD HC Tractor #3 200 Gal Saddle Tank Equipment Operator Labor 0.01 Hour 
+   #1 Spray Boom 25' Ethephon-Ethrel 0.20 Pint 
+½-Ton Pickup Trucks Sept  #2 1/2 Ton Pickup Equipment Operator Labor 0.60 Hour 
+ Sept  #1 1/2 Ton Pickup Equipment Operator Labor 0.60 Hour 
+¾-Ton Pickup Trucks Sept  #1 3/4 Ton Pickup Equipment Operator Labor 0.60 Hour 
+ Sept  #2 3/4 Ton Pickup Equipment Operator Labor 0.60 Hour 
+ATV (2) Sept  #1 ATV Equipment Operator Labor 0.40 Hour 
+ Sept  #2 ATV Equipment Operator Labor 0.40 Hour 
+Service Truck Sept  Service Truck Equipment Operator Labor 0.60 Hour 
+Water Truck Sept  Water Truck Equipment Operator Labor 0.40 Hour 
+Back Hoe Sept  Back Hoe Equipment Operator Labor 0.24 Hour 
+Road Grader Sept  Road Grader Equipment Operator Labor 0.20 Hour 
+Vertebrate: Gophers Sept  #2 ATV Equipment Operator Labor 0.24 Hour 
+    Zinc Phosphide 0.50 Lb. 
+    Gopher Trap 0.25 Each 
+Open Harvest Lanes  Sept #1 130HP 4WD HC Tractor #1 Vine Diverter Equipment Operator Labor 0.20 Hour 
+Harvest: Self 100% Ac Sept  #1 Harvester-Tomato Equipment Operator Labor 1.10 Hour 
+ Sept   Non-Machine Labor 4.40 Hours 
+    Overtime Harvesting Labor 1.10 Hour  
+    Overtime Equipment Operator 0.27 Hour 
+In Field Hauling (2) Sept #1 155HP 4WD Tractor #1 Trailer Dolly Equipment Operator Labor 1.10 Hour 
+ Sept #2 155HP 4WD Tractor #2 Trailer Dolly Equipment Operator Labor 1.10 Hour 
+Irrigation: Drip Acid Flush Sept   N-pHURIC Acid 1.51 Lbs. 
+    Water SacVal 0.50 AcIn 
+Drip Tape Extraction Sept #1 440 HP Rubber-Track Drip Tape Extractor Equipment Operator Labor 0.10 Hour 
+   Rollup Sled-Drip Tape 15' Non-Machine Labor     1.00 Hour 
+ 
+ 

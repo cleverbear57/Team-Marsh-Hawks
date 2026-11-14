@@ -1,0 +1,33 @@
+{
+  "source_url": "https://sdmdataaccess.nrcs.usda.gov/Tabular/post.rest",
+  "retrieved_at_utc": "2026-11-14T19:21:57.387717+00:00",
+  "file": "raw/local/agronomy/ssurgo/bakersfield.json",
+  "method": "POST",
+  "request_file": "raw/local/agronomy/ssurgo/bakersfield.request.json",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://sdmdataaccess.nrcs.usda.gov/Tabular/post.rest",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 19:21:58 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "1361",
+    "Connection": "close",
+    "Set-Cookie": "AWSALB=WRSFfxJPIg+OEJ/7NGvEKp/tNr1T4Egfjm8ut4ERIjsJe+j51DtggBzLsjB39f3cfGA17RiYq8sSdAJlrH3exnpL1Iu1adrkX44kPBH9X110p2LTExKmVYhVSBis; Expires=Sat, 21 Nov 2026 19:21:58 GMT; Path=/",
+    "Cache-Control": "private",
+    "Server": "Microsoft-IIS/10.0",
+    "X-AspNet-Version": "4.0.30319",
+    "X-Powered-By": "ASP.NET",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type"
+  },
+  "bytes": 1361,
+  "sha256": "04503a9d9fb848c5a99dfd37090350b26611fbe03dccdd47a87c39833164dd84",
+  "region_id": "bakersfield",
+  "region_label": "Southern San Joaquin Valley / Bakersfield",
+  "latitude": 35.35,
+  "longitude": -119.15,
+  "coordinate_crs": "EPSG:4326",
+  "selection": "all intersecting mapunits; all components; all horizons",
+  "horizon_rows": 2
+}

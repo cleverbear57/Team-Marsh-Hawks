@@ -1,0 +1,30 @@
+{
+  "source_url": "https://ucanr.edu/sites/default/files/2025-05/Cover%20Cropping%20in%20California%E2%80%99s%20Water%20Scarce%20Environments.pdf",
+  "retrieved_at_utc": "2026-11-14T19:23:23.441484+00:00",
+  "file": "raw/local/agronomy/sources/cover_water_scarce.pdf",
+  "method": "GET",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ucanr.edu/sites/default/files/2025-05/Cover%20Cropping%20in%20California%E2%80%99s%20Water%20Scarce%20Environments.pdf",
+  "response_headers": {
+    "Connection": "close",
+    "Content-Length": "24684479",
+    "Content-Type": "application/pdf",
+    "Etag": "\"682ca274-178a7bf\"",
+    "Last-Modified": "Tue, 20 May 2025 15:40:36 GMT",
+    "Server": "nginx",
+    "Strict-Transport-Security": "max-age=31622400; includeSubDomains; preload",
+    "X-Pantheon-Styx-Hostname": "styx-us-a-5f569df488-ndb8k",
+    "X-Styx-Req-Id": "dbf7af00-e060-11f1-bc5b-2ea9094829d8",
+    "Age": "0",
+    "Accept-Ranges": "bytes",
+    "Via": "1.1 varnish, 1.1 varnish, 1.1 varnish, 1.1 varnish",
+    "Date": "Sat, 14 Nov 2026 19:23:24 GMT",
+    "X-Served-By": "cache-chi-kmdw8640055-CHI, cache-sjc10034-SJC, cache-sjc1000147-SJC, cache-sjc1000147-SJC",
+    "X-Cache": "MISS, MISS, MISS, MISS",
+    "X-Cache-Hits": "0, 0, 0, 0",
+    "X-Timer": "S1794684204.668625,VS0,VE626"
+  },
+  "bytes": 24684479,
+  "sha256": "72fc79693b3a1d8c10cfc50821d54839628eac3e3de2d9d1a8a9639168449899"
+}

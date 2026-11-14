@@ -1,0 +1,19 @@
+{
+  "source_url": "https://ipm.ucanr.edu/agriculture/tomato/crop-rotation/",
+  "retrieved_at_utc": "2026-11-14T19:23:19.038356+00:00",
+  "file": "raw/local/agronomy/sources/tomato_rotation.html",
+  "method": "GET",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ipm.ucanr.edu/agriculture/tomato/crop-rotation/",
+  "response_headers": {
+    "Content-Type": "text/html;charset=UTF-8",
+    "Server": "Microsoft-IIS/10.0",
+    "Set-Cookie": "JSESSIONID=DAC41F6CC62940C60877EC3522A3E368.cfusion; Path=/; Secure; HttpOnly",
+    "X-Powered-By": "ASP.NET",
+    "Date": "Sat, 14 Nov 2026 19:23:19 GMT",
+    "Connection": "close"
+  },
+  "bytes": 24539,
+  "sha256": "cb1f2017de8d20ef073364aeb6f900fdfde3c607c5d8a0d3611602ac8130fa09"
+}

@@ -1,0 +1,14 @@
+{
+  "path": "cmr/grace_collections.json",
+  "source_url": "https://cmr.earthdata.nasa.gov/search/collections.json?keyword=GRACE+JPL+MASCON+RL06.3&page_size=100",
+  "fetched_at_utc": "2026-11-14T19:24:07.618308+00:00",
+  "http_status": 200,
+  "final_url": "https://cmr.earthdata.nasa.gov/search/collections.json?keyword=GRACE+JPL+MASCON+RL06.3&page_size=100",
+  "content_type": "application/json;charset=utf-8",
+  "kind": "metadata",
+  "bytes": 11725,
+  "sha256": "c392ee1860e720e3aa9ac1428a279eacc836550fa85bdd7b2842c3e169ba5583",
+  "curl_exit_code": 0,
+  "curl_error": "",
+  "note": null
+}

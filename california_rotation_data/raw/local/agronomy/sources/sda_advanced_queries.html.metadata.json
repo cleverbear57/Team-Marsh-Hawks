@@ -1,0 +1,26 @@
+{
+  "source_url": "https://sdmdataaccess.nrcs.usda.gov/documents/AdvancedQueries.html",
+  "retrieved_at_utc": "2026-11-14T19:23:19.021928+00:00",
+  "file": "raw/local/agronomy/sources/sda_advanced_queries.html",
+  "method": "GET",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://sdmdataaccess.nrcs.usda.gov/documents/AdvancedQueries.html",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 19:23:19 GMT",
+    "Content-Type": "text/html",
+    "Content-Length": "141232",
+    "Connection": "close",
+    "Set-Cookie": "AWSALB=BHPscKfI+eYM7/Js5h7zBEAnI3dJLclptpFZ61E0EZ4itHwofkpA/8hoXuR4K+M6Fc+b8BFDrZUoofl/rwwmf69DVQCmqE38KQETmDgeDGw2WTLutW5kBM2CSH1L; Expires=Sat, 21 Nov 2026 19:23:19 GMT; Path=/",
+    "Last-Modified": "Mon, 16 Mar 2026 06:23:59 GMT",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"877f979db5dc1:0\"",
+    "Server": "Microsoft-IIS/10.0",
+    "X-Powered-By": "ASP.NET",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type"
+  },
+  "bytes": 141232,
+  "sha256": "23e98305ff8883138cbc03f5259d83a5b2e1e7438d29c451e87a14b38a71b4fa"
+}

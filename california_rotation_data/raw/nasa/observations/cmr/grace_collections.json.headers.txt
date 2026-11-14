@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=utf-8
+Content-Length: 11725
+Connection: keep-alive
+Date: Sat, 14 Nov 2026 19:24:07 GMT
+Server: ServerTokens ProductOnly
+vary: Accept-Encoding
+x-frame-options: SAMEORIGIN
+access-control-allow-origin: *
+x-xss-protection: 1; mode=block
+cmr-request-id: 9a5be5e1-ee34-431b-a309-00ff674710df
+cmr-request-id: 9a5be5e1-ee34-431b-a309-00ff674710df
+content-sha1: 720998348756c0a7c90add73a5d62fe9ee55b593
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+cmr-search-after: [0.6,0.0,0.0,1794684247914,"3 - gridded observations","GRC-GFO_GRIDDED_AOD1B_JPL_MASCON_RL06.3","rl06.3",3215162709,19]
+cmr-hits: 2
+access-control-expose-headers: CMR-Hits, CMR-Request-Id, X-Request-Id, CMR-Scroll-Id, CMR-Search-After, CMR-Timed-Out, CMR-Shapefile-Original-Point-Count, CMR-Shapefile-Simplified-Point-Count
+x-content-type-options: nosniff
+cmr-took: 34
+X-Request-Id: SaeDLQHFGKLUOadMh-v3oej20o6ljmifru3YCNxXYhlike2WuyJOvw==
+content-md5: dc7f752f29f4c253c597265a58818477
+X-Cache: Miss from cloudfront
+Via: 1.1 20c43a0e6fb1d8790d777292bc628d74.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO53-P10
+X-Amz-Cf-Id: SaeDLQHFGKLUOadMh-v3oej20o6ljmifru3YCNxXYhlike2WuyJOvw==
+

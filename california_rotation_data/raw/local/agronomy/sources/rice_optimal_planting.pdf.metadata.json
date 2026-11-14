@@ -1,0 +1,22 @@
+{
+  "source_url": "https://rice.ucanr.edu/files/232444.pdf",
+  "retrieved_at_utc": "2026-11-14T19:23:21.762157+00:00",
+  "file": "raw/local/agronomy/sources/rice_optimal_planting.pdf",
+  "method": "GET",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://rice.ucanr.edu/files/232444.pdf",
+  "response_headers": {
+    "Content-Type": "application/pdf",
+    "Last-Modified": "Fri, 05 Feb 2016 21:23:39 GMT",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"6092537b5b60d11:0\"",
+    "Server": "Microsoft-IIS/10.0",
+    "X-Powered-By": "ASP.NET",
+    "Date": "Sat, 14 Nov 2026 19:23:21 GMT",
+    "Connection": "close",
+    "Content-Length": "429386"
+  },
+  "bytes": 429386,
+  "sha256": "d3f878e82e01516d262aeadc32efabbb7c4c2b7081faccfae4f28d10d7037f95"
+}

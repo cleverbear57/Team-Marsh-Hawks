@@ -1,0 +1,19 @@
+{
+  "source_url": "https://ipm.ucanr.edu/agriculture/tomato/fusarium-wilt/",
+  "retrieved_at_utc": "2026-11-14T19:23:20.103498+00:00",
+  "file": "raw/local/agronomy/sources/tomato_fusarium.html",
+  "method": "GET",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ipm.ucanr.edu/agriculture/tomato/fusarium-wilt/",
+  "response_headers": {
+    "Content-Type": "text/html;charset=UTF-8",
+    "Server": "Microsoft-IIS/10.0",
+    "Set-Cookie": "JSESSIONID=81B7C065FF329142500A66FBC8FB0B78.cfusion; Path=/; Secure; HttpOnly",
+    "X-Powered-By": "ASP.NET",
+    "Date": "Sat, 14 Nov 2026 19:23:20 GMT",
+    "Connection": "close"
+  },
+  "bytes": 25981,
+  "sha256": "ad3cce3d8bb9155e3bf9194132818b790f252393f124194ad5afdd54a3a5c156"
+}

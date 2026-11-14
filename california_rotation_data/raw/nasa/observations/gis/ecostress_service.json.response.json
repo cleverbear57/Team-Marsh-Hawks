@@ -1,0 +1,14 @@
+{
+  "path": "gis/ecostress_service.json",
+  "source_url": "https://gis.earthdata.nasa.gov/portal/rest/services/DISASTERS_202501_FIRE_CA/2501_ecostress/ImageServer?f=pjson",
+  "fetched_at_utc": "2026-11-14T19:23:11.097511+00:00",
+  "http_status": 200,
+  "final_url": "https://gis.earthdata.nasa.gov/portal/rest/services/DISASTERS_202501_FIRE_CA/2501_ecostress/ImageServer?f=pjson",
+  "content_type": "text/plain;charset=UTF-8",
+  "kind": "metadata",
+  "bytes": 12583,
+  "sha256": "76d4370380e049c184c3d30b1433e92136f4144d1be41c351fd96850fd2124ed",
+  "curl_exit_code": 0,
+  "curl_error": "",
+  "note": null
+}

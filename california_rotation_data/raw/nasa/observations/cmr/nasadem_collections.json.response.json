@@ -1,0 +1,14 @@
+{
+  "path": "cmr/nasadem_collections.json",
+  "source_url": "https://cmr.earthdata.nasa.gov/search/collections.json?short_name=NASADEM_HGT&page_size=100",
+  "fetched_at_utc": "2026-11-14T19:24:07.399946+00:00",
+  "http_status": 200,
+  "final_url": "https://cmr.earthdata.nasa.gov/search/collections.json?short_name=NASADEM_HGT&page_size=100",
+  "content_type": "application/json;charset=utf-8",
+  "kind": "metadata",
+  "bytes": 26852,
+  "sha256": "e72f18a89b6f68f5be2dbb64a8674f3c9e21d55874dc5852fd19e1012237e343",
+  "curl_exit_code": 0,
+  "curl_error": "",
+  "note": null
+}

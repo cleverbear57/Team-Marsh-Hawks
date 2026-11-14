@@ -1,0 +1,468 @@
+{
+ "samples": [
+  {
+   "location": {
+    "x": -121.65000000000001,
+    "y": 36.649999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.000000000",
+   "rasterId": 442625,
+   "resolution": 0.10000000000000001,
+   "attributes": {
+    "name": "2023-091-z48.mrf_16",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680336000000,
+    "syncdatetime": 1753138297.6243501,
+    "precipitation": "0.000000000"
+   }
+  },
+  {
+   "location": {
+    "x": -121.65000000000001,
+    "y": 36.649999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.000000000",
+   "rasterId": 442626,
+   "resolution": 0.10000000000000001,
+   "attributes": {
+    "name": "2023-091-z48.mrf_17",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680337800000,
+    "syncdatetime": 1753138297.6243601,
+    "precipitation": "0.000000000"
+   }
+  },
+  {
+   "location": {
+    "x": -121.65000000000001,
+    "y": 36.649999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.000000000",
+   "rasterId": 442627,
+   "resolution": 0.10000000000000001,
+   "attributes": {
+    "name": "2023-091-z48.mrf_18",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680339600000,
+    "syncdatetime": 1753138297.6243601,
+    "precipitation": "0.000000000"
+   }
+  },
+  {
+   "location": {
+    "x": -121.65000000000001,
+    "y": 36.649999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.000000000",
+   "rasterId": 442628,
+   "resolution": 0.10000000000000001,
+   "attributes": {
+    "name": "2023-091-z48.mrf_19",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680341400000,
+    "syncdatetime": 1753138297.6243601,
+    "precipitation": "0.000000000"
+   }
+  },
+  {
+   "location": {
+    "x": -121.65000000000001,
+    "y": 36.649999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.000000000",
+   "rasterId": 442629,
+   "resolution": 0.10000000000000001,
+   "attributes": {
+    "name": "2023-091-z48.mrf_20",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680343200000,
+    "syncdatetime": 1753138297.6243701,
+    "precipitation": "0.000000000"
+   }
+  },
+  {
+   "location": {
+    "x": -121.65000000000001,
+    "y": 36.649999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.000000000",
+   "rasterId": 442630,
+   "resolution": 0.10000000000000001,
+   "attributes": {
+    "name": "2023-091-z48.mrf_21",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680345000000,
+    "syncdatetime": 1753138297.6243701,
+    "precipitation": "0.000000000"
+   }
+  },
+  {
+   "location": {
+    "x": -121.65000000000001,
+    "y": 36.649999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.000000000",
+   "rasterId": 442631,
+   "resolution": 0.10000000000000001,
+   "attributes": {
+    "name": "2023-091-z48.mrf_22",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680346800000,
+    "syncdatetime": 1753138297.6243701,
+    "precipitation": "0.000000000"
+   }
+  },
+  {
+   "location": {
+    "x": -121.65000000000001,
+    "y": 36.649999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.000000000",
+   "rasterId": 442632,
+   "resolution": 0.10000000000000001,
+   "attributes": {
+    "name": "2023-091-z48.mrf_23",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680348600000,
+    "syncdatetime": 1753138297.6243701,
+    "precipitation": "0.000000000"
+   }
+  },
+  {
+   "location": {
+    "x": -121.65000000000001,
+    "y": 36.649999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.000000000",
+   "rasterId": 442633,
+   "resolution": 0.10000000000000001,
+   "attributes": {
+    "name": "2023-091-z48.mrf_24",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680350400000,
+    "syncdatetime": 1753138297.6243801,
+    "precipitation": "0.000000000"
+   }
+  },
+  {
+   "location": {
+    "x": -121.65000000000001,
+    "y": 36.649999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.000000000",
+   "rasterId": 442634,
+   "resolution": 0.10000000000000001,
+   "attributes": {
+    "name": "2023-091-z48.mrf_25",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680352200000,
+    "syncdatetime": 1753138297.6243801,
+    "precipitation": "0.000000000"
+   }
+  },
+  {
+   "location": {
+    "x": -121.65000000000001,
+    "y": 36.649999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.000000000",
+   "rasterId": 442635,
+   "resolution": 0.10000000000000001,
+   "attributes": {
+    "name": "2023-091-z48.mrf_26",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680354000000,
+    "syncdatetime": 1753138297.6243801,
+    "precipitation": "0.000000000"
+   }
+  },
+  {
+   "location": {
+    "x": -121.65000000000001,
+    "y": 36.649999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.000000000",
+   "rasterId": 442636,
+   "resolution": 0.10000000000000001,
+   "attributes": {
+    "name": "2023-091-z48.mrf_27",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680355800000,
+    "syncdatetime": 1753138297.6243899,
+    "precipitation": "0.000000000"
+   }
+  },
+  {
+   "location": {
+    "x": -121.65000000000001,
+    "y": 36.649999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.000000000",
+   "rasterId": 442637,
+   "resolution": 0.10000000000000001,
+   "attributes": {
+    "name": "2023-091-z48.mrf_28",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680357600000,
+    "syncdatetime": 1753138297.6243899,
+    "precipitation": "0.000000000"
+   }
+  },
+  {
+   "location": {
+    "x": -121.65000000000001,
+    "y": 36.649999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.000000000",
+   "rasterId": 442638,
+   "resolution": 0.10000000000000001,
+   "attributes": {
+    "name": "2023-091-z48.mrf_29",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680359400000,
+    "syncdatetime": 1753138297.6243899,
+    "precipitation": "0.000000000"
+   }
+  },
+  {
+   "location": {
+    "x": -121.65000000000001,
+    "y": 36.649999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.000000000",
+   "rasterId": 442639,
+   "resolution": 0.10000000000000001,
+   "attributes": {
+    "name": "2023-091-z48.mrf_30",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680361200000,
+    "syncdatetime": 1753138297.6243899,
+    "precipitation": "0.000000000"
+   }
+  },
+  {
+   "location": {
+    "x": -121.65000000000001,
+    "y": 36.649999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.000000000",
+   "rasterId": 442640,
+   "resolution": 0.10000000000000001,
+   "attributes": {
+    "name": "2023-091-z48.mrf_31",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680363000000,
+    "syncdatetime": 1753138297.6243999,
+    "precipitation": "0.000000000"
+   }
+  }
+ ]
+}

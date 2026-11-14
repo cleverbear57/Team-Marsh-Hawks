@@ -1,0 +1,131 @@
+{
+  "updated_at_utc": "2026-11-14T19:24:25.787468+00:00",
+  "access": "public; no authentication",
+  "files": [
+    {
+      "file": "uc_2023_processing_tomatoes_sacramento_sdi.pdf",
+      "source_url": "https://coststudyfiles.ucdavis.edu/uploads/pub/2023/08/21/amended_82123_2023processtomatosacramentovalleysdifinal.pdf",
+      "provider": "UC ANR / UC Davis",
+      "description": "2023 Sacramento Valley and northern Delta processing tomato sample costs; amended August 21, 2023",
+      "retrieved_at_utc": "2026-11-14T19:24:25.787468+00:00",
+      "artifact_type": "original_download",
+      "http_status": 200,
+      "final_url": "https://coststudyfiles.ucdavis.edu/uploads/pub/2023/08/21/amended_82123_2023processtomatosacramentovalleysdifinal.pdf",
+      "content_type": "application/pdf",
+      "status": "downloaded",
+      "bytes": 638718,
+      "sha256": "9bf7e0344509c14629299bf69463a975f58ef230f701969551cd8d7e60c9acb4"
+    },
+    {
+      "file": "uc_2021_rice_sacramento.pdf",
+      "source_url": "https://coststudyfiles.ucdavis.edu/uploads/pub/2021/11/03/2021ricesacramentovalley.pdf",
+      "provider": "UC ANR / UC Davis",
+      "description": "2021 Sacramento Valley medium-grain rice sample costs; rice-only rotation",
+      "retrieved_at_utc": "2026-11-14T19:24:25.787468+00:00",
+      "artifact_type": "original_download",
+      "http_status": 200,
+      "final_url": "https://coststudyfiles.ucdavis.edu/uploads/pub/2021/11/03/2021ricesacramentovalley.pdf",
+      "content_type": "application/pdf",
+      "status": "downloaded",
+      "bytes": 483242,
+      "sha256": "c03c9c507a3075fa8894aea80ded636988202076432ab63ed5a6ddd48522f1f6"
+    },
+    {
+      "file": "uc_2023_iceberg_lettuce_central_coast.pdf",
+      "source_url": "https://coststudyfiles.ucdavis.edu/uploads/pub/2023/08/04/2023-iceberglettuce-full-final.pdf",
+      "provider": "UC ANR / UC Davis",
+      "description": "2023 film-wrapped iceberg lettuce sample costs; Monterey Santa Cruz San Benito",
+      "retrieved_at_utc": "2026-11-14T19:24:25.787468+00:00",
+      "artifact_type": "original_download",
+      "http_status": 200,
+      "final_url": "https://coststudyfiles.ucdavis.edu/uploads/pub/2023/08/04/2023-iceberglettuce-full-final.pdf",
+      "content_type": "application/pdf",
+      "status": "downloaded",
+      "bytes": 398344,
+      "sha256": "046b10d17d1f9ceea2b950377c6d06ef570046825f3813606cc08e2930a53d1f"
+    },
+    {
+      "file": "uc_2023_broccoli_crowns_central_coast.pdf",
+      "source_url": "https://coststudyfiles.ucdavis.edu/uploads/pub/2023/08/04/2023-broccrowncut-full-final.pdf",
+      "provider": "UC ANR / UC Davis",
+      "description": "2023 crown-cut broccoli sample costs; Monterey Santa Cruz San Benito",
+      "retrieved_at_utc": "2026-11-14T19:24:25.787468+00:00",
+      "artifact_type": "original_download",
+      "http_status": 200,
+      "final_url": "https://coststudyfiles.ucdavis.edu/uploads/pub/2023/08/04/2023-broccrowncut-full-final.pdf",
+      "content_type": "application/pdf",
+      "status": "downloaded",
+      "bytes": 386193,
+      "sha256": "8d40fbab0255dc81fd2d8e70cbff4d62e8ec6e76a708a4aa7b5b90a7e0a68d5d"
+    },
+    {
+      "file": "cdfa_2023_2024_agricultural_statistics_review.pdf",
+      "source_url": "https://www.cdfa.ca.gov/Statistics/PDFs/2023-2024_california_agricultural_statistics_review.pdf",
+      "provider": "California Department of Food and Agriculture / USDA NASS",
+      "description": "State crop acreage yield production and value tables, plus county agricultural commissioners' data",
+      "retrieved_at_utc": "2026-11-14T19:24:25.787468+00:00",
+      "artifact_type": "original_download",
+      "http_status": 200,
+      "final_url": "https://www.cdfa.ca.gov/Statistics/PDFs/2023-2024_california_agricultural_statistics_review.pdf",
+      "content_type": "application/pdf",
+      "status": "downloaded",
+      "bytes": 25193756,
+      "sha256": "f74898b5ce6765400a0e644c9f5fb4f55f2d1ac1361e8d8d6b3bd447a2b9483b"
+    },
+    {
+      "file": "cdfa_2023_2024_agricultural_statistics_review.txt",
+      "source_file": "cdfa_2023_2024_agricultural_statistics_review.pdf",
+      "status": "derived_text_not_layout_verified",
+      "retrieved_at_utc": "2026-11-14T19:24:25.787468+00:00",
+      "artifact_type": "searchable_pdf_text",
+      "pdf_pages": 162,
+      "bytes": 510239,
+      "sha256": "e7db9f491190358a10782eedd65267aa5b4ed1a46b4c909638b9b97ab7347c25",
+      "limitation": "Text extraction may alter table order; original PDF is authoritative"
+    },
+    {
+      "file": "uc_2021_rice_sacramento.txt",
+      "source_file": "uc_2021_rice_sacramento.pdf",
+      "status": "derived_text_not_layout_verified",
+      "retrieved_at_utc": "2026-11-14T19:24:25.787468+00:00",
+      "artifact_type": "searchable_pdf_text",
+      "pdf_pages": 21,
+      "bytes": 59840,
+      "sha256": "ad007d12e5d266ee50f30f8f1e1bcc9ce2650dc4068fb1a348c203f5450a1ab6",
+      "limitation": "Text extraction may alter table order; original PDF is authoritative"
+    },
+    {
+      "file": "uc_2023_broccoli_crowns_central_coast.txt",
+      "source_file": "uc_2023_broccoli_crowns_central_coast.pdf",
+      "status": "derived_text_not_layout_verified",
+      "retrieved_at_utc": "2026-11-14T19:24:25.787468+00:00",
+      "artifact_type": "searchable_pdf_text",
+      "pdf_pages": 17,
+      "bytes": 48235,
+      "sha256": "83a8d2a2ae37ddbac7b4733114a4412700d95545fa62c5bd9d4cf9d1fb898b8c",
+      "limitation": "Text extraction may alter table order; original PDF is authoritative"
+    },
+    {
+      "file": "uc_2023_iceberg_lettuce_central_coast.txt",
+      "source_file": "uc_2023_iceberg_lettuce_central_coast.pdf",
+      "status": "derived_text_not_layout_verified",
+      "retrieved_at_utc": "2026-11-14T19:24:25.787468+00:00",
+      "artifact_type": "searchable_pdf_text",
+      "pdf_pages": 17,
+      "bytes": 50491,
+      "sha256": "c22414afc77599c1f77494951ccfbd6e64acf7f5d6fd17a11fbdce2971def94c",
+      "limitation": "Text extraction may alter table order; original PDF is authoritative"
+    },
+    {
+      "file": "uc_2023_processing_tomatoes_sacramento_sdi.txt",
+      "source_file": "uc_2023_processing_tomatoes_sacramento_sdi.pdf",
+      "status": "derived_text_not_layout_verified",
+      "retrieved_at_utc": "2026-11-14T19:24:25.787468+00:00",
+      "artifact_type": "searchable_pdf_text",
+      "pdf_pages": 24,
+      "bytes": 74972,
+      "sha256": "59e46555b93c271f86e4e22706aaa1cc92d2e866fd387b554025313717f4b681",
+      "limitation": "Text extraction may alter table order; original PDF is authoritative"
+    }
+  ]
+}

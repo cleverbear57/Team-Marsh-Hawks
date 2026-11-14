@@ -1,0 +1,14 @@
+{
+  "path": "gis/smap_webmap_item.json",
+  "source_url": "https://gis.earthdata.nasa.gov/portal/sharing/rest/content/items/b92f40291766442c9c4311f7857db412?f=pjson",
+  "fetched_at_utc": "2026-11-14T19:23:10.249250+00:00",
+  "http_status": 200,
+  "final_url": "https://gis.earthdata.nasa.gov/portal/sharing/rest/content/items/b92f40291766442c9c4311f7857db412?f=pjson",
+  "content_type": "text/plain;charset=utf-8",
+  "kind": "metadata",
+  "bytes": 22039,
+  "sha256": "cfa4743400176813d141f942812ecaa210de3094bca320a0dfa718c86819c170",
+  "curl_exit_code": 0,
+  "curl_error": "",
+  "note": null
+}

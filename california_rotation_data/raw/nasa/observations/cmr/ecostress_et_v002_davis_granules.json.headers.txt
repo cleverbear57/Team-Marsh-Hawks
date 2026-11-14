@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=utf-8
+Content-Length: 30836
+Connection: keep-alive
+Date: Sat, 14 Nov 2026 19:24:52 GMT
+Server: ServerTokens ProductOnly
+vary: Accept-Encoding
+x-frame-options: SAMEORIGIN
+access-control-allow-origin: *
+x-xss-protection: 1; mode=block
+cmr-request-id: 834c0d56-3cb3-4c63-a6cc-5113571389bb
+cmr-request-id: 834c0d56-3cb3-4c63-a6cc-5113571389bb
+content-sha1: 0fc59301571b4e0490e2eb8e20e58f4a3f73f67b
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+cmr-search-after: ["lpcloud",1720016783415,3162253619]
+cmr-hits: 14
+access-control-expose-headers: CMR-Hits, CMR-Request-Id, X-Request-Id, CMR-Scroll-Id, CMR-Search-After, CMR-Timed-Out, CMR-Shapefile-Original-Point-Count, CMR-Shapefile-Simplified-Point-Count
+x-content-type-options: nosniff
+cmr-took: 46
+X-Request-Id: j-6cU-yM_lJpYYJZiaePuUYn7IeF3VwOfDXrqgr1dlUqH_9jKngsfw==
+content-md5: 7fd9f7344f51c83a0621c4acc24bd014
+X-Cache: Miss from cloudfront
+Via: 1.1 b972ddb21199e78c50db3b97a65aa6ec.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO53-P10
+X-Amz-Cf-Id: j-6cU-yM_lJpYYJZiaePuUYn7IeF3VwOfDXrqgr1dlUqH_9jKngsfw==
+

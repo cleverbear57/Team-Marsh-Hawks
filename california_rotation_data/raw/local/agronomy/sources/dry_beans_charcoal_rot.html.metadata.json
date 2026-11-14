@@ -1,0 +1,19 @@
+{
+  "source_url": "https://ipm.ucanr.edu/agriculture/dry-beans/charcoal-rot/",
+  "retrieved_at_utc": "2026-11-14T19:23:21.756330+00:00",
+  "file": "raw/local/agronomy/sources/dry_beans_charcoal_rot.html",
+  "method": "GET",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ipm.ucanr.edu/agriculture/dry-beans/charcoal-rot/",
+  "response_headers": {
+    "Content-Type": "text/html;charset=UTF-8",
+    "Server": "Microsoft-IIS/10.0",
+    "Set-Cookie": "JSESSIONID=CEFC15B2AA7DA90B8DBCAB82137E0498.cfusion; Path=/; Secure; HttpOnly",
+    "X-Powered-By": "ASP.NET",
+    "Date": "Sat, 14 Nov 2026 19:23:21 GMT",
+    "Connection": "close"
+  },
+  "bytes": 25940,
+  "sha256": "fbc15c6e5299fdda50a73ec3e153517fbe5369c68b4f4df22e97658853616eab"
+}

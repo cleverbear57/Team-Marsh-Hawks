@@ -1,0 +1,2402 @@
+{
+ "objectIdFieldName": "objectid",
+ "fields": [
+  {
+   "name": "objectid",
+   "type": "esriFieldTypeOID",
+   "alias": "objectid",
+   "domain": null
+  },
+  {
+   "name": "name",
+   "type": "esriFieldTypeString",
+   "alias": "name",
+   "domain": null,
+   "length": 200
+  },
+  {
+   "name": "minps",
+   "type": "esriFieldTypeDouble",
+   "alias": "minps",
+   "domain": null
+  },
+  {
+   "name": "maxps",
+   "type": "esriFieldTypeDouble",
+   "alias": "maxps",
+   "domain": null
+  },
+  {
+   "name": "lowps",
+   "type": "esriFieldTypeDouble",
+   "alias": "lowps",
+   "domain": null
+  },
+  {
+   "name": "highps",
+   "type": "esriFieldTypeDouble",
+   "alias": "highps",
+   "domain": null
+  },
+  {
+   "name": "category",
+   "type": "esriFieldTypeInteger",
+   "alias": "category",
+   "domain": {
+    "type": "codedValue",
+    "name": "MosaicCatalogItemCategoryDomain",
+    "description": "Catalog item categories.",
+    "codedValues": [
+     {
+      "name": "Unknown",
+      "code": 0
+     },
+     {
+      "name": "Primary",
+      "code": 1
+     },
+     {
+      "name": "Overview",
+      "code": 2
+     },
+     {
+      "name": "Unprocessed Overview",
+      "code": 3
+     },
+     {
+      "name": "Partial Overview",
+      "code": 4
+     },
+     {
+      "name": "Inactive",
+      "code": 5
+     },
+     {
+      "name": "Uploaded",
+      "code": 253
+     },
+     {
+      "name": "Incomplete",
+      "code": 254
+     },
+     {
+      "name": "Custom",
+      "code": 255
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue",
+    "splitPolicy": "esriSPTDefaultValue"
+   }
+  },
+  {
+   "name": "tag",
+   "type": "esriFieldTypeString",
+   "alias": "tag",
+   "domain": null,
+   "length": 100
+  },
+  {
+   "name": "productname",
+   "type": "esriFieldTypeString",
+   "alias": "productname",
+   "domain": null,
+   "length": 100
+  },
+  {
+   "name": "variable",
+   "type": "esriFieldTypeString",
+   "alias": "Variable",
+   "domain": null,
+   "length": 8000
+  },
+  {
+   "name": "dimensions",
+   "type": "esriFieldTypeString",
+   "alias": "Dimensions",
+   "domain": null,
+   "length": 8000
+  },
+  {
+   "name": "stdtime",
+   "type": "esriFieldTypeDate",
+   "alias": "StdTime",
+   "domain": null,
+   "length": 8
+  },
+  {
+   "name": "syncdatetime",
+   "type": "esriFieldTypeDouble",
+   "alias": "SyncDateTime",
+   "domain": null
+  },
+  {
+   "name": "shape",
+   "type": "esriFieldTypeGeometry",
+   "alias": "shape",
+   "domain": null
+  }
+ ],
+ "geometryType": "esriGeometryPolygon",
+ "spatialReference": {
+  "wkid": 4326,
+  "latestWkid": 4326
+ },
+ "features": [
+  {
+   "attributes": {
+    "objectid": 442609,
+    "name": "2023-091-z48.mrf_0",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680307200000,
+    "syncdatetime": 1753138297.62431
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442610,
+    "name": "2023-091-z48.mrf_1",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680309000000,
+    "syncdatetime": 1753138297.62431
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442611,
+    "name": "2023-091-z48.mrf_2",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680310800000,
+    "syncdatetime": 1753138297.62432
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442612,
+    "name": "2023-091-z48.mrf_3",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680312600000,
+    "syncdatetime": 1753138297.62432
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442613,
+    "name": "2023-091-z48.mrf_4",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680314400000,
+    "syncdatetime": 1753138297.62432
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442614,
+    "name": "2023-091-z48.mrf_5",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680316200000,
+    "syncdatetime": 1753138297.62433
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442615,
+    "name": "2023-091-z48.mrf_6",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680318000000,
+    "syncdatetime": 1753138297.62433
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442616,
+    "name": "2023-091-z48.mrf_7",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680319800000,
+    "syncdatetime": 1753138297.62433
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442617,
+    "name": "2023-091-z48.mrf_8",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680321600000,
+    "syncdatetime": 1753138297.62433
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442618,
+    "name": "2023-091-z48.mrf_9",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680323400000,
+    "syncdatetime": 1753138297.6243401
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442619,
+    "name": "2023-091-z48.mrf_10",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680325200000,
+    "syncdatetime": 1753138297.6243401
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442620,
+    "name": "2023-091-z48.mrf_11",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680327000000,
+    "syncdatetime": 1753138297.6243401
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442621,
+    "name": "2023-091-z48.mrf_12",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680328800000,
+    "syncdatetime": 1753138297.6243401
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442622,
+    "name": "2023-091-z48.mrf_13",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680330600000,
+    "syncdatetime": 1753138297.6243501
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442623,
+    "name": "2023-091-z48.mrf_14",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680332400000,
+    "syncdatetime": 1753138297.6243501
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442624,
+    "name": "2023-091-z48.mrf_15",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680334200000,
+    "syncdatetime": 1753138297.6243501
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442625,
+    "name": "2023-091-z48.mrf_16",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680336000000,
+    "syncdatetime": 1753138297.6243501
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442626,
+    "name": "2023-091-z48.mrf_17",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680337800000,
+    "syncdatetime": 1753138297.6243601
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442627,
+    "name": "2023-091-z48.mrf_18",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680339600000,
+    "syncdatetime": 1753138297.6243601
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442628,
+    "name": "2023-091-z48.mrf_19",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680341400000,
+    "syncdatetime": 1753138297.6243601
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442629,
+    "name": "2023-091-z48.mrf_20",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680343200000,
+    "syncdatetime": 1753138297.6243701
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442630,
+    "name": "2023-091-z48.mrf_21",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680345000000,
+    "syncdatetime": 1753138297.6243701
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442631,
+    "name": "2023-091-z48.mrf_22",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680346800000,
+    "syncdatetime": 1753138297.6243701
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442632,
+    "name": "2023-091-z48.mrf_23",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680348600000,
+    "syncdatetime": 1753138297.6243701
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442633,
+    "name": "2023-091-z48.mrf_24",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680350400000,
+    "syncdatetime": 1753138297.6243801
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442634,
+    "name": "2023-091-z48.mrf_25",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680352200000,
+    "syncdatetime": 1753138297.6243801
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442635,
+    "name": "2023-091-z48.mrf_26",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680354000000,
+    "syncdatetime": 1753138297.6243801
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442636,
+    "name": "2023-091-z48.mrf_27",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680355800000,
+    "syncdatetime": 1753138297.6243899
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442637,
+    "name": "2023-091-z48.mrf_28",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680357600000,
+    "syncdatetime": 1753138297.6243899
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442638,
+    "name": "2023-091-z48.mrf_29",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680359400000,
+    "syncdatetime": 1753138297.6243899
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442639,
+    "name": "2023-091-z48.mrf_30",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680361200000,
+    "syncdatetime": 1753138297.6243899
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442640,
+    "name": "2023-091-z48.mrf_31",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680363000000,
+    "syncdatetime": 1753138297.6243999
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442641,
+    "name": "2023-091-z48.mrf_32",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680364800000,
+    "syncdatetime": 1753138297.6243999
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442642,
+    "name": "2023-091-z48.mrf_33",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680366600000,
+    "syncdatetime": 1753138297.6243999
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442643,
+    "name": "2023-091-z48.mrf_34",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680368400000,
+    "syncdatetime": 1753138297.6243999
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442644,
+    "name": "2023-091-z48.mrf_35",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680370200000,
+    "syncdatetime": 1753138297.6244099
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442645,
+    "name": "2023-091-z48.mrf_36",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680372000000,
+    "syncdatetime": 1753138297.6244099
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442646,
+    "name": "2023-091-z48.mrf_37",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680373800000,
+    "syncdatetime": 1753138297.6244099
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442647,
+    "name": "2023-091-z48.mrf_38",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680375600000,
+    "syncdatetime": 1753138297.6244099
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442648,
+    "name": "2023-091-z48.mrf_39",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680377400000,
+    "syncdatetime": 1753138297.6244199
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442649,
+    "name": "2023-091-z48.mrf_40",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680379200000,
+    "syncdatetime": 1753138297.6244199
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442650,
+    "name": "2023-091-z48.mrf_41",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680381000000,
+    "syncdatetime": 1753138297.6244199
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442651,
+    "name": "2023-091-z48.mrf_42",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680382800000,
+    "syncdatetime": 1753138297.6244299
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442652,
+    "name": "2023-091-z48.mrf_43",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680384600000,
+    "syncdatetime": 1753138297.6244299
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442653,
+    "name": "2023-091-z48.mrf_44",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680386400000,
+    "syncdatetime": 1753138297.6244299
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442654,
+    "name": "2023-091-z48.mrf_45",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680388200000,
+    "syncdatetime": 1753138297.6244299
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442655,
+    "name": "2023-091-z48.mrf_46",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680390000000,
+    "syncdatetime": 1753138297.62444
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  },
+  {
+   "attributes": {
+    "objectid": 442656,
+    "name": "2023-091-z48.mrf_47",
+    "minps": 0,
+    "maxps": 1,
+    "lowps": 0.10000000000000001,
+    "highps": 0.10000000000000001,
+    "category": 1,
+    "tag": "Dataset",
+    "productname": "",
+    "variable": "precipitation",
+    "dimensions": "StdTime",
+    "stdtime": 1680391800000,
+    "syncdatetime": 1753138297.62444
+   },
+   "geometry": {
+    "rings": [
+     [
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       90.0000000000000568
+      ],
+      [
+       180.000000000000114,
+       -89.9999999999999432
+      ],
+      [
+       -179.999999999999972,
+       -89.9999999999999432
+      ]
+     ]
+    ],
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   }
+  }
+ ]
+}

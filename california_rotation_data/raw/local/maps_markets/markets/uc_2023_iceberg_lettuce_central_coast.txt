@@ -1,0 +1,917 @@
+=== PDF PAGE 1 ===
+1  
+FINAL 2023 Wrapped Iceberg Lettuce – Costs and Returns Study – Central Coast 
+ 
+University of California Agriculture and Natural Resources 
+UC Cooperative Extension 
+UC Davis Department of Agricultural and Resource Economics 
+ 
+2023 
+ 
+SAMPLE COSTS TO PRODUCE AND HARVEST 
+FILM WRAPPED ICEBERG LETTUCE 
+ 
+ 
+ 
+CENTRAL COAST REGION 
+Monterey, Santa Cruz, and San Benito Counties  
+ 
+Laura Tourte UC Cooperative Extension Farm Advisor Emeritus, Santa Cruz, Monterey, and San Benito Counties  
+Richard Smith       UC Cooperative Extension Farm Advisor Emeritus, Monterey, Santa Cruz, and San Benito Counties 
+Jeremy Murdock Staff Research Associate, UC Davis Agricultural and Resource Economics 
+Brittney Goodrich UC Cooperative Extension Specialist, UC Davis Agricultural and Resource Economics 
+ 
+With Contributions From 
+ 
+Michael Cahn UC Cooperative Extension Farm Advisor, Monterey, Santa Cruz, and San Benito Counties 
+Kirsten Pearsons UC Cooperative Extension Area IPM Advisor, Monterey, Santa Cruz, and San Benito Counties 
+Yu-Chen Wang UC Cooperative Extension Farm Advisor, Santa Cruz, Monterey, and San Benito Counties 
+ 
+ 
+Funding Source: This material is based on work supported by the U.S. Department of Agriculture under Cooperative Agreement 
+Number NR223A750001C010. Any opinions, findings, conclusions, or recommendations expressed in this publication are those   
+of the authors and do not necessarily reflect those of the U.S. Department of Agriculture. 
+ 
+
+=== PDF PAGE 2 ===
+2  
+FINAL 2023 Wrapped Iceberg Lettuce – Costs and Returns Study – Central Coast 
+University of California Agriculture and Natural Resources 
+UC Cooperative Extension 
+UC Davis Department of Agricultural and Resource Economics 
+ 
+SAMPLE COSTS TO PRODUCE AND HARVEST FILM WRAPPED ICEBERG LETTUCE - 2023  
+Central Coast - Monterey, Santa Cruz, and San Benito Counties 
+ 
+CONTENTS 
+INTRODUCTION………………………………………………………………………………………….. 2 
+ASSUMPTIONS…………………………………………………………………………………………….3  
+ Production Cultural Practices and Material Inputs…………………………….…………………………... 3  
+ Growing Costs……………………………………………………………………………………………... 6 
+ Labor, Interest, and Equipment…………………………………………………………………………......6 
+ Cash Overhead…………………………………………………………………………………………….. .7 
+ Non-Cash Overhead………………………………………………………………………………………... 8 
+REFERENCES……………………………………………………………………………………………..10 
+Table 1.  Costs Per Acre to Produce and Harvest Wrapped Iceberg Lettuce………………………………11 
+Table 2.  Material and Input Costs Per Acre to Produce and Harvest Wrapped Iceberg Lettuce……….. 13 
+Table 3.  Monthly Cash Costs per Acre to Produce and Harvest Wrapped Iceberg Lettuce…………….. 14 
+Table 4.  Ranging Analysis for Wrapped Iceberg Lettuce.………………………………………………...15 
+Table 5.  Whole Farm Annual Equipment, Investment, and Business Overhead Costs…………………... 16 
+Table 6.  Hourly Equipment Costs for Wrapped Iceberg Lettuce………………………………………… 17 
+ 
+Acknowledgements.  Appreciation is expressed to the Central Coast growers, shippers, input suppliers, 
+custom service operators, and other industry representatives who provided information, assistance, and 
+expertise for this study. 
+ 
+INTRODUCTION 
+ 
+The sample costs to produce and harvest film wrapped iceberg lettuce in the Central Coast Region – 
+Monterey, Santa Cruz, and San Benito Counties – are presented in this study.  The study is intended as a 
+guide only, and can be used to make production decisions, determine potential returns, prepare budgets and 
+evaluate production loans. The practices described are based on production procedures considered typical 
+for this crop and area but will not apply to every situation. Sample costs for labor, materials, equipment, 
+and custom services are based on current figures.  A blank column titled “Your Cost” is provided to enter 
+your actual costs on Tables 1 and 2.  
+ 
+The hypothetical farm operation, production practices, overhead, and calculations are described under 
+assumptions.  For additional information or explanation of calculations used in the study, call Jeremy 
+Murdock, Department of Agricultural and Resource Economics, University of California, Davis, (530) 752-
+4651 or the local UC Cooperative Extension office, https://ucanr.edu/About/Locations/. 
+ 
+Sample Cost of Production studies for many commodities are available and can be downloaded from the 
+website https://coststudies.ucdavis.edu.  Archived studies are also available on the website. 
+ 
+ 
+The University of California is an affirmative action/equal opportunity employer. 
+
+=== PDF PAGE 3 ===
+3  
+FINAL 2023 Wrapped Iceberg Lettuce – Costs and Returns Study – Central Coast 
+ASSUMPTIONS 
+The following assumptions refer to Tables 1 through 6 and pertain to sample costs to produce and harvest 
+wrapped iceberg lettuce for the Central Coast Region – Monterey, Santa Cruz, and San Benito Counties.  
+Sample costs are given for tractor, fuel, repairs, labor, materials, and custom services and are based on 
+current figures.  Costs per acre can vary considerably depending upon many variables including 
+individual grower practices vs custom services, production location and weather conditions, land rent 
+and taxes, soil type, water costs, pest pressures, material inputs, energy costs, and labor cost and 
+availability.  For example, lettuce produced in areas with heavy clay soils may have higher land 
+preparation costs per acre than areas with sandy soils.  Areas with sandy soils, in turn, will likely have 
+higher water use and irrigation costs per acre than areas with heavy clay soils.  Uncertainty about climate 
+change and the regulatory environment may also impact the costs and returns studied here.     
+ 
+The practices and costs used in this study may not be applicable to all situations or used in each production 
+year.  Individual growers may use this study as a template and modify it to more accurately reflect their 
+own situations.  Additional iceberg lettuce production information for California is available online from 
+the University of California Division of Agriculture and Natural Resources at: 
+http://anrcatalog.ucanr.edu/pdf/7215.pdf.  The use of trade names and cultural practices in this report 
+does not constitute an endorsement or recommendation by the University of California, nor is any 
+criticism implied by omission of other similar products or cultural practices. 
+ 
+Farm.  This study assumes a farm operation of 1,500 non-contiguous acres of rented land.  Roads and 
+buffer zones comprise roughly six percent of the acreage.  Iceberg lettuce is planted on 250 acres and 
+rotated with other lettuce and cool season vegetable crops to assist with pest management and soil fertility.  
+Cover crops, which also assist with soil fertility and water quality and nutrient management regulatory 
+programs, are included in crop rotations when calendars of operations and the economics of coastal 
+vegetable production allow.  Costs for a cover crop are not included in this study.  In some production areas 
+lettuce may also be rotated with strawberries, which may help with disease management.  Lettuce is planted 
+continuously from late December to mid-August along the Central Coast.  Monterey County has a host-free 
+period (December 7 through 21) for management of lettuce mosaic virus (LMV), during which time lettuce 
+may not be planted.  Typically, a farm can produce up to two vegetable crops per year on each field.  Costs 
+that affect both crops are allocated accordingly.  Land rents for row crops range from a low of $500 to a 
+high of $4,000 per acre per year in the area.  For this study, an annual rental rate of $3,200 per acre per year 
+is assumed, with $1,600 allocated to the lettuce crop.   
+ 
+Production Cultural Practices and Material Inputs 
+ 
+Land Preparation.  Prior to land preparation and to help determine fertilization practices, a total of 12 
+preplant soil samples per 250 acres are taken for analysis.  For this study land preparation begins in 
+November and December of the year preceding the lettuce planting and includes discing (four times), 
+subsoiling (twice), land and laser leveling (once each for every 2 crops).  The acreage is then chiseled (a 
+total of four times), disced (twice), and the beds are listed.  In January, the beds are cultivated (twice) with a 
+rolling cultivator (Lilliston), and then shaped with a power mulcher.  Though not included in this study, 
+some growers amend soils with compost during land preparation.  If compost is used, an estimated cost of 
+$170 per acre should be added to the total operating costs shown on Tables 1, 2 and 3, which reflects a 
+custom application rate of two tons per acre per crop each year.  This application rate is indicative of a soil 
+
+=== PDF PAGE 4 ===
+4  
+FINAL 2023 Wrapped Iceberg Lettuce – Costs and Returns Study – Central Coast 
+maintenance rather than the beginning of a soil building program; in the case of a beginning soil building 
+program compost application rates and costs would likely be considerably higher.            
+        
+Plant/Thin. Iceberg lettuce is direct-seeded using an 80-inch 5-row 3-bed precision air-planter.  Bed 
+preparation and precision planting is especially important when using automated technologies.  This study 
+assumes that lettuce is planted in January at the rate of 157,500 seeds per acre using a 2.5-inch in-row 
+spacing and then thinned to a 9-inch in-row spacing approximately 14 to 21 days after planting using an 
+automated thinner.  The custom application and material cost for this practice is estimated at $280 per acre.  
+Alternatively, some growers use contract or field labor to thin lettuce crops.    
+  
+Fertilizers.  Potassium sulfate is custom applied prior to planting at the rate of 150 pounds per acre.  At 
+planting, an anti-crustant (7-7-0-7) is custom applied at the rate of 30 gallons per acre, which supplies 22 
+pounds of nitrogen (N) to the crop.  During the custom automated thinning process a fertilizer is applied, 
+which supplies the equivalent of 30 pounds N per acre.  A liquid fertilizer (20-0-0-5) is injected into the 
+drip irrigation system once in late February and once in March for a total of 60 gallons per acre or 126 
+pounds N.  A total of 178 pounds of N per acre is applied during the season.  Fertilization practices and 
+materials will vary from grower to grower and location to location.  
+  
+Irrigation.  For this study, the estimated cost of pumped water is $282 per acre-foot or $23.50 per acre-
+inch. Water costs vary considerably in the area depending upon the water district or agency, delivery, 
+associated fees and taxes, and pumping variables and for 2023 were as high as $435 per acre-foot in the 
+area. A total of 4.5 acre-inches of water are applied through sprinklers during stand establishment and 
+thinning – 3.5 acre-inches during the first 6 to 10 days after planting and another 1 acre-inch during the 
+week prior to thinning. An additional 8.5 acre-inches are applied through the drip system during the 
+remainder of the growing season (February, March, and April) for a seasonal total of 13 acre-inches per 
+acre.  The cost for single use drip tape is estimated at $300 per acre.  Labor costs include time to set up and 
+monitor the sprinkler and drip irrigation systems for proper function.  Total water use will vary depending 
+upon factors such as irrigation method, soil type, weather, and the time of the year the crop is planted. 
+ 
+CropManage.  Growers may now take advantage of real-time recommendations for efficient water use and 
+nitrogen fertilizer applications by using UC ANR’s CropManage: https://cropmanage.ucanr.edu/.  
+CropManage, which is currently available at no cost to growers, may be especially helpful in decision-
+making, accurate documentation of material inputs, sustainable practices, and compliance with both state 
+and regional regulatory programs (refer Fertilizer and Irrigation Regulatory Programs section below).  
+Commercially available software programs may also be used.   
+ 
+Pest Management.  Information for specific pest management materials and the associated application 
+rates can be found in the UC Integrated Pest Management (IPM) Guidelines for Lettuce.  For more 
+information on pest identification, monitoring, and pest management materials, visit the UC IPM website 
+at: https://ipm.ucanr.edu/agriculture/lettuce/. Written recommendations are required for many commercially 
+applied pesticides and are made by licensed pest control advisers.  For information and pesticide use 
+permits, contact your local county Agricultural Commissioner’s office.    
+ 
+Pest Control Adviser/Certified Crop Adviser (PCA/CCA). A PCA/CCA monitors the field for insects, 
+diseases, irrigation, nutrition, and other production needs to determine the necessary management practices.  
+The cost for a PCA in this study is $39 per acre. 
+
+=== PDF PAGE 5 ===
+5  
+FINAL 2023 Wrapped Iceberg Lettuce – Costs and Returns Study – Central Coast 
+Weeds.  Weeds are managed using one banded (applied to 37.5 percent of the area) herbicide application 
+immediately after planting.  Material type will depend on the specific weed populations and time of year 
+planted.  The crop is cultivated once at the time of thinning, which is performed in conjunction with the 
+automated thinning operation.  A second cultivation occurs roughly two weeks after thinning.  The beds are 
+hand weeded and any remaining doubles are removed approximately three weeks after thinning, and then 
+weeded again prior to harvest when necessary.  Two hand weeding operations are included here at a cost of 
+$284 per acre.  Although not included in this study, many growers now include automated technologies in 
+their weed management programs.  An estimated cost of $200 per acre (as a custom service) should be 
+added to the operating costs shown on Tables 1, 2 and 3 if an automated weeding operation is used; the 
+hand weeding costs shown here may then be lower.  Costs for automated technologies will vary depending 
+upon weed populations, the number of passes needed per acre, and custom services vs in-house operations.  
+ 
+Insects/Diseases. Predominant insect pests include but are not limited to aphids and thrips.  Depending on 
+pest pressures, three to four pest management applications are typically used during the growing season. 
+Recently, Impatiens necrotic spot virus (INSV – a tospovirus) has become an important disease in Salinas 
+Valley lettuce production.  It is vectored by western flower thrips (Frankliniella occidentalis).  
+Management includes monitoring fields and removing weeds in and around lettuce plantings to reduce non-
+crop reservoirs of INSV and thrips.  The use of tolerant varieties can help manage the severity of this 
+disease.  The seed costs shown in this study will likely increase as a result of research that is underway to 
+breed resistance into lettuce varieties.  Soilborne diseases include wilts such as pythium (pathogen: Pythium 
+uncinulatum), fusarium (pathogen: Fusarium oxysporum f. sp. lactucae), and verticillium (pathogen: 
+Verticillium dahlia), plus the disease lettuce drop (pathogen: Sclerotinia minor), and foliar diseases such as 
+downy mildew (pathogen: Bremia lactucae).  All can cause substantial damage and crop loss in iceberg 
+lettuce production.  Control of soilborne diseases is mostly achieved by selecting resistant/tolerant seed 
+varieties at planting.  If disease control is necessary, two to five fungicide applications are used during the 
+season.  Because of the variation in insect and disease pressures from year to year and location to location, 
+costs for a generic pest management program are included in this study. 
+ 
+Harvest.  Iceberg lettuce is hand harvested and field packed at crop maturity. The exact timing depends on 
+the variety and time of year planted.  Cool season plantings may require up to 100 days to mature, but as 
+the season warms, time to maturity decreases.  For this study, a harvest and field packing cost of $8.00 per 
+carton is assumed.  A carton contains 24 film wrapped heads weighing 42 pounds.  Transportation costs 
+vary depending on the distance to market and are included in the above costs.  Cooling and palletizing costs 
+an additional $1.70 per carton, which brings the total harvest cost to $9.70 per carton.  In addition, a sales 
+and marketing cost of $1.35 per carton is included in this study; this cost may vary from grower to grower.  
+ 
+Yield.  Yield is estimated to range from 600 to 1,200 cartons per acre, with 900 cartons the representative 
+yield used in this study.  The 24 film wrapped head 42-pound carton is only one of many different packs 
+that may be used for iceberg lettuce.  Actual yield per acre depends upon many variables, including 
+production location, conditions, and pack type and weight.   
+ 
+Returns.  Price for iceberg lettuce is estimated to range from $12 to over $30 per (24 wrapped head 42-
+pound) carton with a representative price of $21 per carton in this study.  This range reflects the Salinas-
+Watsonville 2020 to 2022 3-year weekly shipping point averages of the USDA Agricultural Marketing 
+Service.  Table 4 provides more information on yield and price ranges, including sample net returns above  
+  
+
+=== PDF PAGE 6 ===
+6  
+FINAL 2023 Wrapped Iceberg Lettuce – Costs and Returns Study – Central Coast 
+indicated costs.  It is important to note that lettuce prices are influenced by market conditions and 
+that lettuce is also sold on contract, which may impact the prices and net returns that are studied 
+here in complex ways.   
+ 
+Growing Costs.  Some growers along the Central Coast of California prefer to focus on growing costs and 
+therefore separate total harvest costs from total cash costs, and equipment depreciation and replacement 
+costs.  For this study, growing costs are noted at the bottom of Table 1 and are calculated by subtracting 
+total harvest costs from total costs.  Growing costs in this region vary considerably and depend on 
+grower specific production practices, water and other input costs, and land rent and taxes. 
+ 
+Labor, Interest, and Equipment 
+ 
+Labor.  The labor rates used in this study are $29.60 per hour for machine operators, $25.00 for irrigators 
+and $23.68 for general labor, which includes overhead of 48 percent. The basic hourly wages are $20.00 for 
+machine operators, $16.90 for irrigators and $16.00 for general labor. The overhead includes the 
+employers’ share of federal and California state payroll taxes, workers' compensation insurance for truck 
+crops (code 0172), and a percentage for other possible benefits. Workers’ compensation insurance costs 
+will vary among growers, but for this study the cost is based upon the average industry rate as of January 1, 
+2023. Labor for operations involving machinery is 20 percent higher than the operation time given in Table 
+1 to account for the extra labor involved in equipment set up, moving, maintenance, work breaks, and field 
+repair. 
+ 
+California Minimum Wage and Overtime Rules. In 2016 new minimum wage and overtime laws were 
+passed in California that were gradually phased in over time.  For 2023 minimum wage increased to 
+$15.50 per hour, a 3.3 percent increase over the 2022 minimum wage.  Many growers may already pay 
+wages that are higher than the state’s legal requirement, as is shown in this study.  In 2022 the new 
+overtime law completed its multi-year phase in period for farming operations that employ 26 or more 
+employees.  Overtime wages are now required for work over 8 hours per day or 40 hours per week.   
+ 
+Federal H-2A Program.  Growers may choose to use H-2A guestworker visa program to employ workers.  
+Rates of pay are determined by the highest applicable wage rates that are in effect at the time work is 
+performed: the adverse effect wage rate (AEWR), the applicable prevailing wage, the agreed-upon 
+collective bargaining rate, or the Federal or State statutory minimum wage (US Department of Labor).  
+Growers also need to comply with other requirements associated with the H-2A program, including those 
+for housing, meals, and transportation.  Use of this program may result in labor costs that are higher than 
+those shown in this study but may be necessary in order to assure a reliable supply of labor. 
+ 
+Interest on Operating Capital.  Interest on operating capital is based on cash operating costs and is 
+calculated monthly until harvest at a nominal rate of 7.0 percent per year. A nominal interest rate is the 
+typical market cost of borrowed funds.  The interest cost of post-harvest operations is discounted back to 
+the last harvest month using a negative interest charge. The rate will vary depending upon various factors, 
+but the rate in this study is considered a typical lending rate by a farm lending agency as of January 2023.  
+ 
+Equipment Operating Costs.  Repair costs are based on purchase price, annual hours of use, total hours of 
+life, and repair coefficients formulated by American Society of Agricultural and Biological Engineers 
+(ASABE). Fuel and lubrication costs are also determined by ASABE equations based on maximum power 
+takeoff (PTO) horsepower, and fuel type. Prices for on-farm delivery of red dye diesel and gasoline are 
+$5.40 (excludes excise taxes) and $4.50 per gallon, respectively. The cost includes a 2 percent local sales 
+
+=== PDF PAGE 7 ===
+7  
+FINAL 2023 Wrapped Iceberg Lettuce – Costs and Returns Study – Central Coast 
+tax on diesel fuel and 8 percent sales tax on gasoline. Gasoline costs also include federal and state excise 
+taxes, which are refundable for on-farm use when filing income taxes. The fuel, lube, and repair cost per 
+acre for each operation in Table 1 is determined by multiplying the total hourly operating cost in Table 6 
+for each piece of equipment used for the selected operation by the hours per acre. Tractor time is 10 percent 
+higher than implement time for a given operation to account for setup, travel, and down time. 
+ 
+Pickup Truck.  This study includes a cost for use of a pickup truck for business purposes.  
+ 
+Risk.  The risks associated with producing and marketing an iceberg lettuce crop are considered high. 
+While this study makes every effort to model a production system based on typical, real world practices, it 
+cannot fully represent the production, financial, market, legal, and human resource risks that ultimately 
+affect the profitability and economic viability of fresh market vegetable production.  The market for fresh 
+vegetables is volatile for both price and quantity. A market channel should be determined before any lettuce 
+production begins. 
+ 
+Cash Overhead 
+ 
+Cash overhead consists of various cash expenses paid out during the year that are assigned to the whole 
+farm and not to a particular operation.  Because overhead costs are farm and ranch specific, costs will vary 
+among growers.  In most cases costs are apportioned based on the number of crops produced per acre per 
+year. 
+ 
+Property Taxes. Counties charge a base property tax rate of 1 percent on the assessed value of the 
+property. In some counties, special assessment districts exist and charge additional taxes on property 
+including equipment, buildings, and improvements. For this study, county taxes are calculated as 1 percent 
+of the average value of the property. Average value equals new cost plus salvage value divided by two on a 
+per acre basis. 
+ 
+Insurance. Insurance for farm investments varies depending upon the assets included and the amount of 
+coverage.  Property insurance provides coverage for property loss and is charged at 0.710 percent of the 
+average value of the assets over their useful life. Liability insurance covers accidents and other potential 
+farm related liabilities and costs $2 per acre for each crop. 
+ 
+Office Expense. Annual office and business expenses are estimated at $750 per acre. Because two crops 
+are produced per acre each year, half of that cost, or $375 is assumed for the lettuce crop studied here.  
+Costs include, but are not limited to, a variety of administration and office expenses, a ranch supervisor, 
+telephones, supplies, utilities, bookkeeping, and accounting.  Some growers have one or more additional 
+sub-foremen for various aspects of their operations.  Costs for additional foremen are not included here.   
+ 
+Land Rent. Land rents in Monterey, Santa Cruz, and San Benito Counties range from $500 to $4,000 per 
+acre per year.   In this study land rent is assumed to be $3,200 per acre per year, with $1,600 allocated to the 
+lettuce crop.  However, rents vary substantially in the area.  Land rent includes developed wells and 
+irrigation system.  In general, growers in the region are responsible for the portion above ground such as the 
+pump, and the landowner is responsible for what is below ground, such as the well running dry. 
+ 
+
+=== PDF PAGE 8 ===
+8  
+FINAL 2023 Wrapped Iceberg Lettuce – Costs and Returns Study – Central Coast 
+Food Safety and Regulatory Programs. To ensure the safety of fresh products, accommodate buyer 
+requests, and comply with regulatory programs such as those for water quality and nutrient management, 
+growers often have in-house departments and/or staff specially dedicated to supervision and management of 
+these programs. Associated costs will vary depending upon the farm size and complexity of operations.   
+ 
+Food Safety.  An estimated cost of $112 per acre per year or $56 per acre per crop is included in this study.  
+It includes participation in a third party (independent) audit of food safety practices.   
+ 
+Fertilizer and Irrigation Regulatory Programs.  This study includes a cost of $150 per acre per year or $75 
+per acre per crop for compliance and fees associated with current water quality and nutrient management 
+regulatory programs: the State’s Sustainable Groundwater Management Act (SGMA) and the Central 
+Coast’s Irrigated Lands Regulatory Program (ILRP).   The estimated costs are for two full time employees: 
+a field technician to assist with sampling, data collection and on-farm problem-solving and an in-house 
+supervisory program manager/analyst to assist with recordkeeping, data analysis, decision-making, 
+reporting, and administration.  Fees associated with both SGMA’s local Groundwater Sustainability 
+Agency (GSA) and participation in a third-party entity to comply with ILRP’s Central Coast (Region 3) 
+Agricultural Order (Ag Order 4.0) are also estimated and included in the cost.       
+ 
+Management Salaries. Wages for other managers are not included as a cash cost. Any returns above total 
+costs are considered a return to management. 
+ 
+Field Sanitation. Sanitation services for the farm provide portable toilets and washbasins to the farm at a 
+cost of $15 per acre. The cost includes two double toilets with washbasins, delivery and pickup, and 12 
+months of weekly servicing. Costs also include soap or other suitable cleansing agent, and single-use 
+towels. Separate potable water and single-use drinking cups are also supplied. Growers using contract labor 
+may not have a separate sanitation cost. 
+ 
+Investment Repair. Repair costs are the annual maintenance costs for investments in non-cash overhead. 
+For this study, annual repairs are calculated as 2 percent of the new cost, with the exception of drip system 
+repairs, which are 5 percent of the total cost and include materials & labor. 
+ 
+Non-Cash Overhead 
+ 
+Capital Recovery Costs. Capital recovery cost is the annual depreciation and interest costs for a capital 
+investment. It is the amount of money required each year to recover the difference between the purchase 
+price and salvage value (unrecovered capital).  It is equivalent to the annual payment on a loan for the 
+investment with the down payment equal to the discounted salvage value. This is a more complex method 
+of calculating ownership costs than straight-line depreciation and opportunity costs, but more accurately 
+represents the annual costs of ownership, because it takes the time value of money into account (Boehlje 
+and Eidman). The calculation for the annual capital recovery costs is: ((Purchase Price – Salvage Value) X 
+Capital Recovery Factor) + (Salvage Value X Interest Rate). 
+ 
+Salvage Value.  Salvage value is an estimate of the remaining value of an investment at the end of its useful 
+life.  For farm machinery (tractors and implements), the remaining value is a percentage of the new cost of 
+the investment (Boehlje and Eidman).  The percent remaining value is calculated from equations developed 
+
+=== PDF PAGE 9 ===
+9  
+FINAL 2023 Wrapped Iceberg Lettuce – Costs and Returns Study – Central Coast 
+by the American Society of Agricultural and Biological Engineers (ASABE) based on equipment type and 
+years of life.  The life in years is estimated by dividing the wear out life, as given by ASABE, by the annual 
+hours of use in this operation. For other investments including irrigation systems, buildings, and 
+miscellaneous equipment, the value at the end of its useful life is zero. The salvage value for land is equal 
+to the purchase price because land does not depreciate. The purchase price and salvage value for equipment 
+and investments are shown in Table 5. 
+ 
+Capital Recovery Factor. Capital recovery factor is the amortization factor or annual payment whose 
+present value at compound interest is 1. The amortization factor is a table value that corresponds to the 
+interest rate used and the life of the machine. 
+ 
+Interest Rate.  An interest rate of 8.50 percent is used to calculate capital recovery. The rate will vary 
+depending upon loan amount and other lending agency conditions but is the basic suggested rate by a farm 
+lending agency as of January 2023. 
+ 
+Building. The metal building or buildings are on a cement slab and comprise 2,400 square feet. 
+ 
+Tools. This includes shop and field tools used on the farm. The value is estimated and does not represent 
+any specific inventory. 
+ 
+Fuel Tanks. Two 1,000-gallon fuel tanks, one for diesel and one for gasoline, are on metal stands. The 
+tanks are set up in a cement containment pad that meets federal, state, and county regulations. 
+ 
+Irrigation System/Trailers.  The irrigation system is maintained by the landowner and assumed to be 
+included in the land rental cost.  The grower invests in and owns sprinkler pipe and drip system materials 
+sufficient for irrigation needs.  The grower also owns trailers and equipment needed for moving pipe and 
+other irrigation supplies to and from the field.  Irrigation water is pumped from a well and delivered to the 
+fields through an underground pipe system.  Main lines above ground are connected to the underground 
+system to deliver water for the sprinkler and drip irrigations.  In this study, water is pumped from a depth of 
+120 feet in a 500-foot well and the grower pays the pumping cost.  
+ 
+Equipment. Farm equipment is purchased when it is both new and used.  This study shows the current 
+purchase price for new equipment, which is then adjusted to 70 percent to reflect a mix of new and used 
+equipment.  Seventy percent indicates a relatively high percentage of new equipment because of machinery 
+upgrades that are currently necessary to meet air quality requirements.  Annual ownership costs for 
+equipment and other investments are shown in Table 5. Equipment costs are composed of three parts: non-
+cash overhead, cash overhead, and operating costs. Both of the overhead factors have been discussed in 
+previous sections. The operating costs consist of repairs, fuel, and lubrication and are discussed under 
+operating costs. 
+ 
+Table Values. Due to rounding, the totals may be slightly different from the sum of the components.   
+
+=== PDF PAGE 10 ===
+10  
+FINAL 2023 Wrapped Iceberg Lettuce – Costs and Returns Study – Central Coast 
+REFERENCES 
+Agricultural Commissioner. Monterey County Crop Reports. 2020-2022. Salinas, CA. 
+https://www.co.monterey.ca.us/government/departments-a-h/agricultural-commissioner/forms-
+publications/crop-reports-economic-contributions. 
+ 
+American Society of Agricultural and Biological Engineers. (ASABE). July, 2015. American Society of 
+Agricultural Engineers Standards Yearbook. Russell H. Hahn and Evelyn E. Rosentreter (ed.). St. Joseph, 
+MO. 41st edition, ANSI/ASAE S279_17.PDF. hq@asabe.org. 
+ 
+Boehlje, Michael D., and Vernon R. Eidman. 1984. Farm Management. John Wiley and Sons. New York, 
+New York. 
+ 
+California Chapter of the American Society of Farm Managers and Rural Appraisers. 2023 Trends in 
+Agricultural Land & Lease Values. American Society of Farm Managers and Rural Appraisers, 
+Woodbridge, CA. www.calasfmra.com. 
+ 
+California Department of Insurance. 2023. California Workers’ Compensation Rating Data for Selected 
+Agricultural Classifications as of January 2023. California Department of Insurance, Rate Regulation 
+Branch. 
+  
+California Department of Tax Fee Administration.  Sales Tax for Fuels.  https://www.cdtfa.ca.gov/taxes-and-
+fees/sales-tax-rates-for-fuels.htm#motor. 
+ 
+California Water Boards / State Water Resources Control Board.  The Sustainable Groundwater 
+Management Act (SGMA).  https://www.waterboards.ca.gov/water_issues/programs/gmp/index.html. The 
+Irrigated Lands Regulatory Program. https://www.waterboards.ca.gov/water_issues/programs/agriculture/. 
+ 
+U.S. Energy Information Administration. Weekly Retail Gasoline and Diesel Prices.      
+https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_sca_w.htm. 
+ 
+Tourte, Laura, Richard F. Smith, Jeremy Murdock, and Daniel A. Sumner.  2017. Sample Costs to 
+Produce and Harvest Iceberg Lettuce, Central Coast Region. University of California Agriculture and 
+Natural Resources, Cooperative Extension, Agricultural Issues Center, UC Davis Department of 
+Agricultural and Resource Economics. https://coststudies.ucdavis.edu. 
+ 
+University of California Statewide Integrated Pest Management Program.  UC IPM Pest Management 
+Guidelines: Lettuce. UC Agriculture and Natural Resources (ANR) Publication 3450. 
+https://ipm.ucanr.edu/agriculture/lettuce/. 
+ 
+United States Department of Agriculture.  Agricultural Market Service Market News.  
+https://www.ams.usda.gov/market-news/custom-reports. 
+ 
+United States Department of Labor.  Occupational Outlook Handbook. 
+https://www.bls.gov/ooh/management/farmers-ranchers-and-other-agricultural-managers.htm. 
+https://www.bls.gov/ooh/life-physical-and-social-science/agricultural-and-food-science-technicians.htm. 
+  
+
+=== PDF PAGE 11 ===
+11  
+FINAL 2023 Wrapped Iceberg Lettuce – Costs and Returns Study – Central Coast 
+ 
+UC COOPERATIVE EXTENSION – UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+ 
+TABLE 1. COSTS PER ACRE TO PRODUCE AND HARVEST WRAPPED ICEBERG LETTUCE 
+ 
+Operation  Cash and Labor Costs per Acre  
+ 
+Operation 
+Time 
+(Hrs/A) 
+Labor 
+Cost 
+Fuel Lube 
+&Repairs 
+Material 
+Cost 
+Custom/ 
+Rent 
+Total 
+Cost 
+Your 
+Cost 
+Cultural:         
+Soil Samples (12 per 250 Ac) 0.00 0 0 0 0 9 9  
+Disc & Roll 6X 1.73 61 122 66 0 0 249  
+Sub-Soil 2X 1.02 36 72 39 0 0 148  
+Land Plane (1X per 2 Crops) 0.18 7 13 5 0 0 25  
+Laser Level (1X per 2 Crops) 0.00 0 0 0 0 93 93  
+Chisel 4X 1.42 50 100 53 0 0 204  
+List Beds 3-Row 0.00 0 0 0 0 26 26  
+Cultivate-Lilliston 2X 0.40 14 17 9 0 0 40  
+Power Mulch/Shape Beds 0.48 17 25 8 0 0 50  
+Fertilizer (Potassium Sulfate) 0.00 0 0 0 137 30 167  
+Plant/Fertilize (7-7-0-7) 0.57 20 30 21 386 0 457  
+Herbicide Application 0.00 0 0 0 80 30 110  
+Sprinkler Setup/Irrigate-Establish 5.00 125 0 0 106 0 231  
+Thin Stand-Automated/Fertilize 0.00 0 0 0 0 280 280  
+Disease/Insect Management 0.00 0 0 0 850 140 990  
+Cultivate-Break Bottoms 0.32 11 13 6 0 0 31  
+Hand Weed 2X 12.00 284 0 0 0 0 284  
+Drip Setup/Irrigate-Season 1.32 247 68 28 500 0 843  
+Fertigate (20-0-0-5) 2X 0.00 0 0 0 151 0 151  
+Vertebrate Pest Management 0.88 20 0 0 0 0 20  
+PCA/CCA Fee 0.00 0 0 0 0 39 39  
+Pickup Truck Use 1.00 36 9 6 0 0 50  
+TOTAL CULTURAL COSTS 26.33 929 470 241 2,209 646 4,495  
+Harvest:         
+Harvest/Field Pack 0.00 0 0 0 0 7,200 7,200  
+Cool/Palletize 0.00 0 0 0 0 1,530 1,530  
+Marketing/Sales Fee 0.00 0 0 0 0 1,215 1,215  
+TOTAL HARVEST COSTS 0.00 0 0 0 0 9,945 9,945  
+Interest on Operating Capital at 7.00%       144  
+TOTAL OPERATING COSTS/ACRE 26 929 470 241 2,209 10,591 14,584  
+
+=== PDF PAGE 12 ===
+12  
+FINAL 2023 Wrapped Iceberg Lettuce – Costs and Returns Study – Central Coast 
+UC COOPERATIVE EXTENSION – UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+ 
+TABLE 1. CONTINUED 
+ 
+Operation    Cash and Labor Costs per Acre    
+Time Labor Fuel  Lube Material Custom/ Total Your 
+Operation (Hrs/A) Cost &Repairs Cost Rent Cost Cost 
+CASH OVERHEAD: 
+Land Rent 1,600 
+Liability Insurance 2 
+Food Safety Program 56 
+Water/Nutrient Management Programs 75 
+Office Expense 375 
+Field Sanitation 15 
+Property Taxes 11 
+Property Insurance 1 
+Investment Repairs 33 
+TOTAL CASH OVERHEAD COSTS/ACRE 2,168 
+ 
+TOTAL CASH COSTS/ACRE 16,752 
+NON-CASH OVERHEAD: Per Producing  Annual Cost 
+Acre Capital Recovery 
+Building 2400sqft 64  7 7 
+Fuel Tanks Overhead 7  1 1 
+Shop Tools 13  1 1 
+Drip System 228  35 35 
+Sprinkler System 247  24 24 
+Sprinkler Pipe 759  68 68 
+Equipment 2,021  315 315 
+TOTAL NON-CASH OVERHEAD COSTS 3,340  450 450 
+TOTAL COSTS/ACRE    17,203 
+Total Costs per Acre – Harvest Costs per Acre = Growing Costs per Acre* 
+ 
+$17,203 - $9,945 = $7,258 
+ 
+* Growing costs can vary considerably in this region and depend on grower specific production practices, 
+water and other input costs, and land rent and taxes. 
+ 
+Example: Potential Additional Growing Costs per Acre** 
+ 
+Compost (Maintenance) Application = $170 
+Automated Weed Management (One Pass) = $200 
+ 
+** These custom services are sometimes used by area growers but are excluded from the costs studied here. 
+ For more detailed information refer to the narrative section. 
+ 
+ 
+
+=== PDF PAGE 13 ===
+13 
+ 
+FINAL 2023 Wrapped Iceberg Lettuce – Costs and Returns Study – Central Coast 
+UC COOPERATIVE EXTENSION – UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+ 
+ 
+      TABLE 2. COSTS AND RETURNS PER ACRE TO PRODUCE AND HARVEST WRAPPED ICEBERG LETTUCE 
+ 
+ Quantity/ Acre  Unit Price or Cost/Unit Value or Cost/Acre Your Cost 
+GROSS RETURNS 
+Wrapped Iceberg Lettuce 
+ 
+900 
+ 
+Carton 
+ 
+21.00 
+ 
+18,900 
+ 
+TOTAL GROSS RETURNS 900 Carton  18,900  
+OPERATING COSTS      
+Custom:    10,591  
+Soil Analysis 0.05 Acre 170.00 9  Laser Level 0.50 Acre 185.00 93  List beds 3-Row 80" 1.00 Acre 26.00 26  Ground Application 2.00 Acre 30.00 60  Plant Thinning-Automated 1.00 Acre 280.00 280  Air Application 4.00 Acre 35.00 140  Harvest-Field Pack 900.00 Carton 8.00 7,200  Harvest-Cool/Palletizing 900.00 Carton 1.70 1,530  Marketing & Sales Fee 900.00 Carton 1.35 1,215  PCA/CCA 1.00 Acre 39.00 39  Fertilizer:    359  Potassium Sulfate 150.00 Lb 0.91 137  7-7-0-7 30.00 Gal 2.36 71  20-0-0-5 60.00 Gal 2.52 151  Seed:    315  Seed- Head Lettuce 157.50 Thou 2.00 315  Herbicide:    80  Herbicide Material Cost/Ac*    80  Irrigation:    606  Water-Central Coast 13.00 AcIn 23.50 306  Single Use Drip Tape 1.00 Acre 300.00 300  Insecticide:    419  Insecticide Material Cost/Ac*    419  Fungicide:    431  Fungicide Material Cost/Ac*    431  Labor    929  Equipment Operator Labor 10.14 hrs 29.60 300  Irrigation Labor 13.00 hrs 25.00 325  Non-Machine Labor 12.88 hrs 23.68 304  Machinery    710  Fuel-Gas 2.00 gal 4.50 9  Fuel-Diesel 85.29 gal 5.40 461  Lube    70  Machinery Repair    170  Interest on Operating Capital @ 7.00%    144  
+TOTAL OPERATING COSTS/ACRE    14,584  
+TOTAL OPERATING COSTS/CARTON    16  
+* Pest management programs vary depending on annual 
+   production conditions and pest pressure. 
+     
+
+=== PDF PAGE 14 ===
+14  
+FINAL 2023 Wrapped Iceberg Lettuce – Costs and Returns Study – Central Coast 
+UC COOPERATIVE EXTENSION – UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+ 
+TABLE 3. MONTHLY COSTS PER ACRE TO PRODUCE AND HARVEST WRAPPED ICEBERG LETTUCE 
+ 
+ NOV DEC JAN FEB MAR APR Total 
+22 22 23 23 23 23  
+Cultural:                             
+Soil Samples (12 per 250 Ac) 
+ 
+9 
+      
+9 
+Disc & Roll 6X 166 83     249 Sub-Soil 2X 148      148 Land Plane (1X per 2 Crops) 25      25 Laser Level (1X per 2 Crops) 93      93 Chisel 4X  204     204 List Beds 3-Row  26     26 Cultivate-Lilliston 2X   40    40 Power Mulch/Shape Beds   50    50 Fertilizer (Potassium Sulfate)   167    167 Plant/Fertilize (7-7-0-7)   457    457 Herbicide Application   110    110 Sprinkler Setup/Irrigate-Establish   157 74   231 Thin Stand-Automated/Fertilize    280   280 Disease/Insect Management    495 248 248 990 Cultivate-Break Bottoms    31   31 Hand Weed 2X    142  142 284 Drip Setup/Irrigate-Season    489 146 208 843 Fertigate (20-0-0-5) 2X    76 76  151 Vertebrate Pest Management     20  20 PCA/CCA Fee 7 7 7 7 7 7 39 
+Pickup Truck Use 8 8 8 8 8 8 50 
+TOTAL CULTURAL COSTS 455 328 995 1,600 504 613 4,495 
+Harvest: 
+Harvest/Field Pack 
+      
+7,200 
+ 
+7,200 
+Cool/Palletize      1,530 1,530 Marketing/Sales Fee      1,215 1,215 
+TOTAL HARVEST COSTS 0 0 0 0 0 9,945 9,945 
+Interest on Operating Capital @7.00% 3 5 10 20 23 84 144 
+TOTAL OPERATING COSTS/ACRE 457 332 1,006 1,620 526 10,642 14,584 
+CASH OVERHEAD 
+Land Rent 
+      
+1,600 
+ 
+1,600 
+Liability Insurance      2 2 Food Safety Program      56 56 Water/Nutrient Management Programs      75 75 Office Expense 63 63 63 63 63 63 375 
+Field Sanitation 3 3 3 3 3 3 15 
+Property Taxes    6   11 Property Insurance    0   1 Investment Repairs 6 6 6 6 6 6 33 
+TOTAL CASH OVERHEAD COSTS 71 71 71 77 71 1,804 2,168 
+TOTAL CASH COSTS/ACRE 528 403 1,076 1,697 597 12,446 16,752 
+
+=== PDF PAGE 15 ===
+15  
+FINAL 2023 Wrapped Iceberg Lettuce – Costs and Returns Study – Central Coast 
+UC COOPERATIVE EXTENSION – UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+ 
+TABLE 4. RANGING ANALYSIS 
+ 
+ 
+COSTS PER ACRE AND PER CARTON AT VARYING YIELDS TO PRODUCE AND HARVEST WRAPPED ICEBERG LETTUCE 
+ 
+  YIELD (CARTON)  
+ 
+ 600 700 800 900 1,000 1,100 1,200 
+OPERATING COSTS/ACRE: 
+Cultural 
+ 
+4,495 
+ 
+4,495 
+ 
+4,495 
+ 
+4,495 
+ 
+4,495 
+ 
+4,495 
+ 
+4,495 
+Harvest 6,630 7,735 8,840 9,945 11,050 12,155 13,260 
+Interest on Operating Capital @ 7.00% 125 131 138 144 151 157 164 
+TOTAL OPERATING COSTS/ACRE 11,250 12,361 13,473 14,584 15,696 16,807 17,918 
+TOTAL OPERATING COSTS/CARTON 18.75 17.66 16.84 16.20 15.70 15.28 14.93 
+CASH OVERHEAD COSTS/ACRE 2,168 2,168 2,168 2,168 2,168 2,168 2,168 
+TOTAL CASH COSTS/ACRE 13,418 14,529 15,641 16,752 17,864 18,975 20,086 
+TOTAL CASH COSTS/CARTON 22.36 20.76 19.55 18.61 17.86 17.25 16.74 
+NON-CASH OVERHEAD COSTS/ACRE 450 450 450 450 450 450 450 
+TOTAL COSTS/ACRE 13,868 14,979 16,091 17,202 18,314 19,425 20,536 
+TOTAL COSTS/CARTON 23.00 21.00 20.00 19.00 18.00 18.00 17.00 
+Net Return Per Acre Above Operating Costs For Iceberg Lettuce 
+   PRICE ($/carton)   YIELD (carton/acre)  
+ 
+Wrapped Iceberg Lettuce  600 700 800 900 1000 1100 1200 
+ 
+12.00 
+  
+-4,050 
+ 
+-3,961 
+ 
+-3,873 
+ 
+-3,784 
+ 
+-3,696 
+ 
+-3,607 
+ 
+-3,518 
+15.00  -2,250 -1,861 -1,473 -1,084 -696 -307 82 
+18.00  -450 239 927 1,616 2,304 2,993 3,682 
+21.00  1,350 2,339 3,327 4,316 5,304 6,293 7,282 
+24.00  3,150 4,439 5,727 7,016 8,304 9,593 10,882 
+27.00  4,950 6,539 8,127 9,716 11,304 12,893 14,482 
+30.00  6,750 8,639 10,527 12,416 14,304 16,193 18,082 
+Net Return Per Acre Above Cash Costs For Iceberg Lettuce 
+   PRICE ($/carton)   YIELD (carton/acre)  
+ 
+Wrapped Iceberg Lettuce  600 700 800 900 1000 1100 1200 
+ 
+12.00 
+  
+-6,230 
+ 
+-6,141 
+ 
+-6,053 
+ 
+-5,964 
+ 
+-5,876 
+ 
+-5,787 
+ 
+-5,698 
+15.00  -4,430 -4,041 -3,653 -3,264 -2,876 -2,487 -2,098 
+18.00  -2,630 -1,941 -1,253 -564 124 813 1,502 
+21.00  -830 159 1,147 2,136 3,124 4,113 5,102 
+24.00  970 2,259 3,547 4,836 6,124 7,413 8,702 
+27.00  2,770 4,359 5,947 7,536 9,124 10,713 12,302 
+30.00  4,570 6,459 8,347 10,236 12,124 14,013 15,902 
+ 
+Net Return Per Acre Above Total Costs For Iceberg Lettuce 
+   PRICE ($/carton)   YIELD (carton/acre)  
+ 
+Wrapped Iceberg Lettuce  600 700 800 900 1000 1100 1200 
+ 
+12.00 
+  
+-6,680 
+ 
+-6,591 
+ 
+-6,503 
+ 
+-6,414 
+ 
+-6,326 
+ 
+-6,237 
+ 
+-6,149 
+15.00  -4,880 -4,491 -4,103 -3,714 -3,326 -2,937 -2,549 
+18.00  -3,080 -2,391 -1,703 -1,014 -326 363 1,051 
+21.00  -1,280 -291 697 1,686 2,674 3,663 4,651 
+24.00  520 1,809 3,097 4,386 5,674 6,963 8,251 
+27.00  2,320 3,909 5,497 7,086 8,674 10,263 11,851 
+30.00  4,120 6,009 7,897 9,786 11,674 13,563 15,451 
+
+=== PDF PAGE 16 ===
+16  
+FINAL 2023 Wrapped Iceberg Lettuce – Costs and Returns Study – Central Coast 
+UC COOPERATIVE EXTENSION – UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+ 
+TABLE 5. WHOLE FARM ANNUAL EQUIPMENT, INVESTMENT, AND BUSINESS OVERHEAD FOR WRAPPED ICEBERG LETTUCE 
+ 
+ 
+ANNUAL EQUIPMENT COSTS 
+ 
+  Cash Overhead  
+ 
+Yr 
+ 
+Description 
+ 
+Price 
+Yrs 
+Life 
+Salvage 
+Value 
+Capital 
+Recovery 
+Insur- 
+ance 
+ 
+Taxes 
+ 
+Total 
+23 205HP Crawler 350,000 10 103,384 46,374 161 2,267 48,802 
+23 Disc - Offset 25' 58,520 4 21,539 13,121 28 400 13,549 
+23 Subsoiler - 16' 50,900 5 16,580 10,119 24 337 10,480 
+23 Triplane - 16' 45,600 10 8,064 6,406 19 268 6,694 
+23 Chisel - Heavy 26' 61,460 5 20,020 12,218 29 407 12,654 
+23 Ring Roller-Heavy 18" 18,660 4 6,868 4,184 9 128 4,320 
+23 Lilliston-Rolling 3-Row 21,600 10 3,820 3,035 9 127 3,171 
+23 Bed Shaper 3-Row 53,290 15 5,457 6,224 21 294 6,538 
+23 150HP4WD Tractor 225,000 10 66,461 29,812 103 1,457 31,372 
+23 Row crop planter 65,860 10 11,647 9,252 28 388 9,668 
+23 Cultivator 3-Row 11,400 10 2,016 1,602 5 67 1,673 
+23 Drip Tape Laying Machine 3-Row 19,340 10 3,420 2,717 8 114 2,839 
+23 Pickup 3/4 Ton 50,000 5 22,409 8,906 26 362 9,294 
+23 #1 Spray Boom 20' 3,480 6 1,003 629 2 22 653 
+23 Ring-roller 25' 34,800 4 12,809 7,802 17 238 8,057 
+23 Drip Tape Extraction Sled 36,000 5 11,727 7,157 17 239 7,412 
+23 120HP2WD Tractor 144,000 10 42,535 19,080 66 933 20,078 
+23 Fertilizer Bar 20' 15,670 15 1,605 1,830 6 86 1,923 
+23 #2 Saddle Tanks 300gal 1,990 6 574 360 1 13 374 
+ TOTAL 1,267,570 - 361,938 190,826 578 8,148 199,552 
+ 70% of New Cost* 887,299 - 253,356 133,578 405 5,703 139,686 
+*Used to reflect a mix of new and used equipment 
+ 
+ANNUAL INVESTMENT COSTS 
+ 
+  Cash Overhead  
+ 
+Description 
+ 
+Price 
+Yrs 
+Life 
+Salvage 
+Value 
+Capital 
+Recovery 
+Insur- 
+ance 
+ 
+Taxes 
+ 
+Repairs 
+ 
+Total 
+INVESTMENT         
+Building 2400sqft 96,000 20 0 10,144 34 480 1,920 12,578 
+Fuel Tanks Overhead 10,975 20 0 1,160 4 55 220 1,439 
+Shop Tools 20,000 20 2,000 2,072 8 110 400 2,590 
+Drip System 341,884 10 0 52,106 121 1,709 17,094 71,031 
+Sprinkler System 370,495 20 185,247 35,321 197 2,779 7,410 45,707 
+Sprinkler Pipe 1,139,000 30 569,500 101,400 607 8,543 22,780 133,329 
+TOTAL INVESTMENT 1,978,354 - 756,747 202,203 971 13,676 49,824 266,674 
+ 
+ 
+ANNUAL BUSINESS OVERHEAD COSTS 
+ 
+Units/  Price/ Total 
+Description Farm Unit  Unit  Cost  
+Land Rent 250 Acre 1600 400,000 
+Liability Insurance 250 Acre 2 500 
+Food Safety Program 250 Acre 56 14,000 
+Water/Nutrient Management Programs 250 Acre 75 18,750 
+Office Expense 250 Acre 375 93,750 
+Field Sanitation 250 Acre 15 3,750 
+
+=== PDF PAGE 17 ===
+17 
+ 
+FINAL 2023 Wrapped Iceberg Lettuce – Costs and Returns Study – Central Coast 
+UC COOPERATIVE EXTENSION – UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+TABLE 6. HOURLY EQUIPMENT COSTS FOR WRAPPED ICEBERG LETTUCE 
+ 
+Iceberg Lettuce 
+Hours 
+ 
+Total 
+Hours 
+ 
+ 
+Capital 
+ 
+   Cash Overhead 
+Insur- 
+ 
+   Operating   
+Lube&  Total 
+ 
+ 
+Total 
+Yr Description Used Used Recovery ance Taxes Repairs Fuel Oper. Costs/Hr. 
+23 205HP Crawler 1199 1600 20.29 0.07 0.99 19.83 64.25 84.08 105.43 
+23 Disc - Offset 25' 432 500 18.37 0.04 0.56 11.50 0.00 11.50 30.47 
+23 Subsoiler - 16' 256 400 17.71 0.04 0.59 13.64 0.00 13.64 31.98 
+23 Triplane - 16' 46 300 14.95 0.04 0.63 7.98 0.00 7.98 23.60 
+23 Chisel - Heavy 26' 355 400 21.38 0.05 0.71 15.38 0.00 15.38 37.52 
+23 Ring Roller-Heavy 18" 256 500 5.86 0.01 0.18 2.52 0.00 2.52 8.57 
+23 Lilliston-Rolling 3-Row 100 200 10.62 0.03 0.44 5.02 0.00 5.02 16.12 
+23 Bed Shaper 3-Row 121 400 10.89 0.04 0.51 1.37 0.00 1.37 12.81 
+23 150HP4WD Tractor 653 1600 13.04 0.05 0.64 13.60 47.01 60.61 74.34 
+23 Row crop planter 144 150 43.18 0.13 1.81 19.79 0.00 19.79 64.90 
+23 Cultivator 3-Row 79 200 5.61 0.02 0.23 2.65 0.00 2.65 8.51 
+23 Drip Tape Laying Machine 3-Row 188 200 9.51 0.03 0.40 4.50 0.00 4.50 14.43 
+23 Pickup 3/4 Ton 250 400 15.59 0.04 0.63 5.64 9.00 14.64 30.90 
+23 #1 Spray Boom 20' 144 250 1.76 0.00 0.06 1.09 0.00 1.09 2.92 
+23 Ring-roller 25' 432 500 10.92 0.02 0.33 4.70 0.00 4.70 15.98 
+23 Drip Tape Extraction Sled 142 400 12.52 0.03 0.42 8.69 0.00 8.69 21.66 
+23 120HP2WD Tractor 197 1600 8.35 0.03 0.41 15.43 37.61 53.03 61.82 
+23 Fertilizer Bar 20' 144 400 3.20 0.01 0.15 0.40 0.00 0.40 3.77 
+23 #2 Saddle Tanks 300gal 144 250 1.01 0.00 0.04 0.62 0.00 0.62 1.67 
+ 

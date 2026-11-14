@@ -1,0 +1,3435 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<title>Advanced Queries</title>
+
+	<style>
+body {
+    background-color: white;
+}
+
+h1 {
+    color: Black;
+		font-family: verdana;
+		 font-size: 30px;
+}
+h2 {
+    color: Black;
+    font-family: verdana;
+		  font-size: 20px;
+}
+h3 {
+    color: Black;
+    font-family: verdana;
+		  font-size: 18px;
+}
+p {
+    font-family: verdana;
+    font-size: 14px;
+		padding: 5px;
+}
+.close_txt {
+    font-family: verdana;
+    font-size: 14px;
+		margin-left: 25px;
+}
+.code {
+	font-family: courier;
+	font-size: 14px;
+	padding:10px;
+}
+pre {
+	font-family: courier;
+	font-size: 14px;
+	margin-left: 25px;
+}
+
+ul .basic {
+	display:block;list-style-type:disc;margin-top:1em;margin-bottom:1em;margin-left:0;margin-right:0;padding-left:40px;
+}
+ul li .basic {
+	display: list-item;
+}
+
+ul {
+    color: Black;
+    font-family: verdana;
+		  font-size: 18px;
+}
+ul li{
+    list-style-type: disc;
+    list-style-position: outside;
+    padding: 10px 0 10px 20px;
+    text-indent: -1em;
+	    color: Black;
+    font-family: verdana;
+		  font-size: 18px;
+}
+
+table, th, td {
+	border: 0px solid black;
+	border-collapse: collapse;
+	text-align: left;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+ img {
+		width: 80%;
+		height: auto;
+}
+.inset {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.off-screen {
+	 position:absolute;
+	 left:-10000px;
+	 top:auto;
+	 width:1px;
+	 height:1px;
+	 overflow:hidden;
+ }
+</style>
+</head>
+
+<body>
+
+    <a name="top"></a>
+    <h1>Advanced Queries</h1>
+
+    <!--Begin Table of Contents -->
+    <a href="#Introduction"><h2>Introduction</h2></a>
+    <a href="#Tabular_Functions"><h2>Tabular Functions</h2></a>
+
+    <a href="#Macros"><h2>Macros</h2></a>
+    <ul>
+        <li><a href="#What_is">What is a macro?</a></li>
+        <li><a href="#Macros_SQL">Macros for defining simple SQL variables</a></li>
+        <li><a href="#Macros_table">Macros for defining table variables</a></li>
+        <li><a href="#Macros_return">Macros returning table variables as output</a></li>
+    </ul>
+
+    <a href="#pAOI"><h2>The Persistent Area of Interest (pAOI)</h2></a>
+    <ul>
+        <li><a href="#Defining_pAOI">Defining a pAOI</a></li>
+        <ul>
+            <li><a href="#SSA">The SSA pAOI</a></li>
+            <li><a href="#Mapunit">The Mapunit Key List pAOI</a></li>
+            <li><a href="#Geo_Region">Geographic Region pAOIs</a></li>
+            <li><a href="#WssAoi">Importing a WSS AOI</a></li>
+        </ul>
+        <li><a href="#Querying_pAOI">Querying the pAOI</a></li>
+        <ul>
+            <li><a href="#AOI_AOIMapunit">Aoi and AoiMapunit tables</a></li>
+            <li><a href="#AOIPart">AoiPart table</a></li>
+            <li><a href="#AOISoilMap">AoiSoilMapUnit {Line, Point, Polygon} tables</a></li>
+            <li><a href="#AOISoilSpot">AoiSoiSpotFeature {Line, Point} tables</a></li>
+            <li><a href="#AOISoilThem">AoiSoilThematicMap {plus Legend, Rating} tables</a></li>
+            <li><a href="#AOISld">AoiSld table</a></li>
+        </ul>
+    </ul>
+    <a href="#Interpretations"><h2>Interpretations</h2></a>
+    <ul>
+        <li><a href="#Interpretation_Catalog">Use Categories and the Catalog</a></li>
+        <li><a href="#Interpretation_Description">Interpretation Descriptions</a></li>
+        <li>
+            <a href="#Interpretation_RuleData">Rule Data</a>
+            <ul>
+                <li><a href="#Interpretation_ShortFormat">Short Format</a></li>
+                <li><a href="#Interpretation_LongFormat">Long Format</a></li>
+            </ul>
+        </li>
+        <li><a href="#Interpretation_Running">Running the Interpretation</a>
+        <li><a href="#Interpretation_Using">Using Interpretation Results</a>
+        <li><a href="#Interpretation_AdHoc">Ad-Hoc Ratings</a>
+    </ul>
+
+    <a href="#Reports"><h2>Reports</h2></a>
+
+    <ul>
+        <li><a href="#Report_Catalog">Use Categories and the Catalog</a></li>
+        <li><a href="#Report_Description">Report Descriptions</a></li>
+        <li>
+            <a href="#Report_ReportData">Report Data</a>
+            <ul>
+                <li><a href="#Report_ShortFormat">Short Format</a></li>
+                <li><a href="#Report_LongFormat">Long Format</a></li>
+            </ul>
+        </li>
+        <li><a href="#Report_Running">Running the Report</a>
+        <li><a href="#Report_Using">Using Report Results</a>
+        <li><a href="#Report_AdHoc">Ad-Hoc Reports</a>
+    </ul>
+
+    <a href="#Deprecated"><h2>Deprecated Web Soil Survey Access</h2></a>
+
+    <hr>
+    <!-- Begin content -->
+    <!-- Introduction -->
+    <h2 id="Introduction">Introduction</h2>
+    <p>
+        Tabular queries can access spatial data stored in the Soil Data Mart (SDM)
+        database. Spatial data is stored in tables such as mupolygon, mupoint and
+        muline, which contain soil map unit polygon, point and line features,
+        respectively. These tables have two spatial data columns, one with the data
+        in WGS84 geographic coordinates (epsg:4326) and one with the data in
+        Web Mercator (WM, epsg:3857).
+    </p>
+    <div class="code">
+        Note: this is not quite accurate as true epsg:3857 uses a flattened
+        sphere for coordinate projection, and in the SDM database the WM data
+        are projected using a perfect sphere. This pseudo-Web Mercator
+        projection matches that used by common Web sources such as Google
+        Maps and Microsoft Bing maps.
+    </div>
+    <p>
+        The spatial column names are formed as follows: &lt;table-name&gt;&lt;[geo|proj]&gt;.
+        For example in table "mupolygon", the WGS84 data are held in column
+        "mupolygongeo" and the Web Mercator data are in "mupolygonproj". These
+        tables can be joined with other SDM tables using the "mukey" column.
+    </p>
+    <p>
+        Queries provide a mechanism for defining both transient or persistent
+        "Areas of Interest", the persistent ones may be re-referenced for
+        later access (see <a href="#pAOI">The Persistent Area of Interest (pAOI)</a>).
+        Once a pAOI is defined then analyses (called "interpretations" or "ratings")
+        may be performed on the AOI's soil data and the results accessed via
+        subsequent queries or used to create thematic maps
+        (see <a href="#Interpretations">Interpretations</a>).
+        "Reports" may also be generated from the AOI's soil data, the results are immediately
+        returned and are not persisted with the pAOI.
+        (see <a href="#Reports">Reports</a>).
+    </p>
+
+    <p>
+        Tabular queries can also access the supporting data for a thematic map
+        produced in Web Soil Survey (WSS). When a colored map of soil properties
+        or interpretations is requested in WSS, a class value and color are
+        derived for each mapunit in the area of interest. These results are
+        stored temporarily in a database associated with a specific WSS
+        session, and are assigned a unique Thematic Map ID. The ID is obtained
+        from WSS by using the Info button to display the table of map
+        information. Because these data are not in the SDM database, macros
+        (described below) must be used to retrieve the data, and the data are
+        only available until the WSS session is purged or the AOI cleared or
+        replaced. While a Web Soil Survey AOI is still "alive" its data may be
+        imported into SDA to form a new pAOI, complete with all thematic maps
+        associated with the WSS AOI (see <a href="#WssAoi">Importing a WSS AOI</a>).
+        The Thematic Map ID can also be used with SDA web services to obtain the
+        map image or features. See the Web Service
+        <a href="../WebServiceHelp.aspx">Help page</a> for more information.
+    </p>
+    <p>
+        Soil Data Access provides two advanced features for querying spatial data:
+    </p>
+    <ul>
+        <li>
+            <a href="#Tabular_Functions">Tabular Functions</a>
+            act as "virtual" tables that can be used in the "FROM" clause of a query.
+        </li>
+        <li>
+            <a href="#Macros">Macros</a>
+            are condensed statements that SDA expands into full SQL statements.
+        </li>
+    </ul>
+
+    <p>
+        Most of the techniques described in this document may be used through the
+        Soil Data Access <a href="..//Query.aspx" target="blank">Query Page</a>,
+        some are limited to use through the "post.rest" web service,
+        described further in the
+        <a href="../WebServiceHelp.aspx#RunQuery" target="blank">Web Service Help Page</a>.
+        Those techniques that are limited to the "post.rest" web service are so identified.
+    </p>
+    <div align="right"><a href="#top"><p>back to top</p></a></div><hr>
+
+    <!--End Introduction -->
+    <!-- Begin Tabular Functions -->
+    <h2 id="Tabular_Functions">Tabular Functions</h2>
+    <p>
+        These functions either accept or return spatial data expressed in
+        Well-known Text (WKT) format. Note that the WKT must follow the
+        ISO standard definition (see the
+        <a href="http://en.wikipedia.org/wiki/Well-known_text">WKT Wikipedia page</a>
+        for a simple introduction, for example, remember that the list of vertices that
+        defines a polygon must start and end at the same point). Macros are described below, at <a href="#Macros">Macros</a>.
+    </p>
+    <table style="width:100%">
+        <tr>
+            <td>
+                <div class="code">
+                    SDA_Get_Areasymbol_from_intersection_with_WktWgs84<br>
+                    SDA_Get_Areasymbol_from_intersection_with_WktWm
+                </div>
+                <div class="close_txt">
+                    Given a WKT geometry definition in WGS84 or Web Mercator (WM),
+                    returns a table of the "areasymbol" for soil survey areas
+                    intersected by the geometry.
+                </div><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="code">
+                    SDA_Get_AreasymbolWKTWgs84_from_Areasymbol<br>
+                    SDA_Get_AreasymbolWKTWm_from_Areasymbol
+                </div>
+                <div class="close_txt">
+                    Given an areasymbol, returns a table of the survey area’s
+                    outline as WKT in WGS84 ("AreasymbolWkt84") or Web
+                    Mercator (WM) ("AreasymbolWktWm").
+                </div><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="code">
+                    SDA_Get_AreasymbolWktWgs84_from_AreasymbolTable</br>
+                    SDA_Get_AreasymbolWktWm_from_AreasymbolTable
+                </div>
+                <div class="close_txt">
+                    Given a table of areasymbols declared with the macro
+                    DeclareVarcharTable, returns a table of all the
+                    areasymbols and corresponding areasymbols' outlines
+                    as WKT in WGS84 ("AreasymbolWkt84") or Web Mercator
+                    (WM) ("AreasymbolWktWm").
+                </div><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="code">
+                    SDA_Get_Mukey_from_intersection_with_WktWgs84<br>
+                    SDA_Get_Mukey_from_intersection_with_WktWm
+                </div>
+                <div class="close_txt">
+                    Given a WKT geometry definition in WGS84 or Web Mercator
+                    (WM), returns a table of the "mukey" for all mapunits
+                    intersected by the geometry.
+                </div><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="code">
+                    SDA_Get_MupolygonWktWgs84_from_Mukey<br>
+                    SDA_Get_MupolygonWktWm_from_Mukey
+                </div>
+                <div class="close_txt">
+                    Given an mukey, returns a table of all the corresponding
+                    mapunit’s mupolygons as WKT in WGS84 ("MupolygonWktWgs84")
+                    or Web Mercator (WM) ("MupolygonWktWm").
+                </div><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="code">
+                    SDA_Get_MupolygonWktWgs84_from_MukeyTable<br>
+                    SDA_Get_MupolygonWktWm_from_MukeyTable
+                </div>
+                <div class="close_txt">
+                    Given a table of mukey values declared with the macro
+                    DefineIntTable, returns a table of all the mukeys and
+                    corresponding mapunits' mupolygons as WKT in WGS84
+                    ("MupolygonWktWgs84") or Web Mercator (WM) ("MupolygonWktWm").
+                </div><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="code">
+                    SDA_Get_MupointWktWgs84_from_Mukey<br>
+                    SDA_Get_MupointWktWm_from_Mukey
+                </div>
+                <div class="close_txt">
+                    Given an mukey, returns a table of all the corresponding
+                    mapunit’s mupoints as WKT in WGS84 ("MupointWktWgs84")
+                    or Web Mercator (WM) ("MupointWktWm").
+                </div><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="code">
+                    SDA_Get_MupointWktWgs84_from_MukeyTable<br>
+                    SDA_Get_MupointWktWm_from_MukeyTable
+                </div>
+                <div class="close_txt">
+                    Given a table of mukey values declared with the macro
+                    DefineIntTable, returns a table of all the mukeys and
+                    corresponding mapunits' mupoints as WKT in WGS84
+                    ("MupointWktWgs84") or Web Mercator (WM) ("MupointWktWm").
+                </div><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="code">
+                    SDA_Get_MulineWktWgs84_from_Mukey<br>
+                    SDA_Get_MulineWktWm_from_Mukey
+                </div>
+                <div class="close_txt">
+                    Given an mukey, returns a table of all the corresponding
+                    mapunit’s mulines as WKT in WGS84 ("MulineWktWgs84") or
+                    Web Mercator (WM) ("MulineWktWm").
+                </div><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="code">
+                    SDA_Get_MulineWktWgs84_from_MukeyTable<br>
+                    SDA_Get_MulineWktWm_from_MukeyTable
+                </div>
+                <div class="close_txt">
+                    Given a table of mukey values declared with the macro
+                    DefineIntTable, returns a table of all the mukeys
+                    and corresponding mapunits' mulines as WKT in WGS84
+                    ("MulineWktWgs84") or Web Mercator (WM) ("MulineWktWm").
+                </div><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="code">
+                    SDA_Get_Sapolygonkey_from_intersection_with_WktWgs84<br>
+                    SDA_Get_Sapolygonkey_from_intersection_with_WktWm
+                </div>
+                <div class="close_txt">
+                    Given a WKT geometry definition in WGS84 or Web Mercator (WM),
+                    returns a table of the sapolygonkeys for sapolygon
+                    polygons intersected by the geometry.
+                </div><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="code">
+                    SDA_Get_Sapolygonkey_from_intersection_with_sastatusmap_WktWgs84<br>
+                    SDA_Get_Sapolygonkey_from_intersection_with_sastatusmap_WktWm
+                </div>
+                <div class="close_txt">
+                    Given a WKT geometry definition in WGS84 or Web Mercator (WM),
+                    returns a table of the sapolygonkeys for sastatusmap polygons
+                    intersected by the geometry.
+                </div><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="code">
+                    SDA_Get_Mupolygonkey_from_intersection_with_WktWgs84<br>
+                    SDA_Get_Mupolygonkey_from_intersection_with_WktWm
+                </div>
+                <div class="close_txt">
+                    Given a WKT geometry definition in WGS84 or Web Mercator
+                    (WM), returns a table of the mupolygonkeys for mupolygons
+                    intersected by the geometry.
+                </div><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="code">
+                    SDA_Get_Mupointkey_from_intersection_with_WktWgs84<br>
+                    SDA_Get_Mupointkey_from_intersection_with_WktWm
+                </div>
+                <div class="close_txt">
+                    Given a WKT geometry definition in WGS84 or Web Mercator (WM),
+                    returns a table of the mupointkeys for mupoints intersected
+                    by the geometry.
+                </div><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="code">
+                    SDA_Get_Mulinekey_from_intersection_with_WktWgs84<br>
+                    SDA_Get_Mulinekey_from_intersection_with_WktWm
+                </div>
+                <div class="close_txt">
+                    Given a WKT geometry definition in WGS84 or Web Mercator
+                    (WM), returns a table of the mulinekeys for mulines
+                    intersected by the geometry.
+                </div><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="code">
+                    SDA_Get_Featlinekey_from_intersection_with_WktWgs84<br>
+                    SDA_Get_Featlinekey_from_intersection_with_WktWm
+                </div>
+                <div class="close_txt">
+                    Given a WKT geometry definition in WGS84 or Web Mercator
+                    (WM), returns a table of the featlinekeys for featlines
+                    intersected by the geometry.
+                </div><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <div class="code">
+                    SDA_Get_Featpointkey_from_intersection_with_WktWgs84<br>
+                    SDA_Get_Featpointkey_from_intersection_with_WktWm
+                </div>
+                <div class="close_txt">
+                    Given a WKT geometry definition in WGS84 or Web Mercator
+                    (WM), returns a table of the featpointkeys for featpoints
+                    intersected by the geometry.
+                </div><br>
+            </td>
+        </tr>
+
+    </table>
+    <p>
+        Here are sample SQL statements using the above new functions.
+        First find the survey area symbol for a rectangular area:
+    </p>
+    <pre>
+select * from SDA_Get_Areasymbol_from_intersection_with_WktWgs84(
+  'polygon((
+    -121.77100 37.368402,
+    -121.77100 37.373473,
+    -121.76000 37.373473,
+    -121.76000 37.368402,
+    -121.77100 37.368402))')
+
+select * from SDA_Get_Areasymbol_from_intersection_with_WktWm(
+  'polygon((
+    -13555610.9782664 4490483.16765171,
+    -13555610.9782664 4491391.31746713,
+    -13554135.9341103 4491391.31746713,
+    -13554135.9341103 4490483.16765171,
+    -13555610.9782664 4490483.16765171))')
+	</pre>
+    <p>
+        For the list of all mapunit keys in the same area,
+    </p>
+    <pre>
+select * from SDA_Get_Mukey_from_intersection_with_WktWgs84(
+  'polygon((
+    -121.77100 37.368402,
+    -121.77100 37.373473,
+    -121.76000 37.373473,
+    -121.76000 37.368402,
+    -121.77100 37.368402))')
+
+select * from SDA_Get_Mukey_from_intersection_with_WktWm(
+  'polygon((
+    -13555610.9782664 4490483.16765171,
+    -13555610.9782664 4491391.31746713,
+    -13554135.9341103 4491391.31746713,
+    -13554135.9341103 4490483.16765171,
+    -13555610.9782664 4490483.16765171))')
+	</pre>
+
+    <p>
+        Or to get the mupolygonkey values for this area:
+    </p>
+    <pre>
+select * from SDA_Get_Mupolygonkey_from_intersection_with_WktWgs84(
+  'polygon((
+    -121.77100 37.368402,
+    -121.77100 37.373473,
+    -121.76000 37.373473,
+    -121.76000 37.368402,
+    -121.77100 37.368402))')
+
+select * from SDA_Get_Mupolygonkey_from_intersection_with_WktWm(
+  'polygon((
+    -13555610.9782664 4490483.16765171,
+    -13555610.9782664 4491391.31746713,
+    -13554135.9341103 4491391.31746713,
+    -13554135.9341103 4490483.16765171,
+    -13555610.9782664 4490483.16765171))')
+	</pre>
+    <p>
+        Combining with an areasymbol test for 'CA646',
+    </p>
+    <pre>
+select S.mukey, M.musym
+from SDA_Get_Mukey_from_intersection_with_WktWm(
+  'polygon((
+    -13555610.9782664 4490483.16765171,
+    -13555610.9782664 4491391.31746713,
+    -13554135.9341103 4491391.31746713,
+     13554135.9341103 4490483.16765171,
+     13555610.9782664 4490483.16765171))') as S,
+legend as L,
+mapunit M
+where M.mukey = S.mukey
+and M.lkey = L.lkey
+and L.areasymbol = 'CA646'
+	</pre>
+
+    <div align="right"><a href="#top"><p>back to top</p></a></div>
+    <hr>
+    <!-- End of Tabular Functions -->
+    <!-- Begin -->
+    <h2 id="Macros">Macros</h2>
+    <ul>
+        <li><a href="#What_is"> What is a Macro?</a></li>
+        <li><a href="#Macros_SQL">Macros for defining simple SQL variables</a></li>
+        <li><a href="#Macros_table">Macros for defining table variables</a></li>
+        <li><a href="#Macros_return">Macros returning table variables as output</a></li>
+        <li><a href="#Examples">Examples</a></li>
+    </ul>
+
+    <h3 id="What_is">What is a Macro</h3>
+    <p>
+        Macros are shorthand statements that are "expanded" into normal SQL statements.
+        They allow creation of SQL statements that would normally not be allowed or
+        present short sequences of SQL statements that address specific needs.
+    </p>
+    <p>
+        In all cases the macro name and arguments are surrounded by
+        immediately-adjacent "tilde" characters ("~"). No embedded whitespace is
+        allowed. SQL variable names are indicated by an at-sign ("@") followed
+        by an identifier. The identifier may start with an alphabetic character
+        or underscore and be followed by zero or more alphanumeric characters
+        and/or underscores. The macro names and variable names are case-insensitive.
+    </p>
+    <p>
+        If your query includes the line:
+    </p>
+    <div class="code">
+        <blockquote>
+            ~DeclareGeometry(@aoi)~
+        </blockquote>
+    </div>
+    <p>
+        That line will be translated into the following lines:
+    </p>
+    <div class="code">
+        <blockquote>
+            -- ~DeclareGeometry(@aoi)~<br>
+            -- begin macro substitution<br>
+            declare @aoi geometry;<br>
+            -- end macro substitution<br>
+        </blockquote>
+    </div>
+    <p>
+        (The result of the macro expansion contains the original macro
+        as a comment. The expansion is not displayed on the query page,
+        but if you use macros in a query for queued execution the completion
+        email will show the expanded SQL text.)
+    </p>
+    <p>
+        Following the above macro statement conventional SQL statements may
+        reference the defined variable "@aoi". For example spatial
+        coordinates may be assigned by use of "Well Known Text", here
+        a polygonal boundary is defined in WGS84 (epsg:4326):
+    </p>
+    <pre>
+select @aoi = geometry::STPolyFromText(
+  'polygon((
+    -121.157072910308 46.0181639308995,
+    -121.321280753631 45.9248106152548,
+    -121.348997869021 45.9168439802811,
+    -121.157072910308 46.0181639308995
+  ))', 4326)
+	</pre>
+    <p>
+        A few of the macros also require an "IdGeom" or "IdGeog" table
+        variable. The table variables are defined by these additional
+        macros, in which you supply a name, starting with an @ sign,
+        for the table variable:
+    </p>
+    <div class="code">
+        <blockquote>
+            ~DeclareIdGeomTable(@intersectedPolygonGeometries)~<br>
+            ~DeclareIdGeogTable(@intersectedPolygonGeographies)~
+        </blockquote>
+    </div>
+
+    <p>
+        These two macro statements are expanded into:
+    </p>
+    <pre>
+-- ~DeclareIdGeomTable(@intersectedPolygonGeometries)~
+-- begin macro substitution
+declare @intersectedPolygonGeometries table (id int, geom geometry);
+-- end macro substitution
+-- ~DeclareIdGeogTable(@intersectedPolygonGeographies)~
+-- begin macro substitution
+declare @intersectedPolygonGeographies table (id int, geog geography);
+-- end macro substitution
+	</pre>
+
+    <p>
+        These two-column tables are used, for example, to associate a mapunit
+        polygon’s spatial definition with a mukey for joining against other
+        tables in the SDM database. A fully worked example will be presented
+        after the following lists of macros.
+    </p>
+
+    <h3 id="Macros_SQL">Macros for defining simple SQL variables</h3>
+    <pre>
+~DeclareBigint(@varname)~
+~DeclareBit(@varname)~
+~DeclareInt(@varname)~
+~DeclareSmallint(@varname)~
+~DeclareTinyint(@varname)~
+~DeclareFloat(@varname)~
+~DeclareReal(@varname)~
+~DeclareDate(@varname)~
+~DeclareDatetime(@varname)~
+~DeclareDecimal(@varname,p,s)~
+~DeclareNumeric(@varname,p,s)~
+~DeclareTime(@varname)~
+~DeclareChar(@varname,n)~
+~DeclareVarchar(@varname,[n|max])~
+~DeclareGeometry(@varname)~
+~DeclareGeography(@varname)~
+	</pre>
+    <p>
+        In the case of the Char and Varchar definitions a number
+        (1 to 8000) must be supplied as the second argument, the
+        Varchar definition also allows a MAX specification. For
+        example, to declare a char(3), varchar(4) and varchar(max), use:
+    </p>
+    <pre>
+~DeclareChar(@a_char_variable,3)~
+~DeclareVarchar(@a_varchar_variable,4)~
+~DeclareVarchar(@a_second_varchar_variable,max)~
+	</pre>
+    <p>
+        In the definitions for Decimal and Numeric variables a precision
+        and scale are required. Precision (p) is the maximum number of
+        digits that will be stored in the variable, both to the left and
+        right of the decimal. Scale (s) is the number of digits to the
+        right of the decimal. Decimal and Numeric are equivalent types.
+        For example, to store numbers less than 1000 with two decimal
+        places, use:
+    </p>
+    <pre>
+~DeclareDecimal(@a_decimal_variable,5,2)~
+	</pre>
+    <hr>
+
+    <h3 id="Macros_table">Macros for defining table variables</h3>
+    <p>
+        While the above simple variables can hold just one value, a table
+        variable can hold zero or more rows for a fixed set of columns.
+        Each column has a name and a data type. A table variable can
+        be used as a data source in a SQL query or as a parameter to
+        a macro. Some of the table variables correspond to table
+        types defined in the database, which allows them to be passed
+        as a function parameter.
+    </p>
+    <p>
+        There is a set of macros to define table variables containing an
+        integer Id or Varchar(255) string, and optionally a geometry or
+        geography column:
+    </p>
+    <pre>
+~DeclareIntTable(@varname)~
+-- equivalent to type dbo.IntTable
+-- single column: i int
+
+~DeclareVarchar255Table(@varname)~
+-- equivalent to type dbo.VarcharTable
+-- single column: s varchar(255)
+
+~DeclareIdGeomTable(@varname)~
+-- two columns: id int
+--              geom geometry
+
+~DeclareIdGeogTable(@varname)~
+-- two columns: id int
+--              geog geography
+
+~DeclareVarchar255GeomTable(@varname)~
+-- two columns: s varchar(255)
+--              geom geometry
+
+~DeclareVarchar255GeogTable(@varname)~
+-- two columns: s varchar(255)
+--              geog geography
+	</pre>
+    <hr>
+
+    <h3 id="Macros_return">Macros returning table variables as output</h3>
+    <p>
+        In these macros, the parameter listed as "@outtable" is a table
+        variable that will be created on your behalf by the macro.
+        Note that no space is allowed after a comma in the parameters for a macro.
+    </p>
+    <p>
+        Mapunit points, lines or polygons (WGS84 or WM) clipped to a filtering
+        boundary (WGS84) are returned by:
+    </p>
+    <pre>
+~GetClippedMapunits(@filter,[point|line|polygon],[geo|proj],@outtable)~
+	</pre>
+    <p>
+        Before this statement, create the @filter with macro DeclareGeometry.
+        For the second parameter specify point, line or polygon for the type
+        of feature to return, and for the third parameter specify the
+        spatial reference as geo for geometry (WGS84) or proj for projected
+        (Web Mercator).
+    </p>
+    <p>
+        GetClippedMapunits will return a table of mukeys and associated
+        clipped geometry. Note that the geometries may include geometry
+        collections, points, multipoints, lines, multilines, polygons
+        and multipolygons. If you wish to split the composites apart,
+        use the output table of the above macro as the input table of:
+    </p>
+    <pre>
+~SplitIdGeomTable(@intable,@outtable)~
+	</pre>
+    <p>
+        Table variable "@intable" must be created by macro DeclareIdGeomTable.
+    </p>
+    <p>
+        Another macro converts an IdGeom table into an IdGeog table.
+        This is especially useful for determining areas of the spatial
+        objects in the tables.
+    </p>
+    <pre>
+~GetGeogFromGeomWgs84(@intable,@outtable)~
+	</pre>
+    <p>
+        The table variable "@intable" must be created by macro DeclareIdGeomTable,
+        the macro will create "@outtable" using the equivalent of the
+        DeclareIdGeogTable macro.
+    </p>
+    <p>
+        The tabular data associated with a Web Soil Survey thematic map includes
+        a legend table and a ratings table. The mapunit geographic features
+        clipped to the Area
+        of Interest (AOI) can also be retrieved with a tabular query. The legend
+        table lists the class names and colors used in the map, and the ratings
+        table lists each unique mapunit key with its rating value and map color.
+        The geography table lists all the mapunits in the Area of Interest.
+        These macros are used to obtain this data, either by using an explicit
+        integer literal (in place of the "thematicMapId") or by use of a variable
+        to hold the thematic map ID value (the "@varname").
+    </p>
+    <pre>
+~GetMapLegend(thematicMapId,@outtable)~
+~GetMapRatings(thematicMapId,@outtable)~
+~GetAoiMapUnits(thematicMapId,[point|line|polygon],@outtable)~
+
+~GetMapLegend(@varname,@outtable)~
+~GetMapRatings(@varname,@outtable)~
+~GetAoiMapUnits(@varname,[point|line|polygon],@outtable)~
+	</pre>
+    <p>
+        The macros create the appropriate output tables for you.
+    </p>
+    <p>
+        <font color="red">
+            Note: currently, the AoiMapUnitProj is null when the AOI is defined
+            as a whole soil survey area. The mapunit geography in that case comes
+            from SSURGO.
+        </font>
+    </p>
+    <hr>
+
+    <h3 id="Examples">Examples</h3>
+    <p>
+        Here’s an example of an area of interest (AOI) specification followed
+        by retrieval of data from other tables in the SDM database and
+        aggregation of area by mukey:
+    </p>
+    <pre>
+-- Define a triangular AOI in WGS84
+~DeclareGeometry(@aoi)~
+select @aoi = geometry::STPolyFromText('polygon((
+  -121.157072910308 46.0181639308995,-121.321280753631 45.9248106152548,
+  -121.348997869021 45.9168439802811,-121.157072910308 46.0181639308995
+  ))', 4326)
+
+-- Extract all intersected polygons
+~DeclareIdGeomTable(@intersectedPolygonGeometries)~
+~GetClippedMapunits(@aoi,polygon,geo,@intersectedPolygonGeometries)~
+
+
+-- Convert geometries to geographies so we can get areas
+~DeclareIdGeogTable(@intersectedPolygonGeographies)~
+~GetGeogFromGeomWgs84(@intersectedPolygonGeometries,@intersectedPolygonGeographies)~
+
+
+-- get aggregated areas and associated mukey, musym, nationalmusym, areasymbol, mucertstat (Map Unit Certification Status)
+select id, sum(geog.STArea()) as area
+into #aggarea from @intersectedPolygonGeographies
+group by id;
+
+
+-- Return the polygons with joined data
+select mukey, area, musym, nationalmusym, areasymbol, mucertstat
+from #aggarea A, mapunit M, legend L
+where A.id = M.mukey and M.lkey = L.lkey
+order by id;
+
+
+-- Return the aggregated area by mukey
+select id as mukey, area from #aggarea
+	</pre>
+    <div align="right"><a href="#top"><p>back to top</p></a></div>
+    <hr>
+
+    <h2 id="pAOI">The Persistent Area of Interest (pAOI)</h2>
+    <p>
+        When you work in the "query environment" any intermediate
+        results such as sets of map units or spatial extent has a
+        "lifetime" of your current set of SQL statements in the
+        "batch" that expires when the batch is finished.
+        The definition of a persistent "Area of Interest" (pAOI)
+        allows persistence beyond 24 hours, as a side effect the
+        pAOI may be used in the generation of maps or in execution
+        of "interpretations" - the maps and interpretation results
+        may later be retrieved via queries, Web Map Service (WMS),
+        or Web Feature Service (WFS) requests.
+    </p>
+    <p>
+        Once a pAOI is defined it is immutable. You may, however,
+        add the results of "interpretations" performed against the
+        pAOI, this is discussed further in "Interpretations".
+    </p>
+    <p>
+        The first two pAOIs described below (one for pAOIs based
+        upon a Soil Survey Area or SSA, one for pAOIs based upon
+        a list of mapunit keys) may be defined either interactively
+        through the
+        <a href="..//Query.aspx" target="blank">Query Page</a>
+        or through the "post.rest" web service described in the
+        <a href="../WebServiceHelp.aspx#RunQuery" target="blank">Web Service Help Page</a>.
+    </p>
+
+    <h3 id="Defining_pAOI">Defining the pAOI</h3>
+    <ul>
+        <li><a href="#SSA">The SSA pAOI</a></li>
+        <li><a href="#Mapunit">The Mapunit Key List pAOI</a></li>
+        <li><a href="#Geo_Region">Geographic Region pAOIs</a></li>
+        <li><a href="#WssAoi">Importing a WSS AOI</a></li>
+    </ul>
+    <a id="SSA"><h3>The SSA pAOI</h3></a>
+    <p>
+        The simplest pAOI is one defined to match a Soil Survey
+        Area (SSA). An SSA-based pAOI may be created within a
+        query batch by use of a function. Assume that an SSA-pAOI
+        is to be defined for SSA "CA795",
+    </p>
+    <pre>
+~DeclareVarchar(@ssa,20)~
+select @ssa = 'CA795';
+
+~CreateAoiFromSsa(@ssa,@aoiid,@message)~
+select @aoiid [aoiid], @message [message]
+	</pre>
+    <p>
+        The identifier for the created pAOI is set into the "@aoiid"
+        variable and any error message is set into "@message" (null
+        if no error occurs).<br>
+    </p>
+    <p>
+        Jumping ahead (macros and functions for working with AOIs
+        will be addressed later) the set of mapunit keys identified
+        for this pAOI can be retrieved:
+    </p>
+    <pre>
+select * from SDA_Get_AoiMapunit_By_AoiId(@aoiid);
+	</pre>
+    <p>
+        The pAOI may be defined either via the
+        <a href="../Query.aspx" target="blank">Query Page</a>
+        or via the
+        <a href="../WebServiceHelp.aspx#RunQuery" target="blank">post.rest</a>
+        Web service. In the case of the post.rest service, you have the
+        option of executing the above SQL statements via the "query"
+        parameter or use, for example, the formulation
+    </p>
+    <pre>
+service=aoi
+request=create
+ssa=CA795
+	</pre>
+
+    <a id="Mapunit"><h3>The Mapunit Key List pAOI</h3></a>
+    <p>
+        Almost as simple is a pAOI defined from a list of mapunit
+        keys. The keys are placed into an "IntTable" and that
+        table is used to define the pAOI.
+    </p>
+    <p>
+        Let’s assume you want to define a pAOI based upon all map
+        units that are classified as "Farmland of statewide importance"
+        in SSA "McKensie County, North Dakota (ND053)". The set of
+        mukeys (85 of them) could be identified with this query:
+    </p>
+    <pre>
+select  mu.mukey
+from legend L
+left join mapunit MU on L.lkey = MU.lkey
+where L.areatypename = 'Non-MLRA Soil Survey Area'
+and L.areasymbol = 'ND053'
+and mu.farmlndcl  = 'Farmland of statewide importance'
+	</pre>
+    <p>
+        The pAOI would be created by passing a pre-populated "IntTable"
+        of mukey values to the macro "CreateAoiFromMukeyList". We could
+        then use the function "SDA_Get_AoiMapunit_By_AoiId" to confirm
+        that the pAOI has been created with 85 mukeys:
+    </p>
+    <pre>
+~DeclareIntTable(@mukeyList)~
+insert into @mukeyList
+select  mu.mukey
+from legend L
+left join mapunit MU on L.lkey = MU.lkey
+where L.areatypename = 'Non-MLRA Soil Survey Area'
+and L.areasymbol = 'ND053'
+and mu.farmlndcl  = 'Farmland of statewide importance';
+
+~CreateAoiFromMukeyList(@mukeyList,@aoiid,@message)~
+select count(*) [MukeyCount] from SDA_Get_AoiMapunit_By_AoiId(@aoiid);
+select @aoiid [aoiid], @message [message]
+	</pre>
+    <p>
+        The pAOI may be defined either via the
+        <a href="../Query.aspx" target="blank">Query Page</a>
+        or via the
+        <a href="../WebServiceHelp.aspx#RunQuery" target="blank">post.rest</a>
+        Web service. In the case of the post.rest service, you have the option of
+        executing the above SQL statements via the "query" parameter or use, for
+        example, the formulation:
+    </p>
+    <pre>
+service=aoi
+request=create
+mukeylist=1860695,1860696,1860697,1860698,1860699,1860700,1900535
+	</pre>
+
+    <a id="Geo_Region"><h3>Geographic Region pAOIs</h3></a>
+    <p>
+        A pAOI may also be defined geographically through the
+        <a href="../WebServiceHelp.aspx#RunQuery" target="blank">post.rest</a>
+        Web service.
+    </p>
+    <h4>The WKT pAOI</h4>
+    <a href="https://en.wikipedia.org/wiki/Well-known_text">Well-known text</a>
+    or "WKT" may be used to describe a pAOI. The WKT may contain a single polygon
+    or a "multipolygon" (a set of polygons), each polygon may contain interior
+    rings to define voids. The polygons are assumed to be defined with
+    coordinates in WGS84. The WKT is specified via the "post.rest" Web service
+    as an argument to the "aoicoords" parameter as in this example
+    (the aoicoords input is broken into multiple lines for clarity):
+    <pre>
+service=aoi
+request=create
+aoicoords=
+  multipolygon(
+    ((-85.05 39.00,-85.04 39.00,-85.04 39.01,-85.05 39.01,-85.05 39.00)),
+    ((-85.03 39.02,-85.00 39.02,-85.00 39.05,-85.03 39.05,-85.03 39.02),
+    (-85.02 39.03,-85.01 39.03,-85.01 39.04,-85.02 39.04,-85.02 39.03)))
+	</pre>
+
+    <h4>The Shapefile pAOI</h4>
+    <p>
+        An ESRI-defined
+        <a href="https://www.esri.com/library/whitepapers/pdfs/shapefile.pdf"> Shapefile</a>
+        (actually a set of three or more individual files) can be passed to the
+        <a href="../WebServiceHelp.aspx#RunQuery" target="blank"> post.rest</a>
+        Web service if encoded as
+        <a href="https://en.wikipedia.org/wiki/Base64">Base64</a>
+        strings and concatenated together in a specific order.
+    </p>
+    <p>
+        The strings are concatenated (with a comma) and supplied as the value to the
+        "aoicoords" parameter, prefixed by "shapefile". The strings are concatenated
+        in order from the encoded SHP, SHX, PRJ, and optionally DBF files, in one of
+        the two forms shown here:
+    </p>
+    <pre>
+aoicoords=shapefile,&lt;encoded-SHP&gt;,&lt;encoded-SHX&gt;,&lt;encoded-PRJ&gt;
+aoicoords=shapefile,&lt;encoded-SHP&gt;,&lt;encoded-SHX&gt;,&lt;encoded-PRJ&gt;,&lt;encoded-DBF&gt;
+	</pre>
+    <p>
+        In the following two examples most of the content of the Base64 strings is
+        replaced by an ellipsis ("…"). In this first case only the contents of the
+        "SHP", "SHX" and "PRJ" files is transmitted to SDA:
+    </p>
+    <pre>
+service=aoi
+request=create
+aoicoords=shapefile,AAAnC...mNEE=,AAAnC...AACfc,UFJPS...yXV0=
+	</pre>
+    <p>
+        The second example also transmits the DBF file (line breaks added for clarity):
+    </p>
+    <pre>
+service=aoi
+request=create
+aoicoords=shapefile,
+  AAAnC...mNEE=,
+  AAAnC...AACfc,
+  UFJPS...yXV0=,
+  A3MME...wGg==
+	</pre>
+    <p>
+        The addition of the DBF file allows definition of a "multipart" pAOI….
+    </p>
+    <h4>The Multipart pAOI</h4>
+    <p>
+        When a pAOI is defined with an SSA or a list of mapunit keys
+        the entirety of the pAOI is treated as a single entity. It is
+        possible to define sub-regions, "the parts", and have a name
+        associated with each. With this partitioning, soil features
+        such as map unit polygons are then split into the separate partitions.
+    </p>
+    <p>
+        The multiple parts will be created when using the DBF file when
+        defining the pAOI provided that the DBF file includes a field
+        named "partname" (case-insensitive) and that the field width is
+        less than or equal to 20 characters. The part names are
+        retrievable when querying the pAOI tables (described in
+        "Querying the pAOI") and will be shown when creating maps via the
+        <a href="../WebServiceHelp.aspx#GetMap">GetMap</a>
+        request method of the SDA Web Map Service.
+    </p>
+    <p>
+        Considerably more control may be exercised over creation of pAOIs
+        from GeoJSON data…<br>
+    </p>
+    <h4><strong>The GeoJSON pAOI</strong></h4>
+    <p>
+        <a href="http://geojson.org/">GeoJSON</a> is a format for
+        encoding geographic data. In addition to the ability to
+        store polygonal and multipolygonal data, it allows association of
+        sets of "properties" with geometries. The polygons are assumed to
+        be defined with coordinates in WGS84. The GeoJSON text is
+        specified via the
+        <a href="../WebServiceHelp.aspx#RunQuery" target="blank"> post.rest</a>
+        Web service as an argument to the "aoicoords" parameter as in this
+        first example (the aoicoords input is broken into multiple lines for
+        clarity):
+    </p>
+    <pre>
+service=aoi
+request=create
+aoicoords=
+ {'type': 'MultiPolygon',
+  'coordinates': [
+   [[[-85.30, 39.40],[-85.20, 39.40],[-85.20, 39.45],
+   [-85.30, 39.45],[-85.30, 39.40]]],
+   [[[-85.20, 39.35],[-85.10, 39.35],[-85.10, 39.39],
+   [-85.20, 39.39],[-85.20, 39.35]],
+   [[-85.17, 39.37],[-85.15, 39.37],[-85.15, 39.38],
+   [-85.17, 39.38],[-85.17, 39.37]]]]
+ }
+	</pre>
+    </p><p>
+        The use of GeoJSON parameters allows composition of multipart
+        part names from the parameter’s attribute values as well as
+        filtering by the parameter’s attribute values. In this first GeoJSON sample the "partname" (case-insensitive) property is explicitly named. Use of this GeoJSON sample will yield a multipart pAOI with two named parts, one labeled "Sister" and one labeled "Brother":
+    </p>
+    <p>
+        <pre>
+{
+'type': 'FeatureCollection',
+'features': [
+{
+ 'type': 'Feature',
+ 'geometry': {
+   'type': 'Polygon',
+    'coordinates':
+    [[[-100.0,40.0],[-100.1,40.0],[-100.1,40.1],
+    [-100.0,40.1],[-100.0,40.0]]]
+  },
+  'properties': {'partName': "Sister" }
+},
+{
+ 'type': 'Feature',
+ 'geometry': {
+  'type': 'Polygon',
+   'coordinates':
+   [[[-100.2,39.8],[-100.3,39.8],[-100.3,39.9],
+   [-100.2,39.9],[-100.2,39.8]]]
+  },
+  'properties': {'partName': 'Brother' }
+}]}
+	</pre>
+    <p>
+        The actual name of the pAOI’s part defaults to the value of the "partname", in the above case "Sister" or "Brother". Both parts are included in the pAOI.
+    </p>
+    <p>
+        Consider this next GeoJSON sample:
+    </p>
+    <pre>
+{"type":"FeatureCollection","features":
+ [
+ {"type":"Feature",
+  "properties":{"Id":3549249,"PLU Number":"D","Calculated Acres":0.03},
+  "geometry":{"type":"Polygon","coordinates":[...]}},
+ {"type":"Feature",
+  "properties":{"Id":3263595,"PLU Number":"F","Calculated Acres":0.03},
+  "geometry":{"type":"Polygon","coordinates":[...]}},
+ {"type":"Feature",
+  "properties":{"Id":3187561,"PLU Number":"2","Calculated Acres":33.46},
+  "geometry":{"type":"Polygon","coordinates":[...]}},
+ {"type":"Feature",
+  "properties":{"Id":3176402,"PLU Number":"3","Calculated Acres":17.14},
+  "geometry":{"type":"Polygon","coordinates":[...]}},
+ {"type":"Feature",
+  "properties":{"Id":3038245,"PLU Number":"5A","Calculated Acres":3.35},
+  "geometry": {"type":"Polygon","coordinates":[...]}}
+]}
+	</pre>
+    <p>
+        If used to define a pAOI with:
+    </p>
+    <pre>
+service=aoi
+request=create
+aoicoords={"type":"FeatureCollection","features":...
+	</pre>
+    <p>
+        a pAOI would be defined that is not "multipart" –
+        there is no property with the name "partname".
+    </p>
+    <p>
+        One alternative would be to specify a property other than
+        "partname". The property’s name is surrounded by square
+        brackets. If we want to use the "PLU Number", the request
+        parameter "partname" can be used:
+        <pre>
+service=aoi
+request=create
+aoicoords= {"type":"FeatureCollection","features":...
+partname=[PLU Number]
+	</pre>
+    <p>
+        The name of the pAOI part can also be formed by composition
+        from a non-empty set of the property values, composed by
+        means of the Microsoft .NET "String.Format Method". The
+        non-empty list of square-bracketed property names is
+        followed by a semicolon and the composite format string. For example,
+        the above GeoJSON sample could get part names similar
+        to "5A (3038245)" (drawn from the "PLU Number" and "Id"
+        fields with an extra space and parentheses around the
+        ID by means of:
+    </p>
+    <pre>
+service=aoi
+request=create
+aoicoords= {"type":"FeatureCollection","features":...
+partname=[PLU Number],[Id];{0} ({1})
+	</pre>
+    <p>
+        The GeoJSON data may also be filtered. The "filter" is a SQL
+        "WHERE" clause that is applied to each feature’s properties.
+        The property names are surrounded by square brackets.
+        For example, to retain only features with a "Calculated Acres"
+        value greater than 0.03,
+    </p>
+    <pre>
+service=aoi
+request=create
+aoicoords= {"type":"FeatureCollection","features":...
+filter=[Calculated Acres] > 0.03
+	</pre>
+    <p>
+        The filter may be arbitrarily complex. For example feature selection
+        based upon set inclusion may also be combined with the calculation:
+    </p>
+    <pre>
+service=aoi
+request=create
+aoicoords= {"type":"FeatureCollection","features":...
+filter=[Calculated Acres] > 0.03 and [Id] in (3038245, 3187561, 3549249)
+	</pre>
+    <p>
+        The "filter" and "partname" SDA request parameters are independent
+        of one another, they may be used together.
+    </p>
+
+    <a id="WssAoi"><h3>Importing a WSS AOI</h3></a>
+    <p>
+        Web Soil Survey (WSS) creates relatively short-lived AOIs for
+        defining areas to be mapped, interpreted and reported upon.
+        A WSS AOI lasts as long as the user is working with it,
+        when the user clears the AOI, creates a new AOI or logs out the
+        AOI normally goes away immediately. While the WSS AOI is in use
+        its data may be copied into SDA.
+    </p>
+    <p>
+        In order to perform the copy the WSS "AoiID" number is required.
+        With the WSS "Identify" tool, click within the AOI boundary on either
+        the "AOI", "Soil Map" or "Soil Data Explorer" tabs. The AoiID ls
+        listed with other data below the map image.
+        The copied data includes any interpretation evaluations
+        (Soil Suitabilities and Limitations, Proierties and Qualities)
+        that have been performed in association with the WSS AOI.
+        By using the "Identify" tool within the "Soil Data Explorer" when
+        a thematic map is displayed, you may retrieve the "ThematicMapID"
+        as well (useful for map generation in the context of the WSS AOI).
+    </p>
+    <p>
+        A macro is used to perform the copy. It returns the identification number
+        of the freshly-created SDA persistent AOI. Once the WSS AOI data has been
+        imported any of the previously described functions may be used to access
+        the data. The persistent SDA is an SSA AOI if the WSS Aoi
+        was created from a Soil Survey Area, otherwise it is an SDA Geographic
+        Region AOI.
+    </p>
+    <p>
+        The macro for importing a WSS AOI and all related interpretation results:
+    </p>
+    <pre>
+~CreateAoiFromWssAoi(@wAoiId,@pAoiId,@message)~
+  -- creates an AOI by cloning one from WSS with WSS "@wAoiId" value,
+  -- returns @pAoiId and @message, @message is null of the
+  -- pAoi was created. If an error occurs "-1" will be returned
+  -- for the pAoiId value.
+</pre>
+    <p>
+        The use of the macro is straight-forward. Here a valid-at-the-time WSS AoiId
+        is used to import the WSS Aoi.
+    <p>
+        <pre>
+-- define a variable to hold the AoiID reported by WSS
+~DeclareInt(@wAoiId)~
+select @wAoiId = 25731;
+
+-- perform the copy
+~CreateAoiFromWssAoi(@wAoiId,@pAoiId,@message)~
+
+-- display resultant SDA pAoiId and any error
+select @pAoiId as pAoiId,@message as message
+	</pre>
+    <p>
+        Supplying a non-existent wAoiId (such as 99999) results in the return of "-1"
+        for the pAoiId and the message "WSS AOI not found for wAoiID value 99999".
+    </p>
+
+    <div align="right"><a href="#top"><p>back to top</p></a></div>
+    <hr>
+
+    <h3 id="Querying_pAOI">Querying the pAOI</h3>
+    <p>
+        The pAOI is persisted in a hierarchical set of tables that are
+        accessed through a series of "Tabular Functions". Not all tables
+        are populated for each type of pAOI, in addition the "thematic"
+        tables are only populated when "Interpretations" are calculated.
+        Following are the tabular functions that access each of the pAoi tables.
+    </p>
+    <p>
+        Three columns are shown for the results of each function:
+        the name of the returned field, the type of the field, and
+        (optionally) a remark. All require one or two ID values for data retrieval.
+        You (or your application) are responsible for retaining this information.
+    </p>
+    <h3 id="AOI_AOIMapunit">Aoi and AoiMapunit tables</h3>
+    <p>
+        Creating a pAOI always creates an Aoi record (although not all
+        fields may be populated) and creates one AoiMapunit record for
+        each map unit associated with the pAOI.
+    </p>
+    <p>
+        <img src="./AdvancedQueries_files/Aoi and Aoi Mapunit Tables.png" alt="Image of AOI database tables with the tables Aoi and AoiSoilMapUnit highlighted.  Chart shows relationship between Aoi parent table to highlighted table.">
+    </p>
+    <p>
+        Function SDA_Get_Aoi_By_AoiId(@pAoiId) returns:
+    </p>
+    <table>
+        <tr>
+            <th scope="col">Label</th>
+            <th scope="col">Description</th>
+            <th scope="col">Notes</th>
+        <tr>
+            <td>AreaAcres</td>
+            <td>Numeric(38,8)</td>
+            <td>Non-zero for aoicoords-defined AOI only</td>
+        </tr>
+        <tr>
+            <td>AoiGeo</td>
+            <td>Geometry</td>
+            <td>AOI boundary, WGS84, approximate (bounding rectangles, one per mukey) for mukey list-defined AOI</td>
+        </tr>
+        <tr>
+            <td>AoiId</td>
+            <td>Int</td>
+            <td>pAoi identifier</td>
+        </tr>
+        <tr>
+            <td>AoiProj</td>
+            <td>Geometry</td>
+            <td> AOI boundary, Web Mercator, approximate (bounding rectangles, one per mukey) for mukey list-defined AOI</td>
+        </tr>
+        <tr>
+            <td>AreaSymbol</td>
+            <td>Varchar(20)</td>
+            <td>For SSA pAoi only</td>
+        </tr>
+        <tr>
+            <td> CreationDateTime</td>
+            <td>DateTime</td>
+        </tr>
+        <tr>
+            <td>CreationMethod</td>
+            <td>Varchar(50)</td>
+            <td>Description of pAoi type</td>
+        </tr>
+        <tr>
+            <td>IsAoiAdHoc</td>
+            <td>Bit</td>
+            <td>1 if from aoicoords, 0 otherwise</td>
+        </tr>
+        <tr>
+            <td>IsAoiMultipart</td>
+            <td>Bit</td>
+            <td>1 if from mukey list, 0 otherwise</td>
+        </tr>
+        <tr>
+            <td>IsAoiMukeyListBased</td>
+            <td>Bit</td>
+            <td>1 if mult-part, 0 otherwise</td>
+        </tr>
+        <tr>
+            <td>IsAoiSsaBased</td>
+            <td>Bit</td>
+            <td>1 if from SSA, 0 otherwise </td>
+        </tr>
+    </table>
+    <p>
+        Function SDA_Get_AoiMapunit_By_AoiId(@pAoiId) returns:
+    </p>
+    <table>
+        <tr>
+            <th scope="col">Label</th>
+            <th scope="col">Description</th>
+            <th scope="col">Notes</th>
+        <tr>
+        <tr>
+            <td>AoiId</td>
+            <td>Int</td>
+            <td>pAoi identifier</td>
+        </tr>
+        <tr>
+            <td>AoiMapunitId</td>
+            <td>Int</td>
+            <td>Id of record in this table</td>
+        </tr>
+        <tr>
+            <td>MapUnitKey</td>
+            <td>Int</td>
+            <td>Foreign key to mapunit table (field: mukey)</td>
+        </tr>
+    </table>
+
+    <div align="right"><a href="#top"><p>back to top</p></a></div>
+    <hr>
+
+    <!-- -->
+    <h3 id="AOIPart">Aoi Part table</h3>
+    <p>
+        This table is populated for all pAOIs created via an "aoicoords"
+        specification, it is unpopulated for SSA and map unit key pAOIs.
+    </p>
+    <img src="./AdvancedQueries_files/Aoi Part Table.png" alt="Image of AOI database tables with the tables AoiPart table highlighted.  Chart shows relationship between AoiPart table to other Aoi tables.">
+    <p>
+        Function SDA_Get_AoiPart_By_AoiId(@pAoiId) returns:
+    </p>
+    <table>
+        <tr>
+            <th scope="col">Label</th>
+            <th scope="col">Description</th>
+            <th scope="col">Notes</th>
+        <tr>
+        <tr>
+            <td>AoiId</td>
+            <td>Int</td>
+            <td>pAoi identifier</td>
+        </tr>
+        <tr>
+            <td>AoiPartID</td>
+            <td>Int</td>
+            <td>part record identifier</td>
+        </tr>
+        <tr>
+            <td>AoiPartAcreage</td>
+            <td>Numeric(38,8)</td>
+            <td>Acreage of this part only</td>
+        </tr>
+        <tr>
+            <td>AoiPartGeo</td>
+            <td>Geometry</td>
+            <td>Part boundary, WGS84</td>
+        </tr>
+        <tr>
+            <td>AoiPartName</td>
+            <td>Varchar(25)</td>
+            <td>Name of the part (null if not multipart)</td>
+        </tr>
+        <tr>
+            <td>AoiPartNum</td>
+            <td>Int</td>
+            <td>Part number, 0 for non-multipart, part number otherwise (1..n)</td>
+        </tr>
+        <tr>
+            <td>AoiPartProj</td>
+            <td>Geometry</td>
+            <td>Part boundary, Web Mercator</td>
+        </tr>
+    </table>
+    <p>
+        Function SDA_Get_AoiPart_By_AoiId_and_AoiPartId(@pAoiId, @AoiPartID)
+        returns the same fields, it is more specific in its search.
+    </p>
+
+    <div align="right"><a href="#top"><p>back to top</p></a></div><hr>
+
+    <!--  -->
+
+    <h3 id="AOISoilMap">AoiSoilMapUnit {Line, Point, Polygon} tables</h3>
+    <p>
+        These tables are only populated for pAOIs created from an "aoicoords"
+        specification. All soil map unit polygons, points and lines are
+        clipped to individual pAOI part boundaries. Since, for feature
+        location purposes, small extents of a map unit may be spatially
+        represented as "points" and "lines" instead of "polygons", a portion
+        of the theoretical "area" of each "point" and "line" is apportioned
+        to each part and the total of these apportioned areas is captured
+        in the AoiSoilMapUnitPolygon record for the overlapping lines and
+        points.
+    </p>
+    <img src="./AdvancedQueries_files/Aoi Soil Mapunit Tables.png" alt="Image of AOI database tables with the tables AoiSoilMapUnitPolygon, AoiSoilMapInitPoint and AoiSoilMapInitLine highlighted.  Chart shows relationship between Aoi and AoiPart parent tables to highlighted tables.">
+    <p>
+        Function SDA_Get_AoiSoilMapunitLine_By_AoiId(@pAoiId) returns:
+    </p>
+    <table>
+        <tr>
+            <th scope="col">Label</th>
+            <th scope="col">Description</th>
+            <th scope="col">Notes</th>
+        </tr>
+        <tr>
+            <td>AoiId</td>
+            <td>Int</td>
+            <td>pAoi identifier</td>
+        </tr>
+        <tr>
+            <td>AoiPartID</td>
+            <td>Int</td>
+            <td>part record identifier</td>
+        </tr>
+        <tr>
+            <td>AoiSoilMapUnitLineGeo</td>
+            <td>Geometry</td>
+            <td>Line geometry, WGS84</td>
+        </tr>
+        <tr>
+            <td>AoiSoilMapUnitLineID</td>
+            <td>Int</td>
+            <td>record identifier</td>
+        </tr>
+        <tr>
+            <td>AoiSoilMapUnitLineProj</td>
+            <td>Geometry</td>
+            <td>Line geometry, Web Mercator</td>
+        </tr>
+        <tr>
+            <td>AreaAcres</td>
+            <td>Numeric(38,8)</td>
+            <td>"acreage" of the line within the part</td>
+        </tr>
+        <tr>
+            <td>AreaSymbol</td>
+            <td>Varchar(20)</td>
+            <td>SSA containing the line</td>
+        </tr>
+        <tr>
+            <td>MapUnitKey</td>
+            <td>Int</td>
+            <td>Foreign key to mapunit table (field: mukey)</td>
+        </tr>
+        <tr>
+            <td>MapUnitName</td>
+            <td>Varchar(240)</td>
+        </tr>
+        <tr>
+            <td>MapUnitSymbol</td>
+            <td>Varchar(6)</td>
+        </tr>
+        <tr>
+            <td>MuLineKey</td>
+            <td>Int</td>
+            <td>Foreign key to muline table</td>
+        </tr>
+        <tr>
+            <td>NationalMapUnitSymbol</td>
+            <td>Varchar(6)</td>
+        </tr>
+        <tr>
+            <td>SpatialVersion</td>
+            <td>Int</td>
+            <td>Spatial version number of SSA</td>
+        </tr>
+    </table>
+    <p>
+        Function SDA_Get_AoiSoilMapunitLine_By_AoiId_And_AoiPartId(@pAoiId,
+        @AoiPartID) returns the same fields, it is more specific in its search.
+    </p>
+    <p>
+        Function SDA_Get_AoiSoilMapunitPoint_By_AoiId(@pAoiId) returns:
+    </p>
+    <table>
+        <tr>
+            <th scope="col">Label</th>
+            <th scope="col">Description</th>
+            <th scope="col">Notes</th>
+        </tr>
+        <tr>
+            <td>AoiId</td>
+            <td>Int</td>
+            <td>pAoi identifier</td>
+        </tr>
+        <tr>
+            <td>AoiPartID</td>
+            <td>Int</td>
+            <td>part record identifier</td>
+        </tr>
+        <tr>
+            <td>AoiSoilMapUnitPointGeo</td>
+            <td>Geometry</td>
+            <td>Point geometry, WGS84</td>
+        </tr>
+        <tr>
+            <td>AoiSoilMapUnitPointID</td>
+            <td>Int</td>
+            <td>record identifier</td>
+        </tr>
+        <tr>
+            <td>AoiSoilMapUnitPointProj</td>
+            <td>Geometry</td>
+            <td>Point geometry, Web Mercator</td>
+        </tr>
+        <tr>
+            <td>AreaAcres</td>
+            <td>Numeric(38,8)</td>
+            <td>"acreage" of the point within the part</td>
+        </tr>
+        <tr>
+            <td>AreaSymbol</td>
+            <td>Varchar(20)</td>
+            <td>SSA containing the point</td>
+        </tr>
+        <tr>
+            <td>MapUnitKey</td>
+            <td>Int</td>
+            <td>Foreign key to mapunit table (field: mukey)</td>
+        </tr>
+        <tr>
+            <td>MapUnitName</td>
+            <td>Varchar(240)</td>
+        </tr>
+        <tr>
+            <td>MapUnitSymbol</td>
+            <td>Varchar(6)  </td>
+        </tr>
+        <tr>
+            <td>MuPointKey</td>
+            <td>Int</td>
+            <td>Foreign key to mupoint table</td>
+        </tr>
+        <tr>
+            <td>NationalMapUnitSymbol</td>
+            <td>Varchar(6)  </td>
+        </tr>
+        <tr>
+            <td>SpatialVersion</td>
+            <td>Int</td>
+            <td>Spatial version number of SSA</td>
+        </tr>
+    </table>
+    <p>
+        Function SDA_Get_AoiSoilMapunitPoint_By_AoiId_And_AoiPartId(@pAoiId,
+        @AoiPartID) returns the same fields, it is more specific
+        in its search.
+    </p>
+    <p>
+        Function SDA_Get_AoiSoilMapunitPolygon_By_AoiId(@pAoiId) returns:
+    </p>
+    <table>
+        <tr>
+            <th scope="col">Label</th>
+            <th scope="col">Description</th>
+            <th scope="col">Notes</th>
+        </tr>
+        <tr>
+            <td>AoiId</td>
+            <td>Int</td>
+            <td>pAoi identifier</td>
+        </tr>
+        <tr>
+            <td>AoiPartID</td>
+            <td>Int</td>
+            <td>part record identifier</td>
+        </tr>
+        <tr>
+            <td>AoiSoilMapUnitPolygonGeo</td>
+            <td>Geometry</td>
+            <td>Polygon geometry, WGS84</td>
+        </tr>
+        <tr>
+            <td>AoiSoilMapUnitPolygonID</td>
+            <td>BigInt</td>
+            <td>record identifier</td>
+        </tr>
+        <tr>
+            <td>AoiSoilMapUnitPolygonProj</td>
+            <td>Geometry</td>
+            <td>Polygon geometry, Web Mercator</td>
+        </tr>
+        <tr>
+            <td>AreaAcres</td>
+            <td>Numeric(38,8)</td>
+            <td>"acreage" of the polygon within the part (after subtracting point and line "acreages")</td>
+        </tr>
+        <tr>
+            <td>AreaSymbol</td>
+            <td>Varchar(20)</td>
+            <td>SSA containing the polygon</td>
+        </tr>
+        <tr>
+            <td>MapUnitKey</td>
+            <td>Int</td>
+            <td>Foreign key to mapunit table (field: mukey)</td>
+        </tr>
+        <tr>
+            <td>MapUnitName</td>
+            <td>Varchar(240)</td>
+        </tr>
+        <tr>
+            <td>MapUnitSymbol</td>
+            <td>Varchar(6)</td>
+        </tr>
+        <tr>
+            <td>MuPolygonKey</td>
+            <td>Int</td>
+            <td>Foreign key to mupolygon table</td>
+        </tr>
+        <tr>
+            <td>NationalMapUnitSymbol</td>
+            <td>Varchar(6)</td>
+        </tr>
+        <tr>
+            <td>SpatialVersion</td>
+            <td>Int</td>
+            <td>Spatial version number of SSA</td>
+        </tr>
+    </table>
+
+    <p>
+        Function SDA_Get_AoiSoilMapunitPolygon_By_AoiId_And_AoiPartId(@pAoiId,
+        @AoiPartID) returns the same fields, it is more specific in its search.
+    </p>
+
+    <div align="right"><a href="#top"><p>back to top</p></a></div>
+    <hr>
+
+    <!--    -->
+
+    <h3 id="AOISoilSpot">AoiSoiSpotFeature {Line, Point} tables</h3>
+    <p>
+        These tables are only populated for pAOIs created from an "aoicoords" specification.
+    </p>
+    <img src="./AdvancedQueries_files/Aoi Soil Spot Feature Tables.png" alt="Image of AOI database tables with the tables AoiSoilMapUnitPolygon, AoiSoilMapInitPoint and AoiSoilMapInitLine highlighted.  Chart shows relationship between Aoi and AoiPart parent tables to highlighted tables.">
+    <p>
+        Function SDA_Get_AoiSoilSpotFeatureLine_By_AoiId(@pAoiId) returns:
+    </p>
+    <table>
+        <tr>
+            <th scope="col">Label</th>
+            <th scope="col">Description</th>
+            <th scope="col">Notes</th>
+        </tr>
+        <tr>
+            <td>AoiId</td>
+            <td>Int</td>
+            <td>pAoi identifier</td>
+        </tr>
+        <tr>
+            <td>AoiPartID</td>
+            <td>Int</td>
+            <td>part record identifier</td>
+        </tr>
+        <tr>
+            <td>AoiSoilSpotFeatureLineGeo</td>
+            <td>Geometry</td>
+            <td>Line geometry, WGS84</td>
+        </tr>
+        <tr>
+            <td>AoiSoilSpotFeatureLineID</td>
+            <td>Int</td>
+            <td>record identifier</td>
+        </tr>
+        <tr>
+            <td>AoiSoilSpotFeatureLineProj</td>
+            <td>Geometry</td>
+            <td>Line geometry, Web Mercator</td>
+        </tr>
+        <tr>
+            <td>AreaSymbol</td>
+            <td>Varchar(20)</td>
+            <td>SSA containing the line</td>
+        </tr>
+        <tr>
+            <td>FeatLineKey</td>
+            <td>Int</td>
+            <td>Foreign key to featline table</td>
+        </tr>
+        <tr>
+            <td>SoilSpotFeatureKey</td>
+            <td>Int</td>
+            <td>Foreign key to featline table (field: featkey)</td>
+        </tr>
+        <tr>
+            <td>SoilSpotFeatureSymbol</td>
+            <td>Varchar(3)</td>
+        </tr>
+        <tr>
+            <td>SpatialVersion</td>
+            <td>Int</td>
+            <td>Spatial version number of SSA</td>
+        </tr>
+    </table>
+    <p>
+        Function SDA_Get_AoiSoilSpotFeatureLine_By_AoiId_And_AoiPartId(@pAoiId,
+        @AoiPartID) returns the same fields, it is more specific in its search.
+    </p>
+    <p>
+        Function SDA_Get_AoiSoilSpotFeaturePoint_By_AoiId(@pAoiId) returns:
+    </p>
+    <table>
+        <tr>
+            <th scope="col">Label</th>
+            <th scope="col">Description</th>
+            <th scope="col">Notes</th>
+        </tr>
+        <tr>
+            <td>AoiId</td>
+            <td>Int</td>
+            <td>pAoi identifier</td>
+        </tr>
+        <tr>
+            <td>AoiPartID</td>
+            <td>Int</td>
+            <td>part record identifier</td>
+        </tr>
+        <tr>
+            <td>AoiSoilSpotFeaturePointGeo</td>
+            <td>Geometry</td>
+            <td>Point geometry, WGS84</td>
+        </tr>
+        <tr>
+            <td>AoiSoilSpotFeaturePointID</td>
+            <td>Int</td>
+            <td>record identifier</td>
+        </tr>
+        <tr>
+            <td>AoiSoilSpotFeaturePointProj</td>
+            <td>Geometry</td>
+            <td>Point geometry, Web Mercator</td>
+        </tr>
+        <tr>
+            <td>AreaSymbol</td>
+            <td>Varchar(20)</td>
+            <td>SSA containing the line</td>
+        </tr>
+        <tr>
+            <td>FeatPointKey</td>
+            <td>Int</td>
+            <td>Foreign key to featpoint table</td>
+        </tr>
+        <tr>
+            <td>SoilSpotFeatureKey</td>
+            <td>Int</td>
+            <td>Foreign key to featpoint table (field: featkey)</td>
+        </tr>
+        <tr>
+            <td>SoilSpotFeatureSymbol</td>
+            <td>Varchar(3)</td>
+        </tr>
+        <tr>
+            <td>SpatialVersion</td>
+            <td>Int</td>
+            <td>Spatial version number of SSA</td>
+        </tr>
+    </table>
+    <p>
+        Function SDA_Get_AoiSoilSpotFeaturePoint_By_AoiId_And_AoiPartId(@pAoiId,
+        @AoiPartID) returns the same fields, it is more specific in its search.
+    </p>
+
+    <div align="right"><a href="#top"><p>back to top</p></a></div>
+    <hr>
+
+    <!--  -->
+
+    <h3 id="AOISoilThem">AoiSoilThematicMap {plus Legend, Rating} tables</h3>
+    <p>
+        When an interpretation is calculated for a pAOI the results are saved
+        into the AoiSoilThematicMap* tables: one record capturing the
+        parameters for the interpretation into the AoiSoilThematicMap
+        table, one record into the AoiSoilThematicMapLegend table for
+        each legend entry, and one into the AoiSoilThematicMapRating
+        table for each map unit key.
+    </p>
+    <img src="./AdvancedQueries_files/Aoi Thematic Map Tables.png" alt="Image of AOI database tables with the tables AoiSoilThematicMap, AoiSoilThematicMapRating and AoiSoilThematicMapLegend highlighted. Chart shows relationship between Aoi and AoiSoilThematicMap parent tables to highlighted tables.">
+    <p>
+        Function SDA_Get_AoiSoilThematicMap_By_AoiId(@pAoiId) returns:
+    </p>
+    <table>
+        <tr>
+            <th scope="col">Label</th>
+            <th scope="col">Description</th>
+            <th scope="col">Notes</th>
+        </tr>
+        <tr>
+            <td>AggregationMethod</td>
+            <td>Varchar(50)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>AoiId</td>
+            <td>Int</td>
+            <td>pAoi identifier</td>
+        </tr>
+        <tr>
+            <td>AoiSoilThematicMapID</td>
+            <td>Int</td>
+            <td>Interpretation result ID</td>
+        </tr>
+        <tr>
+            <td>AttributeKey</td>
+            <td>Int</td>
+            <td>Foreign key, points to sdvattribute table record</td>
+        </tr>
+        <tr>
+            <td>BeginningMonth</td>
+            <td>Varchar(9)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>BottomDepth</td>
+            <td>smallint</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>ComponentPercentCutoff</td>
+            <td>Smallint</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>CreationDateTime</td>
+            <td>DateTime</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>DepthUnits</td>
+            <td>Varchar(11)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>EndingMonth</td>
+            <td>Varchar(9)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>HorizonAggregationMethod</td>
+            <td>Varchar(30)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>InterpretNullsAsZero</td>
+            <td>Bit</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>LayerOption</td>
+            <td>Varchar(13)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>ParameterXml</td>
+            <td>Varchar(max)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>PrimaryDataSelectOption</td>
+            <td>Varchar(255)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>PrimaryDataSelectOptionLabel</td>
+            <td>Varchar(20)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SdvAttributeName</td>
+            <td>Varchar(60)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SecondaryDataSelectOption</td>
+            <td>Varchar(20)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>TiebreakRule</td>
+            <td>Varchar(6)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>TopDepth</td>
+            <td>Smallint</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>UnitsofMeasure</td>
+            <td>Varchar(60)</td>
+            <td></td>
+        </tr>
+    </table>
+    <p>
+        Function SDA_Get_AoiSoilThematicMap_By_AoiSoilThematicMapId (@AoiSoilThematicMapId)
+        returns the same fields, it is more specific in its search.
+    </p>
+
+    <p>
+        Function SDA_Get_AoiSoilThematicMapLegend_By_AoiId(@pAoiId) returns:
+    </p>
+    <table>
+        <tr>
+            <th scope="col">Label</th>
+            <th scope="col">Description</th>
+            <th scope="col">Notes</th>
+        </tr>
+        <tr>
+            <td>AoiId</td>
+            <td>Int</td>
+            <td>pAoi identifier</td>
+        </tr>
+        <tr>
+            <td>AoiSoilThematicLegendID</td>
+            <td>Int</td>
+            <td>Record identifier</td>
+        </tr>
+        <tr>
+            <td>AoiSoilThematicMapID</td>
+            <td>Int</td>
+            <td>Interpretation result ID</td>
+        </tr>
+        <tr>
+            <td>LegendText</td>
+            <td>Varchar(255)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>RgbString</td>
+            <td>Varchar(11)</td>
+            <td>Color in the form "#rrggbb", e.g. Cyan (green and blue) is "#00ffff".</td>
+        </tr>
+    </table>
+    <p>
+        Function SDA_Get_AoiSoilThematicMapLegend_By_AoiSoilThematicMapId (@AoiSoilThematicMapId)
+        returns the same fields, it is more specific in its search.
+    </p>
+
+    <p>
+        Function SDA_Get_AoiSoilThematicMapRating_By_AoiId(@pAoiId) returns:
+    </p>
+    <table>
+        <tr>
+            <th scope="col">Label</th>
+            <th scope="col">Description</th>
+            <th scope="col">Notes</th>
+        </tr>
+        <tr>
+            <td>AoiId</td>
+            <td>Int</td>
+            <td>pAoi identifier</td>
+        </tr>
+        <tr>
+            <td>AoiSoilThematicMapID</td>
+            <td>Int</td>
+            <td>Interpretation result ID</td>
+        </tr>
+        <tr>
+            <td>MapUnitKey</td>
+            <td>Int</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>MapUnitRatingString</td>
+            <td>Varchar(255)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>MapUnitRatingNumeric</td>
+            <td>Numeric(17,6)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>RgbString</td>
+            <td>Varchar(11)</td>
+            <td>Color in the form "#rrggbb", e.g. Cyan (green and blue) is "#00ffff".</td>
+        </tr>
+    </table>
+    <p>
+        Function SDA_Get_AoiSoilThematicMapRating_By_AoiSoilThematicMapId (@AoiSoilThematicMapId)
+        returns the same fields, it is more specific in its search.
+    </p>
+
+
+    <h3 id="AOISld">AoiSld table</h3>
+    <p>
+        A "Styled Layer Descriptor"
+        (<a href="https://en.wikipedia.org/wiki/Styled_Layer_Descriptor">SLD</a>)
+        is a mechanism for instructing SDA how to render maps.
+        You may define one or more SLD instances (each describing
+        "painting" of one or more layers), these are associated with a persistent AOI.
+        Each SLD must be registered with a pAOI, in doing so you receive an
+        sldId that is used when rendering maps to specify the SLD to use.
+    </p>
+    <p>
+        The SLD is in the form of an XML document. The easiest way to get
+        started is to request the "default style" of one or more layers
+        from SDA and then edit the XML (using an ordinary text editor such as
+        "Notepad") before registering your masterwork (information
+        on the SLD may be found at <a href="https://mapserver.org/ogc/sld.html?highlight=sld">SLD</a>
+        - Soil Data Access uses MapServer libraries to provide SLD support for
+        map image creation via the GetMap Web Map Service).
+    </p>
+    <p>
+        For example, the default SLD for the "mapunitpoly" layer may be retrieved
+        submitting a Web Map Service (WMS) "GetStyles" request, this request returns
+        the response formatted as XML.
+    </p>
+    <pre>
+    <a href="https://sdmdataaccess.sc.egov.usda.gov/spatial/sdm.wms?service=wms&request=GetStyles&layers=mapunitpoly">https://sdmdataaccess.sc.egov.usda.gov/spatial/sdm.wms?service=wms&request=GetStyles&layers=mapunitpoly</a>
+	</pre>
+    <p>
+        With a pAoiId in-hand, the text of the SLD is registered through the
+        <a href="../WebServiceHelp.aspx#RunQuery" target="blank">post.rest</a>
+        web service using the following parameters:
+    </p>
+    <pre>
+ service=aoi
+ request=registersld
+ aoiid=&lt;the value of the pAoiId&gt;
+ sld=&lt;the text of the SLD&gt;
+	</pre>
+    <p>
+        Note that an SLD, once registered, may be used promiscuously.
+        For example, if an SLD is registered to pAoiId=12345 and given an sldId of
+        42, you may also use #42 (without further registration) for drawing maps
+        for any other pAOI (for example, if you also created a pAOI with
+        pAoiId=12479 without registering #42 with #12479). In addition, you are
+        free to use #42 to create maps without specification of a pAoiId.
+    </p>
+    <p>
+        Once created, the registered information may be retrieved...
+    </p>
+    <p>
+        <img src="./AdvancedQueries_files/Aoi SLD Table.png" alt="Image of AOI database tables with the tables AoiSld highlighted.  Chart shows relationship between Aoi parent table to highlighted table.">
+    <p>
+        Function SDA_Get_AoiSld_By_AoiId(@pAoiId) returns:
+    </p>
+    <table>
+        <tr>
+            <th scope="col">Label</th>
+            <th scope="col">Description</th>
+            <th scope="col">Notes</th>
+        </tr>
+        <tr>
+            <td>AoiID</td>
+            <td>Int</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>AoiSldID</td>
+            <td>Int</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>SLD</td>
+            <td>Varchar(max)</td>
+            <td></td>
+        </tr>
+    </table>
+    <p>
+        Caution: the SLD, as an XML document, contains "tags" (specifiers surrounded by
+        angle brackets) that may confuse a Web Browser. Do not retrieve and then display
+        without proper encoding (for example, replace a left angle bracket, "&lt;"
+        with its encoded form, "&amp;lt;").
+    </p>
+    <p>
+        Function SDA_Get_AoiSld_By_AoiSldId (@AoiSldId) returns the same fields,
+        it is more specific in its search.
+    </p>
+
+    <div align="right"><a href="#top"><p>back to top</p></a></div>
+    <hr>
+
+    <h2 id="Interpretations">Interpretations</h2>
+
+    <p>
+        The soils data includes a number of "intrinsic" attributes that may be accessed
+        directly by performing queries. For example, given a set of map unit keys, the
+        "farm land classification" value of each mapunit may be retrieved with a query such as:
+    </p>
+    <div class="code">
+        select nationalmusym, muname, mukey, farmlndcl from mapunit
+        where mukey in (1017122, 1017142, 1017153, 1017155);
+    </div>
+    <p>
+        There are other "interpreted" attributes that must be derived computationally.
+        A broad set of these attributes (also variously called "interpretations",
+        "properties" or "ratings") are predefined and may be used accessed through
+        Soil Data Access in the context of a pAOI. Once the calculation is performed
+        it is assigned an identification number (the "interpresultid") and the
+        interpretation results are then accessible through queries (see above,
+        <a href="#AOISoilThem">AoiSoilThematicMap {plus Legend, Rating} tables</a>,
+        or via the Web Map and Web Feature services ("WMS" and "WFS", see the
+        <a href="../../WebServiceHelp.aspx">Web Service Help</a> page for more information).
+    </p>
+    <p>
+        The "catalog" of the interpreted attributes (also called "ratings" or "rules")
+        mirrors that presented by
+        <a href="https://websoilsurvey.sc.egov.usda.gov/App/HomePage.htm">Web Soil Survey</a>.
+        Once an AOI is defined within WSS and you've switched to the "Soil Data Explorer"
+        tab, almost two hundred attributes will be presented under the
+        "Suitabilities and Limitations for Use" and "Soil Properties and Qualities" tabs.
+
+        All techniques described in this "Interpretations" discussion must be performed
+        through the "post.rest" web service, see the
+        <a href="../WebServiceHelp.aspx#RunQuery" target="blank">Web Service Help Page</a>.
+
+        <div class="inset">
+            In automated contexts the application or web page would probably "skip to the chase"
+            and provide all required information to the "getrating" request, entirely avoiding
+            use of the "getcatalog", "getusecategories" and "getruledata" requests described here.
+        </div>
+
+        <h3 id="Interpretation_Catalog">Use Categories and the Catalog</h3>
+    <p>
+        A catalog of all interpretations that are applicable to a given pAOI may be requested
+        from the post.rest service by specifying the following parameters:
+    </p>
+    <pre>
+      service=interpretation
+      request=getcatalog
+      aoiid=...the pAoiId value...
+  </pre>
+    <p>
+        The result is a JSON string, a sample excerpted here in "prettified" form:
+    </p>
+    <pre>
+      { "tables": [
+        {  "tablename":"properties",
+         "folders": [ {
+             "foldername":"Soil Chemical Properties",
+             "attributes": [
+              {
+               "attributename":"Calcium Carbonate (CaCO3)",
+               "attributekey":"98"
+              }, ...
+             ]
+          }, ...
+         ]
+        }, {
+         "tablename":"interpretations",
+         "folders": [ {
+             "foldername":"Building Site Development",
+             "attributes": [
+              {
+               "attributename":"Corrosion of Concrete",
+               "attributekey":"95"
+              }, ...
+             ]
+          }, ...
+        ]
+      } }
+  </pre>
+    <p>
+        There are two important "shortnames" in each interpretation: the "attributename"
+        (with a value such as "Calcium Carbonate (CaCO3)") and the corresponding
+        "attributekey" (with the corresponding value "98"). The "attributename" is for
+        your edification, the "attributekey" is used in the request for the
+        interpretation's input options ("getruledata", described below).
+    </p>
+    <p>
+        The list provided by "getcatalog" may be filtered by specifying a WSS
+        "Soil Use". The list of these uses may be requested with:
+    </p>
+    <pre>
+      service=interpretation
+      request=getusecategories
+  </pre>
+    <p>
+        The response is:
+    </p>
+    <pre>
+      [
+         {
+          "usecategoryid": 0,
+          "usecategoryname":"All Uses"
+         },
+         {
+          "usecategoryid": 4,
+          "usecategoryname":"Cropland"
+         },
+         {
+          "usecategoryid": 6,
+          "usecategoryname":"Forestland"
+         },
+         {
+          "usecategoryid": 7,
+          "usecategoryname":"Horticulture"
+         },
+         {
+          "usecategoryid": 9,
+          "usecategoryname":"Hayland/Pastureland"
+         },
+         {
+          "usecategoryid": 10,
+          "usecategoryname":"Rangeland"
+         },
+         {
+          "usecategoryid": 11,
+          "usecategoryname":"Recreation"
+         },
+         {
+          "usecategoryid": 16,
+          "usecategoryname":"Urban Uses"
+         }
+      ]
+  </pre>
+    <p>
+        If you wish to filter by one of the above categories other than
+        "All Uses", add the category's number to the getcatalog request.
+        For example, for "Urban Uses" (usecategoryid=16), request:
+    </p>
+    <pre>
+      service=interpretation
+      request=getcatalog
+      aoiid=...the pAoiId value...
+      usecategoryid=16
+  </pre>
+
+    <div align="right"><a href="#top"><p>back to top</p></a></div><hr>
+
+    <h3 id="Interpretation_Description">Interpretation Descriptions</h3>
+    <p>
+        You may retrieve the description of an interpretation given its attribute key.
+        The response is returned as a JSON string with embedded return ("\r") and
+        newline ("\n") characters.
+    </p>
+    <p>
+        For example, the request and response for "Corrosion of Concrete"
+        (attributekey=95) is:
+    </p>
+    <pre>
+      service=interpretation
+      request=getdescription
+      attributekey=95
+
+      {
+        "description":
+              "\"Risk of corrosion\" pertains to potential soil-induced 
+               electrochemical or chemical action that corrodes or weakens 
+               concrete. The rate of corrosion of concrete is based mainly on 
+               the sulfate and sodium content, texture, moisture content, and 
+               acidity of the soil. Special site examination and design may be 
+               needed if the combination of factors results in a severe hazard 
+               of corrosion. The concrete in installations that intersect soil 
+               boundaries or soil layers is more susceptible to corrosion than 
+               the concrete in installations that are entirely within one kind 
+               of soil or within one soil layer.
+               \r\n\r\n
+               The risk of corrosion is expressed as \"low,\" \"moderate,\" 
+               or \"high.\""
+      }
+  </pre>
+
+    <div align="right"><a href="#top"><p>back to top</p></a></div><hr>
+
+    <h3 id="Interpretation_RuleData">Rule Data</h3>
+
+    <p>
+        Once you have a pAOI and an attributekey you may request information
+        about the interpretation's required input data. Typically the
+        "short" format may be used as-is to request that the interpretation be
+        executed (if you know ahead of time that the input data is
+        complete and acceptable for your purposes by default, you can jump
+        ahead and simply request the interpretation, see
+        <a href="#Interpretation_Running">Running the Interpretation</a> below).
+    </p>
+
+    <h4 id="Interpretation_ShortFormat">Short Format</h4>
+    <p>
+        The "short" format ("short" is the default for a "getruledata" request)
+        presents the interpretation's default parameters for your immediate use
+        when requesting interpretation execution ("get rating", below).
+        It is a starting point for editing, should you need to change the defaults.
+    </p>
+    For example, to request the requirements for "Soil Taxonomy Classification"
+    (attributekey=471) in "short" form for aoiid=502, request:
+    </p>
+    <pre>
+      service=interpretation
+      request=getruledata
+      aoiid=502
+      attributekey=471
+         </pre>
+    <p>
+        The response is a collection of "shortname"/"value" pairs, in this instance
+        the prettified response is:
+    </p>
+    <pre>
+       {
+          "ComponentPercentCutoff": "",
+          "aoiid": "502",
+          "ruleid": "471",
+          "AggregationMethod": "Dominant Condition",
+          "TiebreakRule": "-1"
+       }
+    </pre>
+    <p>
+        Note that the aoiid and attributekey (renamed as "ruleid") are duplicated
+        in the returned data.
+    <p>
+    <p>
+        Here's a more complicated short response for "Flooding Frequency Class",
+        attributekey=12:
+    </p>
+    <pre>
+       {
+          "ComponentPercentCutoff":"",
+          "aoiid":"502",
+          "ruleid":"12",
+          "AggregationMethod":"Dominant Condition",
+          "TiebreakRule":"1",
+          "BeginningMonth":"January",
+          "EndingMonth":"December"
+       }
+    </pre>
+    What if you do not know the alternatives to parameter "AggregationMethod"?
+    That is addressed by the "Long" format response.
+    <div class="inset">
+        <mark>
+            <span class="off-screen">Highlight begin.</span>A handful of the interpretations do not provide the necessary set of
+            default parameters and their values to be used directly by "getrating".
+            This, too, is addressed by the "Long" format.<span class="off-screen">Highlight end.</span>
+        </mark>
+    </div>
+    <div align="right"><a href="#top"><p>back to top</p></a></div><hr>
+
+    <h4 id="Interpretation_LongFormat">Long Format</h4>
+    <p>
+        The long format response to "getruledata", formatted as XML,
+        provides extra information including full names for parameters
+        (besides the "shortname"), attribute type, parameter validation
+        constraints, default values, parameter options and nesting information
+        for trees of options (the XML content maps exactly to the input form
+        presented by WSS, browsing through assorted rating input forms
+        in WSS and requesting the "long" format from SDA will be quite instructive).
+        In order to request the long format, "format=long" must be added to
+        the "getruledata" request. Again for "Soil Taxonomic Classification",
+    </p>
+    <pre>
+      service=interpretation
+      request=getruledata
+      aoiid=502
+      attributekey=471
+      format=long
+  </pre>
+    <p>
+        The short format response for "471" is:
+    </p>
+    <pre>
+       {
+          "ComponentPercentCutoff":"",
+          "aoiid":"502",
+          "ruleid":"471",
+          "AggregationMethod":"Dominant Condition",
+          "TiebreakRule":"-1"
+       }
+    </pre>
+    <p>
+        Here's the long format response, prettified. Note the highlighted items,
+        compare them to the short response above:
+    </p>
+    <pre>
+          &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+          &lt;xml ...&gt;
+             &lt;Group Name="Advanced Options" Mode="Advanced" aoiid="502" ruleid="471"&gt;
+                &lt;Group Name="Aggregation Method"&gt;
+                   &lt;Parameter Name="Aggregation Method" DescriptionID="V0"
+                        ControlType="DropDownList" MultipleSelect="False"
+                        MinimumSelected="1" MaximumSelected="1"
+                        Default=<mark><span class="off-screen">Highlight begin.</span>"Dominant Condition"<span class="off-screen">Highlight end.</span></mark> Value="Dominant Condition"
+                        shortname=<mark><span class="off-screen">Highlight begin.</span>"AggregationMethod"<span class="off-screen">Highlight end.</span></mark>&gt;
+                      &lt;ListItem Name="Dominant Condition" Value="Dominant Condition"
+                          DescriptionID="A1" /&gt;
+                      &lt;ListItem Name="Dominant Component" Value="Dominant Component"
+                          DescriptionID="A2" /&gt;
+                   &lt;/Parameter&gt;
+                &lt;/Group&gt;
+                &lt;Group Name="Component Percent Cutoff"&gt;
+                   &lt;Parameter Name="Component Percent Cutoff" DescriptionID="V1"
+                        ControlType="Text" UseRegEx="Optional" DataType="Integer"
+                        MaximumLength="3" RegEx="^0*(100|[0-9]{0,2})$"
+                        ValidationMessage="The component percent cutoff ..., or may be null."
+                        MinimumValue="0" MaximumValue="100" Required="False"
+                        Default=<mark><span class="off-screen">Highlight begin.</span>""<span class="off-screen">Highlight end.</span></mark> Value="" shortname=<mark><span class="off-screen">Highlight begin.</span>"ComponentPercentCutoff"<span class="off-screen">Highlight end.</span></mark> /&gt;
+                &lt;/Group&gt;
+                &lt;Group Name="Tie-break Rule" Enabled="False"&gt;
+                   &lt;Parameter Name="Tie-break Rule" DescriptionID="V2"
+                        ControlType="Radio" Default=<mark><span class="off-screen">Highlight begin.</span>"-1"<span class="off-screen">Highlight end.</span></mark> Value="-1"
+                        shortname=<mark><span class="off-screen">Highlight begin.</span>"TiebreakRule"<span class="off-screen">Highlight end.</span></mark>&gt;
+                      &lt;ListItem Name="Lower" Value="-1" /&gt;
+                      &lt;ListItem Name="Higher" Value="1" /&gt;
+                   &lt;/Parameter&gt;
+                &lt;/Group&gt;
+                &lt;Group Name="aoiid" shortname="aoiid" Enabled="False"&gt;
+                   &lt;Parameter Name="aoiid" shortname=<mark><span class="off-screen">Highlight begin.</span>"aoiid"<span class="off-screen">Highlight end.</span></mark>
+                        ControlType="Text" UseRegEx="Optional" DataType="Integer"
+                        MaximumLength="10" RegEx="^0*(100|[0-9]{0,10})$"
+                        MinimumValue="1" MaximumValue="2147483647" Required="True"
+                        Default=<mark><span class="off-screen">Highlight begin.</span>"502"<span class="off-screen">Highlight end.</span></mark> Value="502" /&gt;
+                &lt;/Group&gt;
+                &lt;Group Name="ruleid" shortname="ruleid" Enabled="False"&gt;
+                   &lt;Parameter Name="ruleid" shortname=<mark><span class="off-screen">Highlight begin.</span>"ruleid"<span class="off-screen">Highlight end.</span></mark>
+                        ControlType="Text" UseRegEx="Optional" DataType="Integer"
+                        MaximumLength="10" RegEx="^0*(100|[0-9]{0,10})$"
+                        MinimumValue="1" MaximumValue="2147483647" Required="True"
+                        Default=<mark><span class="off-screen">Highlight begin.</span>"471"<span class="off-screen">Highlight end.</span></mark> Value="471" /&gt;
+                &lt;/Group&gt;
+             &lt;/Group&gt;
+          &lt;/xml&gt;
+    </pre>
+    <p>
+        Note the nested hierarchical structure (made plain by "prettifying"),
+        the presence of a "shortname" attribute in each "Parameter", and in the
+        case where a "Parameter" contains one or more "ListItem" elements within,
+        the Parameter's "Value" and "Default" match one of the child "ListItem"'s
+        "Value"s.
+    </p>
+    The above XML specifies, for a Parameter with child ListItem elements,
+    alternative choices that may be provided to "getrating". For example
+    "AggregationMethod" need not be "Dominant Condition". The alternative
+    values are highlighted in this fragment from the above XML for the Parameter
+    with shortname="AggregationMethod":
+    </p>
+    <pre>
+           &lt;Parameter Name="Aggregation Method" DescriptionID="V0"
+                ControlType="DropDownList" MultipleSelect="False"
+                MinimumSelected="1" MaximumSelected="1"
+                Default="Dominant Condition" Value="Dominant Condition"
+                shortname="AggregationMethod"&gt;
+              &lt;ListItem Name="Dominant Condition" Value=<mark><span class="off-screen">Highlight begin.</span>"Dominant Condition"<span class="off-screen">Highlight end.</span></mark>
+                  DescriptionID="A1" /&gt;
+              &lt;ListItem Name="Dominant Component" Value=<mark><span class="off-screen">Highlight begin.</span>"Dominant Component"<span class="off-screen">Highlight end.</span></mark>
+                  DescriptionID="A2" /&gt;
+           &lt;/Parameter&gt;
+    </pre>
+    <p>
+        Therefore specification of "Dominant <mark><span class="off-screen">Highlight begin.</span>Component<span class="off-screen">Highlight end.</span></mark>" would be equally valid:
+    </p>
+    <pre>
+       {
+          "ComponentPercentCutoff":"",
+          "aoiid":"502",
+          "ruleid":"471",
+          "AggregationMethod":"Dominant <mark><span class="off-screen">Highlight begin.</span>Component<span class="off-screen">Highlight end.</span></mark>",
+          "TiebreakRule":"-1"
+       }
+    </pre>
+    <p>
+        Those Parameters with Enabled="False" are not not to be changed.
+    </p>
+    <p>
+        The "V"-series "DescriptionID" values are as follows:
+    </p>
+    <table>
+        <tr><th scope="col" style="padding:5px;">Key</th><th scope="col" style="padding:5px;">Description Text</th></tr>
+        <tr><th scope="row" style="padding:5px;">V0</td><td style="padding:5px;">Aggregation is the process by which a set of component attribute values is reduced to a single value that represents the map unit as a whole.\n\nA map unit is typically composed of one or more &quot;components&quot;.  A component is either some type of soil or some nonsoil entity, e.g., rock outcrop.  For the attribute being aggregated, the first step of the aggregation process is to derive one attribute value for each of a map unit&apos;s components.  From this set of component attributes, the next step of the aggregation process derives a single value that represents the map unit as a whole.  Once a single value for each map unit is derived, a thematic map for soil map units can be rendered.  Aggregation must be done because, on any soil map, map units are delineated but components are not.\n\nFor each of a map unit&apos;s components, a corresponding percent composition is recorded.  A percent composition of 60 indicates that the corresponding component typically makes up approximately 60% of the map unit.  Percent composition is a critical factor in some, but not all, aggregation methods.</td></tr>
+        <tr><th scope="row" style="padding:5px;">V1</td><td style="padding:5px;">Components whose percent composition is below the cutoff value will not be considered.  If no cutoff value is specified, all components in the database will be considered.  The data for some contrasting soils of minor extent may not be in the database, and therefore are not considered.</td></tr>
+        <tr><th scope="row" style="padding:5px;" d>V2</td><td style="padding:5px;">The tie-break rule indicates which value should be selected from a set of multiple candidate values, or which value should be selected in the event of a percent composition tie.</td></tr>
+        <tr><th scope="row" style="padding:5px;">V3</td><td style="padding:5px;">This option indicates if a null value for a component should be converted to zero before aggregation occurs.  This will be done only if a map unit has at least one component where this value is not null.</td></tr>
+        <tr><th scope="row" style="{padding:5px;}">V4</td><td style="{padding:5px;}">For an attribute of a soil horizon, a depth qualification must be specified.  In most cases it is probably most appropriate to specify a fixed depth range, either in centimeters or inches.  The Bottom Depth must be greater than the Top Depth, and the Top Depth can be greater than zero.  The choice of \"inches\" or \"centimeters\" only applies to the depth of soil to be evaluated.  It has no influence on the units of measure the data are presented in.\n\nWhen \"Surface Layer\" is specified as the depth qualifier, only the surface layer or horizon is considered when deriving a value for a component, but keep in mind that the thickness of the surface layer varies from component to component.\n\nWhen \"All Layers\" is specified as the depth qualifier, all layers recorded for a component are considered when deriving the value for that component.\n\nWhenever more than one layer or horizon is considered when deriving a value for a component, and the attribute being aggregated is a numeric attribute, a weighted average value is returned, where the weighting factor is the layer or horizon thickness.</td></tr>
+        <tr><th scope="row" style="{padding:5px;}">V5</td><td style="{padding:5px;}">For an attribute that is recorded by month, a month range must be specified.  To specify a single month, set beginning month and ending month to the same month.  Be aware that January to December includes all 12 months, whereas December to January includes only December and January.</td></tr>
+    </table>
+    <p>
+        The "A"-series "DescriptionID" values are retrieved via query.
+        Within the "Aggregation Method", for the ListItem
+    </p>
+    <pre>
+        &lt;ListItem Name="Dominant Condition" Value="Dominant Condition" DescriptionID="A1" /&gt;
+	</pre>
+    <p>the query to retrieve the description for "Dominant Condition" would be:</p>
+    <div class="code">
+        select algorithmdescription from sdvalgorithm where algorithmname = 'Dominant Component';
+    </div>
+
+    <p>
+        There are a few interpretations that lack a complete set of default values.
+        When the "short" data is used as-is with "getrating" an error occurs
+        (in this instance you'd see
+        <span class="code">"&lt;ServiceException&gt;An invalid Top Depth was specified.&lt;/ServiceException&gt;"</span>)
+    </p>
+    <p>
+        Here's the short format data for "Calcium Carbonate (CaCO3)" (attributekey=98)
+        followed by an excerpt from the XML:
+    </p>
+<pre>
+    {
+       "ComponentPercentCutoff":"",
+          "TopDepth":"",
+          "BottomDepth":"",
+          "aoiid":"502",
+          "ruleid":"98",
+          "AggregationMethod":"Dominant Component",
+          "TiebreakRule":"1",
+          "InterpretNullsAsZero":"True",
+    <mark><span class="off-screen">Highlight begin.</span>"HorizonAggregationMethod":"Depth Range"<span class="off-screen">Highlight end.</span></mark>,
+          "DepthUnits":"Centimeters"
+    }
+</pre>
+    <p>
+        Note that the "HorizonAggregationMethod" defaults to "Depth Range". Within the
+        "Depth Range" are two child parameters, "TopDepth" and "BottomDepth". Both
+        show Required="True" and no default value is supplied for either:
+    </p>
+<pre>
+         &lt;Parameter Name="Layer Options (Horizon Aggregation Method)"
+             DescriptionID="V4" ControlType="Radio"
+            Default="Depth Range" Value="Depth Range"
+            shortname="HorizonAggregationMethod"&gt;
+            &lt;ListItem Name="Surface Layer (Not applicable)" Value="Surface Layer" /&gt;
+            &lt;ListItem Name="Depth Range (Weighted Average)" Value="Depth Range"&gt;
+               &lt;Group Name="Depth Range"&gt;
+                  &lt;Range Name="Depth Range" Type="Integer"&gt;
+                     &lt;Parameter Name="Top Depth" ValidateWhenHidden="True"
+                           ControlType="Text" UseRegEx="Optional"
+                           DataType="Integer" MaximumLength="4"
+                           RegEx="^0*[0-9]{1,4}$" shortname=<mark><span class="off-screen">Highlight begin.</span>"TopDepth"<span class="off-screen">Highlight end.</span></mark>
+                           ValidationMessage="Any horizon depth must be ..."
+                           MinimumValue="0" MaximumValue="9999" Required="True"
+    <mark><span class="off-screen">Highlight begin.</span>Default=""<span class="off-screen">Highlight end.</span></mark> Value="" /&gt;
+                      &lt;Parameter Name="Bottom Depth" ValidateWhenHidden="True"
+                           ControlType="Text" UseRegEx="Optional"
+                           DataType="Integer" MaximumLength="4"
+                           RegEx="^0*[0-9]{1,4}$" shortname=<mark><span class="off-screen">Highlight begin.</span>"BottomDepth"<span class="off-screen">Highlight end.</span></mark>
+                           ValidationMessage="Any horizon depth must be ..."
+                           MinimumValue="0" MaximumValue="9999" Required="True"
+    <mark><span class="off-screen">Highlight begin.</span>Default=""<span class="off-screen">Highlight end.</span></mark> Value="" /&gt;
+                  &lt;/Range&gt;
+                  &lt;Group Name="Units of Measure"&gt;
+                     &lt;Parameter Name="Units of Measure" ControlType="Radio"
+                    Default="Centimeters" Value="Centimeters" shortname="DepthUnits"&gt;
+                        &lt;ListItem Name="Inches" Value="Inches" /&gt;
+                        &lt;ListItem Name="Centimeters" Value="Centimeters" /&gt;
+                     &lt;/Parameter&gt;
+                  &lt;/Group&gt;
+               &lt;/Group&gt;
+            &lt;/ListItem&gt;
+            &lt;ListItem Name="All Layers (Weighted Average)" Value="All Layers" /&gt;
+         &lt;/Parameter&gt;
+</pre>
+    <p>
+        One valid approach is to provide both top and bottom depths, in this case the depth range
+        is specified as 35 to 142 centimeters:
+    </p>
+<pre>
+    {
+       "ComponentPercentCutoff":"",
+          "aoiid":"502",
+          "ruleid":"98",
+          "AggregationMethod":"Dominant Component",
+          "TiebreakRule":"1",
+          "InterpretNullsAsZero":"True",
+    <mark><span class="off-screen">Highlight begin.</span>"HorizonAggregationMethod":"Depth Range"<span class="off-screen">Highlight end.</span></mark>,
+          "DepthUnits":"Centimeters",
+    <mark><span class="off-screen">Highlight begin.</span>"TopDepth":"35"<span class="off-screen">Highlight end.</span></mark>,
+    <mark><span class="off-screen">Highlight begin.</span>"BottomDepth":"142"<span class="off-screen">Highlight end.</span></mark>
+    }
+</pre>
+    <p>
+        Another posssibility, if appropriate to your analytical requirements, is to specify
+        "All Layers" for the "HorizonAggregationMethod":
+    </p>
+<pre>
+    {
+       "ComponentPercentCutoff":"",
+          "aoiid":"502",
+          "ruleid":"98",
+          "AggregationMethod":"Dominant Component",
+          "TiebreakRule":"1",
+          "InterpretNullsAsZero":"True",
+    <mark><span class="off-screen">Highlight begin.</span>"HorizonAggregationMethod":"All Layers"<span class="off-screen">Highlight end.</span></mark>
+    }
+</pre>
+
+    <div align="right"><a href="#top"><p>back to top</p></a></div><hr>
+
+    <h3 id="Interpretation_Running">Running the Interpretation</h3>
+    To perform the calculations defined for the interpretation
+    the "short" format data, edited as necessary to reflect
+    either non-default values (or supply missing default values)
+    is presented as "shortformdata" to the "getrating" request.
+    The request, if successfully executed, returns an "interpresultid".
+    For example (the shortformdata is wrapped here),
+    <pre class="code">
+       service=interpretation
+       request=getrating
+       shortformdata=
+	     {
+          "ComponentPercentCutoff":"",
+          "aoiid":"502",
+          "ruleid":"98",
+          "AggregationMethod":"Dominant Component",
+          "TiebreakRule":"1",
+          "InterpretNullsAsZero":"True",
+          "HorizonAggregationMethod":"All Layers"
+         }
+	</pre>
+    <p>
+        Your result should be similar to:
+    </p>
+    <pre class="code">
+       {"interpresultid":"504"}
+    </pre>
+    <p>
+        Regarding the JSON string you supply for the "shortformdata":<br>
+        &nbsp;&nbsp;&nbsp;- The names and associated values are case-sensitive.<br>
+        &nbsp;&nbsp;&nbsp;- Spaces, tabs and newlines are permitted outside of the quoted names and values.<br>
+        &nbsp;&nbsp;&nbsp;- When in doubt, consult the "long" format XML provided
+        by "getruledata" for required paraeter names and value options.
+    </p>
+    <p>
+        Note that if the default shortformdata is correct for your chosen rating then you can
+        skip its use and specify, in its place, the aoid and ruleid (as the "attributekey"):
+    </p>
+    <pre class="code">
+       service=interpretation
+       request=getrating
+       aoiid=502
+       attributekey=98
+	</pre>
+
+
+    <h3 id="Interpretation_Using">Using Interpretation Results</h3>
+    <p>
+        When an interpretation is run using "getrating" an "interpresultid"
+        is returned (also called "AoiSoilThematicMapId"). This the key to data stored
+        with the AOI, and may be queried using functions described in
+        <a href="#AOISoilThem">AoiSoilThematicMap {plus Legend, Rating} tables</a>.
+        The execution creates an AoiSoilThematicMap record (under the originally-specified
+        AOI) and, under that, one or more records in the "AoiSoilThematicMapRating"
+        and "AoiSoilThematicMapLegend" tables. The rating results are assigned
+        a color and the possible colors and associated legend text are placed in the
+        "AoiSoilThematicMapLegend".
+    </p>
+    <p>
+        The "interpresultid" may also be used to generate maps colored "thematic maps"
+        through service requests to the SDA "Web Map Service"
+        (WMS) web service, described in the <a href="../../webservicehelp.aspx#SDM">Web Service Help</a> page.
+    </p>
+
+    <div align="right"><a href="#top"><p>back to top</p></a></div><hr>
+    <h3 id="Interpretation_AdHoc">Ad-Hoc Ratings</h3>
+    <p>
+        Queries may be used to define "ad-hoc" interpretation results.
+        For each map unit in an AOI, rating results may be defined (either as
+        text or numeric or both) and a color (in the form "#rrggbb", where "rr"
+        is a hexadecimal red value, from 00 to ff, "gg" and "bb" are the
+        corresponding green and blue values). An optional legend may also be defined.
+        Macro-created tables are used to hold the rating and optional legend
+        data. An additional pair of macros is used to define a set of
+        AoiSoilThematicMap, AoiSoilThematicMapRating and optional AoiSoilThematicMapLegend
+        records, these macros return an "interpresultid". This ad-hoc AOI may be
+        used as described above, in
+        <a href="#Interpretation_Using">Using Interpretation Results</a>.
+    </p>
+    <p>
+        The "rating table" is defined with the macro:
+        <pre class="code">
+         ~DeclareAdHocRatingTable(@ratingTable)~
+	</pre>
+        It returns a table defined as:
+        <pre class="code">
+        (MapUnitKey int not null, MapUnitRatingString varchar(255) null,
+        MapUnitRatingNumeric numeric(17, 6) null, RgbString varchar(11) not null)
+	</pre>
+        When used the set of map units defined for the AOI (and captured in the AoiMapunit
+        table for the AOI) must match the set of unique MapUnitKey records in the
+        @ratingTable (you may, of course, pick a different variable name as long as you use the name consistently).
+    </p>
+    The optional "legend table" may be created with this macro:
+    <pre class="code">
+        ~DeclareAdHocLegendTable(@legendTable)~
+	</pre>
+    It returns a table defined as:
+    <pre class="code">
+        (sequence int, LegendText varchar(255) not null, RgbString varchar(11) not null)
+	</pre>
+    The use of this table, and its contents, is arbitrary. The "sequence" column's
+    value is used to order population of the AoiSoilThematicMapLegend table.
+    <br><br>
+    The rating and optional legend may be used to define a new ad-hoc interpretation
+    result set under an AOI by using one of these two macros:
+    <pre class="code">
+        ~LoadAdHocInterpretation(@pAoiId,@ratingTable,@interpresultid,@message)~
+        ~LoadAdHocInterpretation(@pAoiId,@ratingTable,@legendTable,@interpresultid,@message)~
+	</pre>
+    If successful (valid pAoiId, map unit keys match) an @interpresultid greater than
+    zero is returned, if not then a non-null @message is returned.
+    <br><br>
+    Here is a rather simplistic example. All rating and legend data is retrieved from
+    a previously-create interpresultid=1502 and used to define a new result set
+    under aoiid=502. A normal use case would have you computationally populate
+    the rating and legend tables to define a new ad-hoc result.
+    <pre class="code">
+          ~DeclareInt(@aoiid)~
+          select @aoiid = 502;
+
+          insert into @ratingTable
+          select  MapUnitKey, MapUnitRatingString, MapUnitRatingNumeric, RgbString
+          from baf.dbo.aoisoilthematicmaprating
+          where aoisoilthematicmapid = 1502
+
+          ~DeclareAdHocLegendTable(@legendTable)~
+          -- use the "AoiSoilThematicLegendID" as a sequence number - it is in the correct order
+          insert into @legendTable (sequence, LegendText, RgbString)
+          select AoiSoilThematicLegendID, LegendText, RgbString
+          from baf.dbo.aoisoilthematicmaplegend
+          where aoisoilthematicmapid = 1502
+
+          ~LoadAdHocInterpretation(@aoiId,@ratingTable,@legendTable,@interpresultid,@message)~
+          select @interpresultid [interpresultid], @message [message]
+	</pre>
+
+    <div align="right"><a href="#top"><p>back to top</p></a></div><hr>
+
+    <h2 id="Reports">Reports</h2>
+
+    <p>
+        "Reports" are used to generate "DocBook"-formatted reports for an AOI.
+        When a report is executed (see <a href="#Report_Running">Running the Report</a>)
+        the results are returned immediately, these results are not stored in the AOI.
+
+        The "catalog" of reports mirrors that presented by
+        <a href="https://websoilsurvey.sc.egov.usda.gov/App/HomePage.htm">Web Soil Survey</a>.
+        Once an AOI is defined within WSS and you've switched to the "Soil Data Explorer"
+        tab, over one hundred reports will be presented under the "Reports" tab.
+    </p>
+    <p>
+        All techniques described in this "Reports" discussion must be performed
+        through the "post.rest" web service, see the
+        <a href="../WebServiceHelp.aspx#RunQuery" target="blank">Web Service Help Page</a>.
+    </p>
+
+    <div class="inset">
+        In automated contexts the application or web page would probably "skip to the chase"
+        and provide all required information to the "getreport" request, entirely avoiding
+        use of the "getcatalog", "getusecategories" and "getreportdata" requests described here.
+    </div>
+
+    <h3 id="Report_Catalog">Use Categories and the Catalog</h3>
+    <p>
+        A catalog of all reports that are applicable to a given pAOI may be requested
+        from the post.rest service by specifying the following parameters:
+    </p>
+    <pre>
+      service=report
+      request=getcatalog
+      aoiid=...the pAoiId value...
+  </pre>
+    <p>
+        The result is a JSON string, a sample excerpted here in "prettified" form:
+    </p>
+    <pre>
+  {
+   "tables": [
+    {
+     "tablename": "reports",
+     "folders": [
+      {
+         "foldername": "AOI Inventory",
+         "reports": [
+          {
+           "reportname": "Component Description (Nontechnical)",
+           "reportid": "461"
+          }, ...
+        ]
+      },
+      {
+         "foldername": "Building Site Development",
+         "reports": [
+          {
+           "reportname": "Dwellings and Small Commercial Buildings",
+           "reportid": "17"
+          }, ...
+         ]
+      }, ...
+     ]
+    }
+   ]
+  }
+  </pre>
+    <p>
+        There are two important "shortnames" in each interpretation: the "reportname"
+        (with a value such as "Component Description (Nontechnical)") and the corresponding
+        "reportid" (with the corresponding value "461"). The "reportname" is for
+        your edification, the "reportid" is used in the request for the
+        report's input options ("getreportdata", described below).
+    </p>
+    <p>
+        The list provided by "getcatalog" may be filtered by specifying a WSS
+        "Soil Use". The list of these uses may be requested with:
+    </p>
+    <pre>
+      service=report
+      request=getusecategories
+  </pre>
+    <p>
+        The response is:
+    </p>
+    <pre>
+      [
+         {
+          "usecategoryid": 0,
+          "usecategoryname":"All Uses"
+         },
+         {
+          "usecategoryid": 4,
+          "usecategoryname":"Cropland"
+         },
+         {
+          "usecategoryid": 6,
+          "usecategoryname":"Forestland"
+         },
+         {
+          "usecategoryid": 7,
+          "usecategoryname":"Horticulture"
+         },
+         {
+          "usecategoryid": 9,
+          "usecategoryname":"Hayland/Pastureland"
+         },
+         {
+          "usecategoryid": 10,
+          "usecategoryname":"Rangeland"
+         },
+         {
+          "usecategoryid": 11,
+          "usecategoryname":"Recreation"
+         },
+         {
+          "usecategoryid": 16,
+          "usecategoryname":"Urban Uses"
+         }
+      ]
+  </pre>
+    <p>
+        If you wish to filter by one of the above categories other than
+        "All Uses", add the category's number to the getcatalog request.
+        For example, for "Urban Uses" (usecategoryid=16), request:
+    </p>
+    <pre>
+      service=report
+      request=getcatalog
+      aoiid=...the pAoiId value...
+      usecategoryid=16
+  </pre>
+
+    <div align="right"><a href="#top"><p>back to top</p></a></div><hr>
+
+    <h3 id="Report_Description">Report Descriptions</h3>
+    <p>
+        You may retrieve the description of a report given its report id.
+        The response is returned as DocBook xml.
+    </p>
+    <p>
+        For example here is the retrieval of the description for report "Dwellings and Small Commercial Buildings"
+        (reportid=17) and its response (with most content removed):
+    </p>
+    <pre>
+      service=report
+      request=getdescription
+      reportid=17
+
+      &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+      &lt;section&gt;
+        &lt;title&gt;Dwellings and Small Commercial Buildings&lt;/title&gt;
+        &lt;para&gt;Soil properties influence the development of building sites, ...&lt;/para&gt;
+	    ...
+        &lt;para&gt;Government ordinances and regulations that restrict certain ...&lt;/para&gt;
+      &lt;/section&gt;
+</pre>
+
+
+    <h3 id="Report_ReportData">Report Data</h3>
+
+    <p>
+        Once you have a pAOI and an reportid you may request information
+        about the report's required input data. Typically the
+        "short" format may be used as-is to request that the report be
+        executed (if you know ahead of time that the input data is
+        complete and acceptable for your purposes by default, you can jump
+        ahead and simply request the report, see
+        <a href="#Report_Running">Running the Report</a> below).
+    </p>
+
+    <h4 id="Report_ShortFormat">Short Format</h4>
+    <p>
+        The "short" format ("short" is the default for a "getreportdata" request)
+        presents the rule's default parameters for your immediate use
+        when requesting report execution ("get report", below).
+        It is a starting point for editing, should you need to change the defaults.
+    </p>
+    For example, to request the requirements for "Taxonomic Classification of the Soils"
+    (ruleid=33) in "short" form for aoiid=5940, request:
+    </p>
+    <pre>
+      service=report
+      request=getreportdata
+      aoiid=5940
+      reportid=33
+    </pre>
+    <p>
+        The response is a collection of "shortname"/"value" pairs, in this instance
+        the prettified response is:
+    </p>
+    <pre>
+       {
+         "aoiid":"5940",
+         "reportid":"33",
+         "reportname":"Taxonomic Classification of the Soils",
+         "Includeminorsoils":"false",
+         "Displaynationalmapunitsymbols":"false"
+       }
+    </pre>
+    <p>
+        Note that the aoiid and reportid are duplicated in the returned data.
+    <p>
+    <p>
+        Here's a more complicated short response for "Irrigated and Nonirrigated Yields by Map Unit Component",
+        reportid=6:
+    </p>
+    <pre>
+       {
+          "aoiid":"5940",
+          "reportid":"6",
+          "reportname":"Irrigated and Nonirrigated Yields by Map Unit Component",
+          "Includeminorsoils":"false",
+          "Cropnames":"",
+          "Displaynationalmapunitsymbols":"false"
+       }
+    </pre>
+    What if you do not know the alternatives to parameter "Cropnames"?
+    That is addressed by the "Long" format response.
+    <div class="inset">
+        <mark>
+            <span class="off-screen">Highlight begin.</span>A handful of the reports do not provide the necessary set of
+            default parameters and their values to be used directly by "getreport".
+            This, too, is addressed by the "Long" format.<span class="off-screen">Highlight end.</span>
+        </mark>
+    </div>
+    <div align="right"><a href="#top"><p>back to top</p></a></div><hr>
+
+    <h4 id="Report_LongFormat">Long Format</h4>
+    <p>
+        The long format response to "getreportdata", formatted as XML,
+        provides extra information including full names for parameters
+        (besides the "shortname"), attribute type, parameter validation
+        constraints, default values, parameter options and nesting information
+        for trees of options (the XML content maps exactly to the input form
+        presented by WSS, browsing through assorted rating input forms
+        in WSS and requesting the "long" format from SDA will be quite instructive).
+        In order to request the long format, "format=long" must be added to
+        the "getreportdata" request. Again for "Taxonomic Classification of the Soils",
+    </p>
+    <pre>
+      service=report
+      request=getreportdata
+      aoiid=5940
+      reportid=33
+      format=long
+  </pre>
+    <p>
+        The short format response for "33" is:
+    </p>
+    <pre>
+       {
+         "aoiid":"5940",
+         "reportid":"33",
+         "reportname":"Taxonomic Classification of the Soils",
+         "Includeminorsoils":"false",
+         "Displaynationalmapunitsymbols":"false"
+       }
+    </pre>
+    <p>
+        Here's the long format response, prettified. Note the highlighted items,
+        compare them to the short response above:
+    </p>
+    <pre>
+  &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+  &lt;xml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/schemas/ParameterXml.xsd"&gt;
+     &lt;Group Name="Options" <mark><span class="off-screen">Highlight begin.</span>aoiid<span class="off-screen">Highlight end.</span></mark>="5940" <mark><span class="off-screen">Highlight begin.</span>reportid<span class="off-screen">Highlight end.</span></mark>="33"&gt;
+      &lt;Parameter Name="Enter Survey Area Symbol" Tag="areasym" ControlType="None" Value="" /&gt;
+      &lt;Parameter Name="Or List of Mapunit Keys" Tag="mukeys" ControlType="None"&gt;
+       &lt;ListItem Name="1151102" Value="1151102" SelectedValue="true" /&gt;
+       &lt;ListItem Name="1151120" Value="1151120" SelectedValue="true" /&gt;
+       &lt;ListItem Name="1151129" Value="1151129" SelectedValue="true" /&gt;
+       &lt;ListItem Name="1151130" Value="1151130" SelectedValue="true" /&gt;
+       &lt;ListItem Name="1151132" Value="1151132" SelectedValue="true" /&gt;
+       &lt;ListItem Name="1151133" Value="1151133" SelectedValue="true" /&gt;
+       &lt;ListItem Name="1151135" Value="1151135" SelectedValue="true" /&gt;
+       &lt;ListItem Name="1151138" Value="1151138" SelectedValue="true" /&gt;
+       &lt;ListItem Name="1151142" Value="1151142" SelectedValue="true" /&gt;
+       &lt;ListItem Name="1151144" Value="1151144" SelectedValue="true" /&gt;
+       &lt;ListItem Name="1151145" Value="1151145" SelectedValue="true" /&gt;
+       &lt;ListItem Name="1151146" Value="1151146" SelectedValue="true" /&gt;
+       &lt;ListItem Name="2605935" Value="2605935" SelectedValue="true" /&gt;
+       &lt;ListItem Name="2605962" Value="2605962" SelectedValue="true" /&gt;
+       &lt;ListItem Name="2745888" Value="2745888" SelectedValue="true" /&gt;
+       &lt;ListItem Name="2768398" Value="2768398" SelectedValue="true" /&gt;
+      &lt;/Parameter&gt;
+      &lt;Parameter Name="Include minor soils?" Tag="includeminor" ControlType="Check" Value="" shortname="<mark><span class="off-screen">Highlight begin.</span>Includeminorsoils<span class="off-screen">Highlight end.</span></mark>"&gt;
+       &lt;ListItem Name="True" Value="1" SelectedValue="false" /&gt;
+       &lt;ListItem Name="False" Value="0" SelectedValue="false" /&gt;
+      &lt;/Parameter&gt;
+      &lt;Parameter Name="Display national mapunit symbols?" Tag="useNationalMapunits" ControlType="Check" Value="" shortname="<mark><span class="off-screen">Highlight begin.</span>Displaynationalmapunitsymbols<span class="off-screen">Highlight end.</span></mark>"&gt;
+       &lt;ListItem Name="True" Value="1" SelectedValue="false" /&gt;
+       &lt;ListItem Name="False" Value="0" SelectedValue="false" /&gt;
+      &lt;/Parameter&gt;
+      &lt;Group Name="aoiid" shortname="aoiid" Enabled="False"&gt;
+       &lt;Parameter Name="aoiid" shortname="aoiid" ControlType="Text" UseRegEx="Optional" DataType="Integer" MaximumLength="10" RegEx="^0*(100|[0-9]{0,10})$" MinimumValue="1" MaximumValue="2147483647" Required="True" Default="3243" Value="3243" /&gt;
+      &lt;/Group&gt;
+      &lt;Group Name="reportid" shortname="reportid" Enabled="False"&gt;
+       &lt;Parameter Name="reportid" shortname="reportid" ControlType="Text" UseRegEx="Optional" DataType="Integer" MaximumLength="10" RegEx="^0*(100|[0-9]{0,10})$" MinimumValue="1" MaximumValue="2147483647" Required="True" Default="33" Value="33" /&gt;
+      &lt;/Group&gt;
+      &lt;Group Name="reportname" shortname="reportname" Enabled="False"&gt;
+       &lt;Parameter Name="reportname" shortname="<mark><span class="off-screen">Highlight begin.</span>reportname<span class="off-screen">Highlight end.</span></mark>" ControlType="Text" DataType="String" MaximumLength="100" Required="False" Default="Taxonomic Classification of the Soils" Value="Taxonomic Classification of the Soils" /&gt;
+      &lt;/Group&gt;
+     &lt;/Group&gt;
+  &lt;/xml&gt;
+    </pre>
+    <p>
+        Note the nested hierarchical structure (made plain by "prettifying"),
+        the presence of a "shortname" attribute in each "Parameter", and in the
+        case where a "Parameter" contians one or more "ListItem" elements within,
+        the Parameter's "Value" and "Default" match one of the child "ListItem"'s
+        "Value"s.
+    </p>
+    The above XML specifies, for a Parameter with child ListItem elements,
+    alternative choices that may be provided to "getreport". For example
+    "Includeminorsoils" need not be "0" ("False"). The alternative
+    values are highlighted in this fragment from the above XML for the Parameter
+    with shortname="Includeminorsoils":
+    </p>
+    <pre>
+      &lt;Parameter Name="Include minor soils?" Tag="includeminor" ControlType="Check" Value="" shortname="<mark><span class="off-screen">Highlight begin.</span>Includeminorsoils<span class="off-screen">Highlight end.</span></mark>"&gt;
+       &lt;ListItem Name="True" Value="<mark><span class="off-screen">Highlight begin.</span>1<span class="off-screen">Highlight end.</span></mark>" SelectedValue="false" /&gt;
+       &lt;ListItem Name="False" Value="<mark><span class="off-screen">Highlight begin.</span>0<span class="off-screen">Highlight end.</span></mark>" SelectedValue="false" /&gt;
+      &lt;/Parameter&gt;
+    </pre>
+    <p>
+        Therefore specification of "<mark><span class="off-screen">Highlight begin.</span>true<span class="off-screen">Highlight end.</span></mark>" would be equally valid:
+    </p>
+    <pre>
+       {
+         "aoiid":"5940",
+         "reportid":"33",
+         "reportname":"Taxonomic Classification of the Soils",
+         "Includeminorsoils":"<mark><span class="off-screen">Highlight begin.</span>true<span class="off-screen">Highlight end.</span></mark>",
+         "Displaynationalmapunitsymbols":"false"
+       }
+    </pre>
+    <p>
+        Those Parameters with Enabled="False" are not not to be changed.
+    </p>
+    <p>
+        The "V"-series "DescriptionID" values are as follows:
+    </p>
+    <table>
+        <tr><th scope="col" style="padding:5px;">Key</th><th scope="col" style="padding:5px;">Description Text</th></tr>
+        <tr><th scope="row" style="padding:5px;">V0</td><td style="padding:5px;">Aggregation is the process by which a set of component attribute values is reduced to a single value that represents the map unit as a whole.\n\nA map unit is typically composed of one or more &quot;components&quot;.  A component is either some type of soil or some nonsoil entity, e.g., rock outcrop.  For the attribute being aggregated, the first step of the aggregation process is to derive one attribute value for each of a map unit&apos;s components.  From this set of component attributes, the next step of the aggregation process derives a single value that represents the map unit as a whole.  Once a single value for each map unit is derived, a thematic map for soil map units can be rendered.  Aggregation must be done because, on any soil map, map units are delineated but components are not.\n\nFor each of a map unit&apos;s components, a corresponding percent composition is recorded.  A percent composition of 60 indicates that the corresponding component typically makes up approximately 60% of the map unit.  Percent composition is a critical factor in some, but not all, aggregation methods.</td></tr>
+        <tr><th scope="row" style="padding:5px;">V1</td><td style="padding:5px;">Components whose percent composition is below the cutoff value will not be considered.  If no cutoff value is specified, all components in the database will be considered.  The data for some contrasting soils of minor extent may not be in the database, and therefore are not considered.</td></tr>
+        <tr><th scope="row" style="padding:5px;" d>V2</td><td style="padding:5px;">The tie-break rule indicates which value should be selected from a set of multiple candidate values, or which value should be selected in the event of a percent composition tie.</td></tr>
+        <tr><th scope="row" style="padding:5px;">V3</td><td style="padding:5px;">This option indicates if a null value for a component should be converted to zero before aggregation occurs.  This will be done only if a map unit has at least one component where this value is not null.</td></tr>
+        <tr><th scope="row" style="{padding:5px;}">V4</td><td style="{padding:5px;}">For an attribute of a soil horizon, a depth qualification must be specified.  In most cases it is probably most appropriate to specify a fixed depth range, either in centimeters or inches.  The Bottom Depth must be greater than the Top Depth, and the Top Depth can be greater than zero.  The choice of \"inches\" or \"centimeters\" only applies to the depth of soil to be evaluated.  It has no influence on the units of measure the data are presented in.\n\nWhen \"Surface Layer\" is specified as the depth qualifier, only the surface layer or horizon is considered when deriving a value for a component, but keep in mind that the thickness of the surface layer varies from component to component.\n\nWhen \"All Layers\" is specified as the depth qualifier, all layers recorded for a component are considered when deriving the value for that component.\n\nWhenever more than one layer or horizon is considered when deriving a value for a component, and the attribute being aggregated is a numeric attribute, a weighted average value is returned, where the weighting factor is the layer or horizon thickness.</td></tr>
+        <tr><th scope="row" style="{padding:5px;}">V5</td><td style="{padding:5px;}">For an attribute that is recorded by month, a month range must be specified.  To specify a single month, set beginning month and ending month to the same month.  Be aware that January to December includes all 12 months, whereas December to January includes only December and January.</td></tr>
+    </table>
+    <p>
+        The "A"-series "DescriptionID" values are retrieved via query.
+        Within the "Aggregation Method", for the ListItem
+    </p>
+    <pre>
+        &lt;ListItem Name="Dominant Condition" Value="Dominant Condition" DescriptionID="A1" /&gt;
+	</pre>
+    <p>the query to retrieve the description for "Dominant Condition" would be:</p>
+    <div class="code">
+        select algorithmdescription from sdvalgorithm where algorithmname = 'Dominant Component';
+    </div>
+
+    <p>
+        There is one report that lack a complete set of default values.
+        When the "short" data is used as-is with "getreport" for this report an error occurs.
+        <div class="inset">
+            As of this writing (6/14/2019), there are a pair of know defects in Soil Data Access
+            related to the report "Selected Soil Interpretations" (reportid=39):
+            <ol>
+                <li>
+                    HTML is returned that indicates
+                    "The requested page, https://sdmdataaccess.sc.egov.usda.gov/SDMDataAccess/Message.aspx, does not exist."
+                    This appears to occur when no choices are specified.
+                </li>
+                <li>
+                    Soil Data Access does not properly handle interpretation selection through the
+                    short format data.
+                </li>
+            </ol>-
+            These issues will be addressed in a future release of Soil Data Access.
+        </div>
+    </p>
+
+    <div align="right"><a href="#top"><p>back to top</p></a></div><hr>
+
+    <h3 id="Report_Running">Running the Report</h3>
+    To perform the calculations defined for the report
+    the "short" format data, edited as necessary to reflect
+    either non-default values (or supply missing default values)
+    is presented as "shortformdata" to the "getreport" request.
+    The request, if successfully executed, returns DocBook-formated XML.
+    For example (the shortformdata is wrapped here),
+    <pre class="code">
+       service=report
+       request=getreport
+       shortformdata=
+	     {
+           "aoiid":"5490",
+           "reportid":"119",
+           "reportname":"Map Unit Description (Brief, Generated)",
+           "Displaynationalmapunitsymbols":"false"
+         }
+	</pre>
+    <p>
+        Your result should be similar to:
+    </p>
+    <pre class="code">
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;section label="SoilReport"&gt;
+   &lt;title&gt;Map Unit Description (Brief, Generated)&lt;/title&gt;
+   &lt;para role="headnote"&gt;[Minor map unit components are excluded from this report]&lt;/para&gt;
+   &lt;section label="Survey_Area"&gt;
+      &lt;title&gt;McLean County, Illinois&lt;/title&gt;
+      &lt;section&gt;
+         &lt;title role="suppressTitle" /&gt;
+         &lt;para&gt;
+            &lt;emphasis role="bold"&gt;Map Unit:&lt;/emphasis&gt;
+            243A--St. Charles silt loam, 0 to 2 percent slopes
+         &lt;/para&gt;
+         &lt;section&gt;
+            &lt;title role="suppressTitle" /&gt;
+            &lt;para&gt;
+               &lt;emphasis role="bold"&gt;Component:&lt;/emphasis&gt;
+               St. Charles (90%)
+            &lt;/para&gt;
+            &lt;para&gt;The St. Charles component makes up 90 percent ...
+    </pre>
+    <p>
+        Regarding the JSON string you supply for the "shortformdata":<br>
+        &nbsp;&nbsp;&nbsp;- The names and associated values are case-sensitive.<br>
+        &nbsp;&nbsp;&nbsp;- Spaces, tabs and newlines are permitted outside of the quoted names and values.<br>
+        &nbsp;&nbsp;&nbsp;- When in doubt, consult the "long" format XML provided
+        by "getreportdata" for required paraeter names and value options.
+    </p>
+    <p>
+        Note that if the default shortformdata is correct for your chosen report then you can
+        skip its use and specify, in its place, the aoid and reportid:
+    </p>
+    <pre class="code">
+       service=report
+       request=getreport
+       aoiid=5940
+       reportid=119
+	</pre>
+
+    <div align="right"><a href="#top"><p>back to top</p></a></div><hr>
+
+    <h3 id="Report_Using">Using Report Results</h3>
+    <p>
+        When a report is run using "getreport" an the report content, as DocBook XML,
+        must be captured, it is not preserved within the AOI. You are responsible for
+        transforming the XML into a presentation format.
+    </p>
+
+    <h3 id="Report_AdHoc">Ad-Hoc Reports</h3>
+    <p>
+        There is no mechanism for defining your own reports.
+    </p>
+
+    <div align="right"><a href="#top"><p>back to top</p></a></div><hr>
+
+    <h2 id="Deprecated">Deprecated Web Soil Survey Access</h2>
+    <p>
+        <div class="inset">
+            <mark>
+                <span class="off-screen">Highlight begin.</span>The macros, tables and examples documented in this section are
+                curently maintained for backwards compatibility. All new
+                development should use macros and functions documented earler
+                unless otherwise noted.<span class="off-screen">Highlight end.</span>
+            </mark>
+        </div>
+    </p>
+    <p>
+        Additional table variables may be defined for capturing Web Soil Survey
+        thematic map data. These variables are defined with the following
+        macros:
+    </p>
+    <pre>
+~DeclareMapLegendTable(@varname)~
+~DeclareMapRatingsTable(@varname)~
+~DeclareAoiMapUnitGeogTable(@varname)~
+	</pre>
+    <p>
+        These variables correspond with table types defined in the SDM
+        database. The type names and column definitions are:
+    </p>
+    <table>
+
+        <tr>
+            <th scope="col">dbo.MapLegendTable</td>
+            <th scope="col">dbo.MapRatingsTable</td>
+            <th scope="col">dbo.AoiMapUnitTable</td>
+        </tr>
+        <tr>
+            <td>LegendText varchar(255)</td>
+            <td>MapUnitKey int</td>
+            <td>AreaSymbol varchar(20)</td>
+        </tr>
+        <tr>
+            <td>RgbString varchar(11)</td>
+            <td>MapUnitRatingString varchar(255)</td>
+            <td>MapUnitSymbol varchar(6)</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>MapUnitRatingNumeric numeric(17,6)</td>
+            <td>MapUnitName varchar(240)</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>RgbString varchar(11)</td>
+            <td>NationalMapUnitSymbol varchar(6)</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>Acres numeric(38,8)</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>MapUnitKey int</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>AoiMapUnitProj geometry</td>
+        </tr>
+    </table>
+
+    <p>
+        This example retrieves the data for a thematic map created
+        in Web Soil Survey. The value for the thematic map ID (12345
+        in this example) was obtained using the Info function on the
+        WSS map and explicitly used in the "Get" macros as a
+        "literal" (i.e., exact) value:
+    </p>
+    <pre>
+-- Get the legend for the thematic map
+~DeclareMapLegendTable(@legend_table)~
+~GetMapLegend(12345,@legend_table)~
+select LegendText, RgbString from @legend_table
+
+-- Get the ratings for mapunit
+~DeclareMapRatingsTable(@ratings_table)~
+~GetMapRatings(12345,@ratings_table)~
+select
+    MapUnitKey, MapUnitRatingString, MapUnitRatingNumeric,
+    RgbString from @ratings_table
+
+-- Get the AOI mapunit polygons
+~DeclareAoiMapUnitGeogTable(@mapunit_table)~
+~GetAoiMapUnits(12345,polygon,@mapunit_table)~
+select
+    AreaSymbol, MapUnitSymbol, MapUnitName, NationalMapUnitSymbol,
+    Acres, MapUnitKey, AoiMapUnitProj from @mapunit_table
+	</pre>
+
+    <p>
+        Alternatively the thematic map ID may be held in a variable and
+        the macros called using that variable name:
+    </p>
+    <pre>
+~DeclareInt(@tmID)~
+Select @tmID = 12345;
+
+-- Get the legend for the thematic map
+~DeclareMapLegendTable(@legend_table)~
+~GetMapLegend(@tmID,@legend_table)~
+select LegendText, RgbString from @legend_table
+
+-- Get the ratings for mapunit
+~DeclareMapRatingsTable(@ratings_table)~
+~GetMapRatings(@tmID,@ratings_table)~
+select MapUnitKey, MapUnitRatingString, MapUnitRatingNumeric, RgbString from @ratings_table
+
+-- Get the AOI mapunit polygons
+~DeclareAoiMapUnitGeogTable(@mapunit_table)~
+~GetAoiMapUnits(@tmID,polygon,@mapunit_table)~
+select AreaSymbol, MapUnitSymbol, MapUnitName, NationalMapUnitSymbol, Acres, MapUnitKey, AoiMapUnitProj
+from @mapunit_table
+	</pre>
+
+    <div align="right"><a href="#top"><p>back to top</p></a></div>
+    <hr>
+
+</body>
+</html>

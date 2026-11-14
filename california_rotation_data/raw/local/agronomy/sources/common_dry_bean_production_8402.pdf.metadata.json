@@ -1,0 +1,8 @@
+{
+  "source_url": "https://beans.ucanr.edu/files/80592.pdf",
+  "retrieved_at_utc": "2026-11-14T19:23:21.165650+00:00",
+  "file": "raw/local/agronomy/sources/common_dry_bean_production_8402.pdf",
+  "method": "GET",
+  "status": "failed",
+  "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1147)>"
+}

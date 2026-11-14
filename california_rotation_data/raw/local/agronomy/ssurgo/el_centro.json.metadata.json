@@ -1,0 +1,33 @@
+{
+  "source_url": "https://sdmdataaccess.nrcs.usda.gov/Tabular/post.rest",
+  "retrieved_at_utc": "2026-11-14T19:21:57.003393+00:00",
+  "file": "raw/local/agronomy/ssurgo/el_centro.json",
+  "method": "POST",
+  "request_file": "raw/local/agronomy/ssurgo/el_centro.request.json",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://sdmdataaccess.nrcs.usda.gov/Tabular/post.rest",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 19:21:57 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "8149",
+    "Connection": "close",
+    "Set-Cookie": "AWSALB=nZxzmbzA2v+yzg/tWNHdaqnaTFk7Kvre/T5UugzabcZnZK0dLIzCtIt4q//+VGCo80nZphv8+Cuy7T5vKWMtZUxGUbZlcvlPjI2aNeXUf8KjyWsNJGav6m1UyFnp; Expires=Sat, 21 Nov 2026 19:21:57 GMT; Path=/",
+    "Cache-Control": "private",
+    "Server": "Microsoft-IIS/10.0",
+    "X-AspNet-Version": "4.0.30319",
+    "X-Powered-By": "ASP.NET",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type"
+  },
+  "bytes": 8149,
+  "sha256": "b42f31197029f1d37e54cd1538144a65b955a48b4dab4995b9af57a060cb29a0",
+  "region_id": "el_centro",
+  "region_label": "Imperial Valley / El Centro",
+  "latitude": 32.8,
+  "longitude": -115.55,
+  "coordinate_crs": "EPSG:4326",
+  "selection": "all intersecting mapunits; all components; all horizons",
+  "horizon_rows": 15
+}

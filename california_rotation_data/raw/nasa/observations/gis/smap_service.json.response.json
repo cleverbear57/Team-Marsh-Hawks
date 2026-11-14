@@ -1,0 +1,14 @@
+{
+  "path": "gis/smap_service.json",
+  "source_url": "https://gis.earthdata.nasa.gov/portal/rest/services/DISASTERS_202609_HURRICANE_NOLO/202624_smap/ImageServer?f=pjson",
+  "fetched_at_utc": "2026-11-14T19:23:10.032522+00:00",
+  "http_status": 200,
+  "final_url": "https://gis.earthdata.nasa.gov/portal/rest/services/DISASTERS_202609_HURRICANE_NOLO/202624_smap/ImageServer?f=pjson",
+  "content_type": "text/plain;charset=UTF-8",
+  "kind": "metadata",
+  "bytes": 12376,
+  "sha256": "5d36055d633f4433b0e2cd4771fca3a25525e90e252adaf51cd062ad9c7f0f0c",
+  "curl_exit_code": 0,
+  "curl_error": "",
+  "note": null
+}

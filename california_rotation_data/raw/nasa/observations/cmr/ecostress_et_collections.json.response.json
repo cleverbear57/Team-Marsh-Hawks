@@ -1,0 +1,14 @@
+{
+  "path": "cmr/ecostress_et_collections.json",
+  "source_url": "https://cmr.earthdata.nasa.gov/search/collections.json?short_name=ECO_L3T_JET&page_size=100",
+  "fetched_at_utc": "2026-11-14T19:24:06.703723+00:00",
+  "http_status": 200,
+  "final_url": "https://cmr.earthdata.nasa.gov/search/collections.json?short_name=ECO_L3T_JET&page_size=100",
+  "content_type": "application/json;charset=utf-8",
+  "kind": "metadata",
+  "bytes": 18254,
+  "sha256": "6e66b3cfc00996930334bdbd68eddcab621e804e64e2b3f0996638fa7ac4cec6",
+  "curl_exit_code": 0,
+  "curl_error": "",
+  "note": null
+}

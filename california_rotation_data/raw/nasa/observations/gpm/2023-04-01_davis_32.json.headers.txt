@@ -1,0 +1,19 @@
+HTTP/1.1 200 
+Content-Type: text/plain;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Sat, 14 Nov 2026 19:24:09 GMT
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Content-Security-Policy: script-src 'self';
+Vary: Origin
+Cache-Control: max-age=0,must-revalidate
+X-Content-Type-Options: nosniff
+ETag: "cd173018"
+X-XSS-Protection: 1; mode=block
+X-Request-Id: PXVGiC4C6sVvQkUFkPAYAwmYifahx1F_7OFNosShMZJFOnQwWK03DA==
+X-Cache: Miss from cloudfront
+Via: 1.1 f8b122b964bc12ee7f052daf895c865c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO53-P7
+X-Amz-Cf-Id: PXVGiC4C6sVvQkUFkPAYAwmYifahx1F_7OFNosShMZJFOnQwWK03DA==
+

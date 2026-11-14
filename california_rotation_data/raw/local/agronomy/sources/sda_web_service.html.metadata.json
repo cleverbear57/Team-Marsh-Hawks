@@ -1,0 +1,25 @@
+{
+  "source_url": "https://sdmdataaccess.nrcs.usda.gov/WebServiceHelp.aspx",
+  "retrieved_at_utc": "2026-11-14T19:23:19.020462+00:00",
+  "file": "raw/local/agronomy/sources/sda_web_service.html",
+  "method": "GET",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://sdmdataaccess.nrcs.usda.gov/WebServiceHelp.aspx",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 19:23:19 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Content-Length": "69300",
+    "Connection": "close",
+    "Set-Cookie": "AWSALB=4lWwl849lOcTamDGm/OmuitEyMbeCtx10IApsO4sfbyfD/PV3NaFPh9GcR2DPI3Jd/xu15Ka3tuDEC4XzZdofekn/n37tXJr8XPcHpHZxrxGBqTkGqjvqXIxvmn/; Expires=Sat, 21 Nov 2026 19:23:19 GMT; Path=/",
+    "Cache-Control": "private",
+    "Server": "Microsoft-IIS/10.0",
+    "X-AspNet-Version": "4.0.30319",
+    "X-Powered-By": "ASP.NET",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type"
+  },
+  "bytes": 69300,
+  "sha256": "c8f1bafd86a5df59cef271ef8e0e841c1dfc1a92b20140947056adc9c191abfc"
+}

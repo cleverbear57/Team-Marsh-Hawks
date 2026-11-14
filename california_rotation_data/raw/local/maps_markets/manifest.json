@@ -1,0 +1,12 @@
+{
+  "updated_at_utc": "2026-11-14T19:24:25.787468+00:00",
+  "folders": [
+    "maps",
+    "ground",
+    "markets",
+    "expertise"
+  ],
+  "scope": "Bounded official geography, water storage, crop economics and local-expertise sample; no application",
+  "pipeline": "scripts/fetch_maps_markets.py",
+  "note": "Consult each folder manifest for source URLs, statuses, hashes, transformations, units and limitations"
+}

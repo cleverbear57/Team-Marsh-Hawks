@@ -1,0 +1,80 @@
+{
+  "updated_at_utc": "2026-11-14T19:24:25.787468+00:00",
+  "access": "public; no authentication",
+  "files": [
+    {
+      "file": "cb_2024_us_state_500k.zip",
+      "source_url": "https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_state_500k.zip",
+      "provider": "U.S. Census Bureau",
+      "description": "2024 cartographic boundary state geometry; national original",
+      "retrieved_at_utc": "2026-11-14T19:24:25.787468+00:00",
+      "artifact_type": "original_download",
+      "http_status": 200,
+      "final_url": "https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_state_500k.zip",
+      "content_type": "application/zip",
+      "status": "downloaded",
+      "bytes": 3242450,
+      "sha256": "3e81cbb6cf5f60d9b01ef3e730afa14d61ce5f784252a0b33a696135e71447bc"
+    },
+    {
+      "file": "cb_2024_us_county_500k.zip",
+      "source_url": "https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_county_500k.zip",
+      "provider": "U.S. Census Bureau",
+      "description": "2024 cartographic boundary county geometry; national original",
+      "retrieved_at_utc": "2026-11-14T19:24:25.787468+00:00",
+      "artifact_type": "original_download",
+      "http_status": 200,
+      "final_url": "https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_county_500k.zip",
+      "content_type": "application/zip",
+      "status": "downloaded",
+      "bytes": 11626066,
+      "sha256": "da4051717caec55c75e3748c3608c2a3dbde8d1ff401bbaf4f952e3c3fb63ef1"
+    },
+    {
+      "file": "census_2024_catalog.html",
+      "source_url": "https://www.census.gov/geographies/mapping-files/2024/geo/carto-boundary-file.html",
+      "provider": "U.S. Census Bureau",
+      "description": "Dataset catalog snapshot",
+      "retrieved_at_utc": "2026-11-14T19:24:25.787468+00:00",
+      "artifact_type": "original_download",
+      "http_status": 200,
+      "final_url": "https://www.census.gov/geographies/mapping-files/2024/geo/carto-boundary-file.html",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "downloaded",
+      "bytes": 1046936,
+      "sha256": "00b4edda519a59e5b9c3aba477dda94b056ddf09b2c51e76546f8d8fca50a851"
+    },
+    {
+      "file": "california_state_2024_500k.geojson",
+      "source_file": "cb_2024_us_state_500k.zip",
+      "source_url": "https://www.census.gov/geographies/mapping-files/2024/geo/carto-boundary-file.html",
+      "retrieved_at_utc": "2026-11-14T19:24:25.787468+00:00",
+      "status": "derived_verified",
+      "artifact_type": "derived_subset",
+      "transformation": "Select STATEFP=06; transform original CRS to EPSG:4326 with pyproj always_xy; preserve Census attributes and GEOID string",
+      "original_crs": "EPSG:4269",
+      "output_crs": "EPSG:4326 longitude, latitude (GeoJSON RFC 7946)",
+      "original_crs_wkt_file": "source_state.prj",
+      "feature_count": 1,
+      "scale": "1:500000 generalized; not parcel or field boundaries",
+      "bytes": 148212,
+      "sha256": "04809d510c52ca4ade18519a66901392018689fb659d4756866910574887cce4"
+    },
+    {
+      "file": "california_county_2024_500k.geojson",
+      "source_file": "cb_2024_us_county_500k.zip",
+      "source_url": "https://www.census.gov/geographies/mapping-files/2024/geo/carto-boundary-file.html",
+      "retrieved_at_utc": "2026-11-14T19:24:25.787468+00:00",
+      "status": "derived_verified",
+      "artifact_type": "derived_subset",
+      "transformation": "Select STATEFP=06; transform original CRS to EPSG:4326 with pyproj always_xy; preserve Census attributes and GEOID string",
+      "original_crs": "EPSG:4269",
+      "output_crs": "EPSG:4326 longitude, latitude (GeoJSON RFC 7946)",
+      "original_crs_wkt_file": "source_county.prj",
+      "feature_count": 58,
+      "scale": "1:500000 generalized; not parcel or field boundaries",
+      "bytes": 1060091,
+      "sha256": "b7b768d15bb28cdbb83c12c8c128643f5e71e92feb07ac41f1e9f28e9ae65c2f"
+    }
+  ]
+}

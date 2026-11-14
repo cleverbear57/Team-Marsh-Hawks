@@ -1,0 +1,8 @@
+{
+  "source_url": "https://escholarship.org/content/qt6552q3qh/qt6552q3qh.pdf?t=p1ze3y",
+  "retrieved_at_utc": "2026-11-14T19:24:36.691599+00:00",
+  "file": "raw/local/agronomy/sources/common_dry_bean_production_8402_escholarship.pdf",
+  "method": "GET",
+  "status": "failed",
+  "error": "HTTPError: HTTP Error 403: Forbidden"
+}

@@ -1,0 +1,14 @@
+{
+  "path": "cmr/smap_collections.json",
+  "source_url": "https://cmr.earthdata.nasa.gov/search/collections.json?short_name=SPL4SMGP&page_size=100",
+  "fetched_at_utc": "2026-11-14T19:24:05.568154+00:00",
+  "http_status": 200,
+  "final_url": "https://cmr.earthdata.nasa.gov/search/collections.json?short_name=SPL4SMGP&page_size=100",
+  "content_type": "application/json;charset=utf-8",
+  "kind": "metadata",
+  "bytes": 10152,
+  "sha256": "f264a1b32a7b6545dbad9905488c8f16984b7af0ebbdf9ef6b614c4f80100096",
+  "curl_exit_code": 0,
+  "curl_error": "",
+  "note": null
+}

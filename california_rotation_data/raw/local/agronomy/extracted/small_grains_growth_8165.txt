@@ -1,0 +1,372 @@
+--- PAGE 1 ---
+SMALL GRAIN PRODUCTION MANUAL  
+PART 2
+Growth and Development of 
+Small Grains
+Lee Jackson, Extension Specialist, Small Grains, University of California, Davis, Department 
+of Plant Sciences; and Jack Wi LL iams, University of California Cooperative Extension Farm 
+Advisor Emeritus, Sutter-Yuba Counties.
+This publication, Growth and Development of Small Grains, is the second in a fourteen-
+part series of University of California Cooperative Extension online publications that 
+comprise the Small Grains Production Manual. The other parts cover specific aspects of 
+small grain production practices in California:
+•	Part 1: Importance of Small Grains in California Agriculture, Publication 8164
+•	Part 3: Seedbed Preparation, Sowing, and Residue Management, Publication 8166
+•	Part 4: Fertilization, Publication 8167
+•	Part 5: Irrigation and Water Relations, Publication 8168
+•	Part 6: Pest Management—Diseases, Publication 8169
+•	Part 7: Pest Management—Insects, Publication 8170
+•	Part 8: Pest Management—Vertebrates, Publication 8171
+•	Part 9: Pest Management—Weeds, Publication 8172
+•	Part 10: Small Grain Forages, Publication 8173
+•	Part 11: Small Grain Cover Crops, Publication 8174
+•	Part 12: Small Grains in Crop Rotations, Publication 8175
+•	Part 13: Harvesting and Storage, Publication 8176
+•	Part 14: Troubleshooting Small Grain Production, Publication 8177
+The growth and development of the small grains—wheat, triticale, barley, and 
+oat—follow very similar patterns (fig. 1). Plant development is divided into several 
+stages: germination and early seedling growth, tillering and vegetative growth, elon-
+gation and heading, flowering, and kernel development. Numerical scales have been 
+devised for quantifying the growth stages of small grains. Those most commonly used 
+are the Zadoks, Feekes, and Haun growth scales (table 1). The Zadoks system uses 
+a 2-digit code to refer to the principal stages of growth from germination (stage 0) 
+through kernel ripening (stage 9). The second digit subdivides each principal growth 
+stage. For instance, “13” indicates that in principal stage 1 (seedling growth) subdivi-
+sion 3, leaves are at least 50 percent emerged from the main stem; “75” indicates that 
+in principal stage 7 (kernel development) subdivision 5, the grain is at the medium 
+milk stage. The Feekes scale (1 to 11.4) numerically identifies stages from emergence 
+through ripening. The Haun scale deals mainly with the pattern of leaf production, in 
+which the length of each emerging leaf is expressed as a fraction of the preceding leaf. 
+For more information on these scales, see Simmons, Oelke, and Anderson 1995.
+PUBL ica T ion  8165  
+U ni V e R si TY o F  
+ca
+L
+i
+F
+o
+R
+nia
+Division of Agriculture  
+and Natural Resources
+http://anrcatalog.ucdavis.edu
+
+
+--- PAGE 2 ---
+  ANR Publication 8165
+Ge R mina T ion and ea RLY  seed L in G  
+GR
+o
+WT
+h
+The kernel (seed), or caryopsis, consists of a seed coat 
+surrounding an embryo and endosperm. The embryo con-
+tains the seedling root (radicle), stem, and growing points 
+of the new grain plant. The endosperm provides nutrients 
+for growth until the first true leaves emerge and the root 
+system is established. When moisture conditions are favor-
+able, the seed germinates with the emergence of the radi-
+cle and the coleoptile, the first leaf that forms a protective 
+sheath around the first four leaves.
+The primary root system includes the radicle and 
+roots that develop from stem tissue near the kernel (see 
+fig. 1). It may penetrate the soil up to 12 inches (30 
+cm) and provides the developing seedling with water 
+and nutrients. The primary root system supports plant 
+growth until tillering, when the secondary root system 
+becomes the main root system of the plant. The primary 
+roots may persist for the life of the plant and can sup-
+port some plant growth through the heading stage. The 
+first secondary roots appear at the tillering node about 1 
+inch (2.5 cm) below the soil line at the two- or three-leaf 
+stage. These roots are always produced at about the same 
+distance below the soil’s surface, regardless of the depth at 
+which the seed is planted. The secondary root system makes up the major part of the 
+fully developed plant’s root system. Root growth may continue at 1⁄2 inch (12.5 mm) 
+per day for 60 to 70 days. With no competition, roots may spread 4 feet (1.2 m) hori-
+zontally and 6 feet (1.8 m) vertically, with most roots in the top 2 feet (60 cm) of soil. 
+Horizontal root growth is less than 1 foot (30 cm) in wheat fields with normal plant 
+Figure 1. Small grain 
+developmental stages. 
+Source: Flint 2002.
+Table 1. Comparison of Zadoks, Feekes, and Haun growth scales 
+for small grains
+Growth stage
+Scale
+Zadoks Feekes Haun*
+planting 00 — —
+emergence 10 1 0.0
+first leaf 11 1 0.0–1.0
+second leaf 12 1 1.1–2.0
+third leaf 13 1 2.1–3.0
+tillering 21–29 2–4 3.1–6.0
+jointing 31 6 6.1–10.0
+flag leaf 37–39 8 8.1–9.0
+boot 40–47 9–10 9.1–10.0
+heading 51–59 10.1–10.5 10.1–11.0
+flowering 61–69 10.5.1–10.5.3 —
+grain formation 71 10.5.4 —
+milk 71–79 11.1 —
+soft dough 85 11.2 —
+hard dough 87 11.3 —
+harvest ripe 92 11.4 —
+Source: Flint 1990, p. 12.
+Note: * Values are for Yecora Rojo wheat
+
+
+--- PAGE 3 ---
+  ANR Publication 8165
+population density. Root development approaches the maximum at about the boot 
+stage. The “boot” represents the swollen flag leaf sheath within which the developing 
+spike is located after being pushed up as the stem has elongated.
+As the seedling root system is forming, the coleoptile grows upward and rup-
+tures, allowing the first leaf to begin unfolding as soon as the coleoptile tip breaks 
+the soil surface. Emergence usually occurs 6 to 20 days after sowing, depending on 
+temperature and moisture. Emergence can be later than 20 days after sowing under 
+prolonged cold or dry conditions. Initial formation of leaves and stems occurs at the 
+shoot apex, which is located just below the soil surface.
+Ti LL e R in G  and V e G e T a T i V e GR o WT h
+Branching in small grains is called tillering or stooling. Individual branches are called 
+tillers, and the mass of tillers is the stool. Two to four primary tillers develop from 
+buds in the crown area of the main stem. Secondary tillers develop from buds in the 
+axils of leaves at the base of the primary tillers. Tertiary tillers may develop from buds 
+in the axils of leaves at the base of the secondary tillers. Each plant has the potential 
+to produce more than 50 tillers. Usually only two to four tillers survive to produce 
+fertile spikes at normal seeding rates and growing conditions. The number of tillers 
+that form is influenced by plant density (more with low plant density), soil moisture 
+and nutrient supply (more with high supply), sowing date (more with early sowing), 
+temperature (more under cooler temperatures), and cultivar. Water stress, nutrient 
+deficiency, low temperatures, weed competition, and pest damage during early devel-
+opment reduce the number of tillers.
+The emergence of primary tillers is synchronous with the emergence of leaves 
+on the main stem of the plant. The first primary tiller begins developing as leaf 4 of 
+the main stem emerges; the second primary tiller begins developing as leaf 5 emerg-
+es. Subsequent primary tillers begin developing when subsequent leaves emerge. 
+Successive tillers develop fewer leaves; flowering and grain development is only slight-
+ly delayed on later-developing tillers. Before the main stem and tillers begin to elon-
+gate, the spikes (panicles in oat) differentiate. The precursors (primordia) of all florets 
+(flowers with lemma and palea, the outer bracts) or spikelets (units consisting of sev-
+eral florets on a thin axis, subtended at the base by two bracts, or glumes) develop at 
+this time. In wheat and oat, formation of new spikelets ends with the formation of the 
+terminal spikelet, which usually occurs when leaf 6 appears. A terminal spikelet is not 
+formed in barley.
+Wheat, barley, and oat appear very similar in the vegetative stage. However, they 
+can usually be easily distinguished based on auricle (a pair of clawlike projections at 
+the junction of the leaf sheath and blade) characteristics. On barley, the auricles are 
+long and clasping; on wheat, the auricles are short; on oat, auricles are absent.
+sT em e L on G a T ion and headin G
+Stem elongation, or jointing, occurs when stem internodes increase in length and 
+bring the nodes above ground. The uppermost five or six internodes elongate, begin-
+ning with the lowest of these. The appearance of the first node above ground marks 
+the beginning of jointing. Jointing begins about the time all spikelet primordia have 
+formed. The flowering structure (inflorescence) of wheat, triticale, and barley is called 
+a spike; that of oat is called a panicle. Inflorescences are composed of spikelets, each 
+consisting of one or more flowers, called florets, at nodes along the spike or panicle. 
+In barley, three spikelets form at each node, and each spikelet has a single floret. All 
+three spikelets are fertile in 6-row barley; only the middle spikelet is fertile in 2-row 
+barley. One spikelet forms at each node of the wheat and triticale spike, but each 
+
+--- PAGE 4 ---
+  ANR Publication 8165
+spikelet consists of three to six potentially fertile florets. In the highly branched 
+panicle of oat, individual spikelets form at the end of branches.
+During stem elongation the spike or 
+panicle increases in length from about 0.1 
+inch (3 mm) to its final size, and individual 
+florets mature. All stages of spikelet develop-
+ment in wheat, triticale, and barley begin near 
+the middle of the spike and proceed toward 
+the base and tip. Development of oat florets 
+begins at the tip of the panicle branches and 
+proceeds toward the base. The last leaf of the 
+small grain plant to emerge is called the flag 
+leaf. When the flag leaf blade has completely 
+emerged, the appearance of its ligule (a short 
+membrane on the inside of the leaf at the 
+junction of the blade and sheath) marks the 
+beginning of the boot stage. During boot stage 
+the enlarging spike swells and splits the sheath 
+of the flag leaf. Heading begins when the spike 
+begins emerging through the flag leaf collar 
+and is complete when the base of the spike is 
+visible.
+F L o W e R in G  and GR ain F i LL in G
+The flowers of wheat, triticale, barley, and 
+oat are self-pollinated; most of the pol-
+len is shed before the anthers emerge from 
+the florets. Flowering (anthesis, or pollen 
+shed) usually occurs within 2 to 4 days after 
+spikes have completely emerged from the 
+boot (barley often flowers prior to emerging 
+from the boot). If emergence occurs dur-
+ing hot weather, flowering may occur while 
+spikes are still in the boot. Most cells of the 
+grain endosperm are formed during a period 
+of rapid cell division following pollination. 
+These cells enlarge and accumulate starch 
+during grain filling. Most of the carbohydrate 
+used for grain filling comes from the photo-
+synthetic output of the flag leaf. Developing 
+spikelets compete for limited supplies of pho-
+tosynthate and nitrogen. The smallest, slow-
+est-growing florets, which occur at the tip of 
+the barley spike and at the tip of each wheat 
+spikelet, are often unable to obtain enough 
+nutrients to keep growing. Some spikelets at 
+the base of the wheat or barley spike also may 
+fail to develop.
+The stages of grain ripening are called 
+milk, soft dough, hard dough, hard kernel, 
+and harvest ripe (for wheat, see fig. 2). Dry 
+matter begins accumulating in the kernel dur-
+Figure 2. Stages of grain ripening in wheat. Source: Flint 1990, p. 14.
+
+--- PAGE 5 ---
+  ANR Publication 8165
+ing the milk stage. During early milk stage, a clear fluid can be squeezed from the ker-
+nel. During late milk stage, milky fluid can be squeezed from the kernel. Most of the dry 
+matter accumulates during the soft dough stage. Loss of water gives the kernel a doughy 
+or mealy consistency. At the end of the hard dough stage the kernel reaches physiologi-
+cal maturity, water content drops to about 30 percent, and the plant loses most of its 
+green color. The kernel contents can be divided with a thumbnail. At the hard kernel 
+stage the plant is completely yellow and water content of the kernel is 20 to 25 percent. 
+The contents of the kernel are difficult to divide with a thumbnail, but its surface can be 
+dented. When kernel moisture content has dropped to 13 to 14 percent, the grain is har-
+vest ripe. The surface of the kernel cannot be dented with a thumbnail.
+G R o WT h ha B i T
+Wheat, triticale, barley, and oat are classified as having either a spring or a winter 
+growth habit. Plants with a winter habit require a period of chilling, or vernalization, 
+to induce the formation of reproductive structures. Without proper vernalization, win-
+ter-habit plants either fail to head or head much later than normal. Plants with a spring 
+habit do not require vernalization. Most California production consists of fall-sown 
+spring-habit small grain crops. However, since market classifications sometime refer to 
+the season of production, not growth habit, California’s production is often referred to 
+as winter-type cereals (e.g., hard red winter wheat). True winter wheat and winter barley 
+are produced on limited acreage in the intermountain area of north-central and north-
+eastern California.
+Yie L d com P onen T s
+Grain yield is the product of plant density, tiller number, number of spikes per plant, 
+number of spikelets per spike, number of kernels per spikelet, and kernel weight. Plant 
+density is determined by seeding rate, germination percentage, and the number of seed-
+lings that emerge and survive. Tiller number per plant depends on plant density, culti-
+var, sowing date, availability of moisture and nutrients, and temperature. The number of 
+spikelets that can form is determined by when stem elongation is initiated; stress (weed 
+competition, heat, cold, drought, nutrient deficiency, diseases) during this period reduc-
+es the number of spikelets that are formed. Florets are initiated during the stem elonga-
+tion stage. The small grain plant is not able to produce enough photosynthate to allow 
+development of all florets. The fastest-growing florets have first access to the available 
+carbohydrate, nitrogen, and other nutrients and are the most likely to produce mature 
+seed. Good growing conditions during stem elongation favor development of the maxi-
+mum number of florets. The cells of the endosperm accumulate starch and protein dur-
+ing grain filling. Any stress or damage that reduces photosynthetic output or interferes 
+with the transport of carbohydrate between flowering and hard dough stage will reduce 
+kernel weight.
+Timing of Field 
+a
+ctivities
+Table 2 gives approximate dates when important crop growth stages occur for wheat 
+produced in key growing regions of California. The dates and corresponding growth 
+stages are for common wheat cultivars sown at optimal planting dates with sufficient 
+soil moisture to initiate germination. Seasonal weather conditions are considered aver-
+age. Depending on the cultivar selected, crop development may vary 7 days on either 
+side of the dates specified. Similarly, even under the most variable weather conditions, 
+crop development will be within about 7 days of the dates specified. For barley, heading 
+and grain-fill dates will be advanced by about 2 weeks. Herbicides for early-season weed 
+control should be applied prior to the onset of tillering, when weeds are small (follow 
+
+--- PAGE 6 ---
+  ANR Publication 8165
+the label). Herbicide applications for later-season weed control should be made when 
+the crop is fully tillered. Fertilizer top-dressing should be made at the mid-tillering 
+stage. Nitrogen top dressing to improve grain protein should be made at heading or 
+flowering in conjunction with an irrigation. If fungicide applications to control foliar 
+diseases are planned, they should be applied to protect the flagleaf and penultimate leaf 
+(the leaf that emerges prior to the flagleaf), and thus should be made just prior to boot 
+stage.
+Re F e R ences
+Clement, L. D., L. F. Jackson, T. E. Kearney, J. P. Orr, R. L. Sailsbery, and J. 
+F. Williams. 1982. Wheat production in the Sacramento Valley. Oakland: 
+University of California Division of Agricultural Sciences Leaflet 21323.
+Cook, R. J., and R. J. Veseth. 1991. Wheat health management. St. Paul, MN: APS 
+Press.
+Flint, M. L., ed. 1990. Integrated pest management for small grains. Oakland: 
+University of California Division of Agriculture and Natural Resources 
+Publication 3333.
+———. 2002. UC IPM pest management guidelines: Small grains. Oakland: 
+University of California Division of Agriculture and Natural Resources 
+Publication 3466. Available at the UC IPM Web site, http://www.ipm.ucdavis.
+edu/PMG/selectnewpest.small-grains.html.
+Simmons, S. R., E. A. Oelke, and P. M. Anderson. 1995. Growth and development 
+guide for spring wheat. St. Paul: University of Minnesota Extension Service. 
+Available at the UM Extension Web site, http://www.extension.umn.edu/
+distribution/cropsystems/DC2547.html.
+Table 2. Approximate dates of selected wheat growth stages in key growing regions of California
+Growth stage
+Date growth stage attained for region and approximate sowing date
+Intermountain 
+Area (winter) 
+mid Oct. to 
+early Nov. 
+Intermountain 
+Area (spring) 
+mid April
+Sacramento 
+Valley 
+mid Nov.
+San Joaquin 
+Valley 
+late Nov. to  
+Mid Dec.
+Central Coast 
+early Nov.
+Imperial 
+Valley 
+mid Dec.
+emergence Nov. 10 May 1 Dec. 1 Dec. 30 Dec. 1 Dec. 30
+tillering Jan. 15 May 15 Jan. 1 Feb. 5 Jan. 1 Jan. 15
+jointing April 1 June 10 Feb. 15 Mar. 10 Feb. 18 Feb. 15
+boot May 15 June 20 April 1 April 1 April 10 March 15
+heading/flowering June 1 July 15 April 15 April 10 April 30 April 1
+milk June 15 July 20 May 1 April 25 May 15 April 10
+soft dough June 25 Aug. 1 May 15 May 10 May 30 April 20
+hard dough July 10 Aug. 15 June 1 May 25 June 15 May 1
+
+--- PAGE 7 ---
+ ANR Publication 8165
+FoR moRe inFoRmaTion
+To order or obtain printed ANR publications and other products, visit the ANR 
+Communication Services online catalog at http://anrcatalog.ucdavis.edu. You can also 
+place orders by mail, phone, or FAX, or request a printed catalog of our products from:
+University of California 
+Agriculture and Natural Resources 
+Communication Services 
+6701 San Pablo Avenue, 2nd Floor 
+Oakland, California 94608-1239
+Telephone: (800) 994-8849 or (510) 642-2431
+FAX: (510) 643-5470
+E-mail inquiries: danrcs@ucdavis.edu
+An electronic version of this publication is available on the ANR Communication Services Web 
+site at http://anrcatalog.ucdavis.edu.
+Publication 8165
+ISBN-13: 978-1-60107-405-8 
+ISBN-10: 1-60107-405-0
+© 2006 by the Regents of the University of California, Division of Agriculture and Natural 
+Resources. All rights reserved.
+The University of California prohibits discrimination or harassment of any person on the basis 
+of race, color, national origin, religion, sex, gender identity, pregnancy (including childbirth, and 
+medical conditions related to pregnancy or childbirth), physical or mental disability, medical con-
+dition (cancer-related or genetic characteristics), ancestry, marital status, age, sexual orientation, 
+citizenship, or status as a covered veteran (covered veterans are special disabled veterans, recently 
+separated veterans, Vietnam era veterans, or any other veterans who served on active duty during 
+a war or in a campaign or expedition for which a campaign badge has been authorized) in any 
+of its programs or activities. University policy is intended to be consistent with the provisions of 
+applicable State and Federal laws.
+Inquiries regarding the University’s nondiscrimination policies may be directed to the Affirmative 
+Action/Staff Personnel Services Director, University of California, Agriculture and Natural 
+Resources, 300 Lakeside Drive, 6th Floor, Oakland, CA 94612-3550 (510) 987-0096. For a free 
+catalog of other publications, call (800) 994-8849. For help downloading this publication, call 
+(530) 297-4445.
+This publication has been anonymously peer reviewed for technical accuracy by University of 
+California scientists and other qualified professionals. This review process was managed by the 
+ANR Associate Editor for Agronomy and Range Sciences.
+pr-09/06-SB/CM

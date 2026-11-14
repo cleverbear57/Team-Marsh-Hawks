@@ -1,0 +1,14 @@
+{
+  "path": "discovery/gis_smap_search.json",
+  "source_url": "https://gis.earthdata.nasa.gov/portal/sharing/rest/search?q=SMAP&f=pjson&num=100",
+  "fetched_at_utc": "2026-11-14T19:23:11.155349+00:00",
+  "http_status": 200,
+  "final_url": "https://gis.earthdata.nasa.gov/portal/sharing/rest/search?q=SMAP&f=pjson&num=100",
+  "content_type": "text/plain;charset=utf-8",
+  "kind": "metadata",
+  "bytes": 201399,
+  "sha256": "8aaa944f1ea3cd0c7030ea97be754c5d6913386ff9d0cad37a5481043b70bf11",
+  "curl_exit_code": 0,
+  "curl_error": "",
+  "note": null
+}

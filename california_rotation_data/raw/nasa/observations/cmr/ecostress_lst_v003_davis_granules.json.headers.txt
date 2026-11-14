@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=utf-8
+Content-Length: 290
+Connection: keep-alive
+Date: Sat, 14 Nov 2026 19:24:52 GMT
+content-md5: 31ddbc936b039633dc3c90cda3c934a0
+Server: ServerTokens ProductOnly
+vary: Accept-Encoding
+x-frame-options: SAMEORIGIN
+access-control-allow-origin: *
+x-xss-protection: 1; mode=block
+cmr-request-id: ecbd16ce-797d-464b-803c-4a46553d1180
+cmr-request-id: ecbd16ce-797d-464b-803c-4a46553d1180
+content-sha1: c94e0cb1073dac196ead79f2bc807b50113369ab
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+cmr-hits: 0
+access-control-expose-headers: CMR-Hits, CMR-Request-Id, X-Request-Id, CMR-Scroll-Id, CMR-Search-After, CMR-Timed-Out, CMR-Shapefile-Original-Point-Count, CMR-Shapefile-Simplified-Point-Count
+x-content-type-options: nosniff
+cmr-took: 29
+X-Request-Id: 9xFxuEVOYYeTy3_nhnPxDMa36Imr6vJIwaL_p4jwJkpGEiZZ9Bxjtg==
+X-Cache: Miss from cloudfront
+Via: 1.1 39c7ffec9631618c04161def4d940d54.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO53-P10
+X-Amz-Cf-Id: 9xFxuEVOYYeTy3_nhnPxDMa36Imr6vJIwaL_p4jwJkpGEiZZ9Bxjtg==
+

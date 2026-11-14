@@ -1,0 +1,14 @@
+{
+  "path": "smap/el_centro.json",
+  "source_url": "https://gis.earthdata.nasa.gov/portal/rest/services/DISASTERS_202609_HURRICANE_NOLO/202624_smap/ImageServer/getSamples?f=pjson&geometry=%7B%22x%22%3A-115.55%2C%22y%22%3A32.8%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&returnFirstValueOnly=false&outFields=%2A&interpolation=RSP_NearestNeighbor&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%5D%2C%22mosaicOperation%22%3A%22MT_FIRST%22%7D",
+  "fetched_at_utc": "2026-11-14T19:23:40.889760+00:00",
+  "http_status": 200,
+  "final_url": "https://gis.earthdata.nasa.gov/portal/rest/services/DISASTERS_202609_HURRICANE_NOLO/202624_smap/ImageServer/getSamples?f=pjson&geometry=%7B%22x%22%3A-115.55%2C%22y%22%3A32.8%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&returnFirstValueOnly=false&outFields=%2A&interpolation=RSP_NearestNeighbor&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%5D%2C%22mosaicOperation%22%3A%22MT_FIRST%22%7D",
+  "content_type": "text/plain;charset=UTF-8",
+  "kind": "observation_response",
+  "bytes": 5545,
+  "sha256": "e2280a8004e14e4cf54a3e7bbb93702e0e82ccd4eb31d2bbdddf1c177ebe1655",
+  "curl_exit_code": 0,
+  "curl_error": "",
+  "note": "SMAP L4 model-assimilated soil wetness service; inspect raster names to distinguish surface/root-zone; never direct root-zone measurement."
+}

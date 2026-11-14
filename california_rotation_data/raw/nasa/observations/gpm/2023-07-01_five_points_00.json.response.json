@@ -1,0 +1,14 @@
+{
+  "path": "gpm/2023-07-01_five_points_00.json",
+  "source_url": "https://gis.earthdata.nasa.gov/portal/rest/services/GESDISC/GPM_3IMERGHH/ImageServer/getSamples?f=pjson&geometry=%7B%22x%22%3A-120.1%2C%22y%22%3A36.36%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&returnFirstValueOnly=false&outFields=%2A&interpolation=RSP_NearestNeighbor&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B446977%2C446978%2C446979%2C446980%2C446981%2C446982%2C446983%2C446984%2C446985%2C446986%2C446987%2C446988%2C446989%2C446990%2C446991%2C446992%5D%2C%22mosaicOperation%22%3A%22MT_FIRST%22%7D&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D",
+  "fetched_at_utc": "2026-11-14T19:24:20.537617+00:00",
+  "http_status": 200,
+  "final_url": "https://gis.earthdata.nasa.gov/portal/rest/services/GESDISC/GPM_3IMERGHH/ImageServer/getSamples?f=pjson&geometry=%7B%22x%22%3A-120.1%2C%22y%22%3A36.36%2C%22spatialReference%22%3A%7B%22wkid%22%3A4326%7D%7D&geometryType=esriGeometryPoint&returnFirstValueOnly=false&outFields=%2A&interpolation=RSP_NearestNeighbor&mosaicRule=%7B%22mosaicMethod%22%3A%22esriMosaicLockRaster%22%2C%22lockRasterIds%22%3A%5B446977%2C446978%2C446979%2C446980%2C446981%2C446982%2C446983%2C446984%2C446985%2C446986%2C446987%2C446988%2C446989%2C446990%2C446991%2C446992%5D%2C%22mosaicOperation%22%3A%22MT_FIRST%22%7D&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D",
+  "content_type": "text/plain;charset=UTF-8",
+  "kind": "observation_response",
+  "bytes": 10649,
+  "sha256": "52fe62a6739ba38be06406b72a6fea95f2306c91f9f40327a4ae5ed9719462e3",
+  "curl_exit_code": 0,
+  "curl_error": "",
+  "note": "Raw numeric pixel sample of IMERG Final precipitation; rate units mm/hour, not daily total. Check service product/version metadata."
+}

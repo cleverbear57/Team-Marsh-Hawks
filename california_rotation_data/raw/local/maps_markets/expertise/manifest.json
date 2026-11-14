@@ -1,0 +1,58 @@
+{
+  "updated_at_utc": "2026-11-14T19:24:25.787468+00:00",
+  "access": "public; no authentication",
+  "files": [
+    {
+      "file": null,
+      "source_url": "https://ucanr.edu/county/monterey-county/contact-us",
+      "provider": "UC ANR",
+      "description": "Public county adviser directory snapshot; no contact made",
+      "retrieved_at_utc": "2026-11-14T19:24:25.787468+00:00",
+      "artifact_type": "original_download",
+      "http_status": 403,
+      "final_url": "https://ucanr.edu/county/monterey-county/contact-us",
+      "content_type": "text/html; charset=utf-8",
+      "status": "failed",
+      "error": "403 Client Error: Forbidden for url: https://ucanr.edu/county/monterey-county/contact-us"
+    },
+    {
+      "file": null,
+      "source_url": "https://agronomy-rice.ucdavis.edu/",
+      "provider": "UC Davis / UC ANR",
+      "description": "Rice specialists and county advisers; no contact made",
+      "retrieved_at_utc": "2026-11-14T19:24:25.787468+00:00",
+      "artifact_type": "original_download",
+      "http_status": 403,
+      "final_url": "https://agronomy-rice.ucdavis.edu/",
+      "content_type": "text/html; charset=UTF-8",
+      "status": "failed",
+      "error": "403 Client Error: Forbidden for url: https://agronomy-rice.ucdavis.edu/"
+    },
+    {
+      "file": null,
+      "source_url": "https://www.rcdmonterey.org/professional-services",
+      "provider": "Resource Conservation District of Monterey County",
+      "description": "Conservation and irrigation assistance; no contact made",
+      "retrieved_at_utc": "2026-11-14T19:24:25.787468+00:00",
+      "artifact_type": "original_download",
+      "http_status": 403,
+      "final_url": "https://www.rcdmonterey.org/professional-services",
+      "content_type": "text/html",
+      "status": "failed",
+      "error": "403 Client Error: Forbidden for url: https://www.rcdmonterey.org/professional-services"
+    },
+    {
+      "file": null,
+      "source_url": "https://ucanr.edu/site/capitol-corridor-vegetable-crops",
+      "provider": "UC ANR",
+      "description": "Yolo Solano Sacramento vegetable-crops program; no contact made",
+      "retrieved_at_utc": "2026-11-14T19:24:25.787468+00:00",
+      "artifact_type": "original_download",
+      "http_status": 403,
+      "final_url": "https://ucanr.edu/site/capitol-corridor-vegetable-crops",
+      "content_type": "text/html; charset=utf-8",
+      "status": "failed",
+      "error": "403 Client Error: Forbidden for url: https://ucanr.edu/site/capitol-corridor-vegetable-crops"
+    }
+  ]
+}

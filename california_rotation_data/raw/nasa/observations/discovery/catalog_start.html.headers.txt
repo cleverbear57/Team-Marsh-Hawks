@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Date: Sat, 14 Nov 2026 19:23:10 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 70365
+Connection: keep-alive
+Vary: Accept-Encoding
+Cache-Control: private
+Set-Cookie: ckan=eyJfY3NyZl90b2tlbiI6IjVkMzZjMjE0MGE5MTM2NzAzMDIxZGNhY2NjZmU1OTMwNzgzOTEzMTAifQ.avi1Hg.S-_LDlQiGOmStwA627o_Xkdet5k; Domain=; HttpOnly; Path=/; SameSite=Lax
+Vary: Cookie
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Powered-By: appdat
+X-Using-Nginx-Controller: true
+X-XSS-Protection: 1; mode=block
+

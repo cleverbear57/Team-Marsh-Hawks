@@ -1,0 +1,14 @@
+{
+  "path": "gpm/2023-07-01_rasters.json",
+  "source_url": "https://gis.earthdata.nasa.gov/portal/rest/services/GESDISC/GPM_3IMERGHH/ImageServer/query?f=pjson&where=stdtime+%3E%3D+1688169600000+AND+stdtime+%3C+1688256000000&outFields=%2A&returnGeometry=false&orderByFields=stdtime&resultRecordCount=100",
+  "fetched_at_utc": "2026-11-14T19:24:19.994181+00:00",
+  "http_status": 200,
+  "final_url": "https://gis.earthdata.nasa.gov/portal/rest/services/GESDISC/GPM_3IMERGHH/ImageServer/query?f=pjson&where=stdtime+%3E%3D+1688169600000+AND+stdtime+%3C+1688256000000&outFields=%2A&returnGeometry=false&orderByFields=stdtime&resultRecordCount=100",
+  "content_type": "text/plain;charset=UTF-8",
+  "kind": "metadata",
+  "bytes": 97,
+  "sha256": "688748f12a6e1393cce7d3c4b567e33aec3194c14898f6271bf22e41417e045b",
+  "curl_exit_code": 0,
+  "curl_error": "",
+  "note": null
+}

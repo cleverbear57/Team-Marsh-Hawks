@@ -1,0 +1,19 @@
+{
+  "source_url": "https://ipm.ucanr.edu/agriculture/rice/stem-rot-of-rice/",
+  "retrieved_at_utc": "2026-11-14T19:23:21.782205+00:00",
+  "file": "raw/local/agronomy/sources/rice_stem_rot.html",
+  "method": "GET",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ipm.ucanr.edu/agriculture/rice/stem-rot-of-rice/",
+  "response_headers": {
+    "Content-Type": "text/html;charset=UTF-8",
+    "Server": "Microsoft-IIS/10.0",
+    "Set-Cookie": "JSESSIONID=D3B4EDE6212576CCC63EE23BCD633EA0.cfusion; Path=/; Secure; HttpOnly",
+    "X-Powered-By": "ASP.NET",
+    "Date": "Sat, 14 Nov 2026 19:23:21 GMT",
+    "Connection": "close"
+  },
+  "bytes": 33214,
+  "sha256": "d7efa29148f662543dea811e079447e89a62e6fe36dff4d6ac9e0ad93d77391c"
+}

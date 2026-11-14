@@ -1,0 +1,14 @@
+{
+  "path": "cmr/ecostress_et_v002_davis_granules.json",
+  "source_url": "https://cmr.earthdata.nasa.gov/search/granules.json?collection_concept_id=C2076106409-LPCLOUD&point=-121.75%2C38.54&temporal=2024-07-01T00%3A00%3A00Z%2C2024-07-31T23%3A59%3A59Z&page_size=1",
+  "fetched_at_utc": "2026-11-14T19:24:52.021544+00:00",
+  "http_status": 200,
+  "final_url": "https://cmr.earthdata.nasa.gov/search/granules.json?collection_concept_id=C2076106409-LPCLOUD&point=-121.75%2C38.54&temporal=2024-07-01T00%3A00%3A00Z%2C2024-07-31T23%3A59%3A59Z&page_size=1",
+  "content_type": "application/json;charset=utf-8",
+  "kind": "metadata",
+  "bytes": 30836,
+  "sha256": "b843ea7bff9291e692b4ff4ecdcc115d4fd1f8b8cc78dba0526d2302c016df5c",
+  "curl_exit_code": 0,
+  "curl_error": "",
+  "note": null
+}

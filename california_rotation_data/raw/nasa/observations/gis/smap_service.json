@@ -1,0 +1,257 @@
+{
+ "extent": {
+  "ymin": -20599853.423977777,
+  "xmin": -20032312.903000001,
+  "ymax": 19547450.301799998,
+  "xmax": 20037507.842788246,
+  "spatialReference": {
+   "latestWkid": 3857,
+   "wkid": 102100
+  }
+ },
+ "blockWidth": 2048,
+ "mosaicOperator": "First",
+ "serviceSourceType": "esriImageServiceSourceTypeMosaicDataset",
+ "hasMultidimensions": false,
+ "maxImageWidth": 15000,
+ "maxRecordCount": 1000,
+ "meanValues": [],
+ "hasColormap": false,
+ "compressionType": "None",
+ "defaultCompressionQuality": 75,
+ "maxValues": [],
+ "hasHistograms": false,
+ "datasetFormat": "AMD",
+ "maxImageHeight": 4100,
+ "sortField": "",
+ "bandNames": ["Band_1"],
+ "spatialReference": {
+  "latestWkid": 3857,
+  "wkid": 102100
+ },
+ "fullExtent": {
+  "ymin": -20599853.423977777,
+  "xmin": -20032312.903000001,
+  "ymax": 19547450.301799998,
+  "xmax": 20037507.842788246,
+  "spatialReference": {
+   "latestWkid": 3857,
+   "wkid": 102100
+  }
+ },
+ "bandCount": 1,
+ "rasterFunctionInfos": [{
+  "help": "",
+  "name": "None",
+  "description": ""
+ }],
+ "supportsStatistics": true,
+ "sortableFields": "MinPS,MaxPS,LowPS,HighPS,CenterX,CenterY,ZOrder,Shape_Length,Shape_Area",
+ "minValues": [],
+ "allowRasterFunction": true,
+ "allowComputeTiePoints": false,
+ "serviceDataType": "esriImageServiceDataTypeGeneric",
+ "supportsAdvancedQueries": true,
+ "maxDownloadSizeLimit": 2048,
+ "currentVersion": 12,
+ "sortValue": null,
+ "objectIdField": "objectid",
+ "blockHeight": 256,
+ "initialExtent": {
+  "ymin": -20599853.423977777,
+  "xmin": -20032312.903000001,
+  "ymax": 19547450.301799998,
+  "xmax": 20037507.842788246,
+  "spatialReference": {
+   "latestWkid": 3857,
+   "wkid": 102100
+  }
+ },
+ "pixelSizeX": 8888.602649908662,
+ "pixelSizeY": 8890.0141111111097,
+ "defaultMosaicMethod": "Northwest",
+ "name": "DISASTERS_202609_HURRICANE_NOLO/202624_smap",
+ "allowedMosaicMethods": "NorthWest,Center,LockRaster,ByAttribute,Nadir,Viewpoint,Seamline,None",
+ "maxDownloadImageCount": 20,
+ "fields": [
+  {
+   "domain": null,
+   "name": "objectid",
+   "alias": "OBJECTID",
+   "type": "esriFieldTypeOID"
+  },
+  {
+   "domain": null,
+   "name": "name",
+   "length": 200,
+   "alias": "Name",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "domain": null,
+   "name": "minps",
+   "alias": "MinPS",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "domain": null,
+   "name": "maxps",
+   "alias": "MaxPS",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "domain": null,
+   "name": "lowps",
+   "alias": "LowPS",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "domain": null,
+   "name": "highps",
+   "alias": "HighPS",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "domain": {
+    "splitPolicy": "esriSPTDefaultValue",
+    "name": "MosaicCatalogItemCategoryDomain",
+    "description": "Catalog item categories.",
+    "type": "codedValue",
+    "codedValues": [
+     {
+      "code": 0,
+      "name": "Unknown"
+     },
+     {
+      "code": 1,
+      "name": "Primary"
+     },
+     {
+      "code": 2,
+      "name": "Overview"
+     },
+     {
+      "code": 3,
+      "name": "Unprocessed Overview"
+     },
+     {
+      "code": 4,
+      "name": "Partial Overview"
+     },
+     {
+      "code": 5,
+      "name": "Inactive"
+     },
+     {
+      "code": 253,
+      "name": "Uploaded"
+     },
+     {
+      "code": 254,
+      "name": "Incomplete"
+     },
+     {
+      "code": 255,
+      "name": "Custom"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue"
+   },
+   "name": "category",
+   "alias": "Category",
+   "type": "esriFieldTypeInteger"
+  },
+  {
+   "domain": null,
+   "name": "tag",
+   "length": 100,
+   "alias": "Tag",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "domain": null,
+   "name": "groupname",
+   "length": 100,
+   "alias": "GroupName",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "domain": null,
+   "name": "productname",
+   "length": 100,
+   "alias": "ProductName",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "domain": null,
+   "name": "centerx",
+   "alias": "CenterX",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "domain": null,
+   "name": "centery",
+   "alias": "CenterY",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "domain": null,
+   "name": "zorder",
+   "alias": "ZOrder",
+   "type": "esriFieldTypeInteger"
+  },
+  {
+   "domain": null,
+   "name": "date",
+   "alias": "Date",
+   "type": "esriFieldTypeDateOnly"
+  },
+  {
+   "domain": null,
+   "name": "shape",
+   "alias": "Shape",
+   "type": "esriFieldTypeGeometry"
+  }
+ ],
+ "allowAnalysis": true,
+ "hasRasterAttributeTable": false,
+ "useStandardizedQueries": true,
+ "description": "<div style='text-align:Left;'><div><div><p><strong>Dates of Images:<\/strong><\/p><p><span>September 22, 2026<\/span><\/p><p><strong>Date of Next Image:<\/strong><\/p><p><span>Unknown<\/span><\/p><p><strong>Summary:<\/strong><\/p><p><span>SMAP Level-4 (L4) surface and root zone soil moisture (L4_SM) data are provided in three products. The SMAP L4 Global 3-hourly 9 km EASE-Grid Surface and Root Zone Soil Moisture Geophysical Data (SPL4SMGP, DOI: 10.5067/T5RUATAQREF8) product is a series of 3-hourly time average geophysical land surface fields that are output by the L4_SM algorithm. It is likely of primary interest to most users. The SMAP L4 Global 3-hourly 9 km EASE-Grid Surface and Root Zone Soil Moisture Analysis Update (SPL4SMAU, DOI: 10.5067/02LGW4DGJYRX) product provides diagnostics from the land surface analysis updates. It consists of a series of 3-hourly instantaneous (or snapshot) files that contain the assimilated SMAP observations, the corresponding land model predictions and analysis estimates, and additional data assimilation diagnostics. Lastly, the SMAP L4 Global 9 km EASE-Grid Surface and Root Zone Soil Moisture Land Model Constants (SPL4SMLM, DOI: 10.5067/PXQIBL2ALDZD) product provides static (time-invariant) land surface model constants that will be needed by some users for further interpretation of the geophysical land surface fields. This product consists of only one granule (file) per L4_SM data product version (as defined by a distinct Science Version ID). For each product, SMAP L-band brightness temperature data from descending and ascending half-orbit satellite passes (approximately 6:00 a.m. and 6:00 p.m. local solar time, respectively) are assimilated into a land surface model that is gridded using an Earth-fixed, global cylindrical 9 km Equal-Area Scalable Earth Grid, Version 2.0 (EASE-Grid 2.0) projection.<\/span><\/p><p><i>Parameter(s):<\/i><\/p><p><span>ROOT ZONE SOIL MOISTURE<\/span><\/p><p><span>SURFACE SOIL MOISTURE<\/span><\/p><p><strong>Platform(s):<\/strong><\/p><p><span>GEOS-5SMAP<\/span><\/p><p><strong>Sensor(s):<\/strong><\/p><p><span>NOT APPLICABLE (root zone)<\/span><\/p><p><span>SMAP L-BAND RADIOMETER (surface soil moisture)<\/span><\/p><p><span>Data Format(s):<\/span><\/p><p><span>GeoTIFF<\/span><\/p><p><strong>Temporal Resolution:<\/strong><\/p><p><span>3 hour<\/span><\/p><p><strong>Spatial Resolution:<\/strong><\/p><p><span>9 km<\/span><\/p><p><strong>Spatial Reference System(s):<\/strong><\/p><p><span>WGS 84 / NSIDC EASE-Grid 2.0 Global<\/span><\/p><p><span>EPSG:6933<\/span><\/p><p><span><strong>Credits:<\/strong><\/span><\/p><p><span>Funding was provided by the NASA SMAP Mission. Computational resources were provided by the NASA High-End Computing program through the NASA Center for Climate Simulation. The generation and dissemination of SMAP data products possible includes staff at GSFC, JPL, and NSIDC.<\/span><\/p><\/div><\/div><\/div>",
+ "pixelType": "F32",
+ "meanPixelSize": 8889.3083805098868,
+ "exportTilesAllowed": false,
+ "editFieldsInfo": null,
+ "rasterTypeInfos": [{
+  "help": "",
+  "name": "Raster Dataset",
+  "description": "Supports all ArcGIS Raster Datasets"
+ }],
+ "defaultResamplingMethod": "Bilinear",
+ "itemAccess": false,
+ "minScale": 0,
+ "serviceProperties": "<ImageServer><ImageServiceProperties><MosaicMethod>NorthWest<\/MosaicMethod><MosaicOperator>First<\/MosaicOperator><SortAscending>true<\/SortAscending><LockImageID><\/LockImageID><TileOrderField>Name<\/TileOrderField><TileOrderBase>0<\/TileOrderBase><AvgImageSpacingX>600.000000<\/AvgImageSpacingX><AvgImageSpacingY>300.000000<\/AvgImageSpacingY><ViewPointX>0.0<\/ViewPointX><ViewPointY>0.0<\/ViewPointY><ViewPointDefShiftX>0.0<\/ViewPointDefShiftX><ViewPointDefShiftY>0.0<\/ViewPointDefShiftY><CompressionMethod>None<\/CompressionMethod><CompressionQuality>75<\/CompressionQuality><CompressionTolerance>0.010000<\/CompressionTolerance><SamplingMethod>Bilinear<\/SamplingMethod><\/ImageServiceProperties><\/ImageServer>",
+ "advancedQueryCapabilities": {
+  "supportsStatistics": true,
+  "supportsSqlExpression": true,
+  "supportsOrderBy": true,
+  "useStandardizedQueries": true,
+  "supportsPagination": true,
+  "supportsDistinct": true
+ },
+ "serviceItemId": "6653758c36164234b86a1ced5c8181cf",
+ "capabilities": "Image,Metadata,Catalog,Mensuration",
+ "maxScale": 0,
+ "stdvValues": [],
+ "allowedFields": "Name,MinPS,MaxPS,LowPS,HighPS,Tag,GroupName,ProductName,CenterX,CenterY,ZOrder,Shape_Length,Shape_Area,Date",
+ "minPixelSize": 0,
+ "sortAscending": true,
+ "maxMosaicImageCount": 20,
+ "inspectionCapabilities": "",
+ "maxPixelSize": 0,
+ "uncompressedSize": 81432512,
+ "serviceDescription": "<DIV STYLE=\"text-align:Left;\"><DIV><DIV><P><SPAN STYLE=\"font-weight:bold;\">Dates of Images:<\/SPAN><\/P><P><SPAN>September 22, 2026<\/SPAN><\/P><P><SPAN STYLE=\"font-weight:bold;\">Date of Next Image:<\/SPAN><\/P><P><SPAN>Unknown<\/SPAN><\/P><P><SPAN STYLE=\"font-weight:bold;\">Summary:<\/SPAN><\/P><P><SPAN>SMAP Level-4 (L4) surface and root zone soil moisture (L4_SM) data are provided in three products. The SMAP L4 Global 3-hourly 9 km EASE-Grid Surface and Root Zone Soil Moisture Geophysical Data (SPL4SMGP, DOI: 10.5067/T5RUATAQREF8) product is a series of 3-hourly time average geophysical land surface fields that are output by the L4_SM algorithm. It is likely of primary interest to most users. The SMAP L4 Global 3-hourly 9 km EASE-Grid Surface and Root Zone Soil Moisture Analysis Update (SPL4SMAU, DOI: 10.5067/02LGW4DGJYRX) product provides diagnostics from the land surface analysis updates. It consists of a series of 3-hourly instantaneous (or snapshot) files that contain the assimilated SMAP observations, the corresponding land model predictions and analysis estimates, and additional data assimilation diagnostics. Lastly, the SMAP L4 Global 9 km EASE-Grid Surface and Root Zone Soil Moisture Land Model Constants (SPL4SMLM, DOI: 10.5067/PXQIBL2ALDZD) product provides static (time-invariant) land surface model constants that will be needed by some users for further interpretation of the geophysical land surface fields. This product consists of only one granule (file) per L4_SM data product version (as defined by a distinct Science Version ID). For each product, SMAP L-band brightness temperature data from descending and ascending half-orbit satellite passes (approximately 6:00 a.m. and 6:00 p.m. local solar time, respectively) are assimilated into a land surface model that is gridded using an Earth-fixed, global cylindrical 9 km Equal-Area Scalable Earth Grid, Version 2.0 (EASE-Grid 2.0) projection.<\/SPAN><\/P><P><SPAN STYLE=\"font-style:italic;\">Parameter(s):<\/SPAN><\/P><P><SPAN>ROOT ZONE SOIL MOISTURE<\/SPAN><\/P><P><SPAN>SURFACE SOIL MOISTURE<\/SPAN><\/P><P><SPAN STYLE=\"font-weight:bold;\">Platform(s):<\/SPAN><\/P><P><SPAN>GEOS-5SMAP<\/SPAN><\/P><P><SPAN STYLE=\"font-weight:bold;\">Sensor(s):<\/SPAN><\/P><P><SPAN>NOT APPLICABLE (root zone)<\/SPAN><\/P><P><SPAN>SMAP L-BAND RADIOMETER (surface soil moisture)<\/SPAN><\/P><P><SPAN>Data Format(s):<\/SPAN><\/P><P><SPAN>GeoTIFF<\/SPAN><\/P><P><SPAN STYLE=\"font-weight:bold;\">Temporal Resolution:<\/SPAN><\/P><P><SPAN>3 hour<\/SPAN><\/P><P><SPAN STYLE=\"font-weight:bold;\">Spatial Resolution:<\/SPAN><\/P><P><SPAN>9 km<\/SPAN><\/P><P><SPAN STYLE=\"font-weight:bold;\">Spatial Reference System(s):<\/SPAN><\/P><P><SPAN>WGS 84 / NSIDC EASE-Grid 2.0 Global<\/SPAN><\/P><P><SPAN>EPSG:6933<\/SPAN><\/P><\/DIV><\/DIV><\/DIV>",
+ "allowCopy": true,
+ "copyrightText": "Funding was provided by the NASA SMAP Mission. Computational resources were provided by the NASA High-End Computing program through the NASA Center for Climate Simulation. The generation and dissemination of SMAP data products possible includes staff at GSFC, JPL, and NSIDC.",
+ "mensurationCapabilities": "Basic",
+ "ownershipBasedAccessControlForRasters": null
+}

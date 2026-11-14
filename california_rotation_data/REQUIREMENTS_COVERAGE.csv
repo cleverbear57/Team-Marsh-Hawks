@@ -1,0 +1,22 @@
+requirement,evidence_or_specification,actual_status
+Combine NASA Earth observations,POWER records; SMAP/GPM samples,Samples acquired; integration is future work
+Use local soil information,SSURGO raw point responses and horizon CSV,Mapped estimates acquired; field tests unavailable
+Consider crop characteristics,UC ANR crop production and cover-crop PDFs,Evidence acquired; normalized complete crop coefficient library unfinished
+Incorporate farmer priorities,Addendum priority selector,Specified; actual user priorities needed
+Compare at least 3 rotation strategies,Addendum A/B/C comparison rules,Specified; no simulation built
+Include existing rotation,Addendum actual baseline rule,Actual farm history requires user input
+Analyze temperature and heat stress,POWER T2M/MAX/MIN plus UC crop sources,Temperature acquired; stage-specific heat calibration incomplete
+Analyze rainfall and extreme weather,POWER precipitation and GPM sample days,Data acquired; extreme-event algorithms not implemented
+Analyze soil moisture and evaporation,SMAP wetness samples; ECOSTRESS catalog/granules,Moisture sample acquired; ET/evaporation numerical archive still needed
+Identify bare-field periods,MOD13Q1/HLS catalog; crop calendars,Vegetation pixels not downloaded; bare-field inference not validated
+Identify crop vulnerability,UC ANR/UC IPM crop and disease sources,Evidence acquired; complete vulnerability model pending
+Explain each rotation recommendation,Addendum evidence-linked rationale,Specified; ranking engine not built
+Explain benefits and risks,UC cover-crop water-tradeoff guidance,Evidence acquired; future output specified
+Identify information gaps and uncertainty,README and addendum,Access/model/input gaps documented
+Consider pest and disease cycles,UC IPM rotation and disease HTML,Reference evidence acquired; host matrix incomplete
+Consider supplemental income and markets,UC sample budgets and CDFA statistics PDFs,Documents acquired; current buyer access and farm costs unknown
+Include geospatial mapping,California state and county GeoJSON,Geometry acquired; UI not built
+Allow interactive scenario exploration,Addendum gameplay,Specified; app intentionally not built
+Explain satellite vs ground measurements,README and addendum classifications,Specified; soil surveys distinguished from field soil tests
+Explain SI/statistical modeling,Addendum modeling section,Simulation method specified; SI term unresolved; model not fitted
+Include local agricultural expertise,UC ANR/UCCE/UC IPM publications,Published expertise acquired; no advisor consultation claimed

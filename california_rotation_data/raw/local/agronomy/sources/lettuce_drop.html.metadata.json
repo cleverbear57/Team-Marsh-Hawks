@@ -1,0 +1,19 @@
+{
+  "source_url": "https://ipm.ucanr.edu/agriculture/lettuce/lettuce-drop/",
+  "retrieved_at_utc": "2026-11-14T19:23:22.475717+00:00",
+  "file": "raw/local/agronomy/sources/lettuce_drop.html",
+  "method": "GET",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ipm.ucanr.edu/agriculture/lettuce/lettuce-drop/",
+  "response_headers": {
+    "Content-Type": "text/html;charset=UTF-8",
+    "Server": "Microsoft-IIS/10.0",
+    "Set-Cookie": "JSESSIONID=7E80D9420AB7C5F617C4BEAA1C0B47DB.cfusion; Path=/; Secure; HttpOnly",
+    "X-Powered-By": "ASP.NET",
+    "Date": "Sat, 14 Nov 2026 19:23:23 GMT",
+    "Connection": "close"
+  },
+  "bytes": 32867,
+  "sha256": "90f7d41942d5a4bf04d0675ffddd1ca00832326d2106d519a3613335a8ff3a80"
+}

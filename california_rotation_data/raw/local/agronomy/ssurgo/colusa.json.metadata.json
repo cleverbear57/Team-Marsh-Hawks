@@ -1,0 +1,33 @@
+{
+  "source_url": "https://sdmdataaccess.nrcs.usda.gov/Tabular/post.rest",
+  "retrieved_at_utc": "2026-11-14T19:21:57.003523+00:00",
+  "file": "raw/local/agronomy/ssurgo/colusa.json",
+  "method": "POST",
+  "request_file": "raw/local/agronomy/ssurgo/colusa.request.json",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://sdmdataaccess.nrcs.usda.gov/Tabular/post.rest",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 19:21:57 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "8649",
+    "Connection": "close",
+    "Set-Cookie": "AWSALB=UVhsZz+wa13rbkmyyiff/ook9Dr4STnE9pTMbz6/aaXj5NWopaD3xUHbejyfQxM9bsODAbA5jizRVwYZ3yUCFu/McZvwXurlCsY314ObHSeHuD8Mw6iYbYxMvFKG; Expires=Sat, 21 Nov 2026 19:21:57 GMT; Path=/",
+    "Cache-Control": "private",
+    "Server": "Microsoft-IIS/10.0",
+    "X-AspNet-Version": "4.0.30319",
+    "X-Powered-By": "ASP.NET",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type"
+  },
+  "bytes": 8649,
+  "sha256": "988f1bd9015b4d6e66318eff96403ae16b00abd9d34b6565c8d1f11bdb93aae7",
+  "region_id": "colusa",
+  "region_label": "Sacramento Valley / Colusa",
+  "latitude": 39.2,
+  "longitude": -122.0,
+  "coordinate_crs": "EPSG:4326",
+  "selection": "all intersecting mapunits; all components; all horizons",
+  "horizon_rows": 18
+}

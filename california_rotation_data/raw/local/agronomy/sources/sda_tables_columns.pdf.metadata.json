@@ -1,0 +1,26 @@
+{
+  "source_url": "https://sdmdataaccess.nrcs.usda.gov/documents/TablesAndColumnsReport.pdf",
+  "retrieved_at_utc": "2026-11-14T19:23:19.023007+00:00",
+  "file": "raw/local/agronomy/sources/sda_tables_columns.pdf",
+  "method": "GET",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://sdmdataaccess.nrcs.usda.gov/documents/TablesAndColumnsReport.pdf",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 19:23:19 GMT",
+    "Content-Type": "application/pdf",
+    "Content-Length": "2036499",
+    "Connection": "close",
+    "Set-Cookie": "AWSALB=bL8vxucI5H5CJuDBNyXCIkAvwPGBDv0/OSzs0/YVF7RO6wBOl3NKFQJmMTcOcVdk1lRExyFTYooTKO8Q73TGP5H9sMo2UKnJEPdxDvIUIOodM0libxYpDA1inf1J; Expires=Sat, 21 Nov 2026 19:23:19 GMT; Path=/",
+    "Last-Modified": "Thu, 26 Mar 2026 19:38:16 GMT",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"0844d1758bddc1:0\"",
+    "Server": "Microsoft-IIS/10.0",
+    "X-Powered-By": "ASP.NET",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type"
+  },
+  "bytes": 2036499,
+  "sha256": "04878fb8aa70210a8087606652511bbab04794caab2f9c2f02b88ad1049b345d"
+}

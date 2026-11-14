@@ -1,0 +1,33 @@
+{
+  "source_url": "https://sdmdataaccess.nrcs.usda.gov/Tabular/post.rest",
+  "retrieved_at_utc": "2026-11-14T19:21:56.081128+00:00",
+  "file": "raw/local/agronomy/ssurgo/davis.json",
+  "method": "POST",
+  "request_file": "raw/local/agronomy/ssurgo/davis.request.json",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://sdmdataaccess.nrcs.usda.gov/Tabular/post.rest",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 19:21:57 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "2601",
+    "Connection": "close",
+    "Set-Cookie": "AWSALB=O8UQpviH7xzaSo6yRqqOg7PIp4vhHyo1aNhRbLC1gc3Kw71oD1hkHOWdqeqwpF/UGNUdae2O9M7zVtKOIlP3h2Np/jKTxro3jbWhKJag1hW6ys0M6B3Vie721JG0; Expires=Sat, 21 Nov 2026 19:21:57 GMT; Path=/",
+    "Cache-Control": "private",
+    "Server": "Microsoft-IIS/10.0",
+    "X-AspNet-Version": "4.0.30319",
+    "X-Powered-By": "ASP.NET",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type"
+  },
+  "bytes": 2601,
+  "sha256": "d49f725c5bc369f0c5ce592f32e66fabba998f4a00239fd773746bc7a346c543",
+  "region_id": "davis",
+  "region_label": "Southern Sacramento Valley / Davis",
+  "latitude": 38.54,
+  "longitude": -121.75,
+  "coordinate_crs": "EPSG:4326",
+  "selection": "all intersecting mapunits; all components; all horizons",
+  "horizon_rows": 6
+}

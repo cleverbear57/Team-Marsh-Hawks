@@ -1,0 +1,242 @@
+[
+  {
+    "source_id": "sda_web_service",
+    "title": "USDA NRCS Soil Data Access Web Service Help",
+    "url": "https://sdmdataaccess.nrcs.usda.gov/WebServiceHelp.aspx",
+    "filename": "sda_web_service.html",
+    "publication_date_note": "current service",
+    "authority": "USDA NRCS"
+  },
+  {
+    "source_id": "sda_advanced_queries",
+    "title": "USDA NRCS SDA Advanced Queries",
+    "url": "https://sdmdataaccess.nrcs.usda.gov/documents/AdvancedQueries.html",
+    "filename": "sda_advanced_queries.html",
+    "publication_date_note": "current service",
+    "authority": "USDA NRCS"
+  },
+  {
+    "source_id": "sda_schema",
+    "title": "USDA NRCS Soil Data Mart 4.3 Tables and Columns",
+    "url": "https://sdmdataaccess.nrcs.usda.gov/documents/TablesAndColumnsReport.pdf",
+    "filename": "sda_tables_columns.pdf",
+    "publication_date_note": "November 2025",
+    "authority": "USDA NRCS"
+  },
+  {
+    "source_id": "tomato_rotation",
+    "title": "UC IPM Tomato Crop Rotation",
+    "url": "https://ipm.ucanr.edu/agriculture/tomato/crop-rotation/",
+    "filename": "tomato_rotation.html",
+    "publication_date_note": "December 2013 (page text)",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "tomato_fusarium",
+    "title": "UC IPM Tomato Fusarium Wilt",
+    "url": "https://ipm.ucanr.edu/agriculture/tomato/fusarium-wilt/",
+    "filename": "tomato_fusarium.html",
+    "publication_date_note": "December 2013 (page text)",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "tomato_production",
+    "title": "Processing Tomato Production in California, ANR 7228",
+    "url": "https://my.ucanr.edu/repository/fileaccess.cfm?article=54037&p=+PWVAXR",
+    "filename": "tomato_production_7228.pdf",
+    "publication_date_note": "2008",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "wheat_growth",
+    "title": "Small Grain Production Manual Part 2, ANR 8165",
+    "url": "https://smallgrains.ucdavis.edu/sites/g/files/dgvnsk13316/files/inline-files/8165%283%29.pdf",
+    "filename": "small_grains_growth_8165.pdf",
+    "publication_date_note": "2006",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "wheat_establishment",
+    "title": "Small Grain Production Manual, complete 14-part volume, ANR 8208",
+    "url": "https://smallgrains.ucdavis.edu/sites/g/files/dgvnsk13316/files/inline-files/8208%285%29.pdf",
+    "filename": "small_grains_establishment_8208.pdf",
+    "publication_date_note": "2006",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "wheat_take_all",
+    "title": "UC IPM Small Grains Take-All",
+    "url": "https://ipm.ucanr.edu/agriculture/small-grains/take-all/",
+    "filename": "small_grains_take_all.html",
+    "publication_date_note": "April 2026 (page text)",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "bean_rotation",
+    "title": "UC IPM Dry Beans Crop Rotation",
+    "url": "https://ipm.ucanr.edu/agriculture/dry-beans/crop-rotation/",
+    "filename": "dry_beans_rotation.html",
+    "publication_date_note": "November 2018 (page text)",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "bean_production",
+    "title": "Common Dry Bean Production in California, ANR 8402",
+    "url": "https://beans.ucanr.edu/files/80592.pdf",
+    "filename": "common_dry_bean_production_8402.pdf",
+    "publication_date_note": "2010",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "bean_charcoal_rot",
+    "title": "UC IPM Dry Beans Charcoal Rot",
+    "url": "https://ipm.ucanr.edu/agriculture/dry-beans/charcoal-rot/",
+    "filename": "dry_beans_charcoal_rot.html",
+    "publication_date_note": "page text",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "rice_planting",
+    "title": "When Is the Optimal Time to Plant Rice in the Sacramento Valley",
+    "url": "https://rice.ucanr.edu/files/232444.pdf",
+    "filename": "rice_optimal_planting.pdf",
+    "publication_date_note": "publication year to verify",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "rice_stem_rot",
+    "title": "UC IPM Rice Stem Rot",
+    "url": "https://ipm.ucanr.edu/agriculture/rice/stem-rot-of-rice/",
+    "filename": "rice_stem_rot.html",
+    "publication_date_note": "July 2024 (page text)",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "rice_weeds",
+    "title": "UC IPM Rice Integrated Weed Management",
+    "url": "https://ipm.ucanr.edu/agriculture/rice/integrated-weed-management/",
+    "filename": "rice_weed_management.html",
+    "publication_date_note": "page text",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "lettuce_production",
+    "title": "Leaf Lettuce Production in California, ANR 7216",
+    "url": "https://my.ucanr.edu/repository/fileaccess.cfm?article=54025&p=+QGYEXN",
+    "filename": "leaf_lettuce_production_7216.pdf",
+    "publication_date_note": "1996 legacy edition",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "lettuce_2024_landing",
+    "title": "Lettuce Production in California 2024 publication record",
+    "url": "https://anrlibrary.org/content/publications/9781627112352",
+    "filename": "lettuce_2024_record.html",
+    "publication_date_note": "June 2024; landing page only",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "lettuce_verticillium",
+    "title": "UC IPM Lettuce Verticillium Wilt",
+    "url": "https://ipm.ucanr.edu/agriculture/lettuce/verticillium-wilt/",
+    "filename": "lettuce_verticillium.html",
+    "publication_date_note": "April 2017 (page text)",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "lettuce_drop",
+    "title": "UC IPM Lettuce Drop",
+    "url": "https://ipm.ucanr.edu/agriculture/lettuce/lettuce-drop/",
+    "filename": "lettuce_drop.html",
+    "publication_date_note": "page text",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "broccoli_production",
+    "title": "Broccoli Production in California, ANR 7211",
+    "url": "https://my.ucanr.edu/repository/fileaccess.cfm?article=54020&p=+UYTNJN",
+    "filename": "broccoli_production_7211.pdf",
+    "publication_date_note": "1996 legacy edition",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "broccoli_2024_landing",
+    "title": "Broccoli Production in California 2024 publication record",
+    "url": "https://anrlibrary.org/content/publications/9781627112345",
+    "filename": "broccoli_2024_record.html",
+    "publication_date_note": "June 2024; landing page only",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "broccoli_clubroot",
+    "title": "UC IPM Cole Crops Clubroot",
+    "url": "https://ipm.ucanr.edu/agriculture/cole-crops/clubroot/",
+    "filename": "cole_crops_clubroot.html",
+    "publication_date_note": "page text",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "broccoli_rotation_evidence",
+    "title": "UCCE Broccoli Rotations Lower Pathogen Populations and Reduce Disease Incidence of Verticillium Wilt",
+    "url": "https://ucanr.edu/blog/small-and-organic-farm-advisor/article/broccoli-rotations-lower-pathogen-populations-and",
+    "filename": "broccoli_rotation_evidence.html",
+    "publication_date_note": "publication date in page",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "cover_selection",
+    "title": "Selecting Cover Crops for California Annual Crop Systems, Agronomy Fact Sheet 21",
+    "url": "https://ucanr.edu/sites/default/files/2024-09/402185.pdf",
+    "filename": "cover_crop_selection_21.pdf",
+    "publication_date_note": "2024",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "cover_considerations",
+    "title": "Cover Cropping Considerations in California Annual Crop Rotations, Agronomy Fact Sheet 22",
+    "url": "https://ucanr.edu/sites/default/files/2024-09/402186.pdf",
+    "filename": "cover_crop_considerations_22.pdf",
+    "publication_date_note": "2024",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "cover_water",
+    "title": "Cover Cropping in California's Water Scarce Environments",
+    "url": "https://ucanr.edu/sites/default/files/2025-05/Cover%20Cropping%20in%20California%E2%80%99s%20Water%20Scarce%20Environments.pdf",
+    "filename": "cover_water_scarce.pdf",
+    "publication_date_note": "publication date in document",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "tomato_pms",
+    "title": "2021 Pest Management Strategic Plan for Processing Tomato in California",
+    "url": "https://ucanr.edu/blogs/UCDWeedScience/blogfiles/98215.pdf",
+    "filename": "tomato_pest_management_strategy_2021.pdf",
+    "publication_date_note": "2021",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "bean_production_escholarship",
+    "title": "Common Dry Bean Production in California, second edition, ANR 8402",
+    "url": "https://escholarship.org/content/qt6552q3qh/qt6552q3qh.pdf?t=p1ze3y",
+    "filename": "common_dry_bean_production_8402_escholarship.pdf",
+    "publication_date_note": "February 2010",
+    "authority": "University of California"
+  },
+  {
+    "source_id": "ssurgo_overview",
+    "title": "USDA NRCS SSURGO overview",
+    "url": "https://www.nrcs.usda.gov/resources/data-and-reports/soil-survey-geographic-database-ssurgo",
+    "filename": "ssurgo_overview.html",
+    "publication_date_note": "current page",
+    "authority": "USDA NRCS"
+  },
+  {
+    "source_id": "tomato_pms_ipmcenter",
+    "title": "2021 Pest Management Strategic Plan for Processing Tomato in California",
+    "url": "https://ipmdata.ipmcenters.org/documents/pmsps/2021_07_22_Processing_Tomato_PMSP_final.pdf",
+    "filename": "tomato_pest_management_strategy_2021_ipmcenter.pdf",
+    "publication_date_note": "2021",
+    "authority": "Western IPM Center / UC ANR project"
+  }
+]

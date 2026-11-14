@@ -1,0 +1,417 @@
+--- PAGE 1 ---
+UNIVERSITY OF CALIFORNIA
+Division of Agriculture and Natural Resources
+http://anrcatalog.ucdavis.edu
+Publication 7228
+PROCESSING TOMATO 
+PRODUCTION IN CALIFORNIA
+TIM HARTz, Extension Vegetable Specialist, Department of Plant 
+Sciences, University of California, Davis; and GENE MIyAO, JAN 
+MICkLER, MICHELLE LESTRANGE, SCOTT STODDARD, 
+JOE NUñEz, and BRENNA AEGERTER, University of California 
+Cooperative Extension Farm Advisors
+PRODUCTION AREAS AND SEASONS
+Processing tomatoes (Lycopersicon esculentum Mill.) 
+are grown in the San Joaquin and Sacramento Valleys, 
+with production centered in Fresno, Yolo, San Joaquin, 
+Kings, and Colusa Counties. Significant produc-
+tion also occurs in Merced, Stanislaus, Solano, and 
+Sutter Counties. Fields are planted from late January 
+through early June for continuous harvest from late 
+June into October. California accounts for over 90 per-
+cent of U.S. production and approximately 35 percent 
+of world production.
+PROCESSING TOMATO ACREAGE, 
+yIELD, AND VALUE
+Year Acreage Average yield per acre
+2004 281,000 41.5
+2005 267,000 36.4
+2006 283,000 35.8
+Source: USDA National Agricultural Statistics Service, 
+http://www.nass.usda.gov.
+CLIMATIC REQUIREMENTS
+Tomato is a warm-season crop that is sensitive to frost 
+at any growth stage. The optimal soil temperature for 
+seed germination is 68°F (20°C) or above; germination 
+below 60°F (16°C) is extremely slow. Daily maximum 
+air temperature between 77°F and 95°F (25° to 35°C) 
+is ideal for vegetative growth, fruit set, and develop-
+ment. With adequate soil moisture, tomato plants can 
+tolerate temperatures well in excess of 100°F (38°C), 
+although fruit set can be adversely affected. Fruit 
+development and quality are severely reduced when 
+day and night temperatures fall below 68° and 50°F 
+(20° and 10°C), respectively.
+VARIETIES AND PLANTING 
+TECHNIQUES
+Processors conduct extensive evaluations to identify 
+varieties with appropriate characteristics for specific 
+end products. Production contracts require growers to 
+select from a list of approved varieties chosen by the 
+processor. Growers select varieties from this list based 
+on yield potential, earliness, and nematode and dis-
+ease resistance. Hybrid varieties are now planted in 
+nearly all fields. Dozens of varieties are commercially 
+grown in California. The five most commonly grown 
+varieties in 2005 were AB 2, Heinz 9780, Heinz 9557, 
+Halley 3155, and Hypeel 303; these varieties consti-
+tuted more than 60 percent of California production.
+Since 1990 the trend has been from direct seeding 
+to transplanting; the majority of tomato fields are 
+now transplanted. Transplanting simplifies seedbed 
+preparation and stand establishment, reduces weed 
+competition, provides more options for weed control, 
+and reduces hand-weeding expense.
+To accommodate wet soil conditions in the spring, 
+beds are generally made in the fall, allowing for 
+timely planting and reduced soil compaction. Ground 
+preparation prior to listing beds includes subsoiling, 
+disking, and landplaning. Growers are increasingly 
+experimenting with various approaches to reduce 
+tillage, driven by the desire to reduce tillage costs and 
+improve profitability. These alternative approaches 
+vary from simply combining multiple operations into 
+one equipment pass to minimum tillage schemes in 
+which some operations are eliminated. Winter-grown 
+cereal or legume cover crops preceding processing 
+tomatoes can improve soil tilth and provide a “rota-
+tion” for fields in which tomato is planted in succes-
+sive years. Despite these potential advantages, cover 
+cropping remains an uncommon practice due to the 
+Vegetable Production Series
+vric.ucdavis.edu
+UC Vegetable Research 
+& Information Center
+
+--- PAGE 2 ---
+costs involved and the difficulty of incorporating 
+cover crop residue in wet spring weather.
+In the San Joaquin Valley 66-inch (1.7-m) beds are 
+common, while in the Sacramento Valley 60-inch 
+(1.5-m) beds are the norm; beds are planted with 
+either a single or double row of plants. Seeding rates 
+are usually 40,000 to 60,000 seeds per acre (100,000 
+to 150,000 per ha), with a desired final plant spacing 
+of 2 to 3 plants per clump 9 to 12 inches (22.5 to 30 
+cm) apart in the seed line. Mechanical and precision 
+vacuum planters are used to meter seed. Tomatoes 
+can compensate for thin stands, with gaps up to 30 
+inches (75 cm) between plants causing only minor 
+yield loss. Seeding depth varies from 0.5 inch to over 
+1.5 inches (1.2 to 3.7 cm), depending on soil charac-
+teristics. Seedling emergence may require more than 
+30 days under cool soil temperatures. Under soil tem-
+peratures in the 80°F (27°C) range, emergence occurs 
+within 7 days of planting.
+Transplants are custom-grown by commer-
+cial greenhouse operations and are delivered to the 
+field as plug plants seeded in trays. Transplants are 
+mechanically planted into fields starting in early 
+March and continuing until early June. Both mechan-
+ical finger type, hand-fed transplanters and carousel, 
+rotary transplanters are commonly used. Automated 
+systems are being evaluated. Transplant populations 
+of single- or double- seeded plugs are typically 7,000 
+to 9,000 per acre (17,300 to 22,200 per ha). Water, usu-
+ally containing N and P fertilizer, is often applied at 
+transplanting at rates up to 400 gallons per acre (3,745 
+l/ha). Alternatively, a pre-transplanting fertilizer 
+application to the soil is also common.
+Mechanical cultivation operations help control 
+weeds, minimize large clods on the bed surface, 
+and maintain deep furrows and a smooth, slightly 
+crowned bed surface to facilitate mechanical harvest. 
+A mechanical vine trainer is often needed to push 
+vines out of the furrow onto the bed, or a mechan-
+ical cutter is used to trim excessive vine growth. 
+Maintaining an unobstructed furrow increases furrow 
+irrigation efficiency and provides better fruit recovery 
+at harvest.
+SOILS
+A variety of soil textures are used for processing 
+tomato production. Sandy soils are preferred for early 
+planting because they can be planted sooner during 
+wet weather and warm more rapidly in the spring, 
+promoting seed germination and early growth. Loam 
+and clay loam soils are generally more productive 
+than sand. Clay soil may be used, provided it is well-
+drained and irrigated carefully; Phytophthora root 
+rot, a soilborne fungal disease, can be a serious prob-
+lem in heavy soils with excessive soil moisture.
+IRRIGATION
+All processing tomatoes are irrigated. Sprinkler irri-
+gation is used primarily for stand establishment, 
+although a few growers use sprinklers throughout the 
+growing season. Furrow irrigation is the most com-
+mon irrigation technique employed after stand estab-
+lishment. Irrigation frequency varies widely by grow-
+er, soil type, and growth stage; 7- to 14-day intervals 
+are typical. It is a common practice to cut off irrigation 
+2 to 4 weeks before harvest to enhance the soluble 
+solids content of the fruit, reduce the risk of fruit rots, 
+and minimize soil compaction from mechanical har-
+vest operations.
+The use of drip irrigation is increasing substantially 
+each year; currently more than 20 percent of process-
+ing tomato acreage is under drip management. Drip 
+irrigation generally increases yield and allows effi-
+cient irrigation of fields that, because of slope or soil 
+characteristics, are difficult to irrigate by other means. 
+Also, in a large area of the San Joaquin Valley the pres-
+ence of a shallow, saline water table complicates irri-
+gation management. The use of drip irrigation in this 
+area maintains productivity by keeping the root zone 
+relatively salt-free, and the high efficiency of drip irri-
+gation minimizes the volume of drainage water gen-
+erated. The typical drip system employs a single drip 
+tape buried 8 to 12 inches (20 to 30 cm) deep in the 
+bed center, although the use of surface drip systems 
+(in which the drip lines are laid in the furrows after 
+crop establishment) is becoming increasingly com-
+mon. Sprinkler irrigation is often used for transplant 
+or seedling establishment, with drip irrigation begin-
+ning around first bloom. Drip irrigation requirements 
+are determined by weather-based reference evapo-
+transpiration (ETo) estimates and crop growth stage; 
+irrigation frequency may vary from once or twice a 
+week early in the season to daily irrigation during 
+periods of peak water demand. Some growers reduce 
+irrigation in the final 4 to 6 weeks of the season to 
+increase fruit soluble solids concentration.
+FERTILIzATION
+Fertilizer application rates vary widely among 
+California tomato growers. Typical seasonal applica-
+tion rates are 125 to 250 pounds of nitrogen (N) per 
+acre (140 to 280 kg N/ha), 40 to 120 pounds of P205 
+per acre (20 to 60 kg P/ha), and 0 to 200 pounds of K20 
+per acre (0 to 185 kg K/ha). University of California 
+research has shown that under normal conditions, 
+maximum yield can be obtained with approximately 
+100 to 150 pounds of N per acre (112 to 168 kg/ha), 
+and even less in fields with substantial residual soil 
+nitrate from prior cropping. Soils with bicarbonate-
+extractable phosphorous (P) greater than 20 ppm 
+are unlikely to respond to P application, although a 
+2  • Processing Tomato Production in California
+
+--- PAGE 3 ---
+temporary early growth response to preplant P may 
+be seen in early spring conditions. Below 15 ppm, 
+a yield response to applied P would be expected. 
+Many California soils have adequate potassium (K) 
+for high-yield tomato production. However, on soil 
+with ammonium acetate-exchangeable K less than 150 
+ppm, K application may be required; seasonal K rates 
+seldom exceed 200 pounds of K20 per acre (185 kg K/
+ha). Fruit color uniformity is an important quality 
+factor for peel/dice processing. A common disorder 
+called yellow shoulder, in which the tissue surround-
+ing the stem scar remains yellow after fruit ripening, 
+is encouraged by K deficiency. Although K fertiliza-
+tion in excess of that required to maximize yield may 
+reduce the incidence of yellow shoulder, such applica-
+tions are usually not economical.
+Micronutrients are seldom deficient in the mineral 
+soils of the San Joaquin and Sacramento Valleys. Zinc 
+deficiency does occur and is normally corrected by 
+including zinc with the preplant macronutrient fertilizer. 
+Gypsum is commonly applied as a soil conditioner to 
+improve soil structure and water infiltration but seldom 
+for its nutrient value since most California soils have 
+sufficient calcium and sulfur to meet plant requirements.
+Regardless of irrigation method, most P is applied 
+preplant or at transplanting. Where drip irrigation is 
+used, most N and K (if needed) are applied by ferti-
+gation throughout the season. In conventionally irri-
+gated fields, N and K (if needed) are applied preplant 
+or at planting, and in one or more sidedressings; late-
+season water-run application may also occur.
+INTEGRATED PEST MANAGEMENT
+Detailed information on integrated pest management 
+(IPM) for tomato production is available in the UC 
+IPM Pest Management Guidelines for Tomato, http://
+www.ipm.ucdavis.edu/PMG/selectnewpest.toma-
+toes.html. and in ANR Publication 3274, Integrated 
+Pest Management for Tomatoes, 4th edition. Cultural con-
+trol methods such as mechanical cultivation, field san-
+itation, good drainage, and irrigation management to 
+avoid excessively wet soils are important components 
+of IPM that help minimize the need for chemical con-
+trols. Monitoring for and correctly identifying pests 
+are also key components of an effective IPM program. 
+Pesticides should always be used in compliance with 
+label instructions.
+Weed Management
+Control of annual and perennial weeds is important 
+for maximum crop production and harvest efficiency. 
+Hand-weeding can be a major expense in direct-
+seeded fields if weeds are prevalent. Late-winter and 
+early-spring weeds can be controlled chemically or by 
+cultivation prior to planting. In direct-seeded fields 
+herbicides are often applied postemergence to seed-
+ling tomatoes. Use of a preplant herbicide incorpo-
+rated with a rotary tiller prior to transplanting is com-
+mon. In fields with a history of nightshade (Solanum 
+nigrum and S. sarrachoides) infestation, a fumigant 
+can be banded along the seed line with a subsurface 
+spray blade prior to planting. Postemergent herbicide 
+sprays to control nightshades are also widely used. 
+Cultivation along the seed line precedes hand-thin-
+ning and weeding in the seed line; no hand-weeding 
+is necessary in transplanted fields at this stage. Lay-
+by herbicide application is the norm to control weeds 
+for the remainder of the season, regardless of planting 
+method. Additional hand-weeding may be required 
+to prevent escaped weeds from producing seed. Crop 
+rotation can reduce weed pressure.
+Insect Management
+The primary arthropod pests of tomato seedlings 
+are garden symphylans (Scutigerella immaculate), flea 
+beetles (Epitrix spp.), and cutworms (Peridroma and 
+Agrotis spp.). General foliage and fruit feeders are 
+tomato fruitworms (Helicoverpa zea), various army-
+worms (Spodoptera spp.), russet mites (Aculops lyco-
+persici), stink bugs (Euschistus conspersus, Thyanta pal-
+lidovirens, Chlorochroa spp., and Nezara viridula), and 
+potato aphids (Macrosiphum euphorbiae). Pinworms 
+(Keiferia lycopersicella) are an occasional problem in 
+the southern San Joaquin Valley. Various insecticides 
+are used for control. A UC IPM monitoring program 
+is available for determining treatment thresholds for 
+fruitworm, armyworm, potato aphid, and consperse 
+stink bug control programs.
+Nematode and Disease Management
+Root knot nematodes (Meloidogyne spp.) have been 
+controlled under most circumstances by crop rota-
+tion and use of resistant varieties. Phytophthora root 
+rot (Phytophthora parasitica and P.  capsici) is a concern 
+throughout the season. Careful irrigation manage-
+ment to avoid saturating soils for extended periods is 
+the most useful control practice.
+The Mediterranean weather conditions of 
+California’s Central Valley limit disease problems. 
+In cool, rainy springs bacterial speck (Pseudomonas 
+syringae) and bacterial spot (Xanthomonas campestris) 
+can be problematic. Copper sprays are commonly 
+used. Bacterial speck–resistant varieties are widely 
+grown, but a new strain of the bacterium has recently 
+appeared that can cause disease even on resistant vari-
+eties. Late blight (Phytophthora infestans) is a concern, 
+occurring in the late spring during rainy periods and in 
+the fall when wet weather returns. Protectant chemicals 
+may be used for control. In late-season fields protectant 
+fungicides are often applied to minimize fruit damage 
+from blackmold (Alternaria alternata).
+3  • Processing Tomato Production in California
+
+--- PAGE 4 ---
+Fusarium wilt (Fusarium oxysporum) race 2 occurs 
+primarily in the Sacramento and northern San Joaquin 
+Valleys; race 3 is generally limited to the Sutter Basin 
+and Yolo County. Verticillium wilt (Verticillium dahliae) 
+race 2 is widespread but losses have not been devas-
+tating. Corky root (Pyrenochaeta lycopersici) is common 
+throughout the Central Valley. The primary control 
+strategies of extending crop rotations and delaying 
+planting in fields with corky root history until soil is 
+warm are only partially effective. Fusarium root rot 
+(Fusarium solani) is becoming more prevalent.
+Other Pests and Problems
+A number of viruses can affect processing tomatoes, 
+including curly top, spotted wilt, and alfalfa mosaic. 
+The severity of loss to virus diseases varies from 
+year to year depending on factors such as weather, 
+populations of insect vectors (aphids, thrips, and leaf 
+hoppers primarily), and the presence of host plants 
+in the landscape. Significant economic losses may be 
+seen in individual fields or regions (particularly with 
+curly top and tomato spotted wilt), but in general 
+widespread losses are uncommon in California. The 
+whitefly-transmitted gemini virus tomato yellow leaf 
+curl (TYLCV) has recently been identified in tomato 
+fields in the Imperial Valley, but to date it has not 
+been found in the San Joaquin Valley. 
+HARVESTING AND HANDLING
+All California processing tomatoes are mechanically 
+harvested. The once-over, destructive harvest is initi-
+ated when at least 90 percent of fruit are ripe. In some 
+fields a fruit ripening agent is applied several weeks 
+before harvest to maximize the percentage of ripe fruit 
+and to promote earlier harvest. Some growers own or 
+lease self-propelled harvesters, although contract 
+harvesting by processors is common. Fruit are loaded 
+into tandem bulk trailers each holding approximately 
+12 tons and transported to a processing plant.
+POSTHARVEST HANDLING
+All bulk loads are graded at one of the fruit inspection 
+stations located throughout the production areas. The 
+Processing Tomato Advisory Board administers this 
+statewide program. Fruit color, soluble solids content, 
+pH, and defect levels (insect damage, mold, green 
+fruit, etc.) are evaluated. Tomatoes are then processed 
+into a wide variety of products. Some processing 
+plants directly manufacture finished consumer prod-
+ucts, while others specialize in the production of bulk 
+paste or whole-peeled or diced fruit. These bulk items 
+are subsequently remanufactured into sauces, catsup, 
+and so on. Several small-scale processors produce 
+dried tomato products.
+MARkETING
+Processing tomatoes are grown under contract to spe-
+cific processors. Growers are paid a contracted price 
+based on tonnage, quality, and date of delivery. Some 
+contracts also contain incentives for achieving high 
+fruit quality, particularly for soluble solids concentra-
+tion. Processor requirements vary depending on the 
+desired end product. Some processors exclusively 
+produce products under their own proprietary labels, 
+while others specialize in producing bulk items for 
+remanufacture by other companies. Copacking agree-
+ments, in which one processor manufactures prod-
+ucts under specific guidelines for another processor, 
+are common. The production of organic processed 
+tomato products is increasing, although organics still 
+constitute a very small segment (less than 3%) of the 
+overall industry.
+4  • Processing Tomato Production in California
+FOR FURTHER INFORMATION
+To order or obtain ANR publications and other products, visit the ANR Communication Services online catalog at 
+http://anrcatalog.ucdavis.edu or phone 1-800-994-8849. You can also place orders by mail or FAX, or request a printed 
+catalog of our products from
+University of California 
+Agriculture and Natural Resources 
+Communication Services 
+6701 San Pablo Avenue, 2nd Floor 
+Oakland, California 94608-1239
+Telephone 1-800-994-8849 or (510) 642-2431 
+FAX (510) 643-5470 
+E-mail: danrcs@ucdavis.edu
+This publication has been anonymously peer reviewed for technical accuracy by University of California 
+scientists and other qualified professionals. This review process was managed by the ANR Associate Editor 
+for Vegetable Crops.
+
+
+--- PAGE 5 ---
+5  • Processing Tomato Production in California
+Publication 7228
+ISBN-13: 978-1-60107-570-3
+©1996, 2008 The Regents of the University of California 
+Division of Agriculture and Natural Resources 
+All rights reserved.
+No part of this publication may be reproduced, stored in a retrieval system, or transmitted, in any form or by any 
+means, electronic, mechanical, photocopying, recording, or otherwise, without the written permission of the pub-
+lisher and the authors.
+The University of California prohibits discrimination or harassment of any person on the basis of race, color, national 
+origin, religion, sex, gender identity, pregnancy (including childbirth, and medical conditions related to pregnancy 
+or childbirth), physical or mental disability, medical condition (cancer-related or genetic characteristics), ancestry, 
+marital status, age, sexual orientation, citizenship, or status as a covered veteran (covered veterans are special disabled 
+veterans, recently separated veterans, Vietnam era veterans, or any other veterans who served on active duty during a 
+war or in a campaign or expedition for which a campaign badge has been authorized) in any of its programs or activi-
+ties. University policy is intended to be consistent with the provisions of applicable State and Federal laws.
+Inquiries regarding the University’s nondiscrimination policies may be directed to the Affirmative Action/Staff 
+Personnel Services Director, University of California, Agriculture and Natural Resources, 1111 Franklin Street, 6th 
+Floor, Oakland, CA 94607-5201, (510) 987-0096. For information about ordering this publication, telephone 1-800-
+994-8849.
+To simplify information, trade names of products have been used. No endorsement of named or illustrated products 
+is intended, nor is criticism implied of similar products that are not mentioned or illustrated. 
+pr-2/08-SB/CR

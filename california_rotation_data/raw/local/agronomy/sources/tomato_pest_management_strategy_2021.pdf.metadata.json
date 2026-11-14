@@ -1,0 +1,8 @@
+{
+  "source_url": "https://ucanr.edu/blogs/UCDWeedScience/blogfiles/98215.pdf",
+  "retrieved_at_utc": "2026-11-14T19:23:23.490692+00:00",
+  "file": "raw/local/agronomy/sources/tomato_pest_management_strategy_2021.pdf",
+  "method": "GET",
+  "status": "failed",
+  "error": "HTTPError: HTTP Error 403: Forbidden"
+}

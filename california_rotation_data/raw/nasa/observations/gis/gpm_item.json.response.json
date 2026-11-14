@@ -1,0 +1,14 @@
+{
+  "path": "gis/gpm_item.json",
+  "source_url": "https://gis.earthdata.nasa.gov/portal/sharing/rest/content/items/cfa9a890b89b49d884871567844e9080?f=pjson",
+  "fetched_at_utc": "2026-11-14T19:23:09.607912+00:00",
+  "http_status": 200,
+  "final_url": "https://gis.earthdata.nasa.gov/portal/sharing/rest/content/items/cfa9a890b89b49d884871567844e9080?f=pjson",
+  "content_type": "text/plain;charset=utf-8",
+  "kind": "metadata",
+  "bytes": 12057,
+  "sha256": "ff8f91f1d7d559360233d5df579ebccf7f35b75a47c34d992e819f13516ff8e2",
+  "curl_exit_code": 0,
+  "curl_error": "",
+  "note": null
+}

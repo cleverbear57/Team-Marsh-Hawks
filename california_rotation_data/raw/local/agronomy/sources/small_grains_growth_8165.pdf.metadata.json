@@ -1,0 +1,31 @@
+{
+  "source_url": "https://smallgrains.ucdavis.edu/sites/g/files/dgvnsk13316/files/inline-files/8165%283%29.pdf",
+  "retrieved_at_utc": "2026-11-14T19:23:20.260989+00:00",
+  "file": "raw/local/agronomy/sources/small_grains_growth_8165.pdf",
+  "method": "GET",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://smallgrains.ucdavis.edu/sites/g/files/dgvnsk13316/files/inline-files/8165%283%29.pdf",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 19:23:20 GMT",
+    "Content-Type": "application/pdf",
+    "Content-Length": "901718",
+    "Connection": "close",
+    "Server": "cloudflare",
+    "x-content-type-options": "nosniff",
+    "last-modified": "Thu, 01 Jan 1970 00:00:00 GMT",
+    "Accept-Ranges": "bytes",
+    "Cache-Control": "max-age=3600",
+    "expires": "Sat, 14 Nov 2026 19:24:20 GMT",
+    "x-request-id": "v-da15baee-e060-11f1-ba6c-f7c3a4e62714",
+    "x-ah-environment": "01live",
+    "x-cache": "MISS",
+    "via": "varnish",
+    "Server-Timing": "cfCacheStatus;desc=\"MISS\"",
+    "cf-cache-status": "MISS",
+    "set-cookie": "__cf_bm=QfiaJdQLNyWn7526tUyYUhf3M8IQBLqBWgJC9NTYVkU-1794684200.5067377-1.0.1.1-o0bIJAsWhxZh0inLMNjA7AG7xHGu8dfCyTWu43BaDUofq8QzVqsORmcwhqz.bjB0w7ypMGJkzpCesUUSTioHknyJK_bJvtCtgLQZC7J5arTZ05lpDhlT0PAMpYlX2WAg; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=smallgrains.ucdavis.edu; Expires=Sat, 14 Nov 2026 19:53:20 GMT",
+    "CF-RAY": "a5a863dd2aea41ce-SJC"
+  },
+  "bytes": 901718,
+  "sha256": "afe8b1bbd4611c327f1841c6ad294dfb725ec66180044a2a8b7dabbe822267d1"
+}

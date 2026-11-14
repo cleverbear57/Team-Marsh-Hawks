@@ -1,0 +1,27 @@
+{
+  "source_url": "https://ipmdata.ipmcenters.org/documents/pmsps/2021_07_22_Processing_Tomato_PMSP_final.pdf",
+  "retrieved_at_utc": "2026-11-14T19:24:36.692592+00:00",
+  "file": "raw/local/agronomy/sources/tomato_pest_management_strategy_2021_ipmcenter.pdf",
+  "method": "GET",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ipmdata.ipmcenters.org/documents/pmsps/2021_07_22_Processing_Tomato_PMSP_final.pdf",
+  "response_headers": {
+    "Content-Type": "application/pdf",
+    "Content-Length": "3403147",
+    "Connection": "close",
+    "Date": "Sat, 14 Nov 2026 19:24:37 GMT",
+    "Access-Control-Allow-Headers": "Origin, Content-Type, Accept",
+    "Last-Modified": "Mon, 26 Jul 2021 18:03:09 GMT",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"1031477e4882d71:0\"",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET, OPTIONS",
+    "X-Cache": "Miss from cloudfront",
+    "Via": "1.1 9a448e42428e8683fe0fc64dff7a7112.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "SFO53-P7",
+    "X-Amz-Cf-Id": "rxJYC4EkZox8KFiGy2YA7cWB6lv44A7GPMPfRopODykPFznpHhp2Eg=="
+  },
+  "bytes": 3403147,
+  "sha256": "7a73ad9cd48c32d231845df36faf791b63eda214ef70dfffd347a1cb5448816d"
+}

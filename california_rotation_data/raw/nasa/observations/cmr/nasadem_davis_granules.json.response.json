@@ -1,0 +1,14 @@
+{
+  "path": "cmr/nasadem_davis_granules.json",
+  "source_url": "https://cmr.earthdata.nasa.gov/search/granules.json?collection_concept_id=C2763264762-LPCLOUD&point=-121.75%2C38.54&page_size=1",
+  "fetched_at_utc": "2026-11-14T19:24:52.707089+00:00",
+  "http_status": 200,
+  "final_url": "https://cmr.earthdata.nasa.gov/search/granules.json?collection_concept_id=C2763264762-LPCLOUD&point=-121.75%2C38.54&page_size=1",
+  "content_type": "application/json;charset=utf-8",
+  "kind": "metadata",
+  "bytes": 4142,
+  "sha256": "f9cd28e24840ae7ac9e9cc1bf65b2134e88b1e0504e19b0f0d2cb5f23282622f",
+  "curl_exit_code": 0,
+  "curl_error": "",
+  "note": null
+}

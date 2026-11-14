@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Content-Type: application/json;charset=utf-8
+Content-Length: 18254
+Connection: keep-alive
+Date: Sat, 14 Nov 2026 19:24:07 GMT
+content-md5: 7f3d9756efc99809fc26917c738ebaac
+Server: ServerTokens ProductOnly
+vary: Accept-Encoding
+x-frame-options: SAMEORIGIN
+access-control-allow-origin: *
+x-xss-protection: 1; mode=block
+cmr-request-id: ba048bfb-06b4-4dc3-baf3-fea9b23986ce
+cmr-request-id: ba048bfb-06b4-4dc3-baf3-fea9b23986ce
+content-sha1: fc50e3812030a0074dc6b77642fcca4b34c1981e
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+cmr-search-after: [0.0,3600.0,"ECO_L3T_JET","3",4057232489,17]
+cmr-hits: 2
+access-control-expose-headers: CMR-Hits, CMR-Request-Id, X-Request-Id, CMR-Scroll-Id, CMR-Search-After, CMR-Timed-Out, CMR-Shapefile-Original-Point-Count, CMR-Shapefile-Simplified-Point-Count
+x-content-type-options: nosniff
+cmr-took: 10
+X-Request-Id: O15L6aos1mqyJCJUk4195ORbWlERGRZ51Pbu0FhghCDwo7U0vR7HuA==
+X-Cache: Miss from cloudfront
+Via: 1.1 230a4cabf962361d7a66119623a370ee.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SFO53-P10
+X-Amz-Cf-Id: O15L6aos1mqyJCJUk4195ORbWlERGRZ51Pbu0FhghCDwo7U0vR7HuA==
+

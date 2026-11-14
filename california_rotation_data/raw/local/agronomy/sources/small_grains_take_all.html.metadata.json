@@ -1,0 +1,19 @@
+{
+  "source_url": "https://ipm.ucanr.edu/agriculture/small-grains/take-all/",
+  "retrieved_at_utc": "2026-11-14T19:23:20.556161+00:00",
+  "file": "raw/local/agronomy/sources/small_grains_take_all.html",
+  "method": "GET",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://ipm.ucanr.edu/agriculture/small-grains/take-all/",
+  "response_headers": {
+    "Content-Type": "text/html;charset=UTF-8",
+    "Server": "Microsoft-IIS/10.0",
+    "Set-Cookie": "JSESSIONID=FF2A904FEEDC21CE24F6E6FADEE136BE.cfusion; Path=/; Secure; HttpOnly",
+    "X-Powered-By": "ASP.NET",
+    "Date": "Sat, 14 Nov 2026 19:23:20 GMT",
+    "Connection": "close"
+  },
+  "bytes": 25370,
+  "sha256": "344f0adb40241fbf975d7b7d6565ee0a48222dd614972e6e838725e99f987c92"
+}

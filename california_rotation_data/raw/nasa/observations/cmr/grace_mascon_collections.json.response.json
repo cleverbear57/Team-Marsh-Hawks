@@ -1,0 +1,14 @@
+{
+  "path": "cmr/grace_mascon_collections.json",
+  "source_url": "https://cmr.earthdata.nasa.gov/search/collections.json?keyword=GRACE+mascon&page_size=100",
+  "fetched_at_utc": "2026-11-14T19:24:51.663488+00:00",
+  "http_status": 200,
+  "final_url": "https://cmr.earthdata.nasa.gov/search/collections.json?keyword=GRACE+mascon&page_size=100",
+  "content_type": "application/json;charset=utf-8",
+  "kind": "metadata",
+  "bytes": 65248,
+  "sha256": "442a77df4fa185bb6745713441d319a6494ab3d0c3b53d1a91f67c81fb2bd357",
+  "curl_exit_code": 0,
+  "curl_error": "",
+  "note": null
+}

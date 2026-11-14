@@ -1,0 +1,20 @@
+{
+  "source_url": "https://my.ucanr.edu/repository/fileaccess.cfm?article=54025&p=+QGYEXN",
+  "retrieved_at_utc": "2026-11-14T19:23:22.212821+00:00",
+  "file": "raw/local/agronomy/sources/leaf_lettuce_production_7216.pdf",
+  "method": "GET",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://my.ucanr.edu/repository/fileaccess.cfm?article=54025&p=+QGYEXN",
+  "response_headers": {
+    "Content-Type": "application/pdf;charset=UTF-8",
+    "Server": "Microsoft-IIS/10.0",
+    "Set-Cookie": "CFID=4846600; Path=/; HttpOnly",
+    "X-Powered-By": "ASP.NET",
+    "Date": "Sat, 14 Nov 2026 19:23:21 GMT",
+    "Connection": "close",
+    "Content-Length": "32119"
+  },
+  "bytes": 32119,
+  "sha256": "69cd5c05970a0d6dbfa0df622569be736a697bb3b90a79ffd648688333e18cb7"
+}

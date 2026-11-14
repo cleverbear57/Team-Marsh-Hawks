@@ -1,0 +1,910 @@
+=== PDF PAGE 1 ===
+1  
+FINAL 2023 Broccoli – Crown Cut – Costs and Returns Study – Central Coast 
+ 
+ University of California Agriculture and Natural Resources 
+UC Cooperative Extension 
+UC Davis Department of Agricultural and Resource Economics 
+ 
+2023 
+ 
+SAMPLE COSTS TO PRODUCE AND HARVEST 
+BROCCOLI – CROWN CUT 
+ 
+ 
+ 
+CENTRAL COAST REGION 
+Monterey, Santa Cruz, and San Benito Counties  
+ 
+Laura Tourte     UC Cooperative Extension Farm Advisor Emeritus, Santa Cruz, Monterey, and San Benito Counties  
+Richard Smith     UC Cooperative Extension Farm Advisor Emeritus, Monterey, Santa Cruz, and San Benito Counties 
+Jeremy Murdock    Staff Research Associate, UC Davis Agricultural and Resource Economics 
+Brittney Goodrich  UC Cooperative Extension Specialist, UC Davis Agricultural and Resource Economics 
+ 
+With Contributions From 
+ 
+Michael Cahn  UC Cooperative Extension Farm Advisor, Monterey, Santa Cruz, and San Benito Counties 
+Kirsten Pearsons  UC Cooperative Extension Area IPM Advisor, Monterey, Santa Cruz, and San Benito Counties 
+Yu-Chen Wang  UC Cooperative Extension Farm Advisor, Santa Cruz, Monterey, and San Benito Counties 
+ 
+  
+Funding Source: This material is based on work supported by the U.S. Department of Agriculture under Cooperative Agreement 
+Number NR223A750001C010. Any opinions, findings, conclusions, or recommendations expressed in this publication are those 
+of the authors and do not necessarily reflect those of the U.S. Department of Agriculture. 
+
+=== PDF PAGE 2 ===
+2  
+FINAL 2023 Broccoli – Crown Cut – Costs and Returns Study – Central Coast 
+University of California Agriculture and Natural Resources 
+UC Cooperative Extension 
+UC Davis Department of Agricultural and Resource Economics 
+ 
+SAMPLE COSTS TO PRODUCE AND HARVEST BROCCOLI – CROWN CUT - 2023 
+Central Coast - Monterey, Santa Cruz, and San Benito Counties 
+ 
+CONTENTS 
+INTRODUCTION………………………………………………………………………………………….. 2 
+ASSUMPTIONS…………………………………………………………………………………………….3  
+ Production Cultural Practices and Material Inputs…………………………….…………………………... 3  
+ Growing Costs……………………………………………………………………………………………... 5 
+ Labor, Interest, and Equipment…………………………………………………………………………......5 
+ Cash Overhead…………………………………………………………………………………………….. .7 
+ Non-Cash Overhead………………………………………………………………………………………...8 
+REFERENCES……………………………………………………………………………………………..10 
+Table 1.  Costs per Acre to Produce and Harvest Broccoli – Crown Cut………………………………… 11 
+Table 2.  Material and Input Costs per Acre to Produce and Harvest Broccoli – Crown Cut…………….. 13 
+Table 3.  Monthly Cash Costs per Acre to Produce and Harvest Broccoli – Crown Cut……………….. 14 
+Table 4.  Ranging Analysis for Broccoli – Crown Cut  …………………………………………………...15 
+Table 5.  Whole Farm Annual Equipment, Investment, and Business Overhead Costs…………………... 16 
+Table 6.  Hourly Equipment Costs for Broccoli – Crown Cut…………………………………………... 17 
+ 
+Acknowledgements.  Appreciation is expressed to the Central Coast growers, shippers, input suppliers, 
+custom service operators, and other industry representatives who provided information, assistance, and 
+expertise for this study. 
+ 
+INTRODUCTION 
+ 
+The sample costs to produce and harvest broccoli in the Central Coast Region – Monterey, Santa Cruz, and 
+San Benito Counties – are presented in this study.  The study is intended as a guide only, and can be used to 
+make production decisions, determine potential returns, prepare budgets and evaluate production loans. The 
+practices described are based on production procedures considered typical for this crop and area but will not 
+apply to every situation.  Sample costs for labor, materials, equipment, and custom services are based on 
+current figures.  A blank column titled “Your Cost” is provided to enter your actual costs on Tables 1 and 2.  
+ 
+The hypothetical farm operation, production practices, overhead, and calculations are described under 
+assumptions.  For additional information or explanation of calculations used in the study, call Jeremy 
+Murdock, Department of Agricultural and Resource Economics, University of California, Davis, (530) 752-
+4651 or your local UC Cooperative Extension office, https://ucanr.edu/About/Locations/. 
+ 
+Sample Cost of Production studies for many commodities are available and can be downloaded from the 
+website https://coststudies.ucdavis.edu.  Archived studies are also available on the website. 
+ 
+ 
+The University of California is an affirmative action/equal opportunity employer. 
+  
+
+=== PDF PAGE 3 ===
+3  
+FINAL 2023 Broccoli – Crown Cut – Costs and Returns Study – Central Coast 
+ASSUMPTIONS 
+ 
+The following assumptions refer to Tables 1 through 6 and pertain to sample costs to produce and harvest 
+broccoli (crown cut) for the Central Coast Region – Monterey, Santa Cruz, and San Benito Counties.  
+Broccoli may not be a profitable crop in all market conditions but is an essential rotational crop in 
+coastal vegetable production because it helps reduce soilborne diseases in subsequent crop production.  
+Sample costs are given for tractor, fuel, repairs, labor, materials, and custom services and are based on 
+current figures.  Costs per acre can vary considerably depending upon many variables including 
+individual grower practices vs custom services, production location and weather conditions, land rent 
+and taxes, soil type, water costs, pest pressures, material inputs, energy costs, and labor costs and 
+availability.  For example, broccoli produced in areas with heavy clay soils may have higher land 
+preparation costs per acre than areas with sandy soils.  Areas with sandy soils, in turn, will likely have higher 
+water use and irrigation costs per acre than areas with heavy clay soils.  Uncertainty about climate change 
+and the regulatory environment may also impact the costs and returns studied here. 
+ 
+The practices and costs used in this study may not be applicable to all situations or used in each production 
+year.  Individual growers may use this study as a template and modify it to more accurately reflect their own 
+situations.  Additional broccoli production information for California is available online from the University 
+of California Division of Agriculture and Natural Resources at: 
+https://anrcatalog.ucanr.edu/Details.aspx?itemNo=7211.  The use of trade names and cultural practices in 
+this report does not constitute an endorsement or recommendation by the University of California, 
+nor is any criticism implied by omission of other similar products or cultural practices. 
+ 
+Farm.  This study assumes a farm operation of 1,500 non-contiguous acres of rented land.  Roads and buffer 
+zones comprise roughly six percent of the acreage.  Fresh market broccoli (packed as crown cut) is planted 
+on 500 acres and rotated with other cool season vegetable crops to assist with pest management and soil 
+fertility.  Cover crops, which also assist with soil fertility and water quality and nutrient management 
+regulatory programs, are included in crop rotations when calendars of operations and the economics of 
+coastal vegetable production allow.  Costs for a cover crop are not included in this study.  Typically, a farm 
+can produce up to two vegetable crops per year on each field.  Costs that affect both crops are allocated 
+accordingly.  Land rents for row crops range from a low of $500 to a high of $4,000 per acre per year in the 
+area.  For this study, an annual rental rate of $3,200 per acre per year is assumed, with $1,600 allocated to 
+the broccoli crop.     
+ 
+Production Cultural Practices and Material Inputs 
+ 
+Land Preparation.  Prior to land preparation and to help determine fertilization practices, a total of 25 soil 
+samples per 500 acres are taken for analysis.  For this study, land preparation is assumed to begin in May 
+and includes discing (four times), subsoiling (twice), land and laser leveling (once each for every 2 crops).  
+The acreage is then chiseled (a total of four times), disced (twice), and the beds are listed.  In June, the beds 
+are cultivated (twice) with a rolling cultivator (Lilliston), and then shaped with a power mulcher.  Though 
+not included in this study, some growers amend soils with compost during land preparation.  If compost is 
+used, an estimated cost of $170 per acre should be added to the total operating costs shown on Tables 1, 2 
+and 3, which reflects a custom application rate of two tons per acre per crop each year.  This application rate 
+is indicative of a soil maintenance rather than the beginning of a soil building program; in the case of a 
+beginning soil building program compost application rates and costs would likely be considerably higher.            
+    
+  
+
+=== PDF PAGE 4 ===
+4  
+FINAL 2023 Broccoli – Crown Cut – Costs and Returns Study – Central Coast 
+Plant/Stand Establishment. Broccoli is direct-seeded using an 80-inch 4-row 3-bed precision air-planter.  
+This study assumes that broccoli is planted to stand in June at the rate of 69,700 plants per acre using a 4.5-
+inch in-row spacing.  A portion of the total acreage planted to broccoli along the Central Coast is 
+transplanted rather than direct-seeded.  If transplants are used, estimated costs will increase by $1,000 to 
+$1,200 per acre over those shown in this study.     
+ 
+Fertilizers.  At planting, an anti-crustant (7-7-0-7) is custom applied at the rate of 30 gallons per acre, which 
+supplies 22 pounds of nitrogen (N) to the crop.  The liquid fertilizer AN 20, is sidedressed twice during the 
+growing season: 30 days after planting at 30 gallons per acre and again 40 to 50 days after planting at 35 
+gallons per acre.  These applications total 70 gallons of AN 20, which supplies 148 pounds of N to the crop. 
+Total N use during the growing season is 170 pounds per acre.  Fertilization practices will vary from grower 
+to grower and location to location. 
+  
+Irrigation.  For this study, the estimated cost of pumped water is $282 per acre-foot or $23.50 per acre-inch. 
+Water costs vary considerably in the area depending upon the water district or agency, delivery, associated 
+fees and taxes, and pumping variables and for 2023 were as high as $435 per acre-foot in the area.  Broccoli 
+is sprinkler irrigated using 3.5 acre-inches of water per acre to establish the crop.  An additional 15 acre-
+inches is applied through the sprinkler irrigation system for the remainder of the growing season (July, 
+August, and September) for a seasonal total of 18.5 acre-inches per acre.  Labor costs include time to set up 
+and monitor the sprinkler system for proper function.  Total water use will vary depending upon factors such 
+as irrigation method, soil type, weather, and the time of the year the crop is planted.  Some growers may use 
+drip irrigation as an alternative to sprinkler irrigation during the growing season.  Others may use “dead 
+row” irrigation methods in which sprinkler pipe is set up on unplanted crop rows for the entire growing 
+season.  While this technique reduces the labor needed to move sprinkler pipe for each irrigation, it also 
+takes land out of production and therefore impacts potential returns to growers.    
+ 
+CropManage.  Growers may now take advantage of real-time recommendations for efficient water use and 
+nitrogen fertilizer applications by using UC ANR’s CropManage: https://cropmanage.ucanr.edu/.  
+CropManage, which is currently available at no cost to growers, may be especially helpful in decision-
+making, accurate documentation of material inputs, sustainable practices, and compliance with both state 
+and regional regulatory programs (see Fertilizer and Irrigation Regulatory Programs section below). 
+Commercially available software programs may also be used.      
+ 
+Pest Management.  Information for specific pest management materials and the associated application rates 
+can be found in the UC Integrated Pest Management (IPM) Guidelines for Cole Crops.  For more 
+information on pest identification, monitoring, and pest management materials, visit the UC IPM website at: 
+https://ipm.ucanr.edu/agriculture/cole-crops/.  Written recommendations are required for many 
+commercially applied pesticides and are made by licensed pest control advisers.  For information and 
+pesticide use permits, contact your local county Agricultural Commissioner’s office.    
+ 
+Pest Control Adviser/Certified Crop Adviser (PCA/CCA). A PCA/CCA monitors the field for insects, 
+diseases, irrigation, nutrition, and other production needs to determine the necessary management practices.  
+The cost for a PCA in this study is $39 per acre. 
+ 
+Weeds.  Weeds are managed using one banded (applied to 37.5 percent of the area) herbicide application 
+immediately after planting.  Material type will depend on the specific weed populations and time of year 
+planted.  Broccoli is mechanically cultivated three times: once 45 days after planting, with two additional  
+  
+
+=== PDF PAGE 5 ===
+5  
+FINAL 2023 Broccoli – Crown Cut – Costs and Returns Study – Central Coast 
+cultivations spaced 10 days apart.  Fields are hand weeded once after the last cultivation at an estimated cost 
+of $211 per acre.  An estimated cost of $200 per acre (as a custom service) should be added to the operating 
+costs shown on Tables 1, 2 and 3 if an automated weeding operation is used; the hand weeding costs shown 
+here may then be lower.  Costs for automated technologies will vary depending upon weed populations, the 
+number of passes needed per acre, and custom services vs in-house operations.  
+ 
+Insects/Diseases. Fields are monitored for a variety of insect pests including aphids, caterpillars 
+(diamondback moth, cabbage looper, imported cabbageworm, and armyworm), cabbage maggots, and 
+various sporadic pests.  Three to four pest management applications are typically used during the growing 
+season.  Disease problems are minimal in broccoli; growers do not typically apply fungicides because of 
+this.  If disease issues do arise growers may use one or two fungicide applications to manage pests.  Because 
+of the variation in insect and disease pressures from year to year and location to location, costs for a generic 
+pest management program are included in this study.  
+ 
+Harvest.  Broccoli is hand harvested and field packed at crop maturity as crowns.  It may also be harvested 
+as bunches, florets or for slaw. The same field may be harvested multiple times for a mix of different packed 
+products and markets.  The exact timing depends on the variety and time of year planted.  Cool season 
+plantings may require up to 120 days to mature, but as the season warms, time to maturity decreases.  For 
+this study, a harvest and field packing cost of $8.00 per 20-pound carton (crown cut) is assumed.  
+Transportation costs vary depending on the distance to market and are included in the above costs.  Cooling 
+and palletizing costs an additional $1.70 per carton, which brings the total harvest cost to $9.70 per carton.  
+In addition, a sales and marketing cost of $1.35 per carton is included in this study; this cost may vary from 
+grower to grower.  
+ 
+Yield.  Yield is estimated to range from 440 to 680 cartons per acre, with 560 20-pound cartons (crown cut) 
+the representative yield used in this study.  The pack is only one of several different types that may be used 
+for broccoli.  Actual yield per acre depends upon many variables, including production location, season 
+produced, field conditions, and pack type and weight.   
+ 
+Returns.  Price for broccoli is estimated to range from $9.00 to over $27.00 per carton (20-pound crown cut 
+pack) with a representative price of $18.00 per carton used in this study.  This range reflects the Salinas-
+Watsonville 2020 to 2022 3-year weekly shipping point averages of the USDA Agricultural Marketing 
+Service.  Table 4 provides more information on yield and price ranges, including sample net returns above 
+indicated costs.  It is important to note that broccoli prices are influenced by market conditions and 
+that broccoli is also sold on contract, which may impact the prices and net returns that are studied 
+here in complex ways.   
+ 
+Growing Costs. Some growers along the Central Coast of California prefer to focus on growing costs and 
+therefore separate total harvest costs from total cash costs, and equipment depreciation and replacement 
+costs.  For this study, growing costs are noted at the bottom of Table 1 and are calculated by subtracting total 
+harvest costs from total costs.  Growing costs in this region vary considerably and depend on grower 
+specific production practices, water and other input costs, and land rent and taxes. 
+ 
+Labor, Interest, and Equipment 
+ 
+Labor.  The labor rates used in this study $29.60 per hour for machine operators, $25.00 for irrigators and 
+$23.68 for general labor, which includes overhead of 48 percent. The basic hourly wages are $20.00 for  
+  
+
+=== PDF PAGE 6 ===
+6  
+FINAL 2023 Broccoli – Crown Cut – Costs and Returns Study – Central Coast 
+machine operators, $16.90 for irrigators and $16.00 for general labor. The overhead includes the employers’  
+share of federal and California state payroll taxes, workers' compensation insurance for truck crops (code 
+0172), and a percentage for other possible benefits. Workers’ compensation insurance costs will vary among 
+growers, but for this study the cost is based upon the average industry rate as of January 1, 2023. Labor for 
+operations involving machinery is 20 percent higher than the operation time given in Table 1 to account for 
+the extra labor involved in equipment set up, moving, maintenance, work breaks, and field repair. 
+ 
+California Minimum Wage and Overtime Rules. In 2016 new minimum wage and overtime laws were 
+passed in California and were gradually phased in over time.  For 2023 minimum wage increased to $15.50 
+per hour, a 3.3 percent increase over the 2022 minimum wage.  Many growers may already pay wages that 
+are higher than the state’s legal requirement, as is shown in this study.  In 2022 the new overtime law 
+completed its multi-year phase in period for farming operations that employ 26 or more employees.  
+Overtime wages are now required for work over 8 hours per day or 40 hours per week.   
+ 
+Federal H-2A Program.  Growers may choose to use H-2A guestworker visa program to employ workers.  
+Rates of pay are determined by the highest applicable wage rates that are in effect at the time work is 
+performed: the adverse effect wage rate (AEWR), the applicable prevailing wage, the agreed-upon collective 
+bargaining rate, or the Federal or State statutory minimum wage (US Department of Labor).  Growers also 
+need to comply with other requirements associated with the H-2A program, including those for housing, 
+meals, and transportation.  Use of this program may result in labor costs that are higher than those shown in 
+this study but may be necessary in order to assure a reliable supply of labor. 
+ 
+Interest on Operating Capital.  Interest on operating capital is based on cash operating costs and is 
+calculated monthly until harvest at a nominal rate of 7.0 percent per year. A nominal interest rate is the 
+typical market cost of borrowed funds.  The interest cost of post-harvest operations is discounted back to the 
+last harvest month using a negative interest charge. The rate will vary depending upon various factors, but 
+the rate in this study is considered a typical lending rate by a farm lending agency as of January 2023.  
+ 
+Equipment Operating Costs.  Repair costs are based on purchase price, annual hours of use, total hours of 
+life, and repair coefficients formulated by American Society of Agricultural and Biological Engineers 
+(ASABE). Fuel and lubrication costs are also determined by ASABE equations based on maximum power 
+takeoff (PTO) horsepower, and fuel type.  Prices for on-farm delivery of red dye diesel and gasoline are 
+$5.40 (excludes excise taxes) and $4.50 per gallon, respectively. The cost includes a 2 percent local sales tax 
+on diesel fuel and 8 percent sales tax on gasoline. Gasoline costs also include federal and state excise taxes, 
+which are refundable for on-farm use when filing income taxes. The fuel, lube, and repair cost per acre for 
+each operation in Table 1 is determined by multiplying the total hourly operating cost in Table 6 for each 
+piece of equipment used for the selected operation by the hours per acre. Tractor time is 10 percent higher 
+than implement time for a given operation to account for setup, travel, and down time. 
+ 
+Pickup Truck.  This study includes the cost for use of a pickup truck for business purposes.  
+ 
+Risk.  The risks associated with producing and marketing a broccoli crop are considered high. While this 
+study makes every effort to model a production system based on typical, real world practices, it cannot fully 
+represent the production, financial, market, legal, and human resource risks that ultimately affect the 
+profitability and economic viability of fresh market vegetable production.  The market for fresh vegetables is 
+volatile for both price and quantity. A market channel should be determined before any broccoli production 
+begins.   
+ 
+  
+
+=== PDF PAGE 7 ===
+7  
+FINAL 2023 Broccoli – Crown Cut – Costs and Returns Study – Central Coast 
+Cash Overhead 
+ 
+Cash overhead consists of various cash expenses paid out during the year that are assigned to the whole farm 
+and not to a particular operation.  Because overhead costs are farm and ranch specific, costs will vary among 
+growers.  In most cases costs are apportioned based on the number of crops produced per acre per year.  
+ 
+Property Taxes. Counties charge a base property tax rate of 1 percent on the assessed value of the property. 
+In some counties, special assessment districts exist and charge additional taxes on property including 
+equipment, buildings, and improvements. For this study, county taxes are calculated as 1 percent of the 
+average value of the property. Average value equals new cost plus salvage value divided by two on a per 
+acre basis. 
+ 
+Insurance. Insurance for farm investments varies depending upon the assets included and the amount of 
+coverage.  Property insurance provides coverage for property loss and is charged at 0.710 percent of the 
+average value of the assets over their useful life. Liability insurance covers accidents and other potential 
+farm related liabilities and costs $2 per acre per crop. 
+ 
+Office Expense. Annual office and business expenses are estimated at $750 per acre. Because two crops are 
+produced per acre each year, half of that cost, or $375 is assumed for the broccoli crop studied here.  Costs 
+include, but are not limited to, a variety of administration and office expenses, a ranch supervisor, 
+telephones, supplies, utilities, bookkeeping, and accounting.  Some growers have one or more additional 
+sub-foremen for various aspects of their operations.  Costs for additional foremen are not included here.   
+ 
+Land Rent. Land rents in Monterey, Santa Cruz, and San Benito Counties range from $500 to $4,000 per 
+acre per year.  In this study land rent is assumed to be $3,200 per acre per year, with $1,600 allocated to the 
+broccoli crop.  However, rents vary substantially in the area.  Land rent includes developed wells and 
+irrigation system.  In general, growers in the region are responsible for the portion above ground such as the 
+pump, and the landowner is responsible for what is below ground, such as the well running dry. 
+ 
+Food Safety and Regulatory Programs. To ensure the safety of fresh products, accommodate buyer 
+requests, and comply with regulatory programs such as those for water quality and nutrient management, 
+growers often have in-house departments and/or staff specially dedicated to supervision and management of 
+these programs. Associated costs will vary depending upon the farm size and complexity of operations.   
+ 
+Food Safety.  An estimated cost of $112 per acre per year or $56 per acre per crop is included in this study.  
+It includes participation in a third party (independent) audit of food safety practices.   
+ 
+Fertilizer and Irrigation Regulatory Programs.  This study includes a cost of $150 per acre per year or $75 
+per acre per crop for compliance and fees associated with current water quality and nutrient management 
+regulatory programs: the State’s Sustainable Groundwater Management Act (SGMA) and the Central 
+Coast’s Irrigated Lands Regulatory Program (ILRP).   The estimated costs are for two full time employees: a 
+field technician to assist with sampling, data collection and on-farm problem-solving and an in-house 
+supervisory program manager/analyst to assist with recordkeeping, data analysis, decision-making, 
+reporting, and administration.  Fees associated with both SGMA’s local Groundwater Sustainability Agency 
+(GSA) and participation in a third-party entity to comply with ILRP’s Central Coast (Region 3) Agricultural 
+Order (Ag Order 4.0) are also estimated and included in the cost.       
+ 
+  
+
+=== PDF PAGE 8 ===
+8  
+FINAL 2023 Broccoli – Crown Cut – Costs and Returns Study – Central Coast 
+Management Salaries. Wages for other managers are not included as a cash cost. Any returns above total 
+costs are considered a return to management.  
+ 
+Field Sanitation. Sanitation services for the farm provide portable toilets and washbasins to the farm at a 
+cost of $15 per acre. The cost includes two double toilets with washbasins, delivery and pickup, and 12 
+months of weekly servicing.  Costs also include soap or other suitable cleansing agent, and single-use 
+towels. Separate potable water and single-use drinking cups are also supplied. Growers using contract labor 
+may not have a separate sanitation cost. 
+ 
+Investment Repair. Repair costs are the annual maintenance costs for investments in non-cash overhead. 
+For this study, annual repairs are calculated as 2 percent of the new cost.  
+ 
+Non-Cash Overhead 
+ 
+Capital Recovery Costs. Capital recovery cost is the annual depreciation and interest costs for a capital 
+investment. It is the amount of money required each year to recover the difference between the purchase 
+price and salvage value (unrecovered capital).  It is equivalent to the annual payment on a loan for the 
+investment with the down payment equal to the discounted salvage value. This is a more complex method of 
+calculating ownership costs than straight-line depreciation and opportunity costs, but more accurately 
+represents the annual costs of ownership, because it takes the time value of money into account (Boehlje and 
+Eidman). The calculation for the annual capital recovery costs is: ((Purchase Price – Salvage Value) X 
+Capital Recovery Factor) + (Salvage Value X Interest Rate). 
+ 
+Salvage Value.  Salvage value is an estimate of the remaining value of an investment at the end of its useful 
+life.  For farm machinery (tractors and implements), the remaining value is a percentage of the new cost of 
+the investment (Boehlje and Eidman).  The percent remaining value is calculated from equations developed 
+by the American Society of Agricultural and Biological Engineers (ASABE) based on equipment type and 
+years of life.  The life in years is estimated by dividing the wear out life, as given by ASABE, by the annual 
+hours of use in this operation. For other investments including irrigation systems, buildings, and 
+miscellaneous equipment, the value at the end of its useful life is zero. The salvage value for land is equal to 
+the purchase price because land does not depreciate. The purchase price and salvage value for equipment 
+and investments are shown in Table 5. 
+ 
+Capital Recovery Factor. Capital recovery factor is the amortization factor or annual payment whose present 
+value at compound interest is 1. The amortization factor is a table value that corresponds to the interest rate 
+used and the life of the machine. 
+ 
+Interest Rate.  An interest rate of 8.50 percent is used to calculate capital recovery. The rate will vary 
+depending upon loan amount and other lending agency conditions but is the basic suggested rate by a farm 
+lending agency as of January 2023. 
+ 
+Building. The metal building or buildings are on a cement slab and comprise 2,400 square feet. 
+ 
+Tools. This includes shop and field tools used on the farm. The value is estimated and does not represent any 
+specific inventory. 
+ 
+Fuel Tanks. Two 1,000-gallon fuel tanks, one for diesel and one for gasoline are set up in a cement 
+containment pad that meets federal, state, and county regulations. 
+ 
+
+=== PDF PAGE 9 ===
+9  
+FINAL 2023 Broccoli – Crown Cut – Costs and Returns Study – Central Coast 
+Irrigation System/Trailers.  The irrigation system is maintained by the landowner and assumed to be 
+included in the land rental cost.  The grower invests in and owns sprinkler pipe sufficient for irrigation  
+needs.  The grower also owns trailers and equipment needed for moving pipe and other irrigation supplies to 
+and from the field.  Irrigation water is pumped from a well and delivered to the fields through an 
+underground pipe system.  Main lines above ground are connected to the underground system to deliver 
+water for the sprinkler irrigations.  In this study, water is pumped from a depth of 120 feet in a 500-foot well 
+and the grower pays the pumping cost.  
+ 
+Equipment. Farm equipment is purchased when it is both new and used.  This study shows the current 
+purchase price for new equipment, which is then adjusted to 70 percent to reflect a mix of new and used 
+equipment.  Seventy percent indicates a relatively high percentage of new equipment because of machinery 
+upgrades that are currently necessary to meet air quality requirements.  Annual ownership costs for 
+equipment and other investments are shown in Table 5. Equipment costs are composed of three parts: non-
+cash overhead, cash overhead, and operating costs. Both of the overhead factors have been discussed in 
+previous sections. The operating costs consist of repairs, fuel, and lubrication and are discussed under 
+operating costs. 
+ 
+Table Values. Due to rounding, the totals may be slightly different from the sum of the components.   
+ 
+  
+
+=== PDF PAGE 10 ===
+10  
+FINAL 2023 Broccoli – Crown Cut – Costs and Returns Study – Central Coast 
+REFERENCES 
+ 
+Agricultural Commissioner. Monterey County Crop Reports. 2020-22. Salinas, CA. 
+https://www.co.monterey.ca.us/government/departments-a-h/agricultural-commissioner/forms-
+publications/crop-reports-economic-contributions. 
+ 
+American Society of Agricultural and Biological Engineers. (ASABE). July, 2015. American Society of 
+Agricultural Engineers Standards Yearbook. Russell H. Hahn and Evelyn E. Rosentreter (ed.). St. Joseph, 
+MO. 41st edition, ANSI/ASAE S279_17.PDF. hq@asabe.org. 
+ 
+Boehlje, Michael D., and Vernon R. Eidman. 1984. Farm Management. John Wiley and Sons. New York, 
+New York. 
+ 
+California Chapter of the American Society of Farm Managers and Rural Appraisers. 2023 Trends in 
+Agricultural Land & Lease Values. American Society of Farm Managers and Rural Appraisers, 
+Woodbridge, CA. www.calasfmra.com.  
+ 
+California Department of Insurance. 2023. California Workers’ Compensation Rating Data for Selected 
+Agricultural Classifications as of January 2023. California Department of Insurance, Rate Regulation 
+Branch. 
+  
+California Department of Tax Fee Administration.  Sales Tax for Fuels.  https://www.cdtfa.ca.gov/taxes-
+and-fees/sales-tax-rates-for-fuels.htm#motor. 
+ 
+California Water Boards / State Water Resources Control Board.  The Sustainable Groundwater 
+Management Act (SGMA).  https://www.waterboards.ca.gov/water_issues/programs/gmp/index.html. The 
+Irrigated Lands Regulatory Program. https://www.waterboards.ca.gov/water_issues/programs/agriculture/. 
+ 
+U.S. Energy Information Administration. Weekly Retail Gasoline and Diesel Prices.      
+https://www.eia.gov/dnav/pet/pet_pri_gnd_dcus_sca_w.htm. 
+ 
+Tourte, Laura, Richard F. Smith, Jeremy Murdock and Daniel A. Sumner.  2017.  Sample Costs to 
+Produce Broccoli - Central Coast Region. University of California Agriculture and Natural Resources, 
+UC Cooperative Extension and UC Davis Department of Agricultural and Resource Economics. 
+https://coststudies.ucdavis.edu. 
+ 
+University of California Statewide Integrated Pest Management Program. UC IPM Pest Management 
+Guidelines: Cole Crops.  University of California Agriculture and Natural Resources (ANR) Publication 
+3442. https://ipm.ucanr.edu/agriculture/cole-crops/. 
+ 
+United States Department of Agriculture.  Agricultural Market Service Market News.  
+https://www.ams.usda.gov/market-news/custom-reports. 
+ 
+United States Department of Labor.  Occupational Outlook Handbook. 
+https://www.bls.gov/ooh/management/farmers-ranchers-and-other-agricultural-managers.htm. 
+https://www.bls.gov/ooh/life-physical-and-social-science/agricultural-and-food-science-technicians.htm 
+  
+
+=== PDF PAGE 11 ===
+11  
+FINAL 2023 Broccoli – Crown Cut – Costs and Returns Study – Central Coast 
+ 
+UC COOPERATIVE EXTENSION – UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+ 
+TABLE 1. COSTS PER ACRE TO PRODUCE AND HARVEST BROCCOLI – CROWN CUT 
+ 
+Operation  Cash and Labor Costs per Acre  
+ 
+Operation 
+Time 
+(Hrs/A) 
+Labor 
+Cost 
+Fuel Lube 
+&Repairs 
+Material 
+Cost 
+Custom/ 
+Rent 
+Total 
+Cost 
+Your 
+Cost 
+Cultural:         
+Soil Samples (25 per 500 Acres) 0.00 0 0 0 0 17 17  
+Disc & Roll 6X 1.73 61 122 65 0 0 249  
+Sub-Soil 2X 1.02 36 72 37 0 0 145  
+Land Plane (1X per 2 Crops) 0.18 7 13 6 0 0 25  
+Laser Level (1X per 2 Crops) 0.00 0 0 0 0 93 93  
+Chisel 4X 1.42 50 100 52 0 0 203  
+List Beds 3-Row 0.00 0 0 0 0 26 26  
+Cultivate-Lilliston 2X 0.40 14 17 8 0 0 39  
+Power Mulch/Shape Beds 0.48 17 25 8 0 0 50  
+Plant/Fertilize (7-7-0-7) 0.57 25 30 22 594 0 671  
+Herbicide Application 0.00 0 0 0 80 30 110  
+Sprinkler Setup/Irrigate - Establish 3.75 94 0 0 82 0 176  
+Disease/Insect Management 0.00 0 0 0 424 120 544  
+Fertilize-Sidedress 2X 0.57 20 29 9 232 0 291  
+Cultivate-Break Bottoms 0.95 34 39 16 0 0 89  
+Sprinkler Irrigate - Season 6.00 150 0 0 353 0 503  
+Vertebrate Pest Management 0.85 20 0 0 0 0 20  
+Hand Weed 8.90 211 0 0 0 0 211  
+Pickup Truck Use 1.00 36 9 6 0 0 50  
+PCA/CCA Fee 0.00 0 0 0 0 39 39  
+TOTAL CULTURAL COSTS 27.83 775 456 229 1,765 325 3,550  
+Harvest:         
+Harvest/Field Pack 0.00 0 0 0 0 4,480 4,480  
+Cool/Palletize 0.00 0 0 0 0 952 952  
+Market/Sales Fee 0.00 0 0 0 0 756 756  
+TOTAL HARVEST COSTS 0.00 0 0 0 0 6,188 6,188  
+Interest on Operating Capital at 7.00%       127  
+TOTAL OPERATING COSTS/ACRE 28 775 456 229 1,765 6,513 9,865  
+
+=== PDF PAGE 12 ===
+12  
+FINAL 2023 Broccoli – Crown Cut – Costs and Returns Study – Central Coast 
+UC COOPERATIVE EXTENSION – UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+ 
+TABLE 1. CONTINUED 
+ 
+Operation    Cash and Labor Costs per Acre    
+Time Labor Fuel  Lube Material Custom/ Total Your 
+Operation (Hrs/A) Cost &Repairs Cost Rent Cost Cost 
+CASH OVERHEAD: 
+Field Sanitation 15 
+Land Rent 1,600 
+Liability Insurance 2 
+Office Expense 375 
+Food Safety Program 56 
+Water/Nutrient Management Programs 75 
+Property Taxes 11 
+Property Insurance 1 
+Investment Repairs 22 
+TOTAL CASH OVERHEAD COSTS/ACRE 2,157 
+ 
+TOTAL CASH COSTS/ACRE 12,021 
+NON-CASH OVERHEAD: Per Producing  Annual Cost 
+Acre Capital Recovery 
+Fuel Tanks Overhead 7  1 1 
+Building 2400sqft 64  7 7 
+Shop Tools 13  1 1 
+Sprinkler System 247  24 24 
+Sprinkler Pipe 759  68 68 
+Equipment 1,273  243 243 
+TOTAL NON-CASH OVERHEAD COSTS 2,364  343 343 
+TOTAL COSTS/ACRE    12,364 
+Total Costs per Acre – Harvest Costs per Acre = Growing Costs per Acre* 
+ 
+$12,364 - $6,188 = $6,176 
+ 
+*Growing costs can vary considerably in this region and depend on grower specific production practices, 
+water and other input costs, and land rent and taxes. 
+ 
+Example: Potential Additional Growing Costs per Acre** 
+ 
+Compost (Maintenance) Application = $170 
+Automated Weed Management (One Pass) = $200 
+ 
+** These custom services are sometimes used by area growers but are excluded from the costs studied here. 
+ For more detailed information refer to the narrative section. 
+ 
+
+=== PDF PAGE 13 ===
+13 
+ 
+FINAL 2023 Broccoli – Crown Cut – Costs and Returns Study – Central Coast 
+UC COOPERATIVE EXTENSION – UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+ 
+TABLE 2. COSTS AND RETURNS PER ACRE TO PRODUCE AND HARVEST BROCCOLI – CROWN CUT 
+ 
+ Quantity/ Acre  Unit Price or Cost/Unit Value or Cost/Acre Your Cost 
+GROSS RETURNS 
+Broccoli-Crowns 
+ 
+560 
+ 
+Carton 
+ 
+18.00 
+ 
+10,080 
+ 
+TOTAL GROSS RETURNS 560 Carton  10,080  
+OPERATING COSTS      
+Fertilizer:    303  
+7-7-0-7 30.00 Gal 2.36 71  AN 20 70.00 Gal 3.32 232  Custom:    6,513  Soil Analysis 0.10 Acre 170.00 17  Laser Level 0.50 Acre 185.00 93  List beds 3-Row 80" 1.00 Acre 26.00 26  Ground Application 5.00 Acre 30.00 150  Harvest-Field Pack 560.00 Carton 8.00 4,480  Harvest-Cool/Palletizing 560.00 Carton 1.70 952  Marketing & Sales Fee 560.00 Carton 1.35 756  PCA/CCA 1.00 Acre 39.00 39  Seed:    523  Seed-Broccoli 69.70 Thou 7.50 523  Herbicide:    80  Herbicide Material Cost/Ac*    80  Insecticide:    424  Insecticide Material Cost/Ac*    424  Irrigation:    435  Water-Central Coast 18.50 AcIn 23.50 435  Labor    775  Equipment Operator Labor 9.99 hrs 29.60 296  Non-Machine Labor 9.95 hrs 23.68 236  Irrigation Labor 9.75 hrs 25.00 244  Machinery    686  Fuel-Gas 2.00 gal 4.50 9  Fuel-Diesel 82.85 gal 5.40 447  Lube    68  Machinery Repair    161  Interest on Operating Capital @ 7.00%    127  
+TOTAL OPERATING COSTS/ACRE    9,865  
+TOTAL OPERATING COSTS/CARTON    18  
+*  Pest management programs vary depending on annual 
+    Production conditions and pest pressure. 
+ 
+     
+
+=== PDF PAGE 14 ===
+14 
+ 
+FINAL 2023 Broccoli – Crown Cut – Costs and Returns Study – Central Coast 
+UC COOPERATIVE EXTENSION – UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS  
+TABLE 3. MONTHLY COSTS PER ACRE TO PRODUCE AND HARVEST BROCCOLI – CROWN CUT 
+ MAY JUN JUL AUG SEP OCT Total 
+23 23 23 23 23 23  
+Cultural:                                  
+Soil Samples (25 per 500 Acres) 
+ 
+17 
+      
+17 
+Disc & Roll 6X 249      249 Sub-Soil 2X 145      145 Land Plane (1X per 2 Crops) 25      25 Laser Level (1X per 2 Crops) 93      93 Chisel 4X 203      203 List Beds 3-Row 26      26 Cultivate-Lilliston 2X  39     39 Power Mulch/Shape Beds  50     50 Plant/Fertilize (7-7-0-7)  671     671 Herbicide Application  110     110 Sprinkler Setup/Irrigate - Establish  176     176 Disease/Insect Management  136 136 136 136  544 Fertilize-Sidedress 2X   145 145   291 Cultivate-Break Bottoms   30 60   89 Sprinkler Irrigate - Season   168 168 168  503 Vertebrate Pest Management    20   20 Hand Weed    211   211 Pickup Truck Use 8 8 8 8 8 8 50 
+PCA/CCA Fee 7 7 7 7 7 7 39 
+TOTAL CULTURAL COSTS 772 1,196 494 754 318 15 3,550 
+Harvest: 
+Harvest/Field Pack 
+      
+4,480 
+ 
+4,480 
+Cool/Palletize      952 952 Market/Sales Fee      756 756 
+TOTAL HARVEST COSTS 0 0 0 0 0 6,188 6,188 
+Interest on Operating Capital @ 7.00% 5 11 14 19 21 57 127 
+TOTAL OPERATING COSTS/ACRE 777 1,208 508 773 339 6,260 9,865 
+CASH OVERHEAD 
+Field Sanitation 
+ 
+3 
+ 
+3 
+ 
+3 
+ 
+3 
+ 
+3 
+ 
+3 
+ 
+15 
+Land Rent    1,600   1,600 Liability Insurance    2   2 Office Expense 63 63 63 63 63 63 375 
+Food Safety Program    56   56 Water/Nutrient Management Programs    75   75 Property Taxes   5    11 Property Insurance   0    1 Investment Repairs 4 4 4 4 4 4 22 
+TOTAL CASH OVERHEAD COSTS 69 69 74 1,802 69 69 2,157 
+TOTAL CASH COSTS/ACRE 846 1,277 582 2,575 408 6,328 12,021 
+
+=== PDF PAGE 15 ===
+15  
+FINAL 2023 Broccoli – Crown Cut – Costs and Returns Study – Central Coast 
+UC COOPERATIVE EXTENSION – UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+ 
+TABLE 4. RANGING ANALYSIS  
+ 
+ COSTS PER ACRE AND PER CARTON AT VARYING YIELDS TO PRODUCE AND HARVEST BROCCOLI – CROWN CUT 
+ 
+  YIELD(CARTON)  
+ 
+ 440 480 520      560 600 640 680 
+OPERATING COSTS/ACRE: 
+Cultural 
+ 
+3,550 
+ 
+3,550 
+ 
+3,550 
+ 
+3,550 
+ 
+3,550 
+ 
+3,550 
+ 
+3,550 
+Harvest 4,862 5,304 5,746 6,188 6,630 7,072 7,514 
+Interest on Operating Capital @ 7.00% 119 121 124 127 129 132 134 
+TOTAL OPERATING COSTS/ACRE 8,531 8,975 9,420 9,865 10,309 10,754 11,198 
+TOTAL OPERATING COSTS/CARTON 19.39 18.70 18.12 17.62 17.18 16.80 16.47 
+CASH OVERHEAD COSTS/ACRE 2,157 2,157 2,157 2,157 2,157 2,157 2,157 
+TOTAL CASH COSTS/ACRE 10,688 11,132 11,577 12,022 12,466 12,911 13,355 
+TOTAL CASH COSTS/CARTON 24.29 23.19 22.26 21.47 20.77 20.17 19.64 
+NON-CASH OVERHEAD COSTS/ACRE 343 343 343 343 343 343 343 
+TOTAL COSTS/ACRE 11,031 11,475 11,920 12,365 12,809 13,254 13,698 
+TOTAL COSTS/CARTON 25.00 24.00 23.00 22.00 21.00 21.00 20.00 
+Net Return Per Acre Above Operating Costs For Broccoli 
+   PRICE ($/carton)   YIELD  (carton/acre)  
+ 
+Broccoli-Crowns  440 480 520 560 600 640 680 
+ 
+9.00 
+  
+-4,571 
+ 
+-4,655 
+ 
+-4,740 
+ 
+-4,825 
+ 
+-4,909 
+ 
+-4,994 
+ 
+-5,078 
+12.00  -3,251 -3,215 -3,180 -3,145 -3,109 -3,074 -3,038 
+15.00  -1,931 -1,775 -1,620 -1,465 -1,309 -1,154 -998 
+18.00  -611 -335 -60 215 491 766 1,042 
+21.00  709 1,105 1,500 1,895 2,291 2,686 3,082 
+24.00  2,029 2,545 3,060 3,575 4,091 4,606 5,122 
+27.00  3,349 3,985 4,620 5,255 5,891 6,526 7,162 
+Net Return Per Acre Above Cash Costs For Broccoli 
+   PRICE ($/carton)   YIELD  (carton/acre)  
+ 
+Broccoli-Crowns  440 480 520      560 600 640 680 
+ 
+9.00 
+  
+-6,734 
+ 
+-6,818 
+ 
+-6,903 
+ 
+-6,987 
+ 
+-7,072 
+ 
+-7,157 
+ 
+-7,241 
+12.00  -5,414 -5,378 -5,343 -5,307 -5,272 -5,237 -5,201 
+15.00  -4,094 -3,938 -3,783 -3,627 -3,472 -3,317 -3,161 
+18.00  -2,774 -2,498 -2,223 -1,947 -1,672 -1,397 -1,121 
+21.00  -1,454 -1,058 -663 -267 128 523 919 
+24.00  -134 382 897 1,413 1,928 2,443 2,959 
+27.00  1,186 1,822 2,457 3,093 3,728 4,363 4,999 
+ 
+Net Return Per Acre Above Total Costs For Broccoli 
+   PRICE ($/carton)   YIELD  (carton/acre)  
+ 
+Broccoli-Crowns  440 480 520     560      600 640 680 
+ 
+9.00 
+  
+-7,076 
+ 
+-7,161 
+ 
+-7,246 
+ 
+-7,330 
+ 
+-7,415 
+ 
+-7,499 
+ 
+-7,584 
+12.00  -5,756 -5,721 -5,686 -5,650 -5,615 -5,579 -5,544 
+15.00  -4,436 -4,281 -4,126 -3,970 -3,815 -3,659 -3,504 
+18.00  -3,116 -2,841 -2,566 -2,290 -2,015 -1,739 -1,464 
+21.00  -1,796 -1,401 -1,006 -610 -215 181 576 
+24.00  -476 39 554 1,070 1,585 2,101 2,616 
+27.00  844 1,479 2,114 2,750 3,385 4,021 4,656 
+
+=== PDF PAGE 16 ===
+16  
+FINAL 2023 Broccoli – Crown Cut – Costs and Returns Study – Central Coast 
+UC COOPERATIVE EXTENSION – UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+ 
+TABLE 5. WHOLE FARM ANNUAL EQUIPMENT, INVESTMENT, AND BUSINESS OVERHEAD FOR BROCCOLI – CROWN CUT 
+ 
+ 
+ANNUAL EQUIPMENT COSTS 
+ 
+  Cash Overhead  
+ 
+Yr 
+ 
+Description 
+ 
+Price 
+Yrs 
+Life 
+Salvage 
+Value 
+Capital 
+Recovery 
+Insur- 
+ance 
+ 
+Taxes 
+ 
+Total 
+23 205HP Crawler 350,000 6 144,313 57,437 175 2,472 60,084 
+23 Triplane - 16' 45,600 10 8,064 6,406 19 268 6,694 
+23 150HP4WD Tractor 225,000 8 78,522 32,649 108 1,518 34,275 
+23 Bed Shaper 3-Row 53,290 10 10,052 7,444 22 317 7,783 
+23 Row crop planter 65,860 5 21,453 13,092 31 437 13,560 
+23 #1 Saddle Tanks 300gal 1,990 3 828 525 1 14 541 
+23 Fertilizer Bar 20' 15,670 8 3,774 2,430 7 97 2,534 
+23 #1 Spray Boom 20' 3,480 5 1,134 692 2 23 717 
+23 Pickup 3/4 Ton 50,000 4 24,357 9,899 26 372 10,297 
+23 Disc - Offset 25' 58,520 3 24,338 15,452 29 414 15,896 
+23 Ring-roller 25' 34,800 3 14,473 9,189 17 246 9,453 
+23 Subsoiler - 16' 50,900 3 21,169 13,440 26 360 13,826 
+23 Chisel - Heavy 26' 61,460 3 28,882 20,849 32 452 21,333 
+23 Disc - Finish 25' 69,600 5 22,671 13,836 33 461 14,330 
+23 120HP2WD Tractor 144,000 8 50,254 20,896 69 971 21,936 
+23 Lilliston-Rolling 3-Row 21,600 8 4,877 3,380 9 132 3,522 
+23 Cultivator 3-Row 11,400 4 4,196 2,556 6 78 2,639 
+23 #2 Saddle Tanks 300gal 1,990 3 828 525 1 14 541 
+ TOTAL 1,265,160 - 464,185 230,699 614 8,647 239,960 
+ 70% of New Cost* 885,612 - 324,930 161,489 430 6,053 167,972 
+*Used to reflect a mix of new and used equipment 
+ 
+ANNUAL INVESTMENT COSTS 
+ 
+  Cash Overhead  
+ 
+Description 
+ 
+Price 
+Yrs 
+Life 
+Salvage 
+Value 
+Capital 
+Recovery 
+Insur- 
+ance 
+ 
+Taxes 
+ 
+Repairs 
+ 
+Total 
+INVESTMENT         
+Fuel Tanks Overhead 10,975 20 0 1,160 4 55 220 1,439 
+Building 2400sqft 96,000 20 0 10,144 34 480 1,920 12,578 
+Shop Tools 20,000 20 2,000 2,072 8 110 400 2,590 
+Sprinkler System 370,495 20 185,247 35,321 197 2,779 7,410 45,707 
+Sprinkler Pipe 1,139,000 30 569,500 101,400 607 8,543 22,780 133,329 
+TOTAL INVESTMENT 1,636,470 - 756,747 150,097 850 11,966 32,730 195,643 
+ 
+ANNUAL BUSINESS OVERHEAD COSTS 
+ 
+Units/  Price/ Total 
+Description Farm Unit  Unit  Cost  
+Field Sanitation 500.00 Acre 15 7,500 
+Land Rent 500.00 Acre 1600 800,000 
+Liability Insurance 500.00 Acre 2 1,000 
+Office Expense 500.00 Acre 375 187,500 
+Food Safety Program 500.00 Acre 56 28,000 
+Water/Nutrient Management Programs 500.00 Acre 75 37,500 
+
+=== PDF PAGE 17 ===
+17 
+ 
+FINAL 2023 Broccoli – Crown Cut – Costs and Returns Study – Central Coast 
+UC COOPERATIVE EXTENSION – UC DAVIS AGRICULTURAL AND RESOURCE ECONOMICS 
+ TABLE 6. HOURLY EQUIPMENT COSTS FOR BROCCOLI – CROWN CUT 
+ 
+Broccoli 
+Hours 
+ 
+Total 
+Hours 
+ 
+ 
+Capital 
+ 
+   Cash Overhead 
+Insur- 
+ 
+   Operating   
+Lube&  Total 
+ 
+ 
+Total 
+Yr Description Used Used Recovery ance Taxes Repairs Fuel Oper. Costs/Hr. 
+23 205HP Crawler 2394 2650 15.17 0.05 0.65 20.40 64.25 84.65 100.52 
+23 Triplane - 16' 92 300 14.95 0.04 0.63 7.98 0.00 7.98 23.60 
+23 150HP4WD Tractor 893 2000 11.43 0.04 0.53 13.81 47.01 60.82 72.81 
+23 Bed Shaper 3-Row 242 600 8.68 0.03 0.37 1.42 0.00 1.42 10.50 
+23 Row crop planter 288 300 30.55 0.07 1.02 21.45 0.00 21.45 53.09 
+23 #1 Saddle Tanks 300gal 288 500 0.74 0.00 0.02 0.64 0.00 0.64 1.39 
+23 Fertilizer Bar 20' 570 750 2.27 0.01 0.09 0.43 0.00 0.43 2.79 
+23 #1 Spray Boom 20' 288 300 1.61 0.00 0.05 1.10 0.00 1.10 2.77 
+23 Pickup 3/4 Ton 500 500 13.86 0.04 0.52 5.67 9.00 14.67 29.09 
+23 Disc - Offset 25' 577 650 16.64 0.03 0.45 11.44 0.00 11.44 28.56 
+23 Ring-roller 25' 577 650 9.90 0.02 0.27 4.70 0.00 4.70 14.88 
+23 Subsoiler - 16' 510 650 14.47 0.03 0.39 13.71 0.00 13.71 28.60 
+23 Chisel - Heavy 26' 710 800 18.24 0.03 0.40 14.39 0.00 14.39 33.06 
+23 Disc - Finish 25' 288 400 24.21 0.06 0.81 13.52 0.00 13.52 38.60 
+23 120HP2WD Tractor 742 1500 9.75 0.03 0.45 13.21 37.61 50.82 61.05 
+23 Lilliston-Rolling 3-Row 200 250 9.46 0.03 0.37 5.10 0.00 5.10 14.96 
+23 Cultivator 3-Row 475 500 3.58 0.01 0.11 2.77 0.00 2.77 6.47 
+23 #2 Saddle Tanks 300gal 283 500 0.74 0.00 0.02 0.64 0.00 0.64 1.39 
+ 

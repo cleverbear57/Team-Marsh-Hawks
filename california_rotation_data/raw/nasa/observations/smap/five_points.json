@@ -1,0 +1,236 @@
+{
+ "samples": [
+  {
+   "location": {
+    "x": -120.09999999999999,
+    "y": 36.359999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.449003458",
+   "rasterId": 1,
+   "resolution": 9007.4714572440153,
+   "attributes": {
+    "name": "SMAP_L4_SM_gph_20260922T223000_Vv8011_sm_rootzone_wetness",
+    "minps": 0,
+    "maxps": 90068.872504259998,
+    "lowps": 9006.8872504299998,
+    "highps": 9006.8872504299998,
+    "category": 1,
+    "tag": "Dataset",
+    "groupname": "",
+    "productname": "Root zone wetness (top 1m)",
+    "centerx": 2597.0821000000001,
+    "centery": -524397.45149999997,
+    "zorder": null,
+    "date": 1790035200000
+   }
+  },
+  {
+   "location": {
+    "x": -120.09999999999999,
+    "y": 36.359999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.264171362",
+   "rasterId": 2,
+   "resolution": 9007.4714572440153,
+   "attributes": {
+    "name": "SMAP_L4_SM_gph_20260922T223000_Vv8011_sm_surface_wetness",
+    "minps": 0,
+    "maxps": 90068.872504259998,
+    "lowps": 9006.8872504299998,
+    "highps": 9006.8872504299998,
+    "category": 1,
+    "tag": "Dataset",
+    "groupname": "",
+    "productname": "Surface wetness (top 5cm)",
+    "centerx": 2597.0821000000001,
+    "centery": -524397.45149999997,
+    "zorder": null,
+    "date": 1790035200000
+   }
+  },
+  {
+   "location": {
+    "x": -120.09999999999999,
+    "y": 36.359999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.263224751",
+   "rasterId": 3,
+   "resolution": 9007.4714572440153,
+   "attributes": {
+    "name": "SMAP_L4_SM_gph_20260925T223000_sm_surface_wetness",
+    "minps": 0,
+    "maxps": 90068.872504259998,
+    "lowps": 9006.8872504299998,
+    "highps": 9006.8872504299998,
+    "category": 1,
+    "tag": "Dataset",
+    "groupname": "",
+    "productname": "Surface wetness (top 5cm)",
+    "centerx": 2597.0821000000001,
+    "centery": -524397.45149999997,
+    "zorder": null,
+    "date": 1790294400000
+   }
+  },
+  {
+   "location": {
+    "x": -120.09999999999999,
+    "y": 36.359999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.448133647",
+   "rasterId": 4,
+   "resolution": 9007.4714572440153,
+   "attributes": {
+    "name": "SMAP_L4_SM_gph_20260923T223000_sm_rootzone_wetness",
+    "minps": 0,
+    "maxps": 90068.872504259998,
+    "lowps": 9006.8872504299998,
+    "highps": 9006.8872504299998,
+    "category": 1,
+    "tag": "Dataset",
+    "groupname": "",
+    "productname": "Root zone wetness (top 1m)",
+    "centerx": 2597.0821000000001,
+    "centery": -524397.45149999997,
+    "zorder": null,
+    "date": 1790121600000
+   }
+  },
+  {
+   "location": {
+    "x": -120.09999999999999,
+    "y": 36.359999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.252152264",
+   "rasterId": 5,
+   "resolution": 9007.4714572440153,
+   "attributes": {
+    "name": "SMAP_L4_SM_gph_20260923T223000_sm_surface_wetness",
+    "minps": 0,
+    "maxps": 90068.872504259998,
+    "lowps": 9006.8872504299998,
+    "highps": 9006.8872504299998,
+    "category": 1,
+    "tag": "Dataset",
+    "groupname": "",
+    "productname": "Surface wetness (top 5cm)",
+    "centerx": 2597.0821000000001,
+    "centery": -524397.45149999997,
+    "zorder": null,
+    "date": 1790121600000
+   }
+  },
+  {
+   "location": {
+    "x": -120.09999999999999,
+    "y": 36.359999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.447715312",
+   "rasterId": 6,
+   "resolution": 9007.4714572440153,
+   "attributes": {
+    "name": "SMAP_L4_SM_gph_20260924T223000_sm_rootzone_wetness",
+    "minps": 0,
+    "maxps": 90068.872504259998,
+    "lowps": 9006.8872504299998,
+    "highps": 9006.8872504299998,
+    "category": 1,
+    "tag": "Dataset",
+    "groupname": "",
+    "productname": "Root zone wetness (top 1m)",
+    "centerx": 2597.0821000000001,
+    "centery": -524397.45149999997,
+    "zorder": null,
+    "date": 1790208000000
+   }
+  },
+  {
+   "location": {
+    "x": -120.09999999999999,
+    "y": 36.359999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.250214189",
+   "rasterId": 7,
+   "resolution": 9007.4714572440153,
+   "attributes": {
+    "name": "SMAP_L4_SM_gph_20260924T223000_sm_surface_wetness",
+    "minps": 0,
+    "maxps": 90068.872504259998,
+    "lowps": 9006.8872504299998,
+    "highps": 9006.8872504299998,
+    "category": 1,
+    "tag": "Dataset",
+    "groupname": "",
+    "productname": "Surface wetness (top 5cm)",
+    "centerx": 2597.0821000000001,
+    "centery": -524397.45149999997,
+    "zorder": null,
+    "date": 1790208000000
+   }
+  },
+  {
+   "location": {
+    "x": -120.09999999999999,
+    "y": 36.359999999999999,
+    "spatialReference": {
+     "wkid": 4326,
+     "latestWkid": 4326
+    }
+   },
+   "locationId": 0,
+   "value": "0.448144048",
+   "rasterId": 8,
+   "resolution": 9007.4714572440153,
+   "attributes": {
+    "name": "SMAP_L4_SM_gph_20260925T223000_sm_rootzone_wetness",
+    "minps": 0,
+    "maxps": 90068.872504259998,
+    "lowps": 9006.8872504299998,
+    "highps": 9006.8872504299998,
+    "category": 1,
+    "tag": "Dataset",
+    "groupname": "",
+    "productname": "Root zone wetness (top 1m)",
+    "centerx": 2597.0821000000001,
+    "centery": -524397.45149999997,
+    "zorder": null,
+    "date": 1790294400000
+   }
+  }
+ ]
+}

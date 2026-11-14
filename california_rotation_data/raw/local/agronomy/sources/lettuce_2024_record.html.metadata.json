@@ -1,0 +1,8 @@
+{
+  "source_url": "https://anrlibrary.org/content/publications/9781627112352",
+  "retrieved_at_utc": "2026-11-14T19:23:22.368616+00:00",
+  "file": "raw/local/agronomy/sources/lettuce_2024_record.html",
+  "method": "GET",
+  "status": "failed",
+  "error": "HTTPError: HTTP Error 403: Forbidden"
+}

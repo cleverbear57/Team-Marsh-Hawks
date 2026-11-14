@@ -1,0 +1,570 @@
+[
+  {
+    "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CT2MDEW%2CPRECTOTCORR%2CRH2M%2CWS2M%2CPS%2CALLSKY_SFC_SW_DWN&community=AG&longitude=-121.75&latitude=38.54&start=20010101&end=20251231&format=JSON&time-standard=UTC",
+    "file": "raw/nasa/power/davis_daily_2001_2025.json",
+    "retrieved_at_utc": "2026-11-14T19:26:25.109144+00:00",
+    "cache_reused": true,
+    "status": "downloaded",
+    "bytes": 1360691,
+    "sha256": "ca278c3e62deaa4375b9c95f23dbb93bf6190583d259c4c4934dc7811e343c8a",
+    "site_id": "davis",
+    "latitude": 38.54,
+    "longitude": -121.75,
+    "label": "Davis / Yolo County",
+    "data_kind": "NASA analysis-ready gridded data; meteorology from reanalysis/assimilation, solar from satellite-derived products",
+    "catalog_url": "https://data.nasa.gov/dataset/prediction-of-worldwide-energy-resources-power",
+    "dates": 9131,
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "T2M_MAX": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters Maximum"
+      },
+      "T2M_MIN": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters Minimum"
+      },
+      "T2MDEW": {
+        "units": "C",
+        "longname": "Dew/Frost Point at 2 Meters"
+      },
+      "PRECTOTCORR": {
+        "units": "mm/day",
+        "longname": "Precipitation Corrected"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    },
+    "header": {
+      "title": "NASA/POWER Source Native Resolution Daily Data",
+      "api": {
+        "version": "v2.10.3",
+        "name": "POWER Daily API"
+      },
+      "sources": [
+        "MERRA2",
+        "SYN1DEG",
+        "POWER"
+      ],
+      "fill_value": -999.0,
+      "time_standard": "UTC",
+      "start": "20010101",
+      "end": "20251231"
+    },
+    "messages": []
+  },
+  {
+    "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CT2MDEW%2CPRECTOTCORR%2CRH2M%2CWS2M%2CPS%2CALLSKY_SFC_SW_DWN&community=AG&longitude=-122.0&latitude=39.21&start=20010101&end=20251231&format=JSON&time-standard=UTC",
+    "file": "raw/nasa/power/colusa_daily_2001_2025.json",
+    "retrieved_at_utc": "2026-11-14T19:26:25.109361+00:00",
+    "cache_reused": true,
+    "status": "downloaded",
+    "bytes": 1361122,
+    "sha256": "9b2762257b15220b11e969a9fc6353ee7a7b0f36df13b62006297f77f9665999",
+    "site_id": "colusa",
+    "latitude": 39.21,
+    "longitude": -122.0,
+    "label": "Colusa / Sacramento Valley",
+    "data_kind": "NASA analysis-ready gridded data; meteorology from reanalysis/assimilation, solar from satellite-derived products",
+    "catalog_url": "https://data.nasa.gov/dataset/prediction-of-worldwide-energy-resources-power",
+    "dates": 9131,
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "T2M_MAX": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters Maximum"
+      },
+      "T2M_MIN": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters Minimum"
+      },
+      "T2MDEW": {
+        "units": "C",
+        "longname": "Dew/Frost Point at 2 Meters"
+      },
+      "PRECTOTCORR": {
+        "units": "mm/day",
+        "longname": "Precipitation Corrected"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    },
+    "header": {
+      "title": "NASA/POWER Source Native Resolution Daily Data",
+      "api": {
+        "version": "v2.10.3",
+        "name": "POWER Daily API"
+      },
+      "sources": [
+        "MERRA2",
+        "SYN1DEG",
+        "POWER"
+      ],
+      "fill_value": -999.0,
+      "time_standard": "UTC",
+      "start": "20010101",
+      "end": "20251231"
+    },
+    "messages": []
+  },
+  {
+    "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CT2MDEW%2CPRECTOTCORR%2CRH2M%2CWS2M%2CPS%2CALLSKY_SFC_SW_DWN&community=AG&longitude=-120.1&latitude=36.36&start=20010101&end=20251231&format=JSON&time-standard=UTC",
+    "file": "raw/nasa/power/five_points_daily_2001_2025.json",
+    "retrieved_at_utc": "2026-11-14T19:26:25.136354+00:00",
+    "cache_reused": true,
+    "status": "downloaded",
+    "bytes": 1356070,
+    "sha256": "f259c38c0607e3d49266ef6975e555323e5ebd3d12b33429f09a913b5cdbb88b",
+    "site_id": "five_points",
+    "latitude": 36.36,
+    "longitude": -120.1,
+    "label": "Five Points / San Joaquin Valley",
+    "data_kind": "NASA analysis-ready gridded data; meteorology from reanalysis/assimilation, solar from satellite-derived products",
+    "catalog_url": "https://data.nasa.gov/dataset/prediction-of-worldwide-energy-resources-power",
+    "dates": 9131,
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "T2M_MAX": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters Maximum"
+      },
+      "T2M_MIN": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters Minimum"
+      },
+      "T2MDEW": {
+        "units": "C",
+        "longname": "Dew/Frost Point at 2 Meters"
+      },
+      "PRECTOTCORR": {
+        "units": "mm/day",
+        "longname": "Precipitation Corrected"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    },
+    "header": {
+      "title": "NASA/POWER Source Native Resolution Daily Data",
+      "api": {
+        "version": "v2.10.3",
+        "name": "POWER Daily API"
+      },
+      "sources": [
+        "MERRA2",
+        "SYN1DEG",
+        "POWER"
+      ],
+      "fill_value": -999.0,
+      "time_standard": "UTC",
+      "start": "20010101",
+      "end": "20251231"
+    },
+    "messages": []
+  },
+  {
+    "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CT2MDEW%2CPRECTOTCORR%2CRH2M%2CWS2M%2CPS%2CALLSKY_SFC_SW_DWN&community=AG&longitude=-121.65&latitude=36.65&start=20010101&end=20251231&format=JSON&time-standard=UTC",
+    "file": "raw/nasa/power/salinas_daily_2001_2025.json",
+    "retrieved_at_utc": "2026-11-14T19:26:25.136521+00:00",
+    "cache_reused": true,
+    "status": "downloaded",
+    "bytes": 1366970,
+    "sha256": "bf0f52f3cb855b58a3febe0910f0d8e146ea1516cb18cd5d1822d1d3d339623f",
+    "site_id": "salinas",
+    "latitude": 36.65,
+    "longitude": -121.65,
+    "label": "Salinas Valley",
+    "data_kind": "NASA analysis-ready gridded data; meteorology from reanalysis/assimilation, solar from satellite-derived products",
+    "catalog_url": "https://data.nasa.gov/dataset/prediction-of-worldwide-energy-resources-power",
+    "dates": 9131,
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "T2M_MAX": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters Maximum"
+      },
+      "T2M_MIN": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters Minimum"
+      },
+      "T2MDEW": {
+        "units": "C",
+        "longname": "Dew/Frost Point at 2 Meters"
+      },
+      "PRECTOTCORR": {
+        "units": "mm/day",
+        "longname": "Precipitation Corrected"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    },
+    "header": {
+      "title": "NASA/POWER Source Native Resolution Daily Data",
+      "api": {
+        "version": "v2.10.3",
+        "name": "POWER Daily API"
+      },
+      "sources": [
+        "MERRA2",
+        "SYN1DEG",
+        "POWER"
+      ],
+      "fill_value": -999.0,
+      "time_standard": "UTC",
+      "start": "20010101",
+      "end": "20251231"
+    },
+    "messages": []
+  },
+  {
+    "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CT2MDEW%2CPRECTOTCORR%2CRH2M%2CWS2M%2CPS%2CALLSKY_SFC_SW_DWN&community=AG&longitude=-119.28&latitude=35.5&start=20010101&end=20251231&format=JSON&time-standard=UTC",
+    "file": "raw/nasa/power/shafter_daily_2001_2025.json",
+    "retrieved_at_utc": "2026-11-14T19:26:25.163048+00:00",
+    "cache_reused": true,
+    "status": "downloaded",
+    "bytes": 1354869,
+    "sha256": "181711e5d08914eda1a39d92a58a2ae2c1b4650e470c532e73be34ad227a20e6",
+    "site_id": "shafter",
+    "latitude": 35.5,
+    "longitude": -119.28,
+    "label": "Shafter / Kern County",
+    "data_kind": "NASA analysis-ready gridded data; meteorology from reanalysis/assimilation, solar from satellite-derived products",
+    "catalog_url": "https://data.nasa.gov/dataset/prediction-of-worldwide-energy-resources-power",
+    "dates": 9131,
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "T2M_MAX": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters Maximum"
+      },
+      "T2M_MIN": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters Minimum"
+      },
+      "T2MDEW": {
+        "units": "C",
+        "longname": "Dew/Frost Point at 2 Meters"
+      },
+      "PRECTOTCORR": {
+        "units": "mm/day",
+        "longname": "Precipitation Corrected"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    },
+    "header": {
+      "title": "NASA/POWER Source Native Resolution Daily Data",
+      "api": {
+        "version": "v2.10.3",
+        "name": "POWER Daily API"
+      },
+      "sources": [
+        "MERRA2",
+        "SYN1DEG",
+        "POWER"
+      ],
+      "fill_value": -999.0,
+      "time_standard": "UTC",
+      "start": "20010101",
+      "end": "20251231"
+    },
+    "messages": []
+  },
+  {
+    "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CT2MDEW%2CPRECTOTCORR%2CRH2M%2CWS2M%2CPS%2CALLSKY_SFC_SW_DWN&community=AG&longitude=-115.55&latitude=32.8&start=20010101&end=20251231&format=JSON&time-standard=UTC",
+    "file": "raw/nasa/power/el_centro_daily_2001_2025.json",
+    "retrieved_at_utc": "2026-11-14T19:26:25.163377+00:00",
+    "cache_reused": true,
+    "status": "downloaded",
+    "bytes": 1366663,
+    "sha256": "4b139a259f8a5036c7301c64f2b29f744f37acb02e6cb88de2a12f14e0375ccd",
+    "site_id": "el_centro",
+    "latitude": 32.8,
+    "longitude": -115.55,
+    "label": "El Centro / Imperial Valley",
+    "data_kind": "NASA analysis-ready gridded data; meteorology from reanalysis/assimilation, solar from satellite-derived products",
+    "catalog_url": "https://data.nasa.gov/dataset/prediction-of-worldwide-energy-resources-power",
+    "dates": 9131,
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "T2M_MAX": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters Maximum"
+      },
+      "T2M_MIN": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters Minimum"
+      },
+      "T2MDEW": {
+        "units": "C",
+        "longname": "Dew/Frost Point at 2 Meters"
+      },
+      "PRECTOTCORR": {
+        "units": "mm/day",
+        "longname": "Precipitation Corrected"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    },
+    "header": {
+      "title": "NASA/POWER Source Native Resolution Daily Data",
+      "api": {
+        "version": "v2.10.3",
+        "name": "POWER Daily API"
+      },
+      "sources": [
+        "MERRA2",
+        "SYN1DEG",
+        "POWER"
+      ],
+      "fill_value": -999.0,
+      "time_standard": "UTC",
+      "start": "20010101",
+      "end": "20251231"
+    },
+    "messages": []
+  },
+  {
+    "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CT2MDEW%2CPRECTOTCORR%2CRH2M%2CWS2M%2CPS%2CALLSKY_SFC_SW_DWN&community=AG&longitude=-121.48&latitude=41.96&start=20010101&end=20251231&format=JSON&time-standard=UTC",
+    "file": "raw/nasa/power/tulelake_daily_2001_2025.json",
+    "retrieved_at_utc": "2026-11-14T19:26:25.188781+00:00",
+    "cache_reused": true,
+    "status": "downloaded",
+    "bytes": 1352055,
+    "sha256": "4717ec7854558fe31671013638721c60eb92a601120cf88473fb934bab0cdae7",
+    "site_id": "tulelake",
+    "latitude": 41.96,
+    "longitude": -121.48,
+    "label": "Tulelake / northern intermountain region",
+    "data_kind": "NASA analysis-ready gridded data; meteorology from reanalysis/assimilation, solar from satellite-derived products",
+    "catalog_url": "https://data.nasa.gov/dataset/prediction-of-worldwide-energy-resources-power",
+    "dates": 9131,
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "T2M_MAX": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters Maximum"
+      },
+      "T2M_MIN": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters Minimum"
+      },
+      "T2MDEW": {
+        "units": "C",
+        "longname": "Dew/Frost Point at 2 Meters"
+      },
+      "PRECTOTCORR": {
+        "units": "mm/day",
+        "longname": "Precipitation Corrected"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    },
+    "header": {
+      "title": "NASA/POWER Source Native Resolution Daily Data",
+      "api": {
+        "version": "v2.10.3",
+        "name": "POWER Daily API"
+      },
+      "sources": [
+        "MERRA2",
+        "SYN1DEG",
+        "POWER"
+      ],
+      "fill_value": -999.0,
+      "time_standard": "UTC",
+      "start": "20010101",
+      "end": "20251231"
+    },
+    "messages": []
+  },
+  {
+    "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=T2M%2CT2M_MAX%2CT2M_MIN%2CT2MDEW%2CPRECTOTCORR%2CRH2M%2CWS2M%2CPS%2CALLSKY_SFC_SW_DWN&community=AG&longitude=-119.18&latitude=34.19&start=20010101&end=20251231&format=JSON&time-standard=UTC",
+    "file": "raw/nasa/power/oxnard_daily_2001_2025.json",
+    "retrieved_at_utc": "2026-11-14T19:26:25.188866+00:00",
+    "cache_reused": true,
+    "status": "downloaded",
+    "bytes": 1372840,
+    "sha256": "7c6eb6d6dc319316fe79a00b40f94796c306a06c8a0fa491470247f84f3fda5d",
+    "site_id": "oxnard",
+    "latitude": 34.19,
+    "longitude": -119.18,
+    "label": "Oxnard / Ventura County",
+    "data_kind": "NASA analysis-ready gridded data; meteorology from reanalysis/assimilation, solar from satellite-derived products",
+    "catalog_url": "https://data.nasa.gov/dataset/prediction-of-worldwide-energy-resources-power",
+    "dates": 9131,
+    "parameters": {
+      "T2M": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters"
+      },
+      "T2M_MAX": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters Maximum"
+      },
+      "T2M_MIN": {
+        "units": "C",
+        "longname": "Temperature at 2 Meters Minimum"
+      },
+      "T2MDEW": {
+        "units": "C",
+        "longname": "Dew/Frost Point at 2 Meters"
+      },
+      "PRECTOTCORR": {
+        "units": "mm/day",
+        "longname": "Precipitation Corrected"
+      },
+      "RH2M": {
+        "units": "%",
+        "longname": "Relative Humidity at 2 Meters"
+      },
+      "WS2M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 2 Meters"
+      },
+      "PS": {
+        "units": "kPa",
+        "longname": "Surface Pressure"
+      },
+      "ALLSKY_SFC_SW_DWN": {
+        "units": "MJ/m^2/day",
+        "longname": "All Sky Surface Shortwave Downward Irradiance"
+      }
+    },
+    "header": {
+      "title": "NASA/POWER Source Native Resolution Daily Data",
+      "api": {
+        "version": "v2.10.3",
+        "name": "POWER Daily API"
+      },
+      "sources": [
+        "MERRA2",
+        "SYN1DEG",
+        "POWER"
+      ],
+      "fill_value": -999.0,
+      "time_standard": "UTC",
+      "start": "20010101",
+      "end": "20251231"
+    },
+    "messages": []
+  }
+]

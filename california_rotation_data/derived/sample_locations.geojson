@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.75,
+          38.54
+        ]
+      },
+      "properties": {
+        "site_id": "davis",
+        "label": "Davis / Yolo County",
+        "role": "illustrative sampling point, not a surveyed farm parcel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.0,
+          39.21
+        ]
+      },
+      "properties": {
+        "site_id": "colusa",
+        "label": "Colusa / Sacramento Valley",
+        "role": "illustrative sampling point, not a surveyed farm parcel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1,
+          36.36
+        ]
+      },
+      "properties": {
+        "site_id": "five_points",
+        "label": "Five Points / San Joaquin Valley",
+        "role": "illustrative sampling point, not a surveyed farm parcel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.65,
+          36.65
+        ]
+      },
+      "properties": {
+        "site_id": "salinas",
+        "label": "Salinas Valley",
+        "role": "illustrative sampling point, not a surveyed farm parcel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.28,
+          35.5
+        ]
+      },
+      "properties": {
+        "site_id": "shafter",
+        "label": "Shafter / Kern County",
+        "role": "illustrative sampling point, not a surveyed farm parcel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.55,
+          32.8
+        ]
+      },
+      "properties": {
+        "site_id": "el_centro",
+        "label": "El Centro / Imperial Valley",
+        "role": "illustrative sampling point, not a surveyed farm parcel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.48,
+          41.96
+        ]
+      },
+      "properties": {
+        "site_id": "tulelake",
+        "label": "Tulelake / northern intermountain region",
+        "role": "illustrative sampling point, not a surveyed farm parcel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.18,
+          34.19
+        ]
+      },
+      "properties": {
+        "site_id": "oxnard",
+        "label": "Oxnard / Ventura County",
+        "role": "illustrative sampling point, not a surveyed farm parcel"
+      }
+    }
+  ]
+}

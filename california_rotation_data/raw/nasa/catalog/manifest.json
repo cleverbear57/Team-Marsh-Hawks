@@ -1,0 +1,110 @@
+[
+  {
+    "url": "https://data.nasa.gov/api/3/action/package_show?id=prediction-of-worldwide-energy-resources-power",
+    "file": "raw/nasa/catalog/power.json",
+    "retrieved_at_utc": "2026-11-14T19:26:25.549766+00:00",
+    "cache_reused": true,
+    "status": "downloaded",
+    "bytes": 13716,
+    "sha256": "c0e3a0cd299ad60fdbb315c7aeaa0c8836a8fb324faf4156c9fea6d3813f7c08",
+    "success": true,
+    "returned_count": 1,
+    "data_kind": "catalog metadata, not numerical observations"
+  },
+  {
+    "url": "https://data.nasa.gov/api/3/action/package_show?id=modis-terra-vegetation-indices-16-day-l3-global-250m-sin-grid-v061-2eb0d",
+    "file": "raw/nasa/catalog/mod13q1.json",
+    "retrieved_at_utc": "2026-11-14T19:26:25.549923+00:00",
+    "cache_reused": true,
+    "status": "downloaded",
+    "bytes": 14446,
+    "sha256": "3281e5972de07ccacf291e466b69fbc43f7693c955c9713998567bb6fd32fbe8",
+    "success": true,
+    "returned_count": 1,
+    "data_kind": "catalog metadata, not numerical observations"
+  },
+  {
+    "url": "https://data.nasa.gov/api/3/action/package_search?q=%22SMAP+L4%22+%22Surface%22+%22Geophysical%22+%22V008%22&rows=20",
+    "file": "raw/nasa/catalog/smap_l4.json",
+    "retrieved_at_utc": "2026-11-14T19:26:25.550356+00:00",
+    "cache_reused": true,
+    "status": "downloaded",
+    "bytes": 67185,
+    "sha256": "ae6066c56fa8320fbf4b34e8fed1cd4695b83015d1cc226391adae0ca23f03d2",
+    "success": true,
+    "returned_count": 6,
+    "data_kind": "catalog metadata, not numerical observations"
+  },
+  {
+    "url": "https://data.nasa.gov/api/3/action/package_search?q=%22GPM+IMERG%22+%22Final%22+%22V07%22&rows=20",
+    "file": "raw/nasa/catalog/gpm_imerg.json",
+    "retrieved_at_utc": "2026-11-14T19:26:25.551073+00:00",
+    "cache_reused": true,
+    "status": "downloaded",
+    "bytes": 175671,
+    "sha256": "0521138911689057a24ae327477471b600644eaaac01a5cb5107c4fbd8159e04",
+    "success": true,
+    "returned_count": 10,
+    "data_kind": "catalog metadata, not numerical observations"
+  },
+  {
+    "url": "https://data.nasa.gov/api/3/action/package_search?q=%22ECOSTRESS%22+%22JET%22&rows=20",
+    "file": "raw/nasa/catalog/ecostress_jet.json",
+    "retrieved_at_utc": "2026-11-14T19:26:25.551285+00:00",
+    "cache_reused": true,
+    "status": "downloaded",
+    "bytes": 290842,
+    "sha256": "0fc4e8ac2891a28bb7995d54e57dbe926fa287737ed02e308ef888efe1e110ac",
+    "success": true,
+    "returned_count": 18,
+    "data_kind": "catalog metadata, not numerical observations"
+  },
+  {
+    "url": "https://data.nasa.gov/api/3/action/package_search?q=%22ECOSTRESS%22+%22LSTE%22+%22V002%22&rows=20",
+    "file": "raw/nasa/catalog/ecostress_lste.json",
+    "retrieved_at_utc": "2026-11-14T19:26:25.551344+00:00",
+    "cache_reused": true,
+    "status": "downloaded",
+    "bytes": 378844,
+    "sha256": "8e835174d0403d65ce337c0bbe04eb6f6bb3cdddab595ae4df68e089366a7847",
+    "success": true,
+    "returned_count": 64,
+    "data_kind": "catalog metadata, not numerical observations"
+  },
+  {
+    "url": "https://data.nasa.gov/api/3/action/package_search?q=%22JPL%22+%22MASCON%22&rows=20",
+    "file": "raw/nasa/catalog/grace_mascon.json",
+    "retrieved_at_utc": "2026-11-14T19:26:25.554467+00:00",
+    "cache_reused": true,
+    "status": "downloaded",
+    "bytes": 115261,
+    "sha256": "8322fa344287298e8faf06705e516765597602ffe5d4b1cfc18262064495a423",
+    "success": true,
+    "returned_count": 8,
+    "data_kind": "catalog metadata, not numerical observations"
+  },
+  {
+    "url": "https://data.nasa.gov/api/3/action/package_search?q=%22NASADEM%22+%22HGT%22&rows=20",
+    "file": "raw/nasa/catalog/nasadem.json",
+    "retrieved_at_utc": "2026-11-14T19:26:25.555323+00:00",
+    "cache_reused": true,
+    "status": "downloaded",
+    "bytes": 37590,
+    "sha256": "954df2004fcf15371e643034ae5f102db9a53d2208d2ece0fe33397b377ca4f8",
+    "success": true,
+    "returned_count": 3,
+    "data_kind": "catalog metadata, not numerical observations"
+  },
+  {
+    "url": "https://data.nasa.gov/api/3/action/package_search?q=%22Harmonized+Landsat+Sentinel%22+%22L30%22&rows=20",
+    "file": "raw/nasa/catalog/hls_l30.json",
+    "retrieved_at_utc": "2026-11-14T19:26:25.555432+00:00",
+    "cache_reused": true,
+    "status": "downloaded",
+    "bytes": 27882,
+    "sha256": "f05f0e44a8d2aa8020725880f98debb1b32ad5a684be60dc556c13e36534f0ab",
+    "success": true,
+    "returned_count": 2,
+    "data_kind": "catalog metadata, not numerical observations"
+  }
+]

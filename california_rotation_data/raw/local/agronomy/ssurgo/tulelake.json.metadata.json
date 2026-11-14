@@ -1,0 +1,33 @@
+{
+  "source_url": "https://sdmdataaccess.nrcs.usda.gov/Tabular/post.rest",
+  "retrieved_at_utc": "2026-11-14T19:21:57.003768+00:00",
+  "file": "raw/local/agronomy/ssurgo/tulelake.json",
+  "method": "POST",
+  "request_file": "raw/local/agronomy/ssurgo/tulelake.request.json",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://sdmdataaccess.nrcs.usda.gov/Tabular/post.rest",
+  "response_headers": {
+    "Date": "Sat, 14 Nov 2026 19:21:57 GMT",
+    "Content-Type": "application/json; charset=utf-8",
+    "Content-Length": "3839",
+    "Connection": "close",
+    "Set-Cookie": "AWSALB=tyofBeFvhjjxunZgiInIXyaRmr31kXFQ/vRRYaEII3kfWcMPUHSuyO9lERhgT/QHzkVV2C8aRRsnw/HPv2CT7o9k/OQyg+W1nLHmfIfIQACo87UPmz/1J2knj+o6; Expires=Sat, 21 Nov 2026 19:21:57 GMT; Path=/",
+    "Cache-Control": "private",
+    "Server": "Microsoft-IIS/10.0",
+    "X-AspNet-Version": "4.0.30319",
+    "X-Powered-By": "ASP.NET",
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
+    "Access-Control-Allow-Headers": "Content-Type"
+  },
+  "bytes": 3839,
+  "sha256": "415c58a1f8b5527361b1939c79e17f8861af0ca3e3f871d69175cfa4e20a4d33",
+  "region_id": "tulelake",
+  "region_label": "Intermountain / Tulelake",
+  "latitude": 41.96,
+  "longitude": -121.47,
+  "coordinate_crs": "EPSG:4326",
+  "selection": "all intersecting mapunits; all components; all horizons",
+  "horizon_rows": 8
+}

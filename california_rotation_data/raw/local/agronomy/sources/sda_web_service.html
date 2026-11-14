@@ -1,0 +1,884 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head><meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=Edge" /><title>
+	Soil Data Access - Web Service Help
+</title><link rel="stylesheet" type="text/css" href="styles/StylesNN.css" /></head>
+
+  <body topMargin="0" leftMargin="0" bottommargin="0" rightmargin="0">
+    <form name="SDMForm" method="post" action="./WebServiceHelp.aspx" id="SDMForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTgyNDY0OTY0Mg9kFgICAw9kFhBmD2QWCAIBDxYCHgNzcmMFGS9pbWFnZXMvbWFzdGhlYWQtbGVmdC5wbmdkAgMPFgIfAAUeL2ltYWdlcy9tYXN0aGVhZC1sZWZ0LXVzZGEucG5nZAIFDxYCHwAFHi9pbWFnZXMvbWFzdGhlYWQtbGVmdC1ucmNzLnBuZ2QCBw8WAh8ABRUvaW1hZ2VzL01hc3RoZWFkUi5qcGdkAgEPZBYMAgEPFgIfAAUSL2ltYWdlcy9TcGFjZXIuZ2lmZAIDDw8WBh4JRm9yZUNvbG9yCqQBHgtOYXZpZ2F0ZVVybAUwaHR0cHM6Ly9zZG1kYXRhYWNjZXNzLm5yY3MudXNkYS5nb3YvRGVmYXVsdC5hc3B4HgRfIVNCAgRkZAIFDw8WBh8BCqQBHwIFLmh0dHBzOi8vc2RtZGF0YWFjY2Vzcy5ucmNzLnVzZGEuZ292L1F1ZXJ5LmFzcHgfAwIEZGQCCQ8PFgYfAQqkAR8CBTJodHRwczovL3NkbWRhdGFhY2Nlc3MubnJjcy51c2RhLmdvdi9RdWVyeUhlbHAuYXNweB8DAgRkZAILDw8WBh8BCqQBHwIFN2h0dHBzOi8vc2RtZGF0YWFjY2Vzcy5ucmNzLnVzZGEuZ292L1dlYlNlcnZpY2VIZWxwLmFzcHgfAwIEZGQCDQ8PFgYfAQqkAR8CBS1odHRwczovL3NkbWRhdGFhY2Nlc3MubnJjcy51c2RhLmdvdi9IZWxwLmFzcHgfAwIEZGQCAg8WAh4EaHJlZgVCaHR0cHM6Ly9zZG1kYXRhYWNjZXNzLm5yY3MudXNkYS5nb3YvVGFidWxhci9TRE1UYWJ1bGFyU2VydmljZS5hc214ZAIDDxYCHwQFQmh0dHBzOi8vc2RtZGF0YWFjY2Vzcy5ucmNzLnVzZGEuZ292L1NwYXRpYWwvU0RNV0dTODRHZW9ncmFwaGljLndmc2QCBA8WAh8EBUJodHRwczovL3NkbWRhdGFhY2Nlc3MubnJjcy51c2RhLmdvdi9TcGF0aWFsL1NETU5BRDgzR2VvZ3JhcGhpYy53ZnNkAgUPFgIfBAU1aHR0cHM6Ly9zZG1kYXRhYWNjZXNzLm5yY3MudXNkYS5nb3YvU3BhdGlhbC9TRE1XTS53ZnNkAgYPFgIfBAUzaHR0cHM6Ly9zZG1kYXRhYWNjZXNzLm5yY3MudXNkYS5nb3YvU3BhdGlhbC9TRE0ud21zZAIHD2QWBgIBDxYCHwAFEi9pbWFnZXMvU3BhY2VyLmdpZmQCAw8WAh8ABRUvaW1hZ2VzL0JhY2tUb1RvcC5naWZkAgUPFgIfBAWCAWh0dHBzOi8vc2RtZGF0YWFjY2Vzcy5ucmNzLnVzZGEuZ292aHR0cHM6Ly9ucmNzLnVzZGEuZ292L2NvbnNlcnZhdGlvbi1iYXNpY3MvbmF0dXJhbC1yZXNvdXJjZS1jb25jZXJucy9zb2lscy9zdGF0ZS1zb2lsLXNjaWVudGlzdHNkZFmCtvgeAx1BMjblvpbqtJeyqGFc" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="265EB7E0" />
+      <a name="top"/>
+      
+
+<!-- UCHeader Start -->
+<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#773300">
+    <tr>
+        <td width="320" align="left">
+            <div>
+                <a href="#startContent">
+                    <span class="sr-only">Skip to Page Content</span>
+                </a>
+                <img src="/images/masthead-left.png" id="UCHeader_ImgMastheadLBackground" alt="United States Department of Agriculture and Natural Resources Conservation Service." />
+                <a href="https://www.usda.gov/wps/portal/usda/usdahome" style="display: block; margin-top: -37px; margin-left: 2px; width: 320px; padding-bottom: 5px;">
+                    <img src="/images/masthead-left-usda.png" id="UCHeader_ImgMastheadLUSDA" alt="United States Department of Agriculture" />
+                </a>
+                <a href="https://www.nrcs.usda.gov/wps/portal/nrcs/site/national/home" style="display: block; margin-top: -20px; margin-left: 36px; width: 285px;">
+                    <img src="/images/masthead-left-nrcs.png" id="UCHeader_ImgMastheadLNRCS" alt="Natural Resources Conservation Service" />
+                </a>
+            </div>
+        </td>
+        <td align="center">&nbsp;</td>
+        <td width="410" align="right">
+            <img src="/images/MastheadR.jpg" id="UCHeader_ImgMastheadR" width="410" height="37" border="0" hspace="0" vspace="0" alt="Soil Data Access" title="Soil Data Access" /></td>
+    </tr>
+</table>
+
+<!-- UCHeader END -->
+
+      
+<!-- Navigation Bar Start -->
+<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#330000">
+  <tr>
+    <td width="1">
+      <a href="#content"><img src="/images/Spacer.gif" id="UCNavBar_ImgNavBarSkip" alt="Skip to page content." width="1" height="1" border="0" hspace="0" vspace="0" /></a>
+    </td>
+    <td>
+      <a id="UCNavBar_LnkNavBarHome" class="SDM_NavBarLink" href="https://sdmdataaccess.nrcs.usda.gov/Default.aspx"><b><font color="White">Home</font></b></a>
+      <a id="UCNavBar_LnkNavBarQuery" class="SDM_NavBarLink" href="https://sdmdataaccess.nrcs.usda.gov/Query.aspx"><b><font color="White">Query</font></b></a>
+      <!--<a id="UCNavBar_LnkNavBarAOI" class="SDM_NavBarLink"><b>Map</b></a>-->
+    </td>
+    <td width="20" align="center" valign="middle">&nbsp;</td>
+    <td align="right">
+      <a id="UCNavBar_LnkNavBarQHelp" class="SDM_NavBarLinkA" href="https://sdmdataaccess.nrcs.usda.gov/QueryHelp.aspx"><b><font color="White">Query Help</font></b></a>
+      <a id="UCNavBar_LnkNavBarSHelp" class="SDM_NavBarLinkA" href="https://sdmdataaccess.nrcs.usda.gov/WebServiceHelp.aspx"><b><font color="White">Web Service Help</font></b></a>
+      <a id="UCNavBar_LnkNavBarGHelp" class="SDM_NavBarLinkA" href="https://sdmdataaccess.nrcs.usda.gov/Help.aspx"><b><font color="White">Help</font></b></a>
+    </td>
+  </tr>
+</table>
+<!-- Navigation Bar End -->
+
+      <a name="content"/>
+      <br/>
+      <table width="80%" align="center" cellspacing="1" cellpadding="1" border="0">
+        <tr>
+          <td>
+            <h1>Soil Data Access Web Service Help</h1>
+            The following Soil Data Access web services are available:
+            <ul>
+              <li><a href="#SDMTabularService">https://SDMDataAccess.sc.egov.usda.gov/Tabular/SDMTabularService.asmx</a></li>
+              <li><a href="#PostRestService">https://SDMDataAccess.sc.egov.usda.gov/Tabular/post.rest</a></li>
+              <li><a href="#SDMWGS84Geographic">https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDMWGS84Geographic.wfs</a></li>
+              <li><a href="#SDMNAD83Geographic">https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDMNAD83Geographic.wfs</a></li>
+              <li><a href="#SDMWM">https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDMWM.wfs</a></li>
+              <li><a href="#SDM">https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDM.wms</a></li>
+              <li><b>NEW</b> – Access SDMDataAccess WFS 1.3.0 and WMS 2.0.0 web services <a href="https://sdmdataaccess.sc.egov.usda.gov/Spatial2/">here</a></li>
+            </ul>
+            The current Soil Data Access Web Map Service (WMS) supports Open Geospatial Consortium (OGC) WMS version 1.1.1 requests while the current
+            Soil Data Access Web Feature Services (WFS) support OGC WFS version 1.1.0 (GML2/GML3) requests.  GML is an acronym for Geography Markup Language, and  
+            is the XML grammar defined by the Open Geospatial Consortium (OGC) to express geographical features. GML serves as a modeling language for geographic systems as well as an open 
+            interchange format for geographic transactions on the Internet.  EPSG is an acronym used throughout the Soil Data Access web pages.  It stands for European Petroleum Survey Group.  
+            They publish a database of coordinate system information plus some very good related documents on map projections and datums.
+            <br/><br/>
+            The current Soil Data Access WMS service is supported by the following ArcGIS Desktop versions:
+            <ul style="margin-top:2px">
+	             <li>ArcGIS 9.2</li>
+	             <li>ArcGIS 9.1</li>
+	             <li>ArcGIS 8.3 with the free OGC Add-On</li>
+            </ul>
+            The current Soil Data Access WFS services are supported by the following ArcGIS Desktop versions:
+            <ul style="margin-top:2px">
+	             <li>ArcGIS 9.2 with a licensed Data Interoperability extension</li>
+	             <li>ArcGIS 9.1 with a licensed Data Interoperability extension</li>
+	             <li>ArcGIS 8.3 with the free OGC Add-On</li>
+            </ul>
+            For other products that support the current Soil Data Access web map service or web feature services,
+            please visit 
+              <a href="http://www.opengeospatial.org/resource/products/byspec" target="_blank" rel="noopener noreferrer">http://www.opengeospatial.org/resource/products/byspec</a>
+            and select specification "Web Map Service v.1.1.1" or "Web Feature Service v.1.0.0", respectively.
+            For instructions for integrating the Soil Data Access web services into your Geographical Information System (GIS) or other related product,
+            please refer to your vendor's documentation.
+            <br/><br/>
+            The following conventions are used when describing all web service method input parameters:<br/>
+            <table width="100%" cellspacing="0" cellpadding="0" border="0">
+              <tr><td width="25">&nbsp;</td><td>{} = required parameter</td></tr>
+              <tr><td width="25">&nbsp;</td><td>[] = optional parameter</td></tr>
+              <tr><td width="25">&nbsp;</td><td>| = "or" (separates alternatives)</td></tr>
+              <tr><td width="25">&nbsp;</td><td>&lt;label&gt; = variable or definition block</td></tr>
+              <tr><td width="25">&nbsp;</td><td>parameter names and values are case insensitive</td></tr>
+            </table>
+
+            <h2>Web Services</h2>
+            <a name="SDMTabularService"/><h3><i>https://SDMDataAccess.sc.egov.usda.gov/Tabular/SDMTabularService.asmx</i></h3>
+            [<a href="https://sdmdataaccess.nrcs.usda.gov/Tabular/SDMTabularService.asmx" id="LnkSDMTabularService" target="wswindow">WSDL</a>]
+            <a href="#top" class="SDM_BackToTop"><img src="images/BackToTop.gif" alt="Back to Top" hspace="4" border="0" /></a><br/>
+            This service provides access to tabular data contained within the Soil Data Mart database. The request is made via SOAP.  
+            SOAP, an acronym for Simple Object Access Protocol, is a protocol specification for exchanging structured information in the implementation of web services in computer networks.
+            <br/><br/>
+            <i>Methods:</i> <a href="#RunQuery">RunQuery</a>
+            <br />
+            <a name="PostRestService"/><h3><i>https://SDMDataAccess.sc.egov.usda.gov/Tabular/post.rest</i></h3>
+			(WSDL not applicable)
+            <a href="#top" class="SDM_BackToTop"><img src="images/BackToTop.gif" alt="Back to Top" hspace="4" border="0" /></a><br/>
+            This service either provides (1) access to tabular and spatial data contained within the Soil Data Mart 
+            database via Structured Query Language (SQL) queries, or (2) the ability to define a "persistent Area of Interest" (pAOI). 
+            The request is made via REST/POST.  REST, Representational State Transfer, is a software architectural style for the Internet.  
+            It relies on a stateless, client-server, cacheable communications protocol.
+            <br/><br/>
+            <i>Service:</i> <a href="#PostRest">post.rest</a>
+            <br />
+            <a name="SDMWGS84Geographic"/><h3><i>https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDMWGS84Geographic.wfs</i></h3>
+            [<a href="https://sdmdataaccess.nrcs.usda.gov/Spatial/SDMWGS84Geographic.wfs" id="LnkSDMWGS84Geographic" target="wswindow">WSDL</a>]
+            <a href="#top" class="SDM_BackToTop"><img src="images/BackToTop.gif" alt="Back to Top" hspace="4" border="0" /></a><br/>
+            This service returns features in World Geodetic System of 1984 (WGS84) Geographic (EPSG 4326) coordinates.  Input parameters for the
+            GetFeature method include one or more spatial filters and the name of the feature type layer that
+            should be returned.  The volume of information that can be returned by a GetFeature request is
+            constrained by limiting the extent of any input spatial filter.
+            <br/><br/>
+            <i>Methods:</i> <a href="#GetCapabilities">GetCapabilities</a>, <a href="#DescribeFeatureType">DescribeFeatureType</a>, <a href="#GetFeature">GetFeature</a>
+            <br />
+            <a name="SDMNAD83Geographic"/><h3><i>https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDMNAD83Geographic.wfs</i></h3>
+            [<a href="https://sdmdataaccess.nrcs.usda.gov/Spatial/SDMNAD83Geographic.wfs" id="LnkSDMNAD83Geographic" target="wswindow">WSDL</a>]
+            <a href="#top" class="SDM_BackToTop"><img src="images/BackToTop.gif" alt="Back to Top" hspace="4" border="0" /></a><br/>
+            This service returns features in North American Datum of 1983 (NAD83) Geographic (EPSG 4269) coordinates.  Input parameters for the
+            GetFeature method include one or more spatial filters and the name of the feature type or layer that
+            should be returned.  The volume of information that can be returned by a GetFeature request is
+            constrained by limiting the extent of any input spatial filter.
+            <br/><br/>
+            <i>Methods:</i> <a href="#GetCapabilities">GetCapabilities</a>, <a href="#DescribeFeatureType">DescribeFeatureType</a>, <a href="#GetFeature">GetFeature</a>
+            <br />
+            <a name="SDMWM"/><h3><i>https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDMWM.wfs</i></h3>
+            [<a href="https://sdmdataaccess.nrcs.usda.gov/Spatial/SDMWM.wfs" id="LnkSDMWM" target="wswindow">WSDL</a>]
+            <a href="#top" class="SDM_BackToTop"><img src="images/BackToTop.gif" alt="Back to Top" hspace="4" border="0" /></a><br/>
+            This service returns features in Web Mercator (EPSG 3857) coordinates.  Input parameters for the
+            GetFeature method include one or more spatial filters and the name of the feature type or layer that
+            should be returned.  The volume of information that can be returned by a GetFeature request is
+            constrained by limiting the extent of any input spatial filter.
+            <br/><br/>
+            <i>Methods:</i> <a href="#GetCapabilities">GetCapabilities</a>, <a href="#DescribeFeatureType">DescribeFeatureType</a>, <a href="#GetFeature">GetFeature</a>
+            <br />
+            <a name="SDM"/><h3><i>https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDM.wms</i></h3>
+            [<a href="https://sdmdataaccess.nrcs.usda.gov/Spatial/SDM.wms" id="LnkSDM" target="wswindow">WSDL</a>]
+            <a href="#top" class="SDM_BackToTop"><img src="images/BackToTop.gif" alt="Back to Top" hspace="4" border="0" /></a><br/>
+            This service returns map images in common image formats such as JPEG, GIF, PNG, and others.  Input
+            parameters for the GetMap method include projection, image width and height in pixels, a single
+            bounding box spatial filter, the names of the feature types or layers that should be returned and
+            image format.  The volume of information that can be returned by a GetMap request is constrained by
+            limiting the extent of the input spatial filter.
+            <br/><br/>
+            <i>Methods:</i> <a href="#GetCapabilities">GetCapabilities</a>, <a href="#DescribeLayer">DescribeLayer</a>, <a href="#GetStyles">GetStyles</a>, <a href="#GetFeatureInfo">GetFeatureInfo</a>, <a href="#GetMap">GetMap</a>
+            <br/><br/>
+            <i>To add this service to ArcMap:</i>  Click "Add Data", then "GIS Servers", then "Add WMS Server".
+            For the URL, type the web service URL without any query string parameters, such as
+            https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDM.wms?.  Click OK.  Click Add.  Select the Soil
+            Data Mart Data Access Web Map Service.  Click Add.  The layers have maximum and minimum scale
+            thresholds for visibility so you may need to zoom in to see a map.
+            <br/>
+            <h2>Web Service Methods</h2>
+            <a name="RunQuery"/><h3><i>RunQuery</i><a href="#top" class="SDM_BackToTop"><img src="images/BackToTop.gif" alt="Back to Top" hspace="4" border="0" /></a></h3>
+            This method returns the output for one or more SQL Select statements (and related macros)
+            or a single ADO Shape command
+            that is executed against the Soil Data Mart database.  The output is returned in HTML or XML format  
+            (which can be transformed into a Microsoft .Net Framework DataSet if you should so desire).  This method
+            can throw the following exceptions: "The Soil Data Mart is down." and exceptions that begin with
+            "Invalid query", "Server error", "Your immediate query timed out", or "Memory limit".  All supporting
+            documentation for creating queries to be executed against the Soil Data Mart database is available on
+            the <a href="QueryHelp.aspx">Query Help</a> page.  An interface for testing this method can be found
+            on the <a href="Query.aspx">Query</a> page. See also the <a href="#PostRestService">post.rest service</a>
+            for a more powerful access mechanism.
+            <br/><br/>
+            <i>Web services for which this method is supported:</i><br/>
+            <a href="#SDMTabularService">https://SDMDataAccess.sc.egov.usda.gov/Tabular/SDMTabularService.asmx</a>
+            <br/><br/>
+            <i>Input parameters:</i><br/>
+            <table width="100%" cellspacing="0" cellpadding="1" border="1">
+              <col span="1" align="center" width="30%"/>
+              <col span="1"/>
+              <tr bgcolor="#ececec"><th>Input Parameter</th><th>Description</th></tr>
+              <tr><td>{ QUERY }</td><td>either an SQL script that includes one or more Select statements or a single Shape command</td></tr>
+            </table>
+            <br/>
+            <i>Sample URL:</i><br/>
+            This method cannot be invoked by a URL submitted via a web browser.
+            <br />
+            <a name="PostRest"/><h3><i>post.rest</i><a href="#top" class="SDM_BackToTop"><img src="images/BackToTop.gif" alt="Back to Top" hspace="4" border="0" /></a></h3>
+            <p>
+            This service provides
+			<ol>
+			<li>access to tabular and spatial data contained within the Soil Data Mart 
+            database via SQL queries (the <a href="#PostRestQueryService">"Query Service"</a>), </li>
+			<li>the ability to define a "persistent Area of Interest" (pAOI)
+            (the <a href="#PostRestAoiCreationService">"AOI Creation Service"</a>), and </li>
+			<li>the ability to run an "interpretation" (or "rating") on the pAOI
+			(the <a href="#PostRestInterpretationService">"Post.Rest Interpretation Service"</a>).</li>
+			<li>the ability to run a "report" on the pAOI
+			(the <a href="#PostRestReportService">"Post.Rest Report Service"</a>).</li>
+			</ol>
+			These methods cannot be invoked by a URL submitted via a web browser,
+            the request is made via REST/POST using Web Service<br/>
+            <a href="#PostRestService">https://SDMDataAccess.sc.egov.usda.gov/Tabular/post.rest</a>
+			<br />
+            <h4><a name="PostRestQueryService"/>The Post.Rest Query Service</h4>
+			This service is similar to the RunQuery method described immediately above. 
+			Request parameters must be submitted via POST, the output is returned either as Extensible Markup Language (XML) or as JavaScript Object Notation (JSON) 
+            (or as plain text, if using the tilde (~) format option).
+            All supporting documentation for creating queries to be executed against the Soil Data Mart 
+			database is available on the <a href="QueryHelp.aspx">Query Help</a> page.
+			A maximum of 100,000 rows may be returned.
+            <i>Input parameters:</i><br/>
+            <table width="100%" cellspacing="0" cellpadding="1" border="1">
+              <col span="1" align="center" width="30%"/>
+              <col span="1"/>
+              <tr bgcolor="#ececec"><th>Input Parameter</th><th>Description</th></tr>
+              <tr><td>[ SERVICE = query ]</td><td>
+                  post.rest service specification, optional.
+              </td></tr>
+              <tr><td>[ REQUEST = query ]</td><td>
+                  post.rest query request specification, optional.
+              </td></tr>
+              <tr><td>{ QUERY = the query }</td><td>either an SQL script that includes one or more Select statements (with optional macros) 
+                  or a single Shape command, see notes below.
+              </td></tr>
+              <tr><td>[ FORMAT = XML | JSON | JSON+COLUMNNAME | JSON+COLUMNNAME+METADATA | ~ ]</td><td>
+                  output format (default is XML). See notes below regarding the JSON* and "~" values.
+              </td></tr>
+            </table>
+            <br/>
+              <i>Notes</i>
+              <p>
+                The "Shape" command may only be used with the XML or "~" formats.
+              </p>
+              <p>
+              If JSON+COLUMNNAME is used, the first row returned contains the name of each
+              column, the actual data starts at the second row. Similarly, if JSON+COLUMNNAME+METADATA is used, 
+              first row returned contains the name of each column, the second contains metadata about the column (such as numeric type,
+              column width (for char and varchar) and any other metadata presented by the underlying SQL Server database engine. 
+              Actual data starts in the third row, following the metadata.
+              </p>
+              <p>
+                The metadata for each column, consists of a set of comma-separated name=value pairs. The names are a subset of those
+                provided by SQL Server as documented in 
+                <a href="https://msdn.microsoft.com/en-us/library/system.data.sqlclient.sqldatareader.getschematable(v=vs.110).aspx">SqlDataReader.GetSchemaTable Method()</a>
+                In the case of “ProviderType” (presented by SQL Server as an integer) the integer value is translated into 
+                the corresponding “SqlDbType enumeration” as per
+                <a href="https://msdn.microsoft.com/en-us/library/cc716729(v=vs.110).aspx">SQL Server Data Type Mappings</a>.
+                There is some “noise” in the set of metadata attributes presented by SQL Server, for example 
+                “NumericPrecision=255,NumericScale=255” is shown when not applicable.
+              </p>
+              <p>
+              The tilde ("~") echoes the Query as text; it is not executed. If macros are used, the full 
+              macro expansion is displayed.
+              </p>
+
+            <h4><a name="PostRestAoiCreationService" />The Post.Rest AOI Creation Service</h4>
+			
+            A "persistent" Area of Interest (pAOI) may be used to define a subset of soils data.
+            Once defined, the subset may be used for subsequent queries, for executing 
+            interpretations and caching results with the pAOI, and for map service 
+            access via WMS or WMS service requests. The pAOI will persist for at least 
+            twenty four hours after its creation. You will see the term GeoJSON mentioned on this page.  
+            GeoJSON is an open standard format designed for representing simple geographic features along with their non-spatial attributes, based on JavaScript Object Notation.
+			<br/><br/>
+            <i>Input parameters: (see notes below)</i><br/>
+            <table width="100%" cellspacing="0" cellpadding="1" border="1">
+              <col span="1" align="center" width="30%"/>
+              <col span="1"/>
+              <tr bgcolor="#ececec"><th>Input Parameter</th><th>Description</th></tr>
+              <tr><td>{ SERVICE = aoi }</td><td>
+                  post.rest service specification, required.
+              </td></tr>
+              <tr><td>{ REQUEST = create }</td><td>
+                  post.rest query request specification, required.
+              </td></tr>
+              <tr><td> [ AOICOORDS = the aoicoords ] </td><td> The AOI's geometry. </td></tr>
+              <tr><td> [ MUKEYLIST = the list of keys ] </td><td> A comma-separated list of 1 to 1,000 mapunit key values 
+                  (no whitespace). </td></tr>
+              <tr><td> [ SSA = the areasymbol ] </td><td> A valid areasymbol for a soil survey area. </td></tr>
+              <tr><td> [ WSSAOIID = WSS aoiid value ] </td><td> The AOIID value of an active WSS AOI to be imported. </td></tr>
+
+              <tr><td> [ FILTER = the filter specification ] </td><td> A SQL "where clause" for filtering GeoJSON features.</td></tr>
+              <tr><td> [ PARTNAME = the partname specification ] </td><td> The specification for naming part names in a multi-part AOI. </td></tr>
+            </table>
+            <br/></br>
+
+            If successful the service returns the identifier of the created pAOI as a JSON string, for example
+              <br /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp />{"id":12345}<br/>
+            where "12345" is the identifier of the newly-created pAOI.
+            <br/></br>
+
+              <i>Notes</i>
+            The pAOI is defined by using one of three three mutually-exclusive parameters:
+              <ol>
+                  <li>AOICOORDS</li>
+                  <li>MUKEYLIST</li>
+                  <li>SSA</li>
+                  <li>WSSAOIID</li>
+              </ol>
+            <br/>
+
+            By default the pAOI consists of a set of one or more polygons (which may each have optional interior voids).
+              It is possible to define a "multi-part" pAOI, where each part has a distinct name, the names are 
+              optionally used for labeling the parts in maps. Each part may 
+              consist of a set of one or more polygons (which may each have optional interior voids).
+              The named parts may be defined for AOIs defined via AOICOORDS/GeoJSON or AOICOORDS/Shapefile.
+
+              The AOICOORDS value is to be provided in one of four forms:
+              <ol>
+                  <li>A Web Soil Survey-style Well Known Text (WKT) polygon with no inner voids, the keyword "polygon" is not required.
+                      Coordinates are in World Geodetic System of 1984 (WGS84).
+                  </li>
+                  <li>A WKT string specifying a polygon, multipolygon, or geometry collection. Coordinates are in World Geodetic System of 1984 (WGS84).</li>
+                  <li>A GeoJSON string with coordinates in World Geodetic System of 1984 (WGS84). If the GeoJSON contains feature properties, the properties 
+                      may be used in conjunction with the FILTER parameter to weed-out features from inclusion in the
+                      pAOI, the properties may also be used in conjunction with the PARTNAME parameter to control 
+                      creation and naming of the parts of a multi-part pAOI.
+                  </li>
+                  <li>The comma-separated list of "shapefile", followed by the base-64-encoded ".shp" file,  
+                      followed by the base-64-encoded ".shx" file,  
+                      followed by the base-64-encoded ".dbf" file,  
+                      optionally followed by the base-64-encoded ".dbf" file. If the ".dbf" file
+                      is included and it contains a text column named "partname" (case-insensitive, 20 characer 
+                      maxximum width) the value for each record in the dbf file is used to name
+                      a part in the mult-part AOI.
+                  </li>
+              </ol>
+            <br/>
+
+            The FILTER parameter is used in conjunction with AOICOORDS/GEOJSON data. It takes the form
+              of the body of a SQL "where" clause, where one or more GeoJSON feature properties
+              (whose names are surrounded by square brackets) are logically combined to specify
+              which features are to be retained. For example, assume that the set of features 
+              includes the property "Calculated Acres". Only features with a value greater than 0.03
+              could be specified for inclusion in the pAOI by specifying:
+              <br /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp />filter=[Calculated Acres] > 0.03<br /><br />
+              More complex queries may be formed by referencing one or more feature names
+              combined with operators that are permissable in a "where" clause.
+
+            The PARTNAME parameter is used in one of two forms with AOICOORDS/GEOJSON data.
+              It is used to specify the naming of parts for a multi-part AOI.
+            <br /><br />In the first form a single feature property name is specified,
+              surrounded by square brackets. For example if each feature contains a
+              property named "id" then the parts would be named based upon the "id" value thusly:
+              <br /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp />partname=[id]<br /><br />
+            The second form takes a comma-separated list of one or more square-bracketed
+              feature property names followed by a semicolon and a "composite format string"
+              (see for example <a href="https://msdn.microsoft.com/en-us/library/txafckwd(v=vs.110).aspx">
+                  this Microsoft link</a>).
+              The property names, numbered 0, 1, 2, etc., are referenced in the composite
+              format string to allow composition of the part name from the properties' values.
+              For example, suppose you want to format a phone number as (123) 456-7890
+              from properties "areacode", "prefix" and "suffix". You could use:
+              <br /><nbsp /><nbsp /><nbsp /><nbsp /><nbsp />partname=[areacode],[prefix],[suffix];({0}) {1}-{2}<br /><br />
+
+              Each parameter, if used, requires a value. The AOICOORDS, MUKEYLIST and SSA parameters
+              are mutually-exclusive - you must specify one and only one of these in a service request.
+            <br />
+            <h4><a name="PostRestInterpretationService" />The Post.Rest Interpretation Service</h4>
+
+			Once an Area of Interest (AOI) has been defined, "interpretations" may be performed
+			and the interpretation results, persisted alongside the AOI data, retrieved via 
+			either queries or WFS or WMS service requests. Any of the "Ratings" presented by
+			<a href="https://websoilsurvey.sc.egov.usda.gov/App/WebSoilSurvey.aspx">Web Soil Survey (WSS)</a>
+			on the "Soil Data Explorer" page's "Suitabilities and Limitations for Use"
+			and "Soil Properties and Qualities" tabs may be executed. As in Web Soil Survey, avaliability 
+			of a specific interpretation (also called an "attribute" or "rule") is subject 
+			to applicability of the interpretation to the location of the AOI and the 
+			data available within the AOI. In addition you may define your own rating
+			results and associated colors, this "ad-hoc" rating may then be queried and viewed
+			as though it were one of the standard ratings provided by Web Soil Survey. See
+			<a href="./documents/AdvancedQueries.html">Advanced Queries</a> for more detail.
+			
+            <br/><br/>
+            <i>Input parameters: (see notes below)</i><br/>
+            <table width="100%" cellspacing="0" cellpadding="1" border="1">
+              <col span="1" align="center" width="30%"/>
+              <col span="1"/>
+              <tr bgcolor="#ececec"><th>Input Parameter</th><th>Description</th></tr>
+              <tr><td>{ SERVICE = interpretation }</td><td>
+                  post.rest service specification, required.
+              </td></tr>
+              <tr><td>{ REQUEST = getusecategories | getcatalog | getdescription | getruledata | getrating }</td><td>
+                  post.rest request specification, required.
+              </td></tr>
+              <tr><td> [ USECATEGORYID = use category value ] </td>
+			  <td> The use category number (returned by "getusecategories"), used to filtering the catalog, optional. </td></tr>
+
+              <tr><td> [ AOIID = aoiiid ] </td><td> The AOI that is the subject of the interpretation, required 
+			  for "getcatalog" and "getruledata". May also be used for "getrating" (see notes below).</td></tr>
+			  
+              <tr><td> [ FORMAT = short | long ] </td><td>Used by "getruledata". 
+			  "Short" (the default) returns JSON "shortformdata", "Long" returns XML that provides
+			  option choices and other metadata.
+			  </td></tr>
+			  
+              <tr><td> [ ATTRIBUTEKEY = attributekey value ] </td>
+			  <td>Key (from "getcatalog") of the desired interpretation.
+			  Required for "getruledata". Mutually exclusive with "interpresultid" and "thematicmapid".
+              Required for "getdescription". May also be used for "getrating" (see notes below).
+			  </td></tr>
+			  
+              <tr><td> [ INTERPRESULTID = interpresultid value ] </td>
+			  <td>ID of a prior SDA interpretation, used to retrieve prior short or long
+			  format data. Required for "getruledata",
+			  mutually exclusive with "attributekey" and "thematicmapid".</td></tr>
+			  
+              <tr><td> [ THEMATICMAPID = interpresultid value ] </td>
+			  <td>ID of a prior Web Soil Survey interpretation, used to retrieve prior short or long
+			  format data. Required for "getruledata",
+			  mutually exclusive with "attributekey" and "interpresultid".</td></tr>
+			  
+              <tr><td> [ SHORTFORMDATA = short JSON value ] </td>
+			  <td> Rule data used to run a rating, required for "getrating" unless both 
+              "aoiid" and "attributekey" are specified (see notes below).
+			  </td></tr>
+            </table>
+            <br/></br>
+			
+            <i>Notes</i>
+			<ol>
+			<li>
+			To run a rating ("getrating") you must provide input data via the "shortform"
+			(which includes the relevant AOIID and ATTRIBUTEKEY). Note that the "short"
+			format response returned by "getruledata" is useable as-is for most
+			interpretations (it includes the AOIID and ATTRIBUTEKEY properties) - 
+			there area few interpretations, such as "Calcium Carbonate (CaCO3)"
+			that do not have all attributes set. 
+			Refer to <a href="./documents/AdvancedQueries.html">Advanced Queries</a>
+			for discussion on editing the "short" data and reading the "long"
+			XML for guidance.
+            If the default input data for a rule is appropriate for your application
+            and useable as-is then instead of using "shortformdata" you may specify 
+            "aoiid" and "attributekey".
+			</li>
+			<li>
+			INTERPRESULTID or THEMATICMAPID may be used to retrieve "long" or "short"
+			data from a prior interpretation performed in Soil Data Access or Web Soil Survey. In such a case
+			the AOIID property must be edited to reflect the target SDA AOI.
+			Note that this prior interpretation may not be relevant to 
+			other AOIs.
+			</li>
+			<li>The set of all appropriate interpretations for an Area of Interest (AOI) are provided
+			by "getcatalog". This catalog, provided as a nested JavaScript Object Notation (JSON) string,
+			shows all interpretations (including name and key) that are 
+			registered for the specified Area of Interest.
+			</li>
+			</ol>
+
+            <br />
+            <h4><a name="PostRestReportService" />The Post.Rest Report Service</h4>
+
+			Once an Area of Interest (AOI) has been defined, "Reports" may be executed.
+			Any of the "Reports" presented by
+			<a href="https://websoilsurvey.sc.egov.usda.gov/App/WebSoilSurvey.aspx">Web Soil Survey (WSS)</a>
+			on the "Soil Data Explorer" page's "Soil Reports" tab may be executed. As in Web Soil Survey, avaliability 
+			of a specific report is subject to applicability of the report to the location of the AOI and the 
+			data available within the AOI. 
+              
+            <br/><br/>
+            <i>Input parameters: (see notes below)</i><br/>
+            <table width="100%" cellspacing="0" cellpadding="1" border="1">
+              <col span="1" align="center" width="30%"/>
+              <col span="1"/>
+              <tr bgcolor="#ececec"><th>Input Parameter</th><th>Description</th></tr>
+              <tr><td>{ SERVICE = report }</td><td>
+                  post.rest service specification, required.
+              </td></tr>
+              <tr><td>{ REQUEST = getusecategories | getcatalog | getdescription | getreportdata | getreport }</td><td>
+                  post.rest request specification, required.
+              </td></tr>
+              <tr><td> [ USECATEGORYID = use category value ] </td>
+			  <td> The use category number (returned by "getusecategories"), used to filtering the catalog, optional. </td></tr>
+
+              <tr><td> [ AOIID = aoiiid ] </td><td> The AOI that is the subject of the report, required 
+			  for "getcatalog" and "getreportdata". May also be used for "getreport" (see notes below).</td></tr>
+			  
+              <tr><td> [ FORMAT = short | long ] </td><td>Used by "getreportdata". 
+			  "Short" (the default) returns JSON "shortformdata", "Long" returns XML that provides
+			  option choices and other metadata.
+			  </td></tr>
+			  
+              <tr><td> [ REPORTID = reportid value ] </td>
+			  <td>Key (from "getcatalog") of the desired report.
+			  Required for "getreportdata". 
+              Required for "getdescription". May also be used for "getreport" (see notes below).
+			  </td></tr>
+			  		  
+              <tr><td> [ SHORTFORMDATA = short JSON value ] </td>
+			  <td> Report data used to run a report, required for "getreport" unless both 
+              "aoiid" and "reportkey" are specified (see notes below).
+			  </td></tr>
+            </table>
+            <br/></br>
+			
+            <i>Notes</i>
+			<ol>
+			<li>
+			To run a report ("getreport") you must provide input data via the "shortform"
+			(which includes the relevant AOIID and REPORTID). Note that the "short"
+			format response returned by "getreportdata" is useable as-is for most
+			reports (it includes the AOIID and REPORTID properties) - 
+			there area few reports, such as "Selected Soil Interpretation Description and Criteria Summary"
+			that do not have all attributes set. 
+			Refer to <a href="./documents/AdvancedQueries.html">Advanced Queries</a>
+			for discussion on editing the "short" data and reading the "long"
+			XML for guidance.
+            If the default input data for a report is appropriate for your application
+            and useable as-is then instead of using "shortformdata" you may specify 
+            "aoiid" and "report".
+			</li>
+            <li>
+            The response to a getreport request is in XML DocBook format.
+            </li>
+			<li>The set of all appropriate reports for an Area of Interest (AOI) are provided
+			by "getcatalog". This catalog, provided as a nested JavaScript Object Notation (JSON) string,
+			shows all reports (including name and id) that are 
+			registered for the specified Area of Interest.
+			</li>
+			</ol>    
+
+            <a name="GetCapabilities"/><h3><i>GetCapabilities</i><a href="#top" class="SDM_BackToTop"><img src="images/BackToTop.gif" alt="Back to Top" hspace="4" border="0" /></a></h3>
+            This method returns information about the corresponding web service.  This information includes
+            supported methods, supported feature types or layers, supported spatial filters and supported
+            projection(s).
+            <br/><br/>
+            <i>Web services for which this method is supported:</i><br/>
+            <a href="#SDMWGS84Geographic">https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDMWGS84Geographic.wfs</a><br/>
+            <a href="#SDMNAD83Geographic">https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDMNAD83Geographic.wfs</a><br/>
+            <a href="#SDMWM">https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDMWM.wfs</a><br/>
+            <a href="#SDM">https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDM.wms</a>
+            <br/><br/>
+            <i>Input parameters:</i><br/>
+            <table width="100%" cellspacing="0" cellpadding="1" border="1">
+              <col span="1" align="center" width="30%"/>
+              <col span="1"/>
+              <tr bgcolor="#ececec"><th>Input Parameter</th><th>Description</th></tr>
+              <tr><td>[ SERVICE=WFS | WMS ]</td><td>corresponding OGC service type, default based upon name of service</td></tr>
+              <tr><td>[ VERSION=1.1.0 ]</td><td>OGC version number when SERVICE=WFS (default = 1.1.0)</td></tr>
+              <tr><td>[ VERSION=1.1.1 ]</td><td>OGC version number when SERVICE=WMS (default = 1.1.1)</td></tr>
+              <tr><td>{ REQUEST=GetCapabilities }</td><td>method name</td></tr>
+            </table>
+            <br/>
+            <i>Sample URL:</i><br/>
+            <a href="./Spatial/SDMWGS84Geographic.wfs?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetCapabilities" target="wsservice">
+              https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDMWGS84Geographic.wfs ?SERVICE=WFS&amp;VERSION=1.1.0 &amp;REQUEST=GetCapabilities
+            </a>
+            <br />
+            <a name="DescribeFeatureType"/><h3><i>DescribeFeatureType</i><a href="#top" class="SDM_BackToTop"><img src="images/BackToTop.gif" alt="Back to Top" hspace="4" border="0" /></a></h3>
+            This method returns information about the feature types or layers supported by the corresponding
+            web service.  This information includes geometry type, attribute names and data types.
+            Thematic map feature types are supported only by the Web Mercator (SDMWM.wfs) service.
+            <br/><br/>
+            <i>Web services for which this method is supported:</i><br/>
+            <a href="#SDMWGS84Geographic">https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDMWGS84Geographic.wfs</a><br/>
+            <a href="#SDMNAD83Geographic">https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDMNAD83Geographic.wfs</a><br/>
+            <a href="#SDMWM">https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDMWM.wfs</a><br/>
+            <br/><br/>
+            <i>Input parameters:</i><br/>
+            <table width="100%" cellspacing="0" cellpadding="1" border="1">
+              <col span="1" align="center" width="30%"/>
+              <col span="1"/>
+              <tr bgcolor="#ececec"><th>Input Parameter</th><th>Description</th></tr>
+              <tr><td>[ SERVICE=WFS ]</td><td>OGC service type</td></tr>
+              <tr><td>[ VERSION=1.0.0 | 1.1.0 ]</td><td>OGC version number (default = 1.1.0)</td></tr>
+              <tr><td>{ REQUEST=DescribeFeatureType }</td><td>method name</td></tr>
+              <tr><td>[ TYPENAME=&lt;<a href="./LayerHelp.htm" target="SDA_LayerHelp">layer name</a>&gt; ]</td><td>feature type or layer name (default = all feature types or layers)</td></tr>
+              <tr><td>[ OUTPUTFORMAT=XMLSCHEMA | SFE_XMLSCHEMA ]</td><td>output format (default = XMLSCHEMA)</td></tr>
+            </table>
+            <br/>
+            <i>Sample URL:</i><br/>
+            <a href="./Spatial/SDMWGS84Geographic.wfs?SERVICE=WFS&VERSION=1.1.0&REQUEST=DescribeFeatureType" target="wsservice">
+              https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDMWGS84Geographic.wfs ?SERVICE=WFS&amp;VERSION=1.1.0 &amp;REQUEST=DescribeFeatureType
+            </a>
+            <br />
+            <a name="GetStyles"/><h3><i>GetStyles</i><a href="#top" class="SDM_BackToTop"><img src="images/BackToTop.gif" alt="Back to Top" hspace="4" border="0" /></a></h3>
+
+			This method returns a "Styled Layer Descriptor" (SLD) for the specified layer(s) as an XML file. 
+			The SLD may be edited and used in conjunction with a <a href="#GetMap">GetMap</a> "SLD_BODY"
+			request to tailor the appearance of a map. SLD is documented at <a href="http://mapserver.org/ogc/sld.html">Mapserver SLD</a>.
+            <br/><br/>
+            <i>Web services for which this method is supported:</i><br/>
+            <a href="#SDM">https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDM.wms</a>
+            <br/><br/>
+            <i>Input parameters:</i><br/>
+            <table width="100%" cellspacing="0" cellpadding="1" border="1">
+              <col span="1" align="center" width="30%"/>
+              <col span="1"/>
+              <tr bgcolor="#ececec"><th>Input Parameter</th><th>Description</th></tr>
+              <tr><td>[ SERVICE=WMS ]</td><td>OGC service type</td></tr>
+              <tr><td>[ VERSION=1.1.1 ]</td><td>OGC version number (default = 1.1.1)</td></tr>
+              <tr><td>{ REQUEST=GetStyles }</td><td>method name</td></tr>
+              <tr><td>{ LAYERS=&lt;layer name list&gt; }</td><td>feature type or layer name(s), comma-separated</td></tr>
+            </table>
+            <br/><br/>
+            &lt;layer name list&gt; ::= { &lt;<a href="./LayerHelp.htm" target="SDA_LayerHelp">layer name</a>&gt; [ ,...n ] }
+			<br/><br />
+            <i>Sample URL:</i><br/>
+            <a href="./Spatial/SDM.wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetStyles&LAYERS=mapunitpoly,featpoint" target="wsservice">
+              https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDM.wms?SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetStyles&amp;LAYERS=mapunitpoly,featpoint
+            </a>
+            <br/><br/>
+
+            <div class="inset">
+                <mark>
+                    NOTE: Raw text in a Label tag in SLD is now interpreted as an implicit Literal instead of an implicit PropertyName. Please update your SLD to explicitly mark any Property names within Label tags as below. 
+                </mark>
+                <br/><br/>
+                <span class="SDM_InfoPanel">
+                    &lt;Label&gt;&lt;PropertyName&gt;musym&lt;/PropertyName&gt;&lt;/Label&gt; 
+                </span>
+            </div>
+
+            <a name="GetFeature"/><h3><i>GetFeature</i><a href="#top" class="SDM_BackToTop"><img src="images/BackToTop.gif" alt="Back to Top" hspace="4" border="0" /></a></h3>
+            This method returns a feature collection for a single feature type or layer, for a user specified area of interest.
+            Spatial data are returned only for OUTPUTFORMAT=GML2 or GML3.
+            Thematic map feature types are supported only by the Web Mercator (SDMWM.wfs) service.
+            <br/><br/>
+            <i>Web services for which this method is supported:</i><br/>
+            <a href="#SDMWGS84Geographic">https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDMWGS84Geographic.wfs</a><br/>
+            <a href="#SDMNAD83Geographic">https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDMNAD83Geographic.wfs</a><br />
+            <a href="#SDMWM">https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDMWM.wfs</a>
+            <br/><br/>
+            <i>Input parameters:</i><br/>
+            <table width="100%" cellspacing="0" cellpadding="1" border="1">
+              <col span="1" align="center" width="30%"/>
+              <col span="1"/>
+              <tr bgcolor="#ececec"><th>Input Parameter</th><th>Description</th></tr>
+              <tr><td>[ SERVICE=WFS ]</td><td>OGC service type</td></tr>
+              <tr><td>[ VERSION=1.0.0 | 1.1.0 ]</td><td>OGC version number (default = 1.1.0)</td></tr>
+              <tr><td>{ REQUEST=GetFeature }</td><td>method name</td></tr>
+              <tr><td>{ TYPENAME=&lt;<a href="./LayerHelp.htm" target="SDA_LayerHelp">layer name</a>&gt; }</td><td>feature type or layer name</td></tr>
+              <tr><td>[ AOIID=&lt;aoiid&gt; ]</td>
+                  <td>Persisent ID obtained when creating an SDA "persistent AOI".</td></tr>
+              <tr><td>[ INTERPRESULTID=&lt;interpresultid&gt; ]</td>
+                  <td>Interpretation result ID obtained when executing an interpretation within SDA.</td></tr>
+              <tr><td>[ THEMATICMAPID=&lt;integer&gt; ]</td>
+                  <td>Thematic Map ID obtained from a Web Soil Survey thematic map.</td></tr>
+              <tr><td>[ SRSNAME=&lt;<a href="SpatialReferenceHelp.htm" target="SDA_SystemHelp">EPSG projection code&gt;</a> ]</td>
+				  <td>EPSG spatial reference system code for defining location.</td></tr>
+              <tr><td>{ &lt;<a href="SpatialFilterHelp.htm" target="SDA_FilterHelp">spatial filter</a>&gt; }</td><td>spatial filter(s) in the appropriate spatial reference system</td></tr>
+              <tr><td>[ OUTPUTFORMAT=GML2 | GML3 | XMLMukeyList ]</td><td>output format (default = GML2, XMLMukeyList only works with mapunitpoly, mapunitpoint and mapunitline layers)</td></tr>
+              <tr><td>[ MAXFEATURES=&lt;integer&gt; ]</td><td>maximum number of features to be returned (limit: 250000)</td></tr>
+            </table>
+            <br/>
+           &lt;aoiid&gt; ::= See <a href="./documents/AdvancedQueries.html">Advanced Queries</a> regarding definition of a persistent AOI.
+            See <a href="./LayerHelp.htm" target="SDA_LayerHelp">layer name</a> for applicability.<br/><br/>
+            &lt;interpresultid&gt; ::= See <a href="./documents/AdvancedQueries.html">Advanced Queries</a> regarding execution of an "interpretation".
+            See <a href="./LayerHelp.htm" target="SDA_LayerHelp">layer name</a> for applicability.<br/><br/>
+            &lt;EPSG projection code&gt; ::= The default corresponsd to the name of the service file:
+            "epsg:4326" for SDMWGS84Geographic.wfs, "epsg:4269" for SDMNAD83Geographic.wfs and epsg:3857 for 
+            SDMWM.wfs.<br/><br/>
+            &lt;thematicmapid&gt; ::= After creating a thematic map in Web Soil Survey, you may use the 
+            "Identify" tool and click within the area of the map - the "ThematicMapID" will then be listed.
+            See <a href="./LayerHelp.htm" target="SDA_LayerHelp">layer name</a> for applicability.<br/><br/>
+            &lt;<a href="SpatialFilterHelp.htm" target="SDA_FilterHelp">spatial filter</a>&gt; ::= { BBOX=&lt;bounding box coordinates&gt; | FILTER=&lt;GML filter spec&gt; | FEATUREID=&lt;feature id&gt; }
+            <br/><br/>
+            <i>Sample URL:</i><br/>
+            <a href="./Spatial/SDMWGS84Geographic.wfs?SERVICE=WFS&VERSION=1.1.0&REQUEST=GetFeature&TYPENAME=MapunitPoly&FILTER=<Filter><BBOX><PropertyName>Geometry</PropertyName><Box srsName='EPSG:4326'><coordinates>-121.77100,37.368402 -121.76000,37.373473</coordinates></Box></BBOX></Filter>&SRSNAME=EPSG:4326&OUTPUTFORMAT=GML2" target="wsservice">
+              https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDMWGS84Geographic.wfs?SERVICE=WFS &amp;VERSION=1.1.0 &amp;REQUEST=GetFeature &amp;TYPENAME=MapunitPoly &amp;FILTER=&lt;Filter&gt;&lt;BBOX&gt;&lt;PropertyName&gt;Geometry&lt;/PropertyName&gt;&lt;Box srsName='EPSG:4326'&gt; &lt;coordinates&gt;-121.77100,37.368402 -121.76000,37.373473&lt;/coordinates&gt; &lt;/Box&gt;&lt;/BBOX&gt;&lt;/Filter&gt; &amp;SRSNAME=EPSG:4326 &amp;OUTPUTFORMAT=GML2
+            </a>
+            <br />
+            <a name="DescribeLayer"/><h3><i>DescribeLayer</i><a href="#top" class="SDM_BackToTop"><img src="images/BackToTop.gif" alt="Back to Top" hspace="4" border="0" /></a></h3>
+            This method exists to support user-defined styles by describing WMS named layers.  If a named layer is not feature based,
+            then the Layer Description is empty.  However if the named layer is feature based, then the “WFS” attribute gives the URL
+            prefix for the WFS containing the feature data.
+            <br/><br/>
+            <i>Web services for which this method is supported:</i><br/>
+            <a href="#SDM">https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDM.wms</a>
+            <br/><br/>
+            <i>Input parameters:</i><br/>
+            <table width="100%" cellspacing="0" cellpadding="1" border="1">
+              <col span="1" align="center" width="30%"/>
+              <col span="1"/>
+              <tr bgcolor="#ececec"><th>Input Parameter</th><th>Description</th></tr>
+              <tr><td>[ SERVICE=WMS ]</td><td>OGC service type</td></tr>
+              <tr><td>[ VERSION=1.1.1 ]</td><td>OGC version number</td></tr>
+              <tr><td>{ REQUEST=DescribeLayer }</td><td>method name</td></tr>
+              <tr><td>[ LAYERS=&lt;layer name list&gt; ]</td><td>feature type or layer name(s) (default = all applicable layers)</td></tr>
+            </table>
+            <br/>
+            &lt;layer name list&gt; ::= { &lt;<a href="./LayerHelp.htm" target="SDA_LayerHelp">layer name</a>&gt; [ ,...n ] }
+            <br/><br/>
+            <i>Sample URL:</i><br/>
+            <a href="./Spatial/SDM.wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=DescribeLayer&LAYERS=SurveyAreaPoly,MapunitPoly" target="wsservice">
+              https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDM.wms ?SERVICE=WMS&amp;VERSION=1.1.1 &amp;REQUEST=DescribeLayer &amp;LAYERS=SurveyAreaPoly,MapunitPoly
+            </a>
+            <br />
+            <a name="GetFeatureInfo"/><h3><i>GetFeatureInfo</i><a href="#top" class="SDM_BackToTop"><img src="images/BackToTop.gif" alt="Back to Top" hspace="4" border="0" /></a></h3>
+            This method returns information about particular features shown on a map.  It allows a client to request information about
+            features on a map by adding to the map URL additional parameters specifying a location (as an X, Y offset from the upper
+            left corner) and the number of nearby features about which to return information.  A Layer is said to be “queryable”
+            if the server supports the GetFeatureInfo operation on that Layer.  A server may support GetFeatureInfo on some of its
+            layers but not on all. The GetCapabilities request reports which layers, if any, are queryable. 
+            <br/><br/>
+            <i>Web services for which this method is supported:</i><br/>
+            <a href="#SDM">https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDM.wms</a>
+            <br/><br/>
+            <i>Input parameters:</i><br/>
+            <table width="100%" cellspacing="0" cellpadding="1" border="1">
+              <col span="1" align="center" width="30%"/>
+              <col span="1"/>
+              <tr bgcolor="#ececec"><th>Input Parameter</th><th>Description</th></tr>
+              <tr><td>{ REQUEST=GetFeatureInfo }</td><td>method name</td></tr>
+              <tr><td>{ QUERY_LAYERS=&lt;layer name list&gt; }</td><td>This is the map layer(s) for which feature information should be retrieved.  Its value is a comma-separated list of one or more map layers.  This parameter must contain at least one layer name, but may contain fewer layers than the original GetMap request.</td></tr>
+              <tr><td>{ X=pixel_column }</td><td>X coordinate in pixels of feature (measured from upper left corner=0)</td></tr>
+              <tr><td>{ Y=pixel_row }</td><td>Y coordinate in pixels of feature (measured from upper left corner=0)</td></tr>
+              <tr><td>[ INFO_FORMAT=text/html | text/plain | gml2 ]</td><td>return format of feature information (MIME type) (default = text/plain)</td></tr>
+              <tr><td>[ FEATURE_COUNT=&lt;integer&gt; ]</td><td>This is the maximum number of features for which feature information should be returned.  Its value must be a positive integer greater than zero (default = 1, limit: 250000).</td></tr>
+              <tr><td>[ EXCEPTIONS= xml | Application/VND.OGC.SE_XML ]</td><td>format in which exceptions are to be reported (default = XML)</td></tr>
+              <tr><td>{ &lt;map_request_copy&gt; }</td><td>partial copy of the request parameters that generated the map for which information is desired</td></tr>
+            </table>
+            <br/>
+            &lt;layer name list&gt; ::= { &lt;<a href="./LayerHelp.htm" target="SDA_LayerHelp">layer name</a>&gt; [ ,...n ] }
+            <br/><br/>
+            &lt;map_request_copy&gt; ::= This is not a name/value pair like the other parameters.  Instead, most of the GetMap request parameters that generated the original map are repeated.  Two are omitted because GetFeatureInfo provides its own values for VERSION and REQUEST.  The remainder of the GetMap request shall be embedded contiguously in the GetFeatureInfo request.
+            <br/><br/>
+            <i>Sample URL:</i><br/>
+            <a href="./Spatial/SDM.wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetFeatureInfo&QUERY_LAYERS=SurveyAreaPoly&X=260&Y=253&LAYERS=SurveyAreaPoly&INFO_FORMAT=text/html&FEATURE_COUNT=50&EXCEPTIONS=application/vnd.ogc.se_xml&STYLES=&SRS=EPSG:4326&BBOX=-108.16419080996,38.758063028388,-108.134685494042,38.7801920153271&WIDTH=600&HEIGHT=450" target="wsservice">
+              https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDM.wms ?SERVICE=WMS &amp;VERSION=1.1.1&amp;REQUEST=GetFeatureInfo &amp;QUERY_LAYERS=SurveyAreaPoly&amp;X=260&amp;Y=253&amp;LAYERS=SurveyAreaPoly &amp;INFO_FORMAT=text/html&amp;FEATURE_COUNT=50 &amp;EXCEPTIONS=application/vnd.ogc.se_xml&amp;STYLES=&amp;SRS=EPSG:4326 &amp;BBOX=-108.16419080996,38.758063028388,-108.134685494042,38.7801920153271 &amp;WIDTH=600&amp;HEIGHT=450
+            </a>
+            <br />
+            <a name="GetMap"/><h3><i>GetMap</i><a href="#top" class="SDM_BackToTop"><img src="images/BackToTop.gif" alt="Back to Top" hspace="4" border="0" /></a></h3>
+            This method returns a rectangular map graphic for one or more supported feature types or layers,
+            for a user specified area of interest.  The layers returned by this method have map scale thresholds.
+            Map unit features are not displayed unless map scale is in the range 1:0 to 1:250,000.  Survey area
+            features are not displayed unless map scale is in the range 1:100 to 1:5,000,000. Feature points and lines 
+            are not displayed unless map scale is in the range 1:0 to 1:250,000.
+            <br/><br/>
+
+            <div class="inset">
+                <mark>
+                    NOTE: For any SLD requests, raw text in a Label tag in SLD is now interpreted as an implicit Literal instead of an implicit PropertyName. Please update your SLD to explicitly mark any Property names within Label tags as below. 
+                </mark>
+                <br/><br/>
+                <span class="SDM_InfoPanel">
+                    &lt;Label&gt;&lt;PropertyName&gt;musym&lt;/PropertyName&gt;&lt;/Label&gt; 
+                </span>
+            </div>
+            <br/>
+
+            <i>Web services for which this method is supported:</i><br/>
+            <a href="#SDM">https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDM.wms</a>
+            <br/><br/>
+            <i>Input parameters:</i><br/>
+            <table width="100%" cellspacing="0" cellpadding="1" border="1">
+              <col span="1" align="center" width="30%"/>
+              <col span="1"/>
+              <tr bgcolor="#ececec"><th>Input Parameter</th><th>Description</th></tr>
+              <tr><td>[ SERVICE=WMS ]</td><td>OGC service type</td></tr>
+              <tr><td>[ VERSION=1.1.1 ]</td><td>OGC version number</td></tr>
+              <tr><td>{ REQUEST=GetMap }</td><td>method name</td></tr>
+              <tr><td>{ LAYERS=&lt;layer name list&gt; }</td><td>feature type or layer name(s), comma-separated</td></tr>
+              <tr><td>[ AOIID=&lt;aoiid&gt; ]</td>
+                  <td>Persisent ID obtained when creating an SDA "persistent AOI".</td></tr>
+              <tr><td>[ INTERPRESULTID=&lt;interpresultid&gt; ]</td>
+                  <td>Interpretation result ID obtained when executing an interpretation within SDA.</td></tr>
+              <tr><td>[ SLD_ID=&lt;sld_id&gt; ]</td>
+                  <td>The ID of a previously-defined SLD, may be used with both GET and POST requests.</td></tr>
+              <tr><td>[ THEMATICMAPID=&lt;thematicmapid&gt; ]</td>
+                  <td>Thematic Map ID obtained from a Web Soil Survey thematic map.</td></tr>
+              <tr><td>[ SLD_BODY=&lt;sld_body&gt; ]</td><td>Styled Layer Descriptor, only valid for POST requests.</td></tr>
+              <tr><td>[ STYLES=&lt;style list&gt; ]</td><td>comma-separated list of one rendering style per requested layer</td></tr>
+              <tr><td>[ SRS=&lt;<a href="SpatialReferenceHelp.htm" target="SDA_SystemHelp">EPSG projection code&gt;</a> ]</td>
+				  <td>EPSG spatial reference system code for output map projection.</td></tr>
+              <tr><td>{ <a href="SpatialFilterHelp.htm" target="SDA_FilterHelp">BBOX=&lt;bounding box coordinates&gt;</a> }</td><td>bounding box corners (lower left, upper right) in the specfified (or defaulted) SRS</td></tr>
+              <tr><td>[ WIDTH=&lt;integer&gt; ]</td><td>map image width in pixels (default=640)</td></tr>
+              <tr><td>[ HEIGHT=&lt;integer&gt; ]</td><td>map image height in pixels (default=480)</td></tr>
+              <tr><td>[ FORMAT= image/png | image/jpeg | image/svg+xml ]</td><td>format of the output map image (default = image/svg+xml)</td></tr>
+              <tr><td>[ TRANSPARENT=TRUE | FALSE ]</td><td>background map image transparency (default = False)</td></tr>
+              <tr><td>[ BGCOLOR=&lt;color_value&gt; ]</td><td>hexadecimal red-green-blue color value for the background map image color (default = 0xFFFFFF)</td></tr>
+              <tr><td>[ EXCEPTIONS=XML | Application/VND.OGC.SE_XML | Application/vnd.ogc.se_inimage ]</td><td>format in which exceptions are to be reported (default = XML)</td></tr>
+            </table>
+            <br/>
+            &lt;layer name list&gt; ::= { &lt;<a href="./LayerHelp.htm" target="SDA_LayerHelp">layer name</a>&gt; [ ,...n ] }
+            <br/><br/>
+            &lt;aoiid&gt; ::= See <a href="./documents/AdvancedQueries.html">Advanced Queries</a> regarding definition of a persistent AOI.
+            See <a href="./LayerHelp.htm" target="SDA_LayerHelp">layer name</a> for applicability.<br/><br/>
+            &lt;interpresultid&gt; ::= See <a href="./documents/AdvancedQueries.html">Advanced Queries</a> regarding execution of an "interpretation".
+            See <a href="./LayerHelp.htm" target="SDA_LayerHelp">layer name</a> for applicability.<br/><br/>
+            &lt;EPSG projection code&gt; ::= The default is "EPSG:4326", i.e. WGS 1984, unless you specify
+            one or more of AOIID, INTERPRESULTID or THEMATICMAPID, in which case the default is
+            "EPSG:3857" (Web Mercator).<br/><br/>
+            &lt;thematicmapid&gt; ::= After creating a thematic map in Web Soil Survey, you may use the 
+            "Identify" tool and click within the area of the map - the "ThematicMapID" will then be listed.
+            See <a href="./LayerHelp.htm" target="SDA_LayerHelp">layer name</a> for applicability.<br/><br/>
+            &lt;sld_body&gt; ::= A "Styled Layer Descriptor" that describeds how the layer(s) is/are to be painted. Model the SLD content upon the
+            SLD returned by a <a href="#GetStyles">GetStyles</a> request for the layer(s) of interest. SLD is documented at <a href="http://mapserver.org/ogc/sld.html">Mapserver SLD</a>.
+            This parameter may only be used in a POST request and hence performance is not as good as that seen by use of sld_id.
+            <br/><br/>
+            &lt;sld_id&gt; ::= The ID number of a previously-defined SLD that has been added to a persistent AOI.
+            The SLD is defined either through a <a href="#PostRest">post.rest</a> request or through a <a href="../Query.aspx">Query</a> request (see <a href="./documents/AdvancedQueries.html">Advanced Queries</a>).
+            Performance is better than that yielded by SLD_BODY. Hint: if your application does not require creation of 
+            an AOI, you can still create one (the fastest is creation of one for a single mapunit key value) as a 
+            container for one or more SLD definitions, you can then call GetMap without otherwise referencing the
+            AOI via AOIID or INTERPRESULTID.
+            <br/><br/>
+            &lt;style list&gt; ::= This is a comma-separated list of one rendering style per requested layer.  A client may 
+            request the default style using a null value (as in “STYLES=”).  At this time, no styles other than a default 
+            style are supported because the “styles” that we support are currently implemented as layers 
+            (surveyareapolytransparent and surveyareapolyoutline) rather than styles.  We do anticipate converting 
+            those layers to styles at some point.
+            <br/><br/>
+            <i>Sample URL:</i><br/>
+            <a href="./Spatial/SDM.wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&LAYERS=SurveyAreaPoly,MapunitPoly&STYLES=&SRS=EPSG:4326&BBOX=-102.65253,38.18368,-102.59682,38.21139&WIDTH=600&HEIGHT=400&FORMAT=image/png&EXCEPTIONS=Application/VND.OGC.SE_XML" target="wsservice">
+              https://SDMDataAccess.sc.egov.usda.gov/Spatial/SDM.wms ?SERVICE=WMS&amp;VERSION=1.1.1&amp;REQUEST=GetMap &amp;LAYERS=SurveyAreaPoly,MapunitPoly&amp;STYLES=&amp;SRS=EPSG:4326 &amp;BBOX=-102.65253,38.18368,-102.59682,38.21139&amp;WIDTH=600 &amp;HEIGHT=400&amp;FORMAT=image/png &amp;EXCEPTIONS=Application/VND.OGC.SE_XML
+            </a>
+            <br/><br/>
+          </td>
+        </tr>
+      </table>
+      <br/>
+      
+<!-- Footer Bar Start -->
+<script language="javascript">
+  <!--
+  function ShowSiteDisclaimer() {
+    alert('Notice!\n\nThis is a United States Department of Agriculture computer system, which may be accessed and used only for official Government business (or as otherwise permitted by regulation) by authorized personnel.  Unauthorized access or use of this computer system may subject violators to criminal, civil, and/or administrative action.  All information on this computer system may be intercepted, recorded, read, copied, and disclosed by and to authorized personnel for official purposes, including criminal investigations.  Access or use of this computer system by any person, whether authorized or unauthorized, constitutes consent to these terms.');
+  }
+  // -->
+</script>
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0" bgcolor="#ececec">
+  <tr class="SDM_Separator" bgcolor="#000000" height="1">
+    <td colspan="3" width="100%"><img src="/images/Spacer.gif" id="UCFooter_ImgFooterSkip" width="1" height="1" /></td>
+  </tr>
+  <tr>
+    <td width="14%" nowrap align="left" valign="top" class="SDM_BackToTop">
+      <a href="#top" class="SDM_BackToTop"><img src="/images/BackToTop.gif" id="UCFooter_ImgFooterTop" hspace="4" border="0" />Back to Top</a>
+    </td>
+    <td align="center" class="SDM_Footer">
+      <a class="SDM_Footer" href="https://nrcs.usda.gov/" aria-label="Natural Resources Conservation Service Home page."><b><acronym title="Natural Resources Conservation Service">NRCS</acronym> Home</b></a>
+      |
+      <a class="SDM_Footer" href="https://www.usda.gov" aria-label="United States Department of Agriculture."><acronym title="United States Department of Agriculture">USDA</acronym></a>
+      |
+      <a class="SDM_Footer" href="https://nrcs.usda.gov/conservation-basics/natural-resource-concerns/soils" aria-label="Natural Resources Conservation Service Soils."><acronym title="Natural Resources Conservation Service Soils">NRCS Soils</acronym></a>
+      |
+      <a class="SDM_Footer" href="javascript:ShowSiteDisclaimer();" aria-label="Site Disclaimer."><acronym title="Site Disclaimer">Disclaimer</acronym></a>
+      |
+      <a href="https://sdmdataaccess.nrcs.usda.govhttps://nrcs.usda.gov/conservation-basics/natural-resource-concerns/soils/state-soil-scientists" id="UCFooter_LnkFooterContactUs" class="SDM_Footer" aria-label="How to Contact Us."><acronym title="How to Contact Us">Contact Us</acronym></a>
+      |
+      <br/>
+      <a class="SDM_Footer" href="https://www.usa.gov/" aria-label="USA Dot Gov."><acronym title="USA Dot Gov">USA.gov</acronym></a>
+      |
+      <a class="SDM_Footer" href="https://www.whitehouse.gov/" aria-label="The White House."><acronym title="The White House">White House</acronym></a>
+      |
+      <a class="SDM_Footer" href="https://www.usda.gov/ogc/office-information-affairs/foia-division" aria-label="Freedom of Information Act."><acronym title="Freedom of Information Act">FOIA</acronym></a>
+      |
+      <a class="SDM_Footer" href="https://www.usda.gov/accessibility-statement" aria-label="NRCS Accessibility Statement."><acronym title="NRCS Accessibility Statement">Accessibility Statement</acronym></a>
+      |
+      <br/>
+      <a class="SDM_Footer" href="https://www.usda.gov/privacy-policy" aria-label="USDA Privacy Policy."><acronym title="USDA Privacy Policy">Privacy Policy</acronym></a>
+      |
+      <a class="SDM_Footer" href="https://www.usda.gov/non-discrimination-statement" aria-label="USDA Non-Discrimination Statement."><acronym title="USDA Non-Discrimination Statement">Non-Discrimination Statement</acronym></a>
+      |
+      <a class="SDM_Footer" href="https://www.ocio.usda.gov/policy-directives-records-forms/information-quality-activities" aria-label="USDA Information Quality."><acronym title="USDA Information Quality">Information Quality</acronym></a>
+    </td>
+    <td width="14%">&nbsp;</td>
+  </tr>
+</table>
+<!-- Footer Bar End -->
+
+    </form>
+  </body>
+</html>

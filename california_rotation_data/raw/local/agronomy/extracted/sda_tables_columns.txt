@@ -1,0 +1,1558 @@
+--- PAGE 1 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: chaashto
+Table Label: Horizon AASHTO
+Table Logical Name: chorizon_aashto
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 AASHTO aashtocl aashto_group_classification Choice Varchar no 254 aashto_group_classification
+2 RV? rvindicator rv_indicator Boolean Char yes 3
+3 Chorizon Key chkey chorizon_key Integer Int yes
+4 Chorizon AASHTO Key chaashtokey chor_aashto_key Integer Int yes
+The Horizon AASHTO table contains the American Association of State Highway Transportation Officials classification(s) for the referenced horizon. One row in this table is marked as
+the representative AASHTO classification for the horizon.
+November 2025
+1 of 74
+USDA-NRCS
+
+--- PAGE 2 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: chconsistence
+Table Label: Horizon Consistence
+Table Logical Name: chorizon_consistence
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Rupture Moist rupresblkmst rupture_resist_block_moist Choice Varchar no 254 rupture_resist_block_moist
+2 Rupture Dry rupresblkdry rupture_resist_block_dry Choice Varchar no 254 rupture_resist_block_dry
+3 Rupture Cement rupresblkcem rupture_resist_block_cem Choice Varchar no 254 rupture_resist_block_cem
+4 Rupture Plate rupresplate rupture_resist_plate Choice Varchar no 254 rupture_resist_plate
+5 Manner of Failure mannerfailure manner_of_failure Choice Varchar no 254 manner_of_failure
+6 Stickiness stickiness stickiness Choice Varchar no 254 stickiness
+7 Plasticity plasticity plasticity Choice Varchar no 254 plasticity
+8 RV? rvindicator rv_indicator Boolean Char yes 3
+9 Chorizon Key chkey chorizon_key Integer Int yes
+10 Chorizon Consistence Key chconsistkey chor_consistence_key Integer Int yes
+The Horizon Consistence table contains descriptive terms of soil consistence—rupture resistance, plasticity, and stickiness—for the referenced horizon. One row in this table is marked
+as having the representative characteristics for the horizon.
+November 2025
+2 of 74
+USDA-NRCS
+
+--- PAGE 3 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: chdesgnsuffix
+Table Label: Horizon Designation Suffix
+Table Logical Name: chorizon_desgn_suffix
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Suffix desgnsuffix horz_desgn_letter_suffix Choice Varchar no 254 horz_desgn_letter_suffix
+2 Chorizon Key chkey chorizon_key Integer Int yes
+3 Chorizon Designation Suffix Key chdesgnsfxkey chor_desgn_suffix_key Integer Int yes
+The Horizon Designation Suffix table contains the designation suffix(es), one per row, for the referenced horizon. For example, the "h" and "s" of a Bhs horizon appear as two rows in
+this table.
+November 2025
+3 of 74
+USDA-NRCS
+
+--- PAGE 4 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: chfrags
+Table Label: Horizon Fragments
+Table Logical Name: chorizon_fragments
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Vol % fragvol fragment_volume Integer Smallint no 0 100 percent
+2 Kind fragkind fragment_kind Choice Varchar no 254 fragment_kind
+3 Size fragsize fragment_size Integer Smallint no 2 3000 mm
+4 Shape fragshp fragment_shape Choice Varchar no 254 fragment_shape
+5 Roundness fraground fragment_roundness Choice Varchar no 254 fragment_roundness
+6 Hardness fraghard fragment_hardness Choice Varchar no 254 rupture_resist_block_cem
+7 Chorizon Key chkey chorizon_key Integer Int yes
+8 Chorizon Fragments Key chfragskey chor_fragments_key Integer Int yes
+The Horizon Fragments table lists the mineral and organic fragments that generally occur in the referenced horizon. If the Volume % is greater than zero (low=5, RV=10, high=15) in a
+row, the kind and size of fragment in that row exists everywhere this horizon and component occur in the map unit. If the Volume % includes zero (low=0, RV=5, high=10), the kind and
+size of fragment may exist in some places, but not in others.
+November 2025
+4 of 74
+USDA-NRCS
+
+--- PAGE 5 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: chhuarts
+Table Label: Horizon Human Artifacts
+Table Logical Name: chorizon_human_artifacts
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Vol % huartvol human_artifact_volume Integer Smallint yes 0 100 percent
+2 Size huartsize human_artifact_size Integer Smallint no 2 3000 mm
+3 Kind huartkind human_artifact_kind Choice Varchar yes 254 human_artifact_kind
+4 Cohesion huartco human_artifact_cohesion Choice Varchar no 254 human_artifact_cohesion
+5 Shape huartshp human_artifact_shape Choice Varchar no 254 human_artifact_shape
+6 Roundness huartrnd human_artifact_roundness Choice Varchar no 254 fragment_roundness
+7 Hardness huartpen human_artifact_penetrability Choice Varchar no 254 human_artifact_penetrability
+8 Safety huartsafety human_artifact_safety Choice Varchar no 254 human_artifact_safety
+9 Persistence huartper human_artifact_persistence Choice Varchar no 254 human_artifact_persistence
+10 Chorizon Key chkey chorizon_key Integer Int yes
+11 Chorizon Human Artifacts Key chhuartkey chor_human_artifact_key Integer Int yes
+The Horizon Human Artifacts table lists the human created and/or modified objects included in the horizon shown in the Horizon table. These are objects or materials created (or
+modified) by humans for practical purposes related to activities such as manufacturing, construction, or waste disposal. Examples of artifacts include processed wood products, liquid
+petroleum products, coal combustion by-products, asphalt, fibers and fabrics, bricks, cinder blocks, concrete, plastic, glass, rubber, paper, cardboard, iron and steel, altered or
+manufactured metals and minerals, sanitary and medical waste, garbage and landfill waste. If the Volume % is greater than zero (low=5, RV=10, high=15) in a row, the kind and size of
+artifact in that row exists everywhere this horizon and component occur in the mapunit. If the Volume % includes zero (low=0, RV=5, high=10), the kind and size of artifact may exist in
+some places, but not in others.
+November 2025
+5 of 74
+USDA-NRCS
+
+--- PAGE 6 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: chorizon
+Table Label: Horizon
+Table Logical Name: chorizon
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Designation hzname horizon_designation String Varchar no 25
+2 Disc desgndisc horz_desgn_discontinuity Integer Smallint no 2 99
+3 Master desgnmaster horz_desgn_master Choice Varchar no 254 horz_desgn_master
+4 Prime desgnmasterprime horz_desgn_master_prime Choice Varchar no 254 horz_desgn_master_prime
+5 Sub desgnvert horz_desgn_vertical_subdvn Integer Smallint no 1
+6 Top Depth hzdept horizon_depth_to_top Integer Smallint no 0 9999 cm
+7 Bottom Depth hzdepb horizon_depth_to_bottom Integer Smallint no 0 9999 cm
+8 Thickness hzthk horizon_thickness Integer Smallint no 0 9999 cm
+9 Rep Tex Mod and Class texturerv texture_modifier_and_class_rv String Varchar no 30
+10 Horizon Type horztype horizon_type Choice Varchar no 50 horizon_type
+11 Fragement Volume Total fragvoltot fragment_volume_total Integer Smallint no percent
+12 Rock >10 fraggt10 rock_frag_greater_than_10_in Integer Smallint no 0 100 percent
+13 Rock 3-10 frag3to10 rock_frag_3_to_10_in Integer Smallint no 0 100 percent
+14 Total Human Artifact Volume huartvoltot human_artifact_volume_total Integer Smallint no 0 100 percent
+15 #4 sieveno4 sieve_number_4 Float Real no 1 0 100 percent
+16 #10 sieveno10 sieve_number_10 Float Real no 1 0 100 percent
+17 #40 sieveno40 sieve_number_40 Float Real no 1 0 100 percent
+18 #200 sieveno200 sieve_number_200 Float Real no 1 0 100 percent
+19 Total Sand sandtotal sand_total_separate Float Real no 1 0 100 percent
+20 vcos sandvc sand_very_coarse_separate Float Real no 1 0 100 percent
+21 cos sandco sand_coarse_separate Float Real no 1 0 100 percent
+22 ms sandmed sand_medium_separate Float Real no 1 0 100 percent
+23 fs sandfine sand_fine_separate Float Real no 1 0 100 percent
+24 vfs sandvf sand_very_fine_separate Float Real no 1 0 100 percent
+25 Total Silt silttotal silt_total_separate Float Real no 1 0 100 percent
+26 Coarse Silt siltco silt_coarse_separate Float Real no 1 0 100 percent
+27 Fine Silt siltfine silt_fine_separate Float Real no 1 0 100 percent
+28 Total Clay claytotal clay_total_separate Float Real no 1 0 100 percent
+29 CaCO3 Clay claysizedcarb clay_sized_carbonate Float Real no 1 0 100 percent
+30 Mica Kind micakind mica_kind Choice Varchar no 20 mica_kind
+31 Mica 0.02-0.25 mm micaveryfinepct mica_very_fine_percent Float Real no 1 0 999 percent
+32 Mica 0.25-2 mm micafinepct mica_fine_percent Float Real no 1 0 100 percent
+33 OM om organic_matter_percent Float Real no 2 0 100 percent
+34 Rubbed Fiber % fiberrubbedpct fiber_rubbed_percent Integer Smallint no 0 100 percent
+35 Unrubbed Fiber Pct fiberunrubbedpct fiber_unrubbed_percent Integer Smallint no 0 100 percent
+36 Db 0.1 bar H2O dbtenthbar bulk_density_one_tenth_bar Float Real no 2 0.02 2.6 g/cm3
+37 Db 0.33 bar H2O dbthirdbar bulk_density_one_third_bar Float Real no 2 0.02 2.6 g/cm3
+38 Db 15 bar H2O dbfifteenbar bulk_density_fifteen_bar Float Real no 2 0.02 2.6 g/cm3
+39 Db satiated bdsatiated bulk_density_satiated Float Real no 2 .02 2.6 g/cm3
+40 Db oven dry dbovendry bulk_density_oven_dry Float Float no 2 0.02 2.6 g/cm3
+41 Dp partdensity particle_density Float Real no 2 0.01 5 g/cm3
+42 Ksat ksat sat_hydraulic_conductivity Float Real no 4 0 705 um/s
+43 AWC awc available_water_capacity Float Real no 2 0 0.7 cm/cm
+November 2025
+6 of 74
+USDA-NRCS
+
+--- PAGE 7 ---
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+44 0.1 bar H2O wtenthbar water_one_tenth_bar Float Real no 1 0 2000 percent
+45 0.33 bar H2O wthirdbar water_one_third_bar Float Real no 1 0 2000 percent
+46 15 bar H2O wfifteenbar water_fifteen_bar Float Real no 1 0 400 percent
+47 Satiated H2O wsatiated water_satiated Integer Smallint no 0 100 percent
+48 LL ll liquid_limit Float Real no 1 0 400 percent
+49 LEP lep linear_extensibility_percent Float Real no 1 0 30 percent
+50 PI pi plasticity_index Float Real no 1 0 130 percent
+51 AASHTO Group Index aashind aashto_group_index Integer Smallint no 0 120
+52 Kw kwfact soil_erodibility_factor_whole Choice Varchar no 254 soil_erodibility_factor
+53 Kf kffact soil_erodibility_factor_rf Choice Varchar no 254 soil_erodibility_factor
+54 CaCO3 caco3 calcium_carbonate_equivalent Integer Smallint no 0 110 percent
+55 Gypsum gypsum gypsum Integer Smallint no 0 120 percent
+56 SAR sar sodium_adsorption_ratio Float Real no 1 0 9999
+57 ESP esp exchangeable_sodium_percent Integer Smallint no 0 100 percent
+58 EC ec electrical_conductivity Float Real no 1 0 15000 dS/m
+59 EC 1:5 by volume ec15 electrical_conductivity_1_5 Float Real no 1 0 100 dS/m
+60 CEC-7 cec7 cation_exch_capcty_nh4oacph7 Float Real no 1 0 400 cmol(+)/kg
+61 ECEC ecec effective_cation_exch_capcty Float Real no 1 0 400 cmol(+)/kg
+62 Sum of Bases sumbases sum_of_bases_nh4oacph7 Float Float no 1 0 300 cmol(+)/kg
+63 pH H2O ph1to1h2o ph_1_1_water Float Real no 1 1.8 11
+64 pH CaCl2 ph01mcacl2 ph_01m_cacl2 Float Real no 1 1.8 11
+65 pH Oxidized phoxidized ph_oxidized Float Real no 1 1.0 13
+66 Free Iron freeiron free_iron_oxides Float Real no 2 0 100 percent
+67 Oxalate Fe feoxalate iron_oxalate Float Real no 2 0 150000 mg/kg
+68 Ext Acidity extracid extractable_acidity Float Real no 1 0 250 cmol(+)/kg
+69 Extract Al extral extractable_aluminum Float Real no 2 0 150 cmol(+)/kg
+70 Oxalate Al aloxalate aluminum_oxalate Float Real no 1 0 170000 mg/kg
+71 Monosulfide Presence monosulfidepresence monosulfide_presence Boolean Char no 3
+72 Bray 1 Phos pbray1 phosphorous_bray1 Float Real no 1 0 500 mg/kg
+73 Oxalate Phos poxalate phosphorous_oxalate Float Real no 1 0 mg/kg
+74 Water Soluble Phos ph2osoluble phosphorous_water_soluble Float Real no 1 0 5000 mg/kg
+75 Total Phos ptotal phosphorous_total Float Real no 2 0 percent
+76 NZ Phos Retention nzpretention nz_phosphorus_retention Float Real no 1 0 100 percent
+77 Excav Diff excavdifcl excavation_difficulty_class Choice Varchar no 254 excavation_difficulty_class
+78 Excav Diff Moisture excavdifms excavation_difficulty_moist_st Choice Varchar no 254 observed_soil_moisture_status
+79 NASIS Horizon Table Record ID nasischiid nasis_chiid Integer Int no
+80 Component Key cokey component_key Integer Int yes
+81 Chorizon Key chkey chorizon_key Integer Int yes
+The Horizon table lists the horizon(s) and related data for the referenced map unit component. If the horizon thickness is greater than zero (low=5, RV=8, high=12), the horizon exists
+everywhere this component occurs. If the horizon thickness includes zero (low=0, RV=1, high=3), the horizon may exist in some places, but not in other places. Horizons that have two
+distinct parts, such as E/B or E&Bt horizons, are recorded twice. Once for the characteristics of the first part; and again on another row, using the same depths and thicknesses, for the
+characteristics of the other part.
+November 2025
+7 of 74
+USDA-NRCS
+
+--- PAGE 8 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: chpores
+Table Label: Horizon Pores
+Table Logical Name: chorizon_pores
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Quantity poreqty pore_quantity Float Real no 1 0 99 pores/area
+2 Size poresize pore_size Choice Varchar no 254 pore_root_size
+3 Continuity porecont pore_continuity_vertical Choice Varchar no 254 pore_continuity_vertical
+4 Shape poreshp pore_shape Choice Varchar no 254 pore_shape
+5 RV? rvindicator rv_indicator Boolean Char yes 3
+6 Chorizon Key chkey chorizon_key Integer Int yes
+7 Chorizon Pores Key chporeskey chor_pores_key Integer Int yes
+The Horizon Pores table lists the voids for the referenced horizon. If the Quantity is greater than zero (low=2, RV=5, high=10) in a row, the voids in that row exist everywhere the
+horizon and component occur in the map unit. If the Quantity includes zero (low=0, RV=2, high=5), the voids may exist in some places, but not in others. More than one row can be
+marked as an RV row because a horizon may have more than one size or shape of void.
+November 2025
+8 of 74
+USDA-NRCS
+
+--- PAGE 9 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: chstruct
+Table Label: Horizon Structure
+Table Logical Name: chorizon_structure
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Grade structgrade structure_grade Choice Varchar no 254 structure_grade
+2 Size structsize structure_size Choice Varchar no 254 structure_size
+3 Type structtype structure_type Choice Varchar no 254 structure_type
+4 Structure ID structid structure_id Integer Smallint no 1
+5 Parts to Structure ID structpartsto structure_parts_to Integer Smallint no
+6 Chorizon Structure Group Key chstructgrpkey chor_structure_group_key Integer Int yes
+7 Chorizon Structure Key chstructkey chor_structure_key Integer Int yes
+The Horizon Structure table lists the individual soil structure size, grade, and shape terms for the referenced horizon. Terms in this table are assembled into a structure group string
+which is recorded in the Horizon Structure Group table.
+November 2025
+9 of 74
+USDA-NRCS
+
+--- PAGE 10 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: chstructgrp
+Table Label: Horizon Structure Group
+Table Logical Name: chorizon_structure_group
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Structure structgrpname structure_group_name String Varchar no 254
+2 RV? rvindicator rv_indicator Boolean Char yes 3
+3 Chorizon Key chkey chorizon_key Integer Int yes
+4 Chorizon Structure Group Key chstructgrpkey chor_structure_group_key Integer Int yes
+The Horizon Structure Group table lists the ranges of soil structure for the referenced horizon. The row with the typically occurring structure is marked as being representative. The
+entry in this table is based on grouping of entries in the Horizon Structure table.
+November 2025
+10 of 74
+USDA-NRCS
+
+--- PAGE 11 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: chtext
+Table Label: Horizon Text
+Table Logical Name: chorizon_text
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Date recdate record_date Date/Time Datetime no
+2 Kind chorizontextkind chorizon_text_kind Choice Varchar no 254 chorizon_text_kind
+3 Category textcat text_category String Varchar no 20
+4 Subcategory textsubcat text_subcategory String Varchar no 20
+5 Text text text Narrative Text Varchar(max) no
+6 Chorizon Key chkey chorizon_key Integer Int yes
+7 Chorizon Text Key chtextkey chor_text_key Integer Int yes
+The Horizon Text table contains notes and narrative descriptions related to the referenced horizon. Some notes may provide additional information about the horizon for which there is
+no explicit column for such data. In many cases, the table is empty for a particular horizon.
+November 2025
+11 of 74
+USDA-NRCS
+
+--- PAGE 12 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: chtexture
+Table Label: Horizon Texture
+Table Logical Name: chorizon_texture
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Texture texcl texture_class Choice Varchar no 254 texture_class
+2 In Lieu lieutex terms_used_in_lieu_of_texture Choice Varchar no 254 terms_used_in_lieu_of_texture
+3 Chorizon Texture Group Key chtgkey chor_texture_group_key Integer Int yes
+4 Chorizon Texture Key chtkey chor_texture_key Integer Int yes
+The Horizon Texture table lists the individual texture(s), or term(s) used in lieu of texture, for the referenced horizon. Only the unmodified texture terms are listed in the Horizon Texture
+table; modifiers are listed in the Horizon Texture Modifier table. For example, a gravelly loamy sand is shown as "GR-LS" in the Horizon Texture Group table, "ls" in the Horizon Texture
+table, and "gr" in the Horizon Texture Modifier table.
+November 2025
+12 of 74
+USDA-NRCS
+
+--- PAGE 13 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: chtexturegrp
+Table Label: Horizon Texture Group
+Table Logical Name: chorizon_texture_group
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Tex Mod & Class texture texture_modifier_and_class String Varchar no 30
+2 Stratified? stratextsflag stratified_textures_flag Boolean Char yes 3
+3 RV? rvindicator rv_indicator Boolean Char yes 3
+4 Texture Description texdesc texture_description Narrative Text Varchar(max) no
+5 Chorizon Key chkey chorizon_key Integer Int yes
+6 Chorizon Texture Group Key chtgkey chor_texture_group_key Integer Int yes
+The Horizon Texture Group table lists the range of textures for the referenced horizon as a concatenation of horizon texture and texture modifier(s). For example, a horizon that is
+gravelly loamy sand in some places and gravelly loamy coarse sand in other places is shown as GR-LS on one row and GR-LCOS on another row in this table. The row with the
+typically occurring texture is identified as the RV row. Stratified textures are shown in one row. For example, a horizon that is stratified gravelly loamy fine sand and cobbly coarse sand
+is shown as SR- GR-LFS CB-COS on one row and the Stratified? column for that row is marked "yes". If two or more textures always occur together but are not stratified, all of the
+textures are listed on one row and the Stratified? column for that row is marked "no".
+November 2025
+13 of 74
+USDA-NRCS
+
+--- PAGE 14 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: chtexturemod
+Table Label: Horizon Texture Modifier
+Table Logical Name: chorizon_texture_modifier
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Modifier texmod texture_modifier Choice Varchar no 254 texture_modifier
+2 Chorizon Texture Key chtkey chor_texture_key Integer Int yes
+3 Chorizon Texture Modifier Key chtexmodkey chor_texture_modifier_key Integer Int yes
+The Horizon Texture Modifier table lists the texture modifier(s) for the referenced texture. For example, a gravelly loamy sand is shown as "GR-LS" in the Horizon Texture Group table,
+"ls" in the Horizon Texture table, and "gr" in this table.
+November 2025
+14 of 74
+USDA-NRCS
+
+--- PAGE 15 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: chunified
+Table Label: Horizon Unified
+Table Logical Name: chorizon_unified
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Unified unifiedcl unified_soil_classification Choice Varchar no 254 unified_soil_classification
+2 RV? rvindicator rv_indicator Boolean Char yes 3
+3 Chorizon Key chkey chorizon_key Integer Int yes
+4 Chorizon Unified Key chunifiedkey chor_unified_key Integer Int yes
+The Horizon Unified table contains the Unified Soil Classification(s) for the referenced horizon. One row in the Horizon Unified table is marked as the representative Unified
+classification for the horizon.
+November 2025
+15 of 74
+USDA-NRCS
+
+--- PAGE 16 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: clippolygon
+Table Label: Clip Polygon
+Table Logical Name: clip_polygon
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Clip Area Symbol clipareasymbol clip_area_symbol String Varchar yes 20
+2 Clip Area Name clipareaname clip_area_name String Varchar yes 135
+3 Minimum Bounding Rectangle Minimum X mbrminx min_bound_rec_min_x Float Float no 15 -180 180 degrees
+4 Minimum Bounding Rectangle Maximum X mbrmaxx min_bound_rec_max_x Float Float no 15 -180 180 degrees
+5 Minimum Bounding Rectangle Minimum Y mbrminy min_bound_rec_min_y Float Float no 15 -90 90 degrees
+6 Minimum Bounding Rectangle Maximum Y mbrmaxy min_bound_rec_max_y Float Float no 15 -90 90 degrees
+7 Tabular Estimated Size tabularestsize tabular_est_size Integer Int yes bytes
+8 Spatial Estimated Size spatialestsize spatial_est_size Integer Int yes bytes
+9 Clip Polygon Geographic clippolygongeo clip_polygon_geographic SQL Geometry Geometry no
+10 Clip Polygon Projected clippolygonproj clip_polygon_projected SQL Geometry Geometry no
+11 Clip Polygon Key clippolygonkey clip_polygon_key Integer Int yes
+This table contains the feature class that is used for creating a subset of a soil survey area for that portion of that survey area that coincides with the specified geographic region.
+November 2025
+16 of 74
+USDA-NRCS
+
+--- PAGE 17 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: cocanopycover
+Table Label: Component Canopy Cover
+Table Logical Name: component_canopy_cover
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Canopy Cover % plantcov plant_species_cover_percent Integer Smallint no 0 100 percent
+2 Plant Symbol plantsym plant_symbol String Varchar yes 8
+3 Scientific Name plantsciname plant_scientific_name String Varchar no 250
+4 Common Name plantcomname plant_common_name String Varchar no 127
+5 Component Key cokey component_key Integer Int yes
+6 Component Canopy Cover Key cocanopycovkey comp_canopy_cover_key Integer Int yes
+The Component Canopy Cover table lists the overstory plants that typically occur on the referenced map unit component.
+November 2025
+17 of 74
+USDA-NRCS
+
+--- PAGE 18 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: cocropyld
+Table Label: Component Crop Yield
+Table Logical Name: component_crop_yield
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Crop Name cropname crop_name Choice Varchar no 254 crop_name
+2 Units yldunits crop_yield_units Choice Varchar no 254 crop_yield_units
+3 Nirr Yield nonirryield nonirr_crop_yield Float Real no 2 0 9999.99
+4 Irr Yield irryield irrigated_crop_yield Float Real no 2 0 9999.99
+5 Prod Index cropprodindex crop_productivity_index Integer Smallint no 0 100
+6 VA Soil Prod Grp vasoiprdgrp va_soil_productivity_group Choice Varchar no 254 va_soil_productivity_group
+7 Component Key cokey component_key Integer Int yes
+8 Component Crop Yield Key cocropyldkey comp_crop_yield_key Integer Int yes
+The Component Crop Yield table lists commonly grown crops and their expected range in yields when grown on the referenced map unit component. Yields for the map unit as a whole
+are given in the Mapunit Crop Yield table.
+November 2025
+18 of 74
+USDA-NRCS
+
+--- PAGE 19 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: codiagfeatures
+Table Label: Component Diagnostic Features
+Table Logical Name: component_diagnostic_features
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Kind featkind diag_horz_feat_kind Choice Varchar no 254 diag_horz_feat_kind
+2 Top Depth featdept diag_horz_feat_depth_to_top Integer Smallint no 0 9999 cm
+3 Bottom Depth featdepb diag_horz_feat_depth_to_botm Integer Smallint no 0 9999 cm
+4 Thickness featthick diag_horz_feat_thickness Integer Smallint no 0 9999 cm
+5 Component Key cokey component_key Integer Int yes
+6 Component Diagnostic Features Key codiagfeatkey comp_diagnostic_features_key Integer Int yes
+The Component Diagnostic Features table lists the typical soil features, such as ochric epipedon or cambic horizon, for the referenced map unit component.
+November 2025
+19 of 74
+USDA-NRCS
+
+--- PAGE 20 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: coecoclass
+Table Label: Component Ecological Classification
+Table Logical Name: component_ecological_class
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Ecological Classification Type Name ecoclasstypename ecological_class_type_name String Varchar yes 60
+2 Ecological Classification Reference ecoclassref ecological_class_reference String Varchar no 254
+3 Ecological Classification ID ecoclassid ecological_class_id String Varchar yes 30
+4 Ecological Classification Name ecoclassname ecological_class_name Narrative Text Varchar(max) no
+5 Ecological Site Status ecositestatus ecological_site_status String Varchar no 100
+6 Component Key cokey component_key Integer Int yes
+7 Component Ecological Classification Key coecoclasskey comp_eco_classification_key Integer Int yes
+8 Source SDW Primary Key sourcesdwprimarykey source_sdw_primary_key Integer Int no
+9 Source SDW Table Physical Name sourcesdwtablephysicalname source_sdw_table_physical_name String Varchar no 30
+The Component Ecological Classification table identifies the ecological sites typically associated with the referenced map unit component. These may include the official NRCS
+forestland and rangland ecological sites, as well as those of other classification systems, such as the USFS Habitat Types.
+November 2025
+20 of 74
+USDA-NRCS
+
+--- PAGE 21 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: coeplants
+Table Label: Component Existing Plants
+Table Logical Name: component_existing_plants
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Plant Symbol plantsym plant_symbol String Varchar yes 8
+2 Scientific Name plantsciname plant_scientific_name String Varchar no 250
+3 Common Name plantcomname plant_common_name String Varchar no 127
+4 Understory Prod % forestunprod forest_understory_prod_pct Integer Smallint no 0 100 percent
+5 Range Prod % rangeprod rangeland_prod_percent Integer Smallint no 0 100 percent
+6 Component Key cokey component_key Integer Int yes
+7 Component Existing Plants Key coeplantskey comp_existing_plants_key Integer Int yes
+The Component Existing Plants table lists the plants, either rangeland or forestland plants, that typically occur on the referenced map unit component.
+November 2025
+21 of 74
+USDA-NRCS
+
+--- PAGE 22 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: coerosionacc
+Table Label: Component Erosion Accelerated
+Table Logical Name: component_erosion_accelerated
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Kind erokind erosion_accelerated_kind Choice Varchar no 254 erosion_accelerated_kind
+2 RV? rvindicator rv_indicator Boolean Char yes 3
+3 Component Key cokey component_key Integer Int yes
+4 Component Erosion Accelerated Key coeroacckey comp_erosion_accelerated_key Integer Int yes
+The Component Erosion Accelerated table lists the kinds of accelerated erosion that occur on the referenced map unit component. One row in this table is marked as the representative
+kind of accelerated erosion for that component.
+November 2025
+22 of 74
+USDA-NRCS
+
+--- PAGE 23 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: coforprod
+Table Label: Component Forest Productivity
+Table Logical Name: component_forest_prod
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Plant Symbol plantsym plant_symbol String Varchar yes 8
+2 Scientific Name plantsciname plant_scientific_name String Varchar no 250
+3 Common Name plantcomname plant_common_name String Varchar no 127
+4 Site Index Base Number siteindexbasenumber site_index_base_number Integer Int no
+5 Site Index Base siteindexbase site_index_base String Varchar no 254
+6 Site Index Age Base siteindexagebase site_index_age_base String Varchar no 50
+7 Site Index Base Description siteindexbasedesc site_index_base_description String Varchar no 254
+8 Site Index siteindex site_index Integer Smallint no 1 300
+9 Productivity ft3/ac/yr CMAI fprod forest_productivity Float Real no 2 0 9999
+10 Productivity CMAI Age fprodage forest_prod_cmai_age Integer Smallint no 0 999 yrs
+11 MN Prod Index mnfprodindex mn_forest_productivity_index Integer Smallint no 0 100
+12 Component Key cokey component_key Integer Int yes
+13 Component Forest Productivity Key cofprodkey comp_forest_prod_key Integer Int yes
+The Component Forest Productivity table lists the site index and the annual productivity in cubic feet per acre per year (CAMI) of forest overstory tree species that typically occur on the
+referenced map unit component.
+November 2025
+23 of 74
+USDA-NRCS
+
+--- PAGE 24 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: coforprodo
+Table Label: Component Forest Productivity - Other
+Table Logical Name: component_forest_prod_other
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Site Index Base Number siteindexbasenumber site_index_base_number Integer Int no
+2 Site Index Base siteindexbase site_index_base String Varchar no 254
+3 Site Index Age Base siteindexagebase site_index_age_base String Varchar no 50
+4 Site Index Base Description siteindexbasedesc site_index_base_description String Varchar no 254
+5 Site Index siteindex site_index Integer Smallint no 1 300
+6 Productivity fprod forest_productivity Float Real no 2 0 9999
+7 Units fprodunits forest_productivity_units Choice Varchar no 254 forest_productivity_units
+8 Component Forest Productivity Key cofprodkey comp_forest_prod_key Integer Int yes
+9 Component Forest Productivity Other Key cofprodokey comp_forest_prod_other_key Integer Int yes
+The Component Forest Productivity - Other table lists the site index and annual productivity of forest overstory tree species in units other than cubic feet per acre per year for trees that
+typically occur on the referenced map unit component.
+November 2025
+24 of 74
+USDA-NRCS
+
+--- PAGE 25 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: cogeomordesc
+Table Label: Component Geomorphic Description
+Table Logical Name: component_geomorph_desc
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Feature Type geomftname geomorph_feat_type_name String Varchar yes 30
+2 Feature Name geomfname geomorph_feat_name String Varchar yes 50
+3 Feature Modifier geomfmod geomorph_feat_modifier String Varchar no 60
+4 Feature ID geomfeatid geomorphic_feat_id Integer Smallint no
+5 Exists On Feature ID existsonfeat exists_on_feature Integer Smallint no
+6 RV? rvindicator rv_indicator Boolean Char yes 3
+7 Component Key cokey component_key Integer Int yes
+8 Component Geomorphic Description Key cogeomdkey comp_geomorph_desc_key Integer Int yes
+The Component Geomorphic Description table lists the geomorphic features on which the referenced map unit component typically occurs.
+November 2025
+25 of 74
+USDA-NRCS
+
+--- PAGE 26 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: cohydriccriteria
+Table Label: Component Hydric Criteria
+Table Logical Name: component_hydric_criteria
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Hydric Criterion hydriccriterion hydric_criterion Choice Varchar no 254 hydric_criteria
+2 Component Key cokey component_key Integer Int yes
+3 Component Hydric Criteria Key cohydcritkey comp_hydric_criteria_key Integer Int yes
+The Component Hydric Criteria table lists the hydric soil criteria met for those referenced map unit components that are classified as a "hydric soil."
+November 2025
+26 of 74
+USDA-NRCS
+
+--- PAGE 27 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: cointerp
+Table Label: Component Interpretation
+Table Logical Name: component_interpretation
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Component Key cokey component_key Integer Int yes
+2 Main Rule Key mrulekey main_rule_key Integer Int yes
+3 Main Rule Name mrulename main_rule_name String Varchar yes 60
+4 Seq seqnum sequence_number Integer Smallint yes 1
+5 Rule Key rulekey rule_key Integer Int yes
+6 Rule Name rulename rule_name String Varchar yes 60
+7 Rule Depth ruledepth rule_depth Integer Smallint yes
+8 Interp Low Low interpll interp_low_low Float Float no 2
+9 Interp Low Low Class interpllc interp_low_low_class String Varchar no 254
+10 Interp Low Representative Value interplr interp_low_rv Float Float no 2
+11 Interp Low Representative Value Class interplrc interp_low_rv_class String Varchar no 254
+12 Interp High Representative Value interphr interp_high_rv Float Float no 2
+13 Interp High Representative Value Class interphrc interp_high_rv_class String Varchar no 254
+14 Interp High High interphh interp_high_high Float Float no 2
+15 Interp High High Class interphhc interp_high_high_class String Varchar no 254
+16 Null Property Data Boolean nullpropdatabool null_property_data_boolean Boolean Char no 3
+17 Default Property Data Boolean defpropdatabool default_property_data_boolean Boolean Char no 3
+18 Inconsistent Property Data Boolean incpropdatabool inconsis_property_data_boolean Boolean Char no 3
+19 Component Interpretation Key cointerpkey comp_interp_key Integer Int yes
+20 Rule Depth Sequence ruledepthseq rule_depth_sequence Integer Smallint no
+21 Rule Design ruledesign rule_design Choice Smallint yes 254 rule_design
+The Component Interpretation table lists the predictions of behavior and limiting features for specified uses made for the referenced map unit component.
+November 2025
+27 of 74
+USDA-NRCS
+
+--- PAGE 28 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: coinundationtype
+Table Label: Component Inundation Type
+Table Logical Name: component_inundation_type
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Inundation Type inundationtype inundation_type Choice Varchar no 50 inundation_type
+2 RV? rvindicator rv_indicator Boolean Char yes 3
+3 Component Key cokey component_key Integer Int yes
+4 Component Inundatiaon Key coinundationtypekey comp_inundation_type_key Integer Int yes
+The Component Inundation Type table lists the type of inundation by water.
+November 2025
+28 of 74
+USDA-NRCS
+
+--- PAGE 29 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: comonth
+Table Label: Component Month
+Table Logical Name: component_month
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Month Sequence monthseq month_sequence Integer Smallint no 1 12
+2 Month month month Choice Varchar no 254 flooding_ponding_month
+3 Flooding Frequency flodfreqcl flooding_frequency_class Choice Varchar no 254 flooding_frequency_class
+4 Flooding Duration floddurcl flooding_duration_class Choice Varchar no 254 flooding_duration_class
+5 Ponding Frequency pondfreqcl ponding_frequency_class Choice Varchar no 254 ponding_frequency_class
+6 Ponding Duration ponddurcl ponding_duration_class Choice Varchar no 254 ponding_duration_class
+7 Ponding Depth ponddep ponding_depth Integer Smallint no 0 185 cm
+8 Daily Precip dlyavgprecip daily_avg_precip Integer Smallint no 0 750 mm
+9 Daily ET dlyavgpotet daily_avg_pot_evapotrans Integer Smallint no 0 300 mm
+10 Component Key cokey component_key Integer Int yes
+11 Component Month Key comonthkey comp_month_key Integer Int yes
+The Component Month table lists the monthly flooding and ponding characteristics for the referenced map unit component. This table has one row for each month of the year.
+November 2025
+29 of 74
+USDA-NRCS
+
+--- PAGE 30 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: component
+Table Label: Component
+Table Logical Name: component
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Comp % comppct component_percent Integer Smallint no 0 100 percent
+2 Component Name compname component_name String Varchar no 60
+3 Kind compkind component_kind Choice Varchar no 254 component_kind
+4 Major Component majcompflag major_component_flag Boolean Char no 3
+5 SIR phase otherph class_determining_phase String Varchar no 40
+6 Local Phase localphase local_phase String Varchar no 60
+7 Slope Gradient slope slope_gradient Float Real no 1 0 999 percent
+8 Slope Length USLE slopelenusle slope_length_usle Integer Smallint no 0 4000 meters
+9 Runoff Class runoff runoff Choice Varchar no 254 runoff
+10 T tfact t_factor Integer Smallint no 1 5 tons/acre/yr
+11 WEI wei wind_erodibility_index Choice Varchar no 254 tons/acre/yr wind_erodibility_index
+12 WEG weg wind_erodibility_group Choice Varchar no 254 wind_erodibility_group
+13 Erosion Class erocl erosion_class Choice Varchar no 254 erosion_class
+14 Cover Kind 1 earthcovkind1 earth_cover_kind_level_one Choice Varchar no 254 earth_cover_kind_level_one
+15 Cover Kind 2 earthcovkind2 earth_cover_kind_level_two Choice Varchar no 254 earth_cover_kind_level_two
+16 Hydric Condition hydricon hydric_condition Choice Varchar no 254 hydric_condition
+17 Hydric Rating hydricrating hydric_rating Choice Varchar no 254 hydric_rating
+18 Drainage Class drainagecl drainage_class Choice Varchar no 254 drainage_class
+19 Hydrology Status hydrologystatus hydrology_status Choice Varchar no 254 hydrology_status
+20 Elevation elev elevation Float Real no 1 -300 8550 meters
+21 Aspect Counter Clockwise aspectccwise slope_aspect_counterclockwise Integer Smallint no 0 360 degrees
+22 Aspect Representative aspectrep slope_aspect_representative Integer Smallint no 0 360 degrees
+23 Aspect Clockwise aspectcwise slope_aspect_clockwise Integer Smallint no 0 360 degrees
+24 Geomorphic Description geomdesc geomorphic_description Narrative Text Varchar(max) no
+25 Albedo Dry albedodry albedo_dry Float Real no 2 0 1
+26 MAAT airtempa mean_annual_air_temperature Float Real no 1 -50 50 degrees c
+27 MAP map mean_annual_precipitation Integer Smallint no 0 11500 mm
+28 REAP reannualprecip rel_effective_annual_precip Integer Smallint no 0 11500 mm
+29 Frost Free Days ffd mean_annual_frost_free_days Integer Smallint no 0 365 days
+30 MAST soiltempa mean_annual_soil_temperature Float Real no 1 -40 50 degrees c
+31 MAWT watertempa mean_annual_water_temp Float Real no 1 -10 50 degrees c
+32 Nirr LCC nirrcapcl nonirr_capability_class Choice Varchar no 254 capability_class
+33 Nirr Subcl nirrcapscl nonirr_capability_subclass Choice Varchar no 254 capability_subclass
+34 Nirr LCU nirrcapunit nonirr_capability_unit Integer Smallint no 1 99
+35 Irr LCC irrcapcl irrigated_capability_class Choice Varchar no 254 capability_class
+36 Irr Subcl irrcapscl irrigated_capability_subclass Choice Varchar no 254 capability_subclass
+37 Irr LCU irrcapunit irrigated_capability_unit Integer Smallint no 1 99
+38 Prod Index cropprodindex crop_productivity_index Integer Smallint no 0 100
+39 Cons Tree Shrub Group constreeshrubgrp conservation_tree_shrub_group Choice Varchar no 254 conservation_tree_shrub_group
+40 Windbreak Suitability (Obsolete) wndbrksuitgrp windbreak_suitability_group Choice Varchar no 254 windbreak_suitability_group
+41 Range Prod rsprod range_production Integer Int no 0 20000 lbs/acre/yr
+42 Forage Suitability Group ID foragesuitgrpid forage_suitability_grp_id String Varchar no 11
+43 Grain Habitat wlgrain wildlife_habitat_grain Choice Varchar no 254 wildlife_rating
+November 2025
+30 of 74
+USDA-NRCS
+
+--- PAGE 31 ---
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+44 Grass Habitat wlgrass wildlife_habitat_grass Choice Varchar no 254 wildlife_rating
+45 Herbaceous Habitat wlherbaceous wildlife_habitat_herbaceous Choice Varchar no 254 wildlife_rating
+46 Shrub Habitat wlshrub wildlife_habitat_shrub Choice Varchar no 254 wildlife_rating
+47 Conifer Habitat wlconiferous wildlife_habitat_coniferous Choice Varchar no 254 wildlife_rating
+48 Hardwood Habitat wlhardwood wildlife_habitat_hardwood Choice Varchar no 254 wildlife_rating
+49 Wetland Habitat wlwetplant wildlife_habitat_wetland_plant Choice Varchar no 254 wildlife_rating
+50 Water Habitat wlshallowwat wildlife_habitat_shallow_water Choice Varchar no 254 wildlife_rating
+51 Rangeland Wildlife wlrangeland wildlife_habitat_rangeland Choice Varchar no 254 wildlife_rating
+52 Openland Wildlife wlopenland wildlife_habitat_openland Choice Varchar no 254 wildlife_rating
+53 Woodland Wildlife wlwoodland wildlife_habitat_woodland Choice Varchar no 254 wildlife_rating
+54 Wetland Wildlife wlwetland wildlife_habitat_wetland Choice Varchar no 254 wildlife_rating
+55 Soil Slip Pot soilslippot soil_slippage_potential Choice Varchar no 254 soil_slippage_potential
+56 Frost Action frostact potential_frost_action Choice Varchar no 254 potential_frost_action
+57 Init Subsid initsub initial_subsidence Integer Smallint no 0 999 cm
+58 Total Subsid totalsub total_subsidence Integer Smallint no 0 999 cm
+59 Hydrologic Group hydgrp hydrologic_group Choice Varchar no 254 hydrologic_group
+60 Corrosion Concrete corcon corrosion_concrete Choice Varchar no 254 corrosion_concrete
+61 Corrosion Steel corsteel corrosion_uncoated_steel Choice Varchar no 254 corrosion_uncoated_steel
+62 Taxonomic Class taxclname taxonomic_classification_name String Varchar no 120
+63 Order taxorder taxonomic_order Choice Varchar no 254 taxonomic_order
+64 Suborder taxsuborder taxonomic_suborder Choice Varchar no 254 taxonomic_suborder
+65 Great Group taxgrtgroup taxonomic_great_group Choice Varchar no 254 taxonomic_great_group
+66 Subgroup taxsubgrp taxonomic_subgroup Choice Varchar no 254 taxonomic_subgroup
+67 Particle Size taxpartsize taxonomic_family_particle_size Choice Varchar no 254 taxonomic_family_particle_size
+68 Particle Size Mod taxpartsizemod taxonomic_family_part_size_mod Choice Varchar no 254 taxonomic_family_part_size_mod
+69 CEC Activity Cl taxceactcl taxonomic_family_c_e_act_class Choice Varchar no 254 taxonomic_family_c_e_act_class
+70 Reaction taxreaction taxonomic_family_reaction Choice Varchar no 254 taxonomic_family_reaction
+71 Temp Class taxtempcl taxonomic_family_temp_class Choice Varchar no 254 taxonomic_family_temp_class
+72 HAHT Material Class taxfamhahatmatcl taxonomic_family_haht_mat_cl Choice Varchar no 254 taxonomic_family_haht_mat_class
+73 Moist Subclass taxmoistscl taxonomic_moisture_subclass Choice Varchar no 254 taxonomic_moisture_subclass
+74 Temp Regime taxtempregime taxonomic_temp_regime Choice Varchar no 254 taxonomic_temp_regime
+75 Keys to Taxonomy Edition Used soiltaxedition soil_taxonomy_edition Choice Varchar no 254 soil_taxonomy_edition
+76 CA Storie Index castorieindex ca_storie_index Integer Smallint no 0 100
+77 CT Wetland ctwetland ct_wetland Choice Varchar no 3 yes_no_n.a.
+78 FL Ecol Comm # flecolcomnum fl_ecological_community_number String Varchar no 5
+79 FL HE flhe fl_highly_erodible Choice Char no 3 yes_no_n.a.
+80 FL PHE flphe fl_potentially_highly_erodible Choice Char no 3 yes_no_n.a.
+81 FL Leach Pot flsoilleachpot fl_soil_leaching_potential Choice Varchar no 254 fl_soil_leaching_potential
+82 FL Runoff Pot flsoirunoffpot fl_soil_runoff_potential Choice Varchar no 254 fl_soil_runoff_potential
+83 FL Temik fltemik2use fl_temik_2_use Choice Char no 3 yes_no_n.a.
+84 FL Triumph fltriumph2use fl_triumph_2_use Choice Char no 3 yes_no_n.a.
+85 IA Subsoil P iasubsoilp ia_subsoil_phosphorus Choice Varchar no 254 ia_subsoil_p
+86 IA Subsoil K iasubsoilk ia_subsoil_potassium Choice Varchar no 254 ia_subsoil_k
+87 IN Drainage Grp indraingrp in_drainage_group String Char no 3
+88 IN NO3 Leach Index innitrateleachi in_nitrate_leaching_index Integer Smallint no 0 99
+89 MI Soil Mgmt Grp misoimgmtgrp mi_soil_management_group Choice Varchar no 254 mi_soil_management_group
+90 VA Soil Mgmt Grp vasoimgtgrp va_soil_management_group Choice Varchar no 254 va_soil_management_group
+91 Flooding Type floodtype flooding_type Choice Varchar no 254 flood_type
+92 NASIS Component Table Record ID nasiscoiid nasis_coiid Integer Int no
+93 Mapunit Key mukey mapunit_key Integer Int yes
+November 2025
+31 of 74
+USDA-NRCS
+
+--- PAGE 32 ---
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+94 Component Key cokey component_key Integer Int yes
+The Component table lists the map unit components identified in the referenced map unit, and selected properties of each component. If the Component % is greater than zero
+(low=65, RV=75, high=90) for a component, that component exists in every delineation of that mapunit. If the Component % includes zero (low=0, RV=50, high=90), the component
+may exist in some delineations, but not in others.
+November 2025
+32 of 74
+USDA-NRCS
+
+--- PAGE 33 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: copm
+Table Label: Component Parent Material
+Table Logical Name: component_parent_material
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Vertical Order pmorder parent_material_order Integer Smallint no 1
+2 Top Depth pmdept parent_mat_depth_to_top Integer Smallint no 0 9999 cm
+3 Bottom Depth pmdepb parent_mat_depth_to_bottom Integer Smallint no 0 9999 cm
+4 Textural Modifier pmmodifier parent_material_modifier Choice Varchar no 254 parent_material_modifier
+5 General Modifier pmgenmod parent_material_general_mod String Varchar no 60
+6 Kind pmkind parent_material_kind Choice Varchar no 254 parent_material_kind
+7 Origin pmorigin parent_material_origin Choice Varchar no 254 parent_material_origin
+8 Component Parent Material Group Key copmgrpkey comp_parent_mat_grp_key Integer Int yes
+9 Component Parent Material Key copmkey comp_parent_material_key Integer Int yes
+The Component Parent Material table lists the individual parent material(s) for the referenced map unit component. In some cases where soils developed in multiple materials in a
+vertical sequence, that sequence will be noted. In other cases multiple entries with no vertical sequence noted indicates the soil may have formed in one of the materials listed.
+November 2025
+33 of 74
+USDA-NRCS
+
+--- PAGE 34 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: copmgrp
+Table Label: Component Parent Material Group
+Table Logical Name: component_parent_material_grp
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Group Name pmgroupname parent_material_group_name String Varchar no 252
+2 RV? rvindicator rv_indicator Boolean Char yes 3
+3 Component Key cokey component_key Integer Int yes
+4 Component Parent Material Group Key copmgrpkey comp_parent_mat_grp_key Integer Int yes
+The Component Parent Material Group table lists the concatenated string of parent material(s) in which the referenced map unit component formed based on entries in the Component
+Parent Material table. For example, a component formed in one parent material, such as loess, or one vertical sequence of parent materials, such as loamy glacial drift over silty
+residuum weathered from shale, has one row in this table. A component formed in one parent material in some locations, but another parent material (or sequence of parent materials)
+in other locations has two rows in this table, one for each parent material (or sequence of parent materials). One row is identified as the representative parent material.
+November 2025
+34 of 74
+USDA-NRCS
+
+--- PAGE 35 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: copwindbreak
+Table Label: Component Potential Windbreak
+Table Logical Name: component_potential_windbreak
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Height wndbrkht windbreak_tree_height Float Real no 1 0.1 35 meters
+2 Plant Symbol plantsym plant_symbol String Varchar yes 8
+3 Scientific Name plantsciname plant_scientific_name String Varchar no 250
+4 Common Name plantcomname plant_common_name String Varchar no 127
+5 Component Key cokey component_key Integer Int yes
+6 Component Potential Windbreak Key copwindbreakkey comp_potential_windbreak_key Integer Int yes
+The Component Potential Windbreak table lists the windbreak plant species commonly recommended for the referenced map unit component. A windbreak plant listed in this table may
+be used alone or in combination with other plants.
+November 2025
+35 of 74
+USDA-NRCS
+
+--- PAGE 36 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: corestrictions
+Table Label: Component Restrictions
+Table Logical Name: component_restrictions
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Kind reskind restriction_kind Choice Varchar no 254 restriction_kind
+2 Hardness reshard restriction_hardness Choice Varchar no 254 rupture_resist_block_cem
+3 Top Depth resdept restriction_depth_to_top Integer Smallint no 0 9999 cm
+4 Bottom Depth resdepb restriction_depth_to_bottom Integer Smallint no 0 9999 cm
+5 Thickness resthk restriction_thickness Integer Smallint no 0 999 cm
+6 Component Key cokey component_key Integer Int yes
+7 Component Restrictions Key corestrictkey comp_restrictions_key Integer Int yes
+The Component Restrictions table lists the root restrictive feature(s) or layer(s) for the referenced map unit component. If the thickness of the restrictive layer is greater than zero
+(low=5, RV=8, high=10), the restrictive layer exists in all delineations of the map unit where the component occurs. If the thickness of the restrictive layer includes zero (low=0, RV=2,
+high=5), the restrictive layer may exist in some delineations, but not in others. This table will be empty if the component does not have restrictive features, but could have several rows
+if several restrictive features occur in the soil.
+November 2025
+36 of 74
+USDA-NRCS
+
+--- PAGE 37 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: cosoilmoist
+Table Label: Component Soil Moisture
+Table Logical Name: component_soil_moisture
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Top Depth soimoistdept soil_moist_depth_to_top Integer Smallint no 0 9999 cm
+2 Bottom Depth soimoistdepb soil_moist_depth_to_bottom Integer Smallint no 0 9999 cm
+3 Moisture Status soimoiststat soil_moisture_status Choice Varchar no 254 soil_moisture_status
+4 Component Month Key comonthkey comp_month_key Integer Int yes
+5 Component Soil Moisture Key cosoilmoistkey comp_soil_moisture_key Integer Int yes
+The Component Soil Moisture table describes the typical soil moisture profile for the referenced map unit component during the month referenced in the Component Month table. The
+soil moisture profiles for each month, taken as a group of twelve months, describe the representative situation for the component throughout the year.
+November 2025
+37 of 74
+USDA-NRCS
+
+--- PAGE 38 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: cosoiltemp
+Table Label: Component Soil Temperature
+Table Logical Name: component_soil_temperature
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Monthly Temp soitempmm soil_temperature_mean_monthly Integer Smallint no -40 50 degrees c
+2 Top Depth soitempdept soil_temp_depth_to_top Integer Smallint no 0 9999 cm
+3 Bottom Depth soitempdepb soil_temp_depth_to_bottom Integer Smallint no 0 9999 cm
+4 Component Month Key comonthkey comp_month_key Integer Int yes
+5 Component Soil Temperature Key cosoiltempkey comp_soil_temperature_key Integer Int yes
+The Component Soil Temperature table describes the typical soil temperature profile for the referenced map unit component during the month referenced in the Component Month
+table. The soil temperature profiles for each month, taken as a group of twelve months, describe the representative situation for the component throughout the year.
+November 2025
+38 of 74
+USDA-NRCS
+
+--- PAGE 39 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: cosurffrags
+Table Label: Component Surface Fragments
+Table Logical Name: component_surface_fragments
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Cover % sfragcov surface_frag_cover_percent Float Real no 2 0 100 percent
+2 Spacing distrocks mean_distance_between_rocks Float Real no 2 0 50 meters
+3 Kind sfragkind surface_frag_kind Choice Varchar no 254 fragment_kind
+4 Size sfragsize surface_frag_size Integer Smallint no 2 3000 mm
+5 Shape sfragshp surface_frag_shape Choice Varchar no 254 fragment_shape
+6 Roundness sfraground surface_frag_roundness Choice Varchar no 254 fragment_roundness
+7 Hardness sfraghard surface_frag_hardness Choice Varchar no 254 rupture_resist_block_cem
+8 Component Key cokey component_key Integer Int yes
+9 Component Surface Fragments Key cosurffragskey comp_surface_fragments_key Integer Int yes
+The Component Surface Fragments table lists the organic or mineral fragments that generally occur on the surface of the referenced map unit component. If the cover percent is
+greater than zero (low=0.1, RV=1, high=3) for a row in this table, the fragment is in every delineation of the map unit where the referenced component occurs. If the Cover % includes
+zero (low=0, RV=0.01, high=1) for a row in this table, the fragment may exist in some delineations and not in others.
+November 2025
+39 of 74
+USDA-NRCS
+
+--- PAGE 40 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: cosurfmorphgc
+Table Label: Component Three Dimensional Surface Morphometry
+Table Logical Name: component_surface_morph_gc
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Geomorphic Component - Mountains geomposmntn geomorphic_position_mountains Choice Varchar no 254 geomor_pos_mountain
+2 Geomorphic Component - Hills geomposhill geomorphic_position_hills Choice Varchar no 254 geomor_pos_hill
+3 Geomorphic Component - Terraces geompostrce geomorphic_position_terraces Choice Varchar no 254 geomor_pos_terrace
+4 Geomorphic Component - Flats geomposflats geomorphic_position_flats Choice Varchar no 254 geomor_pos_flat
+5 Component Geomorphic Description Key cogeomdkey comp_geomorph_desc_key Integer Int yes
+6 Component Surface Morphometry - Geomorphic Component Key cosurfmorgckey comp_surface_morph_gc_key Integer Int yes
+The Component Three Dimensional Surface Morphometry table lists the typical geomorphic position (s) of the referenced map unit component, in three dimension terms. The
+geomorphic position(s) listed in this table apply to the geomorphic feature referenced in the Component Geomorphic Description table.
+November 2025
+40 of 74
+USDA-NRCS
+
+--- PAGE 41 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: cosurfmorphhpp
+Table Label: Component Two Dimensional Surface Morphometry
+Table Logical Name: component_surface_morph_hpp
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Hillslope Profile hillslopeprof hillslope_profile Choice Varchar no 254 hillslope_profile
+2 RV? rvindicator rv_indicator Boolean Char yes 3
+3 Component Geomorphic Description Key cogeomdkey comp_geomorph_desc_key Integer Int yes
+4 Component Surface Morphometry - Hillslope Profile Position cosurfmorhppkey comp_surface_morph_hpp_key Integer Int yes
+The Component Two Dimensional Surface Morphometry table lists the geomorphic position(s) of the referenced map unit component, in two dimensional hillslope profile terms. The
+geomorphic position(s) listed in this table apply to the geomorphic feature referenced in the Component Geomorphic Description table.
+November 2025
+41 of 74
+USDA-NRCS
+
+--- PAGE 42 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: cosurfmorphmr
+Table Label: Component Microrelief Surface Morphometry
+Table Logical Name: component_surface_morph_mr
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Microrelief Kind geomicrorelief geomorph_micro_relief Choice Varchar no 254 microrelief_kind
+2 Component Geomorphic Description Key cogeomdkey comp_geomorph_desc_key Integer Int yes
+3 Component Surface Morphometry - Micro Relief Key cosurfmormrkey comp_surface_morph_mr_key Integer Int yes
+The Component Microrelief Surface Morphometry table lists microrelief features associated with the referenced geomorphic (microfeature) feature shown in the Component
+Geomorphic Description table.
+November 2025
+42 of 74
+USDA-NRCS
+
+--- PAGE 43 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: cosurfmorphss
+Table Label: Component Slope Shape Surface Morphometry
+Table Logical Name: component_surface_morph_ss
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Slope Shape Across shapeacross shape_across Choice Varchar no 254 slope_shape
+2 Slope Shape Up/Down shapedown shape_down Choice Varchar no 254 slope_shape
+3 Component Geomorphic Description Key cogeomdkey comp_geomorph_desc_key Integer Int yes
+4 Component Surface Morphometry - Slope Shape Key cosurfmorsskey comp_surface_morph_ss_key Integer Int yes
+The Component Slope Shape Surface Morphometry table lists the geomorphic shape(s) of the referenced map unit component, in slope shape terms. The slope shape terms listed in
+this table apply to the referenced geomorphic feature shown in the Component Geomorphic Description table.
+November 2025
+43 of 74
+USDA-NRCS
+
+--- PAGE 44 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: cotaxfmmin
+Table Label: Component Taxonomic Family Mineralogy
+Table Logical Name: component_tax_fam_mineralogy
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Vertical Order minorder mineralogy_order Integer Smallint no 3 1
+2 Mineralogy taxminalogy taxonomic_family_mineralogy Choice Varchar no 254 taxonomic_family_mineralogy
+3 Component Key cokey component_key Integer Int yes
+4 Component Taxonomic Family Mineralogy Key cotaxfmminkey comp_tax_fam_min_key Integer Int yes
+The Component Taxonomic Family Mineralogy table lists the mineralogy characteristics, as defined in Soil Taxonomy, that apply to the referenced map unit component.
+November 2025
+44 of 74
+USDA-NRCS
+
+--- PAGE 45 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: cotaxmoistcl
+Table Label: Component Taxonomic Moisture Class
+Table Logical Name: component_tax_moisture_class
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Moisture Class taxmoistcl taxonomic_moisture_class Choice Varchar no 254 taxonomic_moisture_class
+2 Component Key cokey component_key Integer Int yes
+3 Component Taxonomic Family Moisture Class Key cotaxmckey comp_tax_moisture_class_key Integer Int yes
+The Component Taxonomic Moisture Class table provides clear identification of the intended taxonomic moisture class, as defined in Soil Taxonomy, that apply to the referenced map
+unit component, even though moisture class is implied at a higher taxonomic level. The class or classes listed in this table describe the representative situation for the component.
+November 2025
+45 of 74
+USDA-NRCS
+
+--- PAGE 46 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: cotext
+Table Label: Component Text
+Table Logical Name: component_text
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Date recdate record_date Date/Time Datetime no
+2 Kind comptextkind component_text_kind Choice Varchar no 254 component_text_kind
+3 Category textcat text_category String Varchar no 20
+4 Subcategory textsubcat text_subcategory String Varchar no 20
+5 Text text text Narrative Text Varchar(max) no
+6 Component Key cokey component_key Integer Int yes
+7 Component Text Key cotextkey comp_text_key Integer Int yes
+The Component Text table contains notes and narrative descriptions for the referenced map unit component. In many cases, the table will be empty for a particular component.
+November 2025
+46 of 74
+USDA-NRCS
+
+--- PAGE 47 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: cotreestomng
+Table Label: Component Trees To Manage
+Table Logical Name: component_trees_to_manage
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Plant Symbol plantsym plant_symbol String Varchar yes 8
+2 Scientific Name plantsciname plant_scientific_name String Varchar no 250
+3 Common Name plantcomname plant_common_name String Varchar no 127
+4 Component Key cokey component_key Integer Int yes
+5 Component Trees to Manage Key cotreestomngkey comp_trees_to_manage_key Integer Int yes
+The Component Trees To Manage table lists the trees commonly recommended for managing on the referenced map unit component.
+November 2025
+47 of 74
+USDA-NRCS
+
+--- PAGE 48 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: cotxfmother
+Table Label: Component Taxonomic Family Other Criteria
+Table Logical Name: component_tax_fam_other
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Family Other taxfamother taxonomic_family_other Choice Varchar no 254 taxonomic_family_other
+2 Component Key cokey component_key Integer Int yes
+3 Component Taxonomic Family Other Key cotaxfokey comp_tax_fam_other_key Integer Int yes
+The Component Taxonomic Family Other Criteria table lists the other taxonomic characteristics, such as classes of coatings or permanent cracks, as defined in Soil Taxonomy, that
+apply to the referenced map unit component. The characteristics listed in this table describe the representative situation for the component.
+November 2025
+48 of 74
+USDA-NRCS
+
+--- PAGE 49 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: distinterpmd
+Table Label: Distribution Interp Metadata
+Table Logical Name: distribution_interp_metadata
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Rule Name rulename rule_name String Varchar no 60
+2 Rule Design ruledesign rule_design Choice Varchar yes 254 rule_design
+3 Description ruledesc rule_description Narrative Text Varchar(max) no
+4 Ready to use? dataafuse data_approved_for_use Boolean Char no 3
+5 Most Recent Rule Component When Last Updated mrecentrulecwlu most_recent_rule_comp_wlu Date/Time Datetime no
+6 Rule Key rulekey rule_key Integer Int yes
+7 Distribution Metadata Key distmdkey dist_md_key Integer Int yes
+8 Distribution Interpretation Metadata Key distinterpmdkey dist_interp_md_key Integer Int yes
+The Distribution Interp Metadata table records the set of NASIS fuzzy logic interpretations which were generated for the map unit components included in a set of distribution data.
+November 2025
+49 of 74
+USDA-NRCS
+
+--- PAGE 50 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: distlegendmd
+Table Label: Distribution Legend Metadata
+Table Logical Name: distribution_legend_metadata
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Area Type Name areatypename area_type_name String Varchar no 45
+2 Area Symbol areasymbol area_symbol String Varchar no 20
+3 Area Name areaname area_name String Varchar no 135
+4 Survey Status ssastatus soil_survey_area_status Choice Varchar no 254 soil_survey_area_status
+5 Correlation Date cordate correlation_date Date/Time Datetime no
+6 Export Certification Status exportcertstatus export_certification_status Choice Varchar no 254 export_certification_status
+7 Export Certification Date exportcertdate export_certification_date Date/Time Datetime no
+8 Export Metadata exportmetadata export_metadata Narrative Text Varchar(max) no
+9 Legend Key lkey legend_key Integer Int yes
+10 Distribution Metadata Key distmdkey dist_md_key Integer Int yes
+11 Distribution Legend Metadata Key distlegendmdkey dist_legend_md_key Integer Int yes
+The Distribution Legend Metadata table records information about the legends or soil survey areas selected for inclusion in a set of distributed data. The presence of a legend in this
+table does not imply that all of the available data for that legend was included in the set of data that was distributed. Only certain map units and components for that legend may have
+been selected. The record of the criteria used for selecting map units and components may be found in the Distribution Metadata table.
+November 2025
+50 of 74
+USDA-NRCS
+
+--- PAGE 51 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: distmd
+Table Label: Distribution Metadata
+Table Logical Name: distribution_metadata
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Distribution Generation Date distgendate distribution_generation_date Date/Time Datetime no
+2 Distribution Status diststatus distribution_status Choice Varchar yes 254 distribution_status
+3 Interpretation Maximum Reasons interpmaxreasons interp_max_reasons Integer Smallint no 0
+4 Distribution Metadata Key distmdkey dist_md_key Integer Int yes
+5 Area Symbol areasymbol area_symbol String Varchar yes 20
+6 Tabular Version tabularversion tabular_version Integer Int yes
+The Distribution Metadata table records information associated with the selection of a set of data for distribution to some entity or information system external to NASIS. A set of
+distribution data may include only selected map units from a legend or legends, and only selected components of those map units. This table records the criteria used for selecting map
+units and components for inclusion in the set of distributed data. Other recorded information includes the name of the NASIS user who initiated a distribution request, and the times
+when that request was made, and when that request was ultimately processed.
+November 2025
+51 of 74
+USDA-NRCS
+
+--- PAGE 52 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: featdesc
+Table Label: Feature Description
+Table Logical Name: feature_description
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Area Symbol areasymbol area_symbol String Varchar yes 20
+2 Spatial Version spatialversion spatial_version Integer Int yes
+3 Feature Symbol featsym feature_symbol String Varchar yes 3
+4 Feature Name featname feature_name String Varchar yes 80
+5 Feature Description featdesc feature_description Narrative Text Varchar(max) yes
+6 Feature Key featkey feature_key Integer Int yes
+The Feature Description table records the description of all spot features that occur in a soil survey area.
+November 2025
+52 of 74
+USDA-NRCS
+
+--- PAGE 53 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: featline
+Table Label: Feature Line
+Table Logical Name: feature_line
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Area Symbol areasymbol area_symbol String Varchar yes 20
+2 Spatial Version spatialversion spatial_version Integer Int yes
+3 Feature Symbol featsym feature_symbol String Varchar yes 3
+4 Feature Key featkey feature_key Integer Int yes
+5 Feature Line Geographic featlinegeo feature_line_geographic SQL Geometry Geometry no
+6 Feature Line Projected featlineproj feature_line_projected SQL Geometry Geometry no
+7 Feature Line Key featlinekey feature_line_key Integer Int yes
+The Feature Line table records all spot feature symbols in a soil survey area that were digitized as one or more lines.
+November 2025
+53 of 74
+USDA-NRCS
+
+--- PAGE 54 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: featpoint
+Table Label: Feature Point
+Table Logical Name: feature_point
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Area Symbol areasymbol area_symbol String Varchar yes 20
+2 Spatial Version spatialversion spatial_version Integer Int yes
+3 Feature Symbol featsym feature_symbol String Varchar yes 3
+4 Feature Key featkey feature_key Integer Int yes
+5 Feature Point Geographic featpointgeo feature_point_geographic SQL Geometry Geometry no
+6 Feature Point Projected featpointproj feature_point_projected SQL Geometry Geometry no
+7 Feature Point key featpointkey feature_point_key Integer Int yes
+8 Marker Character markercharacter marker_character String Char no 1
+The Feature Point table records all spot feature symbols in a soil survey area that were digitized as one or more points.
+November 2025
+54 of 74
+USDA-NRCS
+
+--- PAGE 55 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: gsmmupolygon
+Table Label: General Soil Map Mapunit Polygon
+Table Logical Name: gsm_mapunit_polygon
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Area Symbol areasymbol area_symbol String Varchar yes 20
+2 Clip Area Symbol clipareasymbol clip_area_symbol String Varchar yes 20
+3 Spatial Version spatialversion spatial_version Integer Int yes
+4 Mapunit Symbol musym mapunit_symbol String Varchar yes 6
+5 Mapunit Key mukey mapunit_key Integer Int yes
+6 Mapunit Polygon Geographic mupolygongeo mapunit_polygon_geographic SQL Geometry Geometry no
+7 Mapunit Polygon Projected mupolygonproj mapunit_polygon_projected SQL Geometry Geometry no
+8 Mapunit Polygon Key mupolygonkey mapunit_polygon_key Integer Int yes
+9 GSM Mapunit Polygon Key gsmmupolygonkey gsm_mapunit_polygon_key Integer Int yes
+This table contains the map unit polygon feature classes for the general soil map of the United States and some of its territories. This coverage is historically known as "STATSGO". In
+addition to the map unit feature class for the entire US, this table includes the individual state map unit feature classes.
+November 2025
+55 of 74
+USDA-NRCS
+
+--- PAGE 56 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: laoverlap
+Table Label: Legend Area Overlap
+Table Logical Name: legend_area_overlap
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Area Type Name areatypename area_type_name String Varchar yes 45
+2 Area Symbol areasymbol area_symbol String Varchar yes 20
+3 Area Name areaname area_name String Varchar no 135
+4 Overlap Acres areaovacres area_overlap_acres Integer Int no 0 acres
+5 Legend Key lkey legend_key Integer Int yes
+6 Legend Area Overlap Key lareaovkey legend_area_overlap_key Integer Int yes
+The Legend Area Overlap table lists the geographic areas that are coincident with the soil survey area identified in the Legend table. For example, a survey area that covers two
+counties would have two rows in this table, one for each county. Other types of geographic areas listed might include state, MLRA, rainfall (R) factor area, climate (C) factor area, etc.
+November 2025
+56 of 74
+USDA-NRCS
+
+--- PAGE 57 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: legend
+Table Label: Legend
+Table Logical Name: legend
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Area Type Name areatypename area_type_name String Varchar yes 45
+2 Area Symbol areasymbol area_symbol String Varchar yes 20
+3 Area Name areaname area_name String Varchar no 135
+4 Area Acres areaacres area_acres Integer Int no 0 acres
+5 MLRA Office mlraoffice mlra_office Choice Varchar no 254 mlra_office
+6 Legend Description legenddesc legend_description String Varchar no 60
+7 Survey Status ssastatus soil_survey_area_status Choice Varchar no 254 soil_survey_area_status
+8 MOU Agency Responsible mouagncyresp mou_agency_responsible Choice Varchar no 254 mou_agency_responsible
+9 Project Scale projectscale project_scale Integer Int no
+10 Correlation Date cordate correlation_date Date/Time Datetime no
+11 SSURGO Archived ssurgoarchived ssurgo_archived Date/Time Datetime no
+12 Geographic Applicability legendsuituse legend_suitability_for_use Choice Varchar no 254 legend_suitability_for_use
+13 Legend Certification Status legendcertstat legend_certification_status Choice Varchar no 254 legend_certification_status
+14 Legend Key lkey legend_key Integer Int yes
+15 Tabular Version tabularversion tabular_version Integer Int yes
+The Legend table identifies the soil survey area that the legend is related to, and related information about that legend.
+November 2025
+57 of 74
+USDA-NRCS
+
+--- PAGE 58 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: legendtext
+Table Label: Legend Text
+Table Logical Name: legend_text
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Date recdate record_date Date/Time Datetime no
+2 Kind legendtextkind legend_text_kind Choice Varchar no 254 legend_text_kind
+3 Category textcat text_category String Varchar no 20
+4 Subcategory textsubcat text_subcategory String Varchar no 20
+5 Text text text Narrative Text Varchar(max) no
+6 Legend Key lkey legend_key Integer Int yes
+7 Legend Text Key legtextkey legend_text_key Integer Int yes
+The Legend Text table contains notes and narrative descriptions related to the referenced legend. Legend text is optional. In many cases, this table is empty.
+November 2025
+58 of 74
+USDA-NRCS
+
+--- PAGE 59 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: mapunit
+Table Label: Mapunit
+Table Logical Name: mapunit
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Mapunit Sequence museq mapunit_sequence Integer Int yes
+2 Mapunit Symbol musym mapunit_symbol String Varchar yes 6
+3 National Mapunit Symbol nationalmusym national_mapunit_symbol String Varchar yes 6
+4 Mapunit Name muname mapunit_name String Varchar no 240
+5 Kind mukind mapunit_kind Choice Varchar no 254 mapunit_kind
+6 Status mustatus mapunit_status Choice Varchar no 254 mapunit_status
+7 Total Acres muacres mapunit_acres Integer Int no 0 acres
+8 Linear Feature Width mapunitlfw mapunit_linear_feature_width Integer Smallint no meters
+9 Point Feature Area mapunitpfa mapunit_point_feature_area Float Real no 1 0.1 10 acres
+10 Farm Class farmlndcl farmland_classification Choice Varchar no 254 farmland_classification
+11 MLRA Symbol mlrasymbol mlra_symbol String Varchar no 20
+12 MLRA Name mlraname mlra_name String Varchar no 135
+13 HEL muhelcl mapunit_hel_class Choice Varchar no 254 mapunit_hel_class
+14 HEL Water muwathelcl mapunit_hel_class_water Choice Varchar no 254 mapunit_hel_class
+15 HEL Wind muwndhelcl mapunit_hel_class_wind Choice Varchar no 254 mapunit_hel_class
+16 Interpretive Focus interpfocus interpretive_focus String Varchar no 30
+17 Order of Mapping invesintens investigation_intensity Choice Varchar no 254 investigation_intensity
+18 IA CSR iacornsr ia_corn_suitability_rating Integer Smallint no 5 100
+19 NH Forest Soil Grp nhiforsoigrp nh_important_forest_soil_group Choice Varchar no 254 nh_important_forest_soil_group
+20 NH SPI Agr nhspiagr nh_spi_for_agriculture Float Float no 1 0 100
+21 VT Septic System vtsepticsyscl vt_septic_system_class Choice Varchar no 254 vt_septic_system_class_2007
+22 Map Unit Certification Status mucertstat mapunit_certification_status Choice Varchar no 254 mapunit_certification_status
+23 Legend Key lkey legend_key Integer Int yes
+24 Mapunit Key mukey mapunit_key Integer Int yes
+The Mapunit table identifies the map units included in the referenced legend. Data related the map unit as a whole are also given.
+November 2025
+59 of 74
+USDA-NRCS
+
+--- PAGE 60 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: muaggatt
+Table Label: Mapunit Aggregated Attribute
+Table Logical Name: mapunit_aggregated_attribute
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Mapunit Symbol musym mapunit_symbol String Varchar yes 6
+2 Mapunit Name muname mapunit_name String Varchar no 240
+3 Status mustatus mapunit_status Choice Varchar no 254 mapunit_status
+4 Slope Gradient - Dominant Component slopegraddcp slope_gradient_dcp Float Real no 1 percent
+5 Slope Gradient - Weighted Average slopegradwta slope_gradient_wta Float Real no 1 percent
+6 Bedrock Depth - Minimum brockdepmin brockdepth_min Integer Smallint no cm
+7 Water Table Depth - Annual - Minimum wtdepannmin wtdepth_annual_min Integer Smallint no cm
+8 Water Table Depth - April - June - Minimum wtdepaprjunmin wtdepth_apr_jun_min Integer Smallint no cm
+9 Flooding Frequency - Dominant Condition flodfreqdcd flodfreq_dcd Choice Varchar no 254 flooding_frequency_class
+10 Flooding Frequency - Maximum flodfreqmax flodfreq_max Choice Varchar no 254 flooding_frequency_class
+11 Ponding Frequency - Presence pondfreqprs pondfreq_prs Choice Varchar no 254 ponding_frequency_map_lege
+12 Available Water Storage 0-25 cm - Weighted Average aws025wta aws_0_25_wta Float Real no 2 cm
+13 Available Water Storage 0-50 cm - Weighted Average aws050wta aws_0_50_wta Float Real no 2 cm
+14 Available Water Storage 0-100 cm - Weighted Average aws0100wta aws_0_100_wta Float Real no 2 cm
+15 Available Water Storage 0-150 cm - Weighted Average aws0150wta aws_0_150_wta Float Real no 2 cm
+16 Drainage Class - Dominant Condition drclassdcd drclass_dcd Choice Varchar no 254 drainage_class
+17 Drainage Class - Wettest drclasswettest drclass_wettest Choice Varchar no 254 drainage_class
+18 Hydrologic Group - Dominant Conditions hydgrpdcd hydgrp_dcd Choice Varchar no 254 hydrologic_group
+19 Irrigated Capability Class - Dominant Condition iccdcd icc_dcd Choice Varchar no 254 capability_class
+20 Irrigated Capability Class - Dominant Condition Aggregate Percent iccdcdpct icc_dcd_pct Integer Smallint no 0 100
+21 Non-Irrigated Capability Class - Dominant Condition niccdcd nicc_dcd Choice Varchar no 254 capability_class
+22 Non-Irrigated Capability Class - Dominant Condition Aggregate Percent niccdcdpct nicc_dcd_pct Integer Smallint no 0 100
+23 ENG - Dwellings W/O Basements - Dominant Condition engdwobdcd eng_dwob_dcd String Varchar no 254
+24 ENG - Dwellings with Basements - Dominant Condition engdwbdcd eng_dwb_dcd String Varchar no 254
+25 ENG - Dwellings with Basements - Least Limiting engdwbll eng_dwb_ll String Varchar no 254
+26 ENG - Dwellings with Basements - Most Limiting engdwbml eng_dwb_ml String Varchar no 254
+27 ENG - Septic Tank Absorption Fields - Dominant Condition engstafdcd eng_staf_dcd String Varchar no 254
+28 ENG - Septic Tank Absorption Fields - Least Limiting engstafll eng_staf_ll String Varchar no 254
+29 ENG - Septic Tank Absorption Fields - Most Limiting engstafml eng_staf_ml String Varchar no 254
+30 ENG - Sewage Lagoons - Dominant Condition engsldcd eng_sl_dcd String Varchar no 254
+31 ENG - Sewage Lagoons - Dominant Component engsldcp eng_sl_dcp String Varchar no 254
+32 ENG - Local Roads and Streets - Dominant Condition englrsdcd eng_lrs_dcd String Varchar no 254
+33 ENG - Construction Materials; Sand Source - Dominant Condition engcmssdcd eng_cm_ss_dcd String Varchar no 254
+34 ENG - Construction Materials; Sand Source - Most Probable engcmssmp eng_cm_ss_mp String Varchar no 254
+35 URB/REC - Paths and Trails - Dominant Condition urbrecptdcd urb_rec_pt_dcd String Varchar no 254
+36 URB/REC - Paths and Trails - Weighted Average urbrecptwta urb_rec_pt_wta Float Real no 2
+37 FOR - Potential Erosion Hazard (Road/Trail) - Dominant Component forpehrtdcp for_peh_rt_dcp String Varchar no 254
+38 Hydric Classification - Presence hydclprs hydcl_prs Integer Int no
+39 AWM - Manure and Food Processing Waste - Weighted Average awmmfpwwta awm_mfpw_wta Float Real no 2
+40 Mapunit Key mukey mapunit_key Integer Int yes
+The Mapunit Aggregated Attribute table records a variety of soil attributes and interpretations that have been aggregated from the component level to a single value at the map unit
+level. They have been aggregated by one or more appropriate means in order to express a consolidated value or interpretation for the map unit as a whole.
+November 2025
+60 of 74
+USDA-NRCS
+
+--- PAGE 61 ---
+November 2025
+61 of 74
+USDA-NRCS
+
+--- PAGE 62 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: muaoverlap
+Table Label: Mapunit Area Overlap
+Table Logical Name: mapunit_area_overlap
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Overlap Acres areaovacres area_overlap_acres Integer Int no 0 acres
+2 Legend Area Overlap Key lareaovkey legend_area_overlap_key Integer Int yes
+3 Mapunit Key mukey mapunit_key Integer Int yes
+4 Mapunit Area Overlap Key muareaovkey mapunit_area_overlap_key Integer Int yes
+The Mapunit Area Overlap table lists the map units that exist in the overlap between the entire soil survey area and the referenced geographic area in the Legend Area Overlap table.
+November 2025
+62 of 74
+USDA-NRCS
+
+--- PAGE 63 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: mucropyld
+Table Label: Mapunit Crop Yield
+Table Logical Name: mapunit_crop_yield
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Crop Name cropname crop_name Choice Varchar no 254 crop_name
+2 Units yldunits crop_yield_units Choice Varchar no 254 crop_yield_units
+3 Nirr Yield nonirryield nonirr_crop_yield Float Real no 2 0 9999.99
+4 Irr Yield irryield irrigated_crop_yield Float Real no 2 0 9999.99
+5 Mapunit Key mukey mapunit_key Integer Int yes
+6 Mapunit Crop Yield Key mucrpyldkey mapunit_crop_yield_key Integer Int yes
+The Mapunit Crop Yield table lists commonly grown crops and their expected yields for the referenced map unit as a whole. Yields for individual map unit components are given in the
+Component Crop Yield table.
+November 2025
+63 of 74
+USDA-NRCS
+
+--- PAGE 64 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: muline
+Table Label: Mapunit Line
+Table Logical Name: mapunit_line
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Area Symbol areasymbol area_symbol String Varchar yes 20
+2 Spatial Version spatialversion spatial_version Integer Int yes
+3 Mapunit Symbol musym mapunit_symbol String Varchar yes 6
+4 National Mapunit Symbol nationalmusym national_mapunit_symbol String Varchar yes 6
+5 Mapunit Key mukey mapunit_key Integer Int yes
+6 Mapunit Area Acres muareaacres mapunit_area_acres Float Numeric no 38 8 acres
+7 Mapunit Line Geographic mulinegeo mapunit_line_geographic SQL Geometry Geometry no
+8 Mapunit Line Projected mulineproj mapunit_line_projected SQL Geometry Geometry no
+9 Mapunit Line Key mulinekey mapunit_line_key Integer Int yes
+The Mapunit Line table records all map units in a soil survey area that were digitized as one or more lines.
+November 2025
+64 of 74
+USDA-NRCS
+
+--- PAGE 65 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: mupoint
+Table Label: Mapunit Point
+Table Logical Name: mapunit_point
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Area Symbol areasymbol area_symbol String Varchar yes 20
+2 Spatial Version spatialversion spatial_version Integer Int yes
+3 Mapunit Symbol musym mapunit_symbol String Varchar yes 6
+4 National Mapunit Symbol nationalmusym national_mapunit_symbol String Varchar yes 6
+5 Mapunit Key mukey mapunit_key Integer Int yes
+6 Mapunit Area Acres muareaacres mapunit_area_acres Float Numeric no 38 8 acres
+7 Mapunit Point Geographic mupointgeo mapunit_point_geographic SQL Geometry Geometry no
+8 Mapunit Point Projected mupointproj mapunit_point_projected SQL Geometry Geometry no
+9 Mapunit Point Key mupointkey mapunit_point_key Integer Int yes
+The Mapunit Point table records all map units in a soil survey area that were digitized as one or more points.
+November 2025
+65 of 74
+USDA-NRCS
+
+--- PAGE 66 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: mupolygon
+Table Label: Mapunit Polygon
+Table Logical Name: mapunit_polygon
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Area Symbol areasymbol area_symbol String Varchar yes 20
+2 Spatial Version spatialversion spatial_version Integer Int yes
+3 Mapunit Symbol musym mapunit_symbol String Varchar yes 6
+4 National Mapunit Symbol nationalmusym national_mapunit_symbol String Varchar yes 6
+5 Mapunit Key mukey mapunit_key Integer Int yes
+6 Mapunit Area Acres muareaacres mapunit_area_acres Float Numeric no 38 8 acres
+7 Mapunit Polygon Geographic mupolygongeo mapunit_polygon_geographic SQL Geometry Geometry no
+8 Mapunit Polygon Projected mupolygonproj mapunit_polygon_projected SQL Geometry Geometry no
+9 Mapunit Polygon Key mupolygonkey mapunit_polygon_key Integer Int yes
+10 Point acreage pointacreage point_acreage Float Numeric no 38 8 acres
+11 Line acreage lineacreage line_acreage Float Numeric no 38 8 acres
+The Mapunit Polygon table records all map units in a soil survey area that were digitized as one or more polygons.
+November 2025
+66 of 74
+USDA-NRCS
+
+--- PAGE 67 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: mutext
+Table Label: Mapunit Text
+Table Logical Name: mapunit_text
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Date recdate record_date Date/Time Datetime no
+2 Kind mapunittextkind mapunit_text_kind Choice Varchar no 254 mapunit_text_kind
+3 Category textcat text_category String Varchar no 20
+4 Subcategory textsubcat text_subcategory String Varchar no 20
+5 Text text text Narrative Text Varchar(max) no
+6 Mapunit Key mukey mapunit_key Integer Int yes
+7 Mapunit Text Key mutextkey mapunit_text_key Integer Int yes
+8 Source SDW Primary Key sourcesdwprimarykey source_sdw_primary_key Integer Int no
+9 Source SDW Table Physical Name sourcesdwtablephysicalname source_sdw_table_physical_name String Varchar no 30
+The Mapunit Text table contains notes and narrative descriptions related to the referenced map unit.
+November 2025
+67 of 74
+USDA-NRCS
+
+--- PAGE 68 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: numbers
+Table Label: Numbers
+Table Logical Name: numbers
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 n n n Integer Int yes
+Table created for the sole purpose to help WSS performance.
+November 2025
+68 of 74
+USDA-NRCS
+
+--- PAGE 69 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: sacatalog
+Table Label: Survey Area Catalog
+Table Logical Name: survey_area_catalog
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Area Symbol areasymbol area_symbol String Varchar yes 20
+2 Area Name areaname area_name String Varchar yes 135
+3 Survey Area Version saversion survey_area_version Integer Int yes
+4 Survey Area Version Established saverest survey_area_version_est Date/Time Datetime yes
+5 FGDC Metadata fgdcmetadata fgdc_metadata Narrative Text Varchar(max) yes
+6 Minimum Bounding Rectangle Minimum X mbrminx min_bound_rec_min_x Float Float no 15 -180 180 degrees
+7 Minimum Bounding Rectangle Minimum Y mbrminy min_bound_rec_min_y Float Float no 15 -90 90 degrees
+8 Minimum Bounding Rectangle Maximum X mbrmaxx min_bound_rec_max_x Float Float no 15 -180 180 degrees
+9 Minimum Bounding Rectangle Maximum Y mbrmaxy min_bound_rec_max_y Float Float no 15 -90 90 degrees
+The Survey Area Catalog table catalogs all soil survey areas that exist in the data mart. A survey area cannot exist in the data mart unless at least minimal spatial data (survey area
+boundary with no corresponding map unit polygons) exists. A survey area cannot be selected for downloading unless tabular data also exists.
+November 2025
+69 of 74
+USDA-NRCS
+
+--- PAGE 70 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: sainterp
+Table Label: Survey Area Interpretion
+Table Logical Name: survey_area_interpretation
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Area Symbol areasymbol area_symbol String Varchar yes 20
+2 Tabular Version tabularversion tabular_version Integer Int yes
+3 Interpretation Name interpname interp_name String Varchar yes 60
+4 Interpretation Type interptype interp_type Choice Varchar yes 254 rule_design
+5 Interpretation Description interpdesc interp_description Narrative Text Varchar(max) no
+6 Interpretation Design Date interpdesigndate interp_design_date Date/Time Datetime yes
+7 Interpretation Generation Date interpgendate interp_generation_date Date/Time Datetime yes
+8 Interpretation Maximum Reasons interpmaxreasons interp_max_reasons Integer Smallint no 0
+9 Survey Area Interpretation Key sainterpkey survey_area_interp_key Integer Int yes
+The Survey Area Interpretation table records information about the soil interpretations that were generated for a survey area.
+November 2025
+70 of 74
+USDA-NRCS
+
+--- PAGE 71 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: sapolygon
+Table Label: Survey Area Polygon
+Table Logical Name: survey_area_polygon
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Area Symbol areasymbol area_symbol String Varchar yes 20
+2 Spatial Version spatialversion spatial_version Integer Int yes
+3 Legend Key lkey legend_key Integer Int yes
+4 Survey Area Polygon Geographic sapolygongeo survey_area_polygon_geographic SQL Geometry Geometry no
+5 Survey Area Polygon Projected sapolygonproj survey_area_polygon_projected SQL Geometry Geometry no
+6 Survey Area Polygon Key sapolygonkey survey_area_polygon_key Integer Int yes
+The Survey Area Polygon table records the polygon or polygons that represent a soil survey area boundary.
+November 2025
+71 of 74
+USDA-NRCS
+
+--- PAGE 72 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: saspatialver
+Table Label: Survey Area Spatial Version
+Table Logical Name: survey_area_spatial_version
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Area Symbol areasymbol area_symbol String Varchar yes 20
+2 Spatial Version spatialversion spatial_version Integer Int yes
+3 Spatial Version Established spatialverest spatial_version_est Date/Time Datetime yes
+4 Survey Area Boundary Only saboundaryonly survey_area_boundary_only Boolean Bit yes
+5 Spatial Estimated Size spatialestsize spatial_est_size Integer Int no bytes
+The Survey Area Spatial Version table records information about the version of underlying spatial data. This table also serves as the parent table of all spatial table hierarchies, which
+due to corresponding cascade delete rules, allows all spatial data for a survey area to be deleted by simply deleting the appropriate record in this table.
+November 2025
+72 of 74
+USDA-NRCS
+
+--- PAGE 73 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: sastatusmap
+Table Label: Survey Area Status Map
+Table Logical Name: survey_area_status_map
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Area Symbol areasymbol area_symbol String Varchar yes 20
+2 Area Name areaname area_name String Varchar yes 135
+3 Survey Area Publication Status Code sapubstatuscode survey_area_pub_status_code Choice Smallint yes survey_area_publication_status
+4 Survey Area Publication Status Name sapubstatusname survey_area_pub_status_name Choice Varchar yes 40 survey_area_publication_status
+5 Last Updated wlupdated when_last_updated Date/Time Datetime yes
+6 Map Region mapregion map_region Choice Smallint yes map_region
+7 Survey Area Version saversion survey_area_version Integer Int no
+8 Survey Area Version Established saverest survey_area_version_est Date/Time Datetime no
+9 Is Complete? iscomplete is_complete Boolean Smallint yes
+10 Tabular Mapunit Distribution tabularmudist tabular_mapunit_distribution Choice Int no survey_area_mapunit_distribution
+11 Spatial Mapunit Distribution spatialmudist spatial_mapunit_distribution Choice Int no survey_area_mapunit_distribution
+12 Survey Area Polygon Geographic sapolygongeo survey_area_polygon_geographic SQL Geometry Geometry no
+13 Survey Area Polygon Projected sapolygonproj survey_area_polygon_projected SQL Geometry Geometry no
+14 Survey Area Polygon Key sapolygonkey survey_area_polygon_key Integer Int yes
+This table records the polgons that make up the survey area status map. This map may include survey areas for which corresponding tabular data is not yet available.
+November 2025
+73 of 74
+USDA-NRCS
+
+--- PAGE 74 ---
+Soil Data Mart 4.3 Tables and Columns
+Table Physical Name: satabularver
+Table Label: Survey Area Tabular Version
+Table Logical Name: survey_area_tabular_version
+Seq. Column Label Column Physical Name Column Logical Name Log. Data Type Phy. Data Type Not Null? Size Prec. Min Max UOM Domain Name
+1 Area Symbol areasymbol area_symbol String Varchar yes 20
+2 Tabular Version tabularversion tabular_version Integer Int yes
+3 Tabular Version Established tabularverest tabular_version_est Date/Time Datetime yes
+4 Tabular NASIS Export Date tabnasisexportdate tabular_nasis_export_date Date/Time Datetime yes
+5 Tabular Certification Status tabcertstatus tabular_certification_status Choice Varchar no 254 export_certification_status
+6 Tabular Certification Status Description tabcertstatusdesc tabular_cert_status_desc Narrative Text Varchar(max) no
+7 Tabular Estimated Size tabularestsize tabular_est_size Integer Int no bytes
+The Survey Area Tabular Version table records information about the version of underlying tabular data. This table also serves as the parent table of all tabular table hierarchies, which
+due to corresponding cascade delete rules, allows all tabular data for a survey area to be deleted by simply deleting the appropriate record in this table.
+November 2025
+74 of 74
+USDA-NRCS

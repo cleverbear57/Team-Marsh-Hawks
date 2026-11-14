@@ -1,0 +1,264 @@
+{
+ "extent": {
+  "ymin": 33.923252629392493,
+  "xmin": -118.79052763752169,
+  "ymax": 34.406128672501254,
+  "xmax": -117.83739976158152,
+  "spatialReference": {
+   "latestWkid": 4326,
+   "wkid": 4326
+  }
+ },
+ "blockWidth": 2048,
+ "mosaicOperator": "First",
+ "serviceSourceType": "esriImageServiceSourceTypeMosaicDataset",
+ "hasMultidimensions": false,
+ "maxImageWidth": 15000,
+ "maxRecordCount": 1000,
+ "meanValues": [14162.274990465228],
+ "hasColormap": false,
+ "compressionType": "None",
+ "defaultCompressionQuality": 75,
+ "maxValues": [63797],
+ "hasHistograms": true,
+ "datasetFormat": "AMD",
+ "maxImageHeight": 4100,
+ "sortField": "",
+ "bandNames": ["Band_1"],
+ "spatialReference": {
+  "latestWkid": 4326,
+  "wkid": 4326
+ },
+ "fullExtent": {
+  "ymin": 33.923252629392493,
+  "xmin": -118.79052763752169,
+  "ymax": 34.406128672501254,
+  "xmax": -117.83739976158152,
+  "spatialReference": {
+   "latestWkid": 4326,
+   "wkid": 4326
+  }
+ },
+ "bandCount": 1,
+ "rasterFunctionInfos": [
+  {
+   "help": "",
+   "name": "ECOSTRESS_RFT",
+   "description": "ECOSTRESS_RFT"
+  },
+  {
+   "help": "",
+   "name": "None",
+   "description": "Make a Raster or Raster Dataset into a Function Raster Dataset."
+  }
+ ],
+ "supportsStatistics": true,
+ "sortableFields": "",
+ "minValues": [0],
+ "allowRasterFunction": true,
+ "allowComputeTiePoints": false,
+ "serviceDataType": "esriImageServiceDataTypeGeneric",
+ "supportsAdvancedQueries": true,
+ "maxDownloadSizeLimit": 2048,
+ "currentVersion": 12,
+ "sortValue": null,
+ "objectIdField": "objectid",
+ "blockHeight": 256,
+ "initialExtent": {
+  "ymin": 33.923252629392493,
+  "xmin": -118.79052763752169,
+  "ymax": 34.406128672501254,
+  "xmax": -117.83739976158152,
+  "spatialReference": {
+   "latestWkid": 4326,
+   "wkid": 4326
+  }
+ },
+ "pixelSizeX": 0.00063121051386766142,
+ "pixelSizeY": 0.00063121051386766044,
+ "defaultMosaicMethod": "Northwest",
+ "name": "DISASTERS_202501_FIRE_CA/2501_ecostress",
+ "allowedMosaicMethods": "NorthWest,Center,LockRaster,ByAttribute,Nadir,Viewpoint,Seamline,None",
+ "maxDownloadImageCount": 20,
+ "fields": [
+  {
+   "domain": null,
+   "name": "objectid",
+   "alias": "OBJECTID",
+   "type": "esriFieldTypeOID"
+  },
+  {
+   "domain": null,
+   "name": "name",
+   "length": 200,
+   "alias": "Name",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "domain": null,
+   "name": "minps",
+   "alias": "MinPS",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "domain": null,
+   "name": "maxps",
+   "alias": "MaxPS",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "domain": null,
+   "name": "lowps",
+   "alias": "LowPS",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "domain": null,
+   "name": "highps",
+   "alias": "HighPS",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "domain": {
+    "splitPolicy": "esriSPTDefaultValue",
+    "name": "MosaicCatalogItemCategoryDomain",
+    "description": "Catalog item categories.",
+    "type": "codedValue",
+    "codedValues": [
+     {
+      "code": 0,
+      "name": "Unknown"
+     },
+     {
+      "code": 1,
+      "name": "Primary"
+     },
+     {
+      "code": 2,
+      "name": "Overview"
+     },
+     {
+      "code": 3,
+      "name": "Unprocessed Overview"
+     },
+     {
+      "code": 4,
+      "name": "Partial Overview"
+     },
+     {
+      "code": 5,
+      "name": "Inactive"
+     },
+     {
+      "code": 253,
+      "name": "Uploaded"
+     },
+     {
+      "code": 254,
+      "name": "Incomplete"
+     },
+     {
+      "code": 255,
+      "name": "Custom"
+     }
+    ],
+    "mergePolicy": "esriMPTDefaultValue"
+   },
+   "name": "category",
+   "alias": "Category",
+   "type": "esriFieldTypeInteger"
+  },
+  {
+   "domain": null,
+   "name": "tag",
+   "length": 100,
+   "alias": "Tag",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "domain": null,
+   "name": "groupname",
+   "length": 100,
+   "alias": "GroupName",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "domain": null,
+   "name": "productname",
+   "length": 100,
+   "alias": "ProductName",
+   "type": "esriFieldTypeString"
+  },
+  {
+   "domain": null,
+   "name": "centerx",
+   "alias": "CenterX",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "domain": null,
+   "name": "centery",
+   "alias": "CenterY",
+   "type": "esriFieldTypeDouble"
+  },
+  {
+   "domain": null,
+   "name": "zorder",
+   "alias": "ZOrder",
+   "type": "esriFieldTypeInteger"
+  },
+  {
+   "domain": null,
+   "name": "date",
+   "alias": "Date",
+   "type": "esriFieldTypeDateOnly"
+  },
+  {
+   "domain": null,
+   "name": "shape",
+   "alias": "Shape",
+   "type": "esriFieldTypeGeometry"
+  }
+ ],
+ "allowAnalysis": true,
+ "hasRasterAttributeTable": false,
+ "useStandardizedQueries": true,
+ "description": "<div style='text-align:Left;'><div><div><p><span style='font-weight:bold;'>Date of Images:<\/span><\/p><p><span>01/07/2025, 01/10/2025<\/span><\/p><p><span><\/span><\/p><p><span style='font-weight:bold;'>Summary:<\/span><\/p><p><span>Land surface temperature is the heat you would feel as you touch the ground, rooftop, or other surface. Certain materials retain more heat than others \u2013 for instance, beach sand is warmer than vegetated regions. Very recently burned areas will maintain some residual heat, and active fires will have very high heat signatures. Water holds onto heat for longer than land, so the ocean is warmer than the land at night and cooler than the land during the day.<\/span><\/p><p><span>The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) mission measures the temperature of plants to better understand how much water plants need and how they respond to stress. ECOSTRESS is attached to the International Space Station (ISS) and collects data globally as well as key biomes and agricultural zones around the world and selected FLUXNET validation sites. A map of the acquisition coverage can be found on the ECOSTRESS website.<\/span><\/p><p><span>The ECO2LSTE Version 2 data product provides atmospherically corrected land surface temperature and emissivity (LST&amp;E) values derived from five thermal infrared (TIR) bands. The ECO2LSTE data product was derived using a physics-based Temperature and Emissivity Separation (TES) algorithm.<\/span><\/p><p><\/p><p><span style='font-weight:bold;'>Satellite/Sensor:<\/span><\/p><p><span>ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) on the International Space Station (ISS)<\/span><\/p><p><\/p><p><span style='font-weight:bold;'>Resolution:<\/span><\/p><p><span>70 meters<\/span><\/p><p><span><\/span><\/p><p><span style='font-weight:bold;'>Credits:<\/span><\/p><p><span>NASA/Jet Propulsion Laboratory, California Institute of Technology, International Space Station (ISS)<\/span><\/p><p><span><\/span><\/p><p><span style='font-weight:bold;'>For More Information:<\/span><\/p><p><span>ECOSTRESS Project at JPL: <\/span><a href='https://ecostress.jpl.nasa.gov/' style='text-decoration:underline;' target='_blank' rel='nofollow ugc noopener noreferrer'><span>https://ecostress.jpl.nasa.gov/<\/span><\/a><\/p><p><span>Hook, S., Hulley, G. (2019). ECOSTRESS Land Surface Temperature and Emissivity Daily L2 Global 70 m V001 [Data set]. NASA EOSDIS Land Processes Distributed Active Archive Center. Accessed 2023-08-15 from https://doi.org/10.5067/ECOSTRESS/ECO2LSTE.001<\/span><\/p><p><\/p><p><span style='font-weight:bold;'>Service URL:<\/span><\/p><p><a href='https://gis.earthdata.nasa.gov/portal/home/item.html?id=04cde7850ceb45178e33fc049c9071ee' target='_blank' rel='nofollow ugc noopener noreferrer'>https://gis.earthdata.nasa.gov/portal/home/item.html?id=04cde7850ceb45178e33fc049c9071ee<\/a><\/p><p><span><\/span><\/p><p><span style='font-weight:bold;'>WMS Endpoint:<\/span><\/p><p><a href='https://gis.earthdata.nasa.gov/portal/services/DISASTERS_202501_FIRE_CA/2501_ecostress/ImageServer/WMSServer' target='_blank' rel='nofollow ugc noopener noreferrer'>https://gis.earthdata.nasa.gov/portal/services/DISASTERS_202501_FIRE_CA/2501_ecostress/ImageServer/WMSServer<\/a><\/p><\/div><\/div><\/div>",
+ "pixelType": "F32",
+ "meanPixelSize": 70.266032987108559,
+ "exportTilesAllowed": false,
+ "editFieldsInfo": null,
+ "rasterTypeInfos": [{
+  "help": "",
+  "name": "Raster Dataset",
+  "description": "Supports all ArcGIS Raster Datasets"
+ }],
+ "defaultResamplingMethod": "Bilinear",
+ "itemAccess": false,
+ "minScale": 0,
+ "serviceProperties": "<ImageServer><ImageServiceProperties><MosaicMethod>NorthWest<\/MosaicMethod><MosaicOperator>First<\/MosaicOperator><SortAscending>true<\/SortAscending><LockImageID><\/LockImageID><TileOrderField>Name<\/TileOrderField><TileOrderBase>0<\/TileOrderBase><AvgImageSpacingX>600.000000<\/AvgImageSpacingX><AvgImageSpacingY>300.000000<\/AvgImageSpacingY><ViewPointX>0.0<\/ViewPointX><ViewPointY>0.0<\/ViewPointY><ViewPointDefShiftX>0.0<\/ViewPointDefShiftX><ViewPointDefShiftY>0.0<\/ViewPointDefShiftY><CompressionMethod>None<\/CompressionMethod><CompressionQuality>75<\/CompressionQuality><CompressionTolerance>0.010000<\/CompressionTolerance><SamplingMethod>Bilinear<\/SamplingMethod><\/ImageServiceProperties><\/ImageServer>",
+ "advancedQueryCapabilities": {
+  "supportsStatistics": true,
+  "supportsSqlExpression": true,
+  "supportsOrderBy": true,
+  "useStandardizedQueries": true,
+  "supportsPagination": true,
+  "supportsDistinct": true
+ },
+ "serviceItemId": "04cde7850ceb45178e33fc049c9071ee",
+ "capabilities": "Catalog,Image,Metadata",
+ "maxScale": 0,
+ "stdvValues": [901.00533773039331],
+ "allowedFields": "Name,MinPS,MaxPS,LowPS,HighPS,Tag,GroupName,ProductName,CenterX,CenterY,ZOrder,Shape_Length,Shape_Area,Date",
+ "minPixelSize": 0,
+ "sortAscending": true,
+ "maxMosaicImageCount": 20,
+ "inspectionCapabilities": "",
+ "maxPixelSize": 0,
+ "uncompressedSize": 4614560,
+ "serviceDescription": "<div style='text-align:Left;'><div><div><p><span style='font-weight:bold;'>Date of Images:<\/span><\/p><p><span>01/07/2025, 01/10/2025<\/span><\/p><p><span /><\/p><p><span style='font-weight:bold;'>Summary:<\/span><\/p><p><span>Land surface temperature is the heat you would feel as you touch the ground, rooftop, or other surface. Certain materials retain more heat than others \u2013 for instance, beach sand is warmer than vegetated regions. Very recently burned areas will maintain some residual heat, and active fires will have very high heat signatures. Water holds onto heat for longer than land, so the ocean is warmer than the land at night and cooler than the land during the day.<\/span><\/p><p><span>The ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) mission measures the temperature of plants to better understand how much water plants need and how they respond to stress. ECOSTRESS is attached to the International Space Station (ISS) and collects data globally as well as key biomes and agricultural zones around the world and selected FLUXNET validation sites. A map of the acquisition coverage can be found on the ECOSTRESS website.<\/span><\/p><p><span>The ECO2LSTE Version 2 data product provides atmospherically corrected land surface temperature and emissivity (LST&amp;E) values derived from five thermal infrared (TIR) bands. The ECO2LSTE data product was derived using a physics-based Temperature and Emissivity Separation (TES) algorithm.<\/span><\/p><p><p><span style='font-weight:bold;'>Satellite/Sensor:<\/span><\/p><p><span>ECOsystem Spaceborne Thermal Radiometer Experiment on Space Station (ECOSTRESS) on the International Space Station (ISS)<\/span><\/p><p><p><span style='font-weight:bold;'>Resolution:<\/span><\/p><p><span>70 meters<\/span><\/p><p><span /><\/p><p><span style='font-weight:bold;'>Credits:<\/span><\/p><p><span>NASA/Jet Propulsion Laboratory, California Institute of Technology, International Space Station (ISS)<\/span><\/p><p><span /><\/p><p><span style='font-weight:bold;'>For More Information:<\/span><\/p><p><span>ECOSTRESS Project at JPL: <\/span><a href='https://ecostress.jpl.nasa.gov/' target='_blank' style='text-decoration:underline;'><span>https://ecostress.jpl.nasa.gov/<\/span><\/a><\/p><p><span>Hook, S., Hulley, G. (2019). ECOSTRESS Land Surface Temperature and Emissivity Daily L2 Global 70 m V001 [Data set]. NASA EOSDIS Land Processes Distributed Active Archive Center. Accessed 2023-08-15 from https://doi.org/10.5067/ECOSTRESS/ECO2LSTE.001<\/span><\/p><p><p><span style='font-weight:bold;'>Service URL:<\/span><\/p><p><span /><\/p><p><span style='font-weight:bold;'>WMS Endpoint:<\/span><\/p><\/div><\/div><\/div><\/p><\/p><\/p>",
+ "allowCopy": true,
+ "copyrightText": "NASA, JPL/Caltech, International Space Station (ISS)",
+ "mensurationCapabilities": "None",
+ "ownershipBasedAccessControlForRasters": null
+}

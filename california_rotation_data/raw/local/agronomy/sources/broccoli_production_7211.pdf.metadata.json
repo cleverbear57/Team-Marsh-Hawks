@@ -1,0 +1,20 @@
+{
+  "source_url": "https://my.ucanr.edu/repository/fileaccess.cfm?article=54020&p=+UYTNJN",
+  "retrieved_at_utc": "2026-11-14T19:23:22.488267+00:00",
+  "file": "raw/local/agronomy/sources/broccoli_production_7211.pdf",
+  "method": "GET",
+  "status": "downloaded",
+  "http_status": 200,
+  "final_url": "https://my.ucanr.edu/repository/fileaccess.cfm?article=54020&p=+UYTNJN",
+  "response_headers": {
+    "Content-Type": "application/pdf;charset=UTF-8",
+    "Server": "Microsoft-IIS/10.0",
+    "Set-Cookie": "CFID=4846602; Path=/; HttpOnly",
+    "X-Powered-By": "ASP.NET",
+    "Date": "Sat, 14 Nov 2026 19:23:22 GMT",
+    "Connection": "close",
+    "Content-Length": "30840"
+  },
+  "bytes": 30840,
+  "sha256": "25a203fa59cac600d347eef3f4acd3c41bec05235efb7c0ff5bd8c9faf762e2b"
+}
